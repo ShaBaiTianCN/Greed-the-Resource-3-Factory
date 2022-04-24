@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Astral Sorcery",
+        "bold": true,
+        "colour": "white"
+    },
+    "tip": {
+        "text": "Use the tree beacon in Astral Sorcery to set up automatic tree farm!"
+    }
+}
