@@ -1,0 +1,496 @@
+{
+	id: "566483E8631E1953"
+	group: "37B8334BBCBD0DFD"
+	order_index: 1
+	filename: "construction"
+	title: "Construction"
+	icon: "minecraft:stone_bricks"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -5.0d
+			y: 0.5d
+			description: [
+				"A wand from Astral Sorcery that help you to convert blocks, which is similar to exchanging gadget. Shift right click to set area of size."
+				"{image:kubejs:textures/quests/construction/construction_conversion_wand.png width:178 height:100 align:1}"
+			]
+			dependencies: ["2A58C5E08522716D"]
+			id: "33ACA3C7A0C5C8CB"
+			tasks: [{
+				id: "7D6729E73EED4DA8"
+				type: "item"
+				item: {
+					id: "astralsorcery:exchange_wand"
+					Count: 1b
+					tag: {
+						astralsorcery: {
+							sizeMode: 0
+							storedStates: [{
+								registryName: "minecraft:glass"
+								properties: [ ]
+							}]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "4DAAF84A271A3802"
+				type: "item"
+				item: "astralsorcery:stardust"
+				count: 2
+			}]
+		}
+		{
+			x: -5.0d
+			y: 2.5d
+			description: [
+				"A wand from Astral Sorcery that help you to build blocks, and similar to that of building gadget. Shift right click to change mode."
+				"{image:kubejs:textures/quests/construction/construction_formation_wand.png width:178 height:100 align:1}"
+			]
+			dependencies: ["2A58C5E08522716D"]
+			id: "3198F189F88FDB10"
+			tasks: [{
+				id: "0A633288860E57AA"
+				type: "item"
+				item: {
+					id: "astralsorcery:architect_wand"
+					Count: 1b
+					tag: {
+						astralsorcery: {
+							placeMode: 0
+							storedStates: [
+								{
+									registryName: "minecraft:sand"
+									properties: [ ]
+								}
+								{
+									registryName: "minecraft:sand"
+									properties: [ ]
+								}
+							]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "51B8A89482762BC5"
+				type: "item"
+				item: "astralsorcery:stardust"
+				count: 2
+			}]
+		}
+		{
+			x: -7.0d
+			y: 0.5d
+			description: [
+				"Building gadget can help you build many different types of shapes in just one click, where the size is from 1x1 to at most 15x15."
+				"Press \"g\" to open GUI meanu and shift click to set target block"
+				"{image:kubejs:textures/quests/construction/construction_building_gadget.png width:178 height:100 align:1}"
+			]
+			dependencies: ["2A58C5E08522716D"]
+			id: "4225EFFE385F6136"
+			tasks: [{
+				id: "08932CBF2F755AD5"
+				type: "item"
+				item: {
+					id: "buildinggadgets:gadget_building"
+					Count: 1b
+					tag: {
+						state: {
+							serializer: "buildinggadgets:dummy_serializer"
+							state: {
+								Name: "minecraft:air"
+							}
+							data: { }
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "21A674B9D6F508A4"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+			}]
+		}
+		{
+			x: -7.0d
+			y: 2.5d
+			description: [
+				"Exchanging gadget help you to exchange a certain range of blocks into certain types of blocks. Press \"g\" to open GUI and shift right click to set blocks to be used in exchange."
+				"{image:kubejs:textures/quests/construction/construction_exchanging_gadget.png width:178 height:100 align:1}"
+			]
+			dependencies: ["2A58C5E08522716D"]
+			id: "74E8E35CC3A298A3"
+			tasks: [{
+				id: "6ACD6B0A3DA0F14D"
+				type: "item"
+				item: {
+					id: "buildinggadgets:gadget_exchanging"
+					Count: 1b
+					tag: {
+						state: {
+							serializer: "buildinggadgets:dummy_serializer"
+							state: {
+								Name: "minecraft:air"
+							}
+							data: { }
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "61CFB8C0A118CCD9"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+			}]
+		}
+		{
+			x: -7.0d
+			y: 4.5d
+			description: [
+				"A convenient tool that help you copy and paste the structure that you wand to build repeatedly. Right click to set first point and Shift right click to set the second point. Press \"g\" to open GUI to set copy mode or paste mode."
+				"{image:kubejs:textures/quests/construction/construction_copyandpaste_gadget.png width:178 height:100 align:1}"
+			]
+			dependencies: ["2A58C5E08522716D"]
+			id: "0F4F17163990AEEA"
+			tasks: [{
+				id: "25BAE45600531A2E"
+				type: "item"
+				item: {
+					id: "buildinggadgets:gadget_copy_paste"
+					Count: 1b
+					tag: {
+						mode: 0b
+						template_id: [I;
+							631569398
+							104024370
+							-1300169910
+							-739609004
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "41439DEE89C95A2F"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+			}]
+		}
+		{
+			x: -7.0d
+			y: 6.5d
+			description: [
+				"A convenient that help you to remove a large area of blocks, at most 16x16x16. Shift right click to open settings."
+				"{image:kubejs:textures/quests/construction/construction_destruction_gadget.png width:178 height:100 align:1}"
+			]
+			dependencies: ["2A58C5E08522716D"]
+			id: "5291EBDBFC6FBE90"
+			tasks: [{
+				id: "012425ED118245C9"
+				type: "item"
+				item: {
+					id: "buildinggadgets:gadget_destruction"
+					Count: 1b
+					tag: {
+						overlay: 1b
+						fuzzy: 1b
+					}
+				}
+			}]
+			rewards: [{
+				id: "4046CD63444FE38A"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+			}]
+		}
+		{
+			x: -9.0d
+			y: 0.5d
+			description: ["A builden wand which can place 128 blocks each time"]
+			dependencies: ["2A58C5E08522716D"]
+			id: "11031614E9DD03F9"
+			tasks: [{
+				id: "783A68ACA0BF4B03"
+				type: "item"
+				item: {
+					id: "constructionwand:diamond_wand"
+					Count: 1b
+					tag: {
+						wand_options: { }
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1D544EED5CDD74DC"
+				type: "item"
+				item: "minecraft:netherite_scrap"
+			}]
+		}
+		{
+			x: -9.0d
+			y: 2.5d
+			description: ["A builder wand which can place 1024 blocks each time."]
+			dependencies: ["2A58C5E08522716D"]
+			id: "4B9271377AC77D7A"
+			tasks: [{
+				id: "0D4F52FD74D2E08B"
+				type: "item"
+				item: {
+					id: "constructionwand:infinity_wand"
+					Count: 1b
+					tag: {
+						wand_options: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "015244064A8176A2"
+				type: "item"
+				item: "minecraft:netherite_scrap"
+			}]
+		}
+		{
+			title: "Addon for construction wand"
+			x: -9.0d
+			y: 4.5d
+			description: ["Here are two cores that alters the function of your wand. Their uses are specified in the tooltips."]
+			dependencies: ["2A58C5E08522716D"]
+			id: "0099D8347E7B9E57"
+			tasks: [
+				{
+					id: "72424D610C4A3DC0"
+					type: "item"
+					item: "constructionwand:core_angel"
+				}
+				{
+					id: "4BD3EC8BAAFD934B"
+					type: "item"
+					item: "constructionwand:core_destruction"
+				}
+			]
+			rewards: [{
+				id: "2983B04C802921C6"
+				type: "item"
+				item: "minecraft:netherite_scrap"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.5d
+			description: ["A wand that use energy to allow you to push and pull blocks. Set the keys in control to switch mode."]
+			dependencies: ["2A58C5E08522716D"]
+			id: "0DFB6796EF4DF0BB"
+			tasks: [{
+				id: "14DB8C24FA58D5F7"
+				type: "item"
+				item: {
+					id: "notenoughwands:displacement_wand"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "3265F96D080F2A26"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 2.5d
+			description: ["Another option for you of building wand. Set keys in option to switch mods and size."]
+			dependencies: ["2A58C5E08522716D"]
+			id: "51A22AE93DBB094A"
+			tasks: [{
+				id: "453C9EEB13E8860F"
+				type: "item"
+				item: {
+					id: "notenoughwands:building_wand"
+					Count: 1b
+					tag: {
+						undo1: {
+							x: [I;
+								-474
+								-475
+								-475
+								-474
+								-476
+								-474
+								-476
+								-475
+								-476
+							]
+							y: [I;
+								82
+								82
+								82
+								82
+								82
+								82
+								82
+								82
+								82
+							]
+							block: {
+								Name: "minecraft:sand"
+							}
+							z: [I;
+								1765
+								1766
+								1765
+								1764
+								1766
+								1766
+								1765
+								1764
+								1764
+							]
+							dimension: "minecraft:overworld"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "24393D0F68DE33E8"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 4.5d
+			description: ["A wand that is similar to exchanging gadget. Set keys in ccontrol."]
+			dependencies: ["2A58C5E08522716D"]
+			id: "5074546D6CE007DF"
+			tasks: [{
+				id: "6F217AAB6E4D2C9F"
+				type: "item"
+				item: {
+					id: "notenoughwands:swapping_wand"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "66062CF0DA253B16"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 6.5d
+			description: ["A wand that move blocks for you. Right click to take the block up. Right click again to put the block down."]
+			dependencies: ["2A58C5E08522716D"]
+			id: "355845F7DCA43B53"
+			tasks: [{
+				id: "29491D6984B2DFAB"
+				type: "item"
+				item: "notenoughwands:moving_wand"
+			}]
+			rewards: [{
+				id: "76A3AB88BB9D0606"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+			}]
+		}
+		{
+			title: "Construting tools"
+			x: -6.0d
+			y: -2.0d
+			description: ["This chapter provides a list of tools that may help you to construct and build things."]
+			id: "2A58C5E08522716D"
+			tasks: [{
+				id: "72AB1496AAD27364"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "394398660C544391"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "delightfood"
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: -2.0d
+			description: ["End Portal is now breakable with a pickaxe enchanted with silk touch. Also, it is craftable. Check the recipe in JEI."]
+			id: "2F294BEF2F4BAF8C"
+			tasks: [{
+				id: "7D33FE12F861763B"
+				type: "item"
+				item: "minecraft:end_portal_frame"
+				count: 12L
+			}]
+			rewards: [{
+				id: "3A50F1FBFB9054D7"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 1s
+							id: "minecraft:silk_touch"
+						}]
+					}
+				}
+			}]
+		}
+	]
+}

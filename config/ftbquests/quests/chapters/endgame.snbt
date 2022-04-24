@@ -1,0 +1,869 @@
+{
+	id: "23ACDA332B47284D"
+	group: "52335F892C9B07FA"
+	order_index: 7
+	filename: "endgame"
+	title: "End-Game"
+	icon: "extendedcrafting:ultimate_singularity"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			description: ["In the Eng-game stage, you are going to craft the creative items. Firstly, you'll need the crafting tables from the Extended Crafting."]
+			id: "305672E83FC28E4F"
+			tasks: [{
+				id: "6C7FBC4DBF100E4C"
+				type: "item"
+				item: "extendedcrafting:basic_table"
+			}]
+			rewards: [{
+				id: "65EBED596FB97F94"
+				type: "item"
+				item: "minecraft:iron_block"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			description: ["A bigger crafting table"]
+			dependencies: ["305672E83FC28E4F"]
+			id: "5B4A283FE408276D"
+			tasks: [{
+				id: "5524E7DBABD89E31"
+				type: "item"
+				item: "extendedcrafting:advanced_table"
+			}]
+			rewards: [{
+				id: "76D0F5CD8305B8D6"
+				type: "item"
+				item: "allthecompressed:gold_block_2x"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			description: ["Even bigger crafting table"]
+			dependencies: ["5B4A283FE408276D"]
+			id: "49D6B6C849A1CA48"
+			tasks: [{
+				id: "5F01BA3C3B8FE468"
+				type: "item"
+				item: "extendedcrafting:elite_table"
+			}]
+			rewards: [
+				{
+					id: "582FD34E9866128D"
+					type: "item"
+					item: "allthecompressed:diamond_block_2x"
+				}
+				{
+					id: "38AF60CFEA989815"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "ingotnore"
+						}
+					}
+					count: 20
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 4.5d
+			description: ["Biggest crafting table in this pack"]
+			dependencies: ["49D6B6C849A1CA48"]
+			id: "1AE6036FF9B012D3"
+			tasks: [{
+				id: "2137A07C51AE0B26"
+				type: "item"
+				item: "extendedcrafting:ultimate_table"
+			}]
+			rewards: [{
+				id: "5AC85B7A8A23E1B9"
+				type: "item"
+				item: "allthecompressed:emerald_block_2x"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 6.0d
+			description: [
+				"Craft all the creative items!"
+				"This quest requires the completion of Chapter7"
+			]
+			dependencies: [
+				"1AE6036FF9B012D3"
+				"46541E14583B3D09"
+			]
+			id: "6BCD7D23BC9E1117"
+			tasks: [{
+				id: "0DB97DA0EC53BC07"
+				type: "item"
+				item: "extendedcrafting:the_ultimate_ingot"
+			}]
+			rewards: [{
+				id: "032FD9FAC22D4344"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "singularity"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 10.0d
+			dependencies: ["6BCD7D23BC9E1117"]
+			id: "66537679637D0DE8"
+			tasks: [{
+				id: "57DF47DA1F78198F"
+				type: "item"
+				item: "botania:creative_pool"
+			}]
+			rewards: [{
+				id: "6E131DF8616864A2"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "singularity"
+					}
+				}
+			}]
+		}
+		{
+			x: -7.0d
+			y: 10.0d
+			dependencies: ["66537679637D0DE8"]
+			id: "0506A65D4B9FA35A"
+			tasks: [{
+				id: "766900DAF6288C3D"
+				type: "item"
+				item: "botanicalmachinery:mana_battery_creative"
+			}]
+			rewards: [{
+				id: "63BB0F243C5F0D6C"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "singularity"
+					}
+				}
+			}]
+		}
+		{
+			x: -7.0d
+			y: 8.5d
+			dependencies: ["66537679637D0DE8"]
+			id: "16EF76E4B5CEB760"
+			tasks: [{
+				id: "01AD24B4F3B0ADC5"
+				type: "item"
+				item: {
+					id: "botania:mana_tablet"
+					Count: 1b
+					tag: {
+						mana: 500000
+						creative: 1b
+					}
+				}
+			}]
+			rewards: [{
+				id: "47B249F2B29DDD5E"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "singularity"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 12.0d
+			dependencies: ["6BCD7D23BC9E1117"]
+			id: "2FD2033FCFA472C8"
+			tasks: [{
+				id: "0595AF27A82935AC"
+				type: "item"
+				item: "create:creative_blaze_cake"
+			}]
+			rewards: [{
+				id: "012A9C17BD371CF4"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "singularity"
+					}
+				}
+			}]
+		}
+		{
+			x: -7.0d
+			y: 12.0d
+			dependencies: ["2FD2033FCFA472C8"]
+			id: "5007C73102445AD8"
+			tasks: [{
+				id: "456BFDDB74E44879"
+				type: "item"
+				item: "create:creative_motor"
+			}]
+			rewards: [{
+				id: "2EB8E4364FAE7820"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "singularity"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 6.0d
+			dependencies: ["6BCD7D23BC9E1117"]
+			id: "59A3C7EA136E6389"
+			tasks: [{
+				id: "36A95CD9E711A20A"
+				type: "item"
+				item: {
+					id: "thermal:machine_catalyst_creative_augment"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "2C1227E696AB23F9"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "singularity"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 8.0d
+			dependencies: ["6BCD7D23BC9E1117"]
+			id: "78506A18ECC4D3CA"
+			tasks: [{
+				id: "100C256362FEF57F"
+				type: "item"
+				item: "thermal:machine_efficiency_creative_augment"
+			}]
+			rewards: [{
+				id: "1FB274C891EB83AD"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "singularity"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 10.0d
+			dependencies: ["6BCD7D23BC9E1117"]
+			id: "15C653196C2D3564"
+			tasks: [{
+				id: "671FDAE5AE49C60A"
+				type: "item"
+				item: {
+					id: "thermal:fluid_tank_creative_augment"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "737194AE46130A63"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "singularity"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 14.0d
+			description: ["Note that this will only eat your energy. You need the CHARGED version in order to provide an infinite energy supply. Check JEI for the multiblock structure (similar to ATM6)"]
+			dependencies: ["6BCD7D23BC9E1117"]
+			id: "6029D3D997CF917A"
+			tasks: [{
+				id: "30BF21B7452A8876"
+				type: "item"
+				item: "mekanism:creative_energy_cube"
+			}]
+			rewards: [{
+				id: "467916C0B47E1790"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "singularity"
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: 14.0d
+			description: ["{image:kubejs:textures/quests/end_game/end_game_creative_energy_cube.png width:178 height:100 align:1}"]
+			dependencies: ["6029D3D997CF917A"]
+			id: "5763288B34AEE10B"
+			tasks: [{
+				id: "27B280F9D70F81AF"
+				type: "item"
+				item: {
+					id: "mekanism:creative_energy_cube"
+					Count: 1b
+					tag: {
+						mekData: {
+							EnergyContainers: [{
+								Container: 0b
+								stored: "18446744073709551615.9999"
+							}]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "4DD458304FA32634"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "singularity"
+					}
+				}
+			}]
+		}
+		{
+			title: "Certificate on Completion"
+			x: 0.0d
+			y: 18.5d
+			subtitle: "Here comes to the END"
+			description: [
+				"Getting this means that you have completed this modpack!"
+				"PS. You have to also complete all the quest in \"Boss Progression\""
+			]
+			dependencies: [
+				"5007C73102445AD8"
+				"0506A65D4B9FA35A"
+				"16EF76E4B5CEB760"
+				"59A3C7EA136E6389"
+				"78506A18ECC4D3CA"
+				"15C653196C2D3564"
+				"5763288B34AEE10B"
+				"58972E2E76C8D5EA"
+				"74040EC0332F5B25"
+				"4FC1CF0FCAE8FD63"
+				"17EAA0ECCC8D559B"
+				"7A814EA2D2C5EA6D"
+				"46A5D692F830CDB7"
+				"26A45869ECC6378A"
+				"0D8E6220CF43B200"
+				"2B2B1413A53E9A96"
+				"0F0AFE91F9862773"
+				"72DB5E093962A578"
+				"1D78F93BB87B98F4"
+				"41453A0AA8D5CBE9"
+				"59A346B08DFDCF17"
+				"11A22D342BC5E69F"
+				"0BF27CF5D3B3645B"
+				"3F47FBB1C8F44A3F"
+				"2B407D16F77B1E60"
+				"76446683F82CCC22"
+				"42ABAB6DFD2E6C0D"
+				"06B1120AC5773433"
+				"665E8E2F1D47EB72"
+				"15C8B37D5FE0295F"
+				"34CA5C39A6D4CDFF"
+				"3BD6C9413A228DF9"
+				"1B1DD7112BA2833A"
+				"08004BDFEA01AD4F"
+				"1277FA300BA9F055"
+				"4BF49A1C48E6C5F8"
+				"326426B340BA955A"
+				"4E3ECF6F8F879418"
+			]
+			id: "4E6813BCB1AEB90A"
+			tasks: [{
+				id: "1D9879F376A91A12"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "21316DC37CCD4BB1"
+					type: "item"
+					item: "extendedcrafting:the_ultimate_block"
+				}
+				{
+					id: "7CB47EB0FEC9E525"
+					type: "item"
+					item: {
+						id: "minecraft:structure_void"
+						Count: 1b
+						tag: {
+							display: {
+								Name: "{\"text\":\"Certificate of Completion\"}"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 0.5d
+			description: ["Send items, fluids, gases, energies across long distance and dimensions."]
+			dependencies: ["5B4A283FE408276D"]
+			id: "30165EF89713A9A1"
+			tasks: [{
+				id: "721D4E0CFA51CA2D"
+				type: "item"
+				item: {
+					id: "entangled:block"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "161C5A7AD0F66B0C"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 20
+			}]
+		}
+		{
+			x: -1.5d
+			y: 2.0d
+			description: ["Send items, fluids, gases, energies across long distance and dimensions."]
+			dependencies: ["5B4A283FE408276D"]
+			id: "05271E0358B93878"
+			tasks: [{
+				id: "1D37E2F9EC852FBC"
+				type: "item"
+				item: "mekanism:quantum_entangloporter"
+			}]
+			rewards: [{
+				id: "243A205AC1C08679"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 20
+			}]
+		}
+		{
+			x: 2.5d
+			y: 4.5d
+			description: ["Very fast pickaxe, and unbreakable. Charge it with FE."]
+			dependencies: ["1AE6036FF9B012D3"]
+			id: "1C49576859BC9378"
+			tasks: [{
+				id: "6341A70F2AE8DA37"
+				type: "item"
+				item: {
+					id: "mekanism:atomic_disassembler"
+					Count: 1b
+					tag: {
+						HideFlags: 2
+					}
+				}
+			}]
+			rewards: [{
+				id: "02FEED0BD0E988E4"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 20
+			}]
+		}
+		{
+			title: "Stronger ingot!"
+			x: 0.0d
+			y: 7.5d
+			description: ["Creativerite grant you creative power!"]
+			dependencies: ["6BCD7D23BC9E1117"]
+			id: "732AE78CC837B7D6"
+			tasks: [{
+				id: "1897386F5E266169"
+				type: "item"
+				item: "upgradednetherite_creative:creative_upgraded_netherite_ingot"
+			}]
+			rewards: [{
+				id: "7837CEF88790212E"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "singularity"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 12.0d
+			dependencies: ["6BCD7D23BC9E1117"]
+			id: "15C8B37D5FE0295F"
+			tasks: [{
+				id: "2ABFA05FFF742844"
+				type: "item"
+				item: "thermal:rf_coil_creative_augment"
+			}]
+			rewards: [{
+				id: "07B7CDF18B744730"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "singularity"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 6.5d
+			description: ["Wireless grid across long distance"]
+			dependencies: ["49D6B6C849A1CA48"]
+			id: "3BD6C9413A228DF9"
+			tasks: [{
+				id: "0931AA550A3CEE93"
+				type: "item"
+				item: "rsinfinitybooster:infinity_card"
+			}]
+			rewards: [{
+				id: "04BAFD01E8160F27"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "singularity"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 4.5d
+			description: ["Wireless grid across dimensions"]
+			dependencies: ["49D6B6C849A1CA48"]
+			id: "1B1DD7112BA2833A"
+			tasks: [{
+				id: "3E02DEACDE6C2952"
+				type: "item"
+				item: "rsinfinitybooster:dimension_card"
+			}]
+			rewards: [{
+				id: "31D7BB3FC12C022B"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "singularity"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 16.0d
+			dependencies: ["5763288B34AEE10B"]
+			id: "08004BDFEA01AD4F"
+			tasks: [{
+				id: "121B06337C2860EE"
+				type: "item"
+				item: {
+					id: "draconicevolution:creative_capacitor"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									1033766134
+									1620135031
+									-1253738882
+									-643805546
+								]
+								modules: [ ]
+								properties: {
+									charge_main: {
+										hud: 1b
+									}
+									charge_curios: {
+										hud: 1b
+									}
+									charge_hot_bar: {
+										hud: 1b
+									}
+									charge_armor: {
+										hud: 1b
+									}
+									charge_held_item: {
+										hud: 1b
+									}
+								}
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "339B1B06AA74E26B"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "singularity"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 2.5d
+			description: ["A tool that help you collect souls rapidly."]
+			dependencies: ["49D6B6C849A1CA48"]
+			id: "34CA5C39A6D4CDFF"
+			tasks: [{
+				id: "026F35DAEB5B7F18"
+				type: "item"
+				item: "mysticalagriculture:creative_soulium_dagger"
+			}]
+			rewards: [{
+				id: "0727C3BC226F3608"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 20
+			}]
+		}
+		{
+			title: "Creativerite armor set"
+			x: 0.0d
+			y: 9.5d
+			description: ["Infinity Armor V.2!!!"]
+			dependencies: ["732AE78CC837B7D6"]
+			id: "4BF49A1C48E6C5F8"
+			tasks: [
+				{
+					id: "628AB9F735BE7463"
+					type: "item"
+					item: "upgradednetherite_creative:creative_upgraded_netherite_helmet"
+				}
+				{
+					id: "646E1EEB90932FC2"
+					type: "item"
+					item: "upgradednetherite_creative:creative_upgraded_netherite_chestplate"
+				}
+				{
+					id: "5BC56138815803F4"
+					type: "item"
+					item: "upgradednetherite_creative:creative_upgraded_netherite_leggings"
+				}
+				{
+					id: "14390F868B53F70E"
+					type: "item"
+					item: "upgradednetherite_creative:creative_upgraded_netherite_boots"
+				}
+			]
+			rewards: [
+				{
+					id: "72E0286BE52865CD"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "singularity"
+						}
+					}
+					count: 10
+				}
+				{
+					id: "50EA5F495758D7AE"
+					type: "item"
+					item: "extendedcrafting:the_ultimate_ingot"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Creativerite weapons set"
+			x: 1.5d
+			y: 9.5d
+			description: ["Sword of Cosmos"]
+			dependencies: ["732AE78CC837B7D6"]
+			id: "326426B340BA955A"
+			tasks: [
+				{
+					id: "5E7DB9B61866C2B0"
+					type: "item"
+					item: "upgradednetherite_creative:creative_upgraded_netherite_sword"
+				}
+				{
+					id: "17C87FFA16F54D8E"
+					type: "item"
+					item: "upgradednetherite_creative:creative_upgraded_netherite_crossbow"
+				}
+				{
+					id: "68D6106E537D6BFF"
+					type: "item"
+					item: "upgradednetherite_creative:creative_upgraded_netherite_bow"
+				}
+				{
+					id: "64FE0BAF4D4B7799"
+					type: "item"
+					item: "upgradednetherite_creative:creative_upgraded_netherite_shield"
+				}
+			]
+			rewards: [
+				{
+					id: "67548AF6ADDE0D18"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "singularity"
+						}
+					}
+					count: 10
+				}
+				{
+					id: "6A765E4FC5E3EB2A"
+					type: "item"
+					item: "extendedcrafting:ultimate_singularity"
+					count: 5
+				}
+			]
+		}
+		{
+			title: "Creativerite tools set"
+			x: -1.5d
+			y: 9.5d
+			description: ["World breaker, Planter Eater, Nature's ruin"]
+			dependencies: ["732AE78CC837B7D6"]
+			id: "1277FA300BA9F055"
+			tasks: [
+				{
+					id: "2E950A529F31DBA3"
+					type: "item"
+					item: "upgradednetherite_creative:creative_upgraded_netherite_pickaxe"
+				}
+				{
+					id: "753EDEC8B1ED688C"
+					type: "item"
+					item: "upgradednetherite_creative:creative_upgraded_netherite_shovel"
+				}
+				{
+					id: "1D21A93D2CE3D34D"
+					type: "item"
+					item: "upgradednetherite_creative:creative_upgraded_netherite_axe"
+				}
+			]
+			rewards: [
+				{
+					id: "23A4DE7C1C17A0CD"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "singularity"
+						}
+					}
+					count: 10
+				}
+				{
+					id: "48A60C159B0E655C"
+					type: "item"
+					item: "extendedcrafting:ultimate_singularity"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 2.5d
+			description: ["You need \"Controller\" appearance of \"Factory\" block to craft this item!"]
+			dependencies: ["49D6B6C849A1CA48"]
+			id: "4E3ECF6F8F879418"
+			tasks: [{
+				id: "380099C0D475001B"
+				type: "item"
+				item: "refinedstorage:creative_controller"
+			}]
+			rewards: [{
+				id: "1B9E67B1719823C8"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "singularity"
+					}
+				}
+			}]
+		}
+	]
+}

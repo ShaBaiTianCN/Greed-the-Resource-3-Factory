@@ -1,0 +1,1909 @@
+{
+	id: "4D42B12F0EC9EB0A"
+	group: "1E2DE02B87CFF91D"
+	order_index: 3
+	filename: "energy"
+	title: "Energy"
+	icon: "mekanism:basic_energy_cube"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Powah"
+			icon: "powah:uraninite"
+			x: 1.0d
+			y: -4.0d
+			description: ["Uraninite is the fundamental materials of this mod!"]
+			id: "7564B6F6725C5685"
+			tasks: [{
+				id: "47B521DCFE3B8A1B"
+				type: "item"
+				item: "powah:uraninite"
+				count: 8L
+			}]
+			rewards: [{
+				id: "0F5F19D06EE90297"
+				type: "item"
+				item: "powah:uraninite_raw_dense"
+				count: 4
+			}]
+		}
+		{
+			x: -1.5d
+			y: 2.0d
+			description: [
+				"You need this together with energizing rod to craft the following items. You can set up multiple energizing rod to speed up the process."
+				"You can use modular routers or Xnet to automate the crafting process."
+			]
+			dependencies: ["372977A288A9D166"]
+			id: "17C95C1468678E4C"
+			tasks: [
+				{
+					id: "16B73539FA126BA7"
+					type: "item"
+					item: "powah:energizing_orb"
+				}
+				{
+					id: "428563A87BF24982"
+					type: "item"
+					item: "powah:energizing_rod_starter"
+				}
+			]
+			rewards: [{
+				id: "0B8760CA9C098CD0"
+				type: "item"
+				item: "powah:energizing_rod_starter"
+			}]
+		}
+		{
+			title: "Have some paste first"
+			icon: { id: "powah:dielectric_paste", Count: 64b }
+			x: 1.0d
+			y: 0.0d
+			description: ["Another fundamental materials in this mod!"]
+			dependencies: ["7564B6F6725C5685"]
+			id: "372977A288A9D166"
+			tasks: [{
+				id: "33C04225951D4A23"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 64L
+			}]
+			rewards: [{
+				id: "74D008D45CE4006D"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 64
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.5d
+			description: ["The wrench helps you configurate the energy cables"]
+			dependencies: ["372977A288A9D166"]
+			id: "3ED99F8251C51338"
+			tasks: [{
+				id: "68FE0C7DE49852A8"
+				type: "item"
+				item: {
+					id: "powah:wrench"
+					Count: 1b
+					tag: {
+						PowahWrenchNBT: { }
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.0d
+			dependencies: ["17C95C1468678E4C"]
+			id: "20BCC903B0557B13"
+			tasks: [{
+				id: "4ADC3E46A6EE9EF9"
+				type: "item"
+				item: "powah:steel_energized"
+				count: 2L
+			}]
+			rewards: [{
+				id: "213C891909FC9518"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: -2.0d
+			dependencies: ["20BCC903B0557B13"]
+			id: "583C3DC7B174BF31"
+			tasks: [{
+				id: "37F65E10EC68D44B"
+				type: "item"
+				item: "powah:crystal_blazing"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -0.5d
+			dependencies: ["583C3DC7B174BF31"]
+			id: "13CAE6C881AD3A7C"
+			tasks: [{
+				id: "4E6A3F46DEDF2EC2"
+				type: "item"
+				item: "powah:crystal_niotic"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 1.5d
+			dependencies: ["13CAE6C881AD3A7C"]
+			id: "4A893ED088C26A1D"
+			tasks: [{
+				id: "7B636F9FA997DC20"
+				type: "item"
+				item: "powah:crystal_spirited"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 0.5d
+			dependencies: ["4A893ED088C26A1D"]
+			id: "4A81F49072A5E736"
+			tasks: [{
+				id: "2AC586BC0744889E"
+				type: "item"
+				item: "powah:crystal_nitro"
+			}]
+			rewards: [{
+				id: "3893AC6031103864"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bossloot"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.0d
+			description: [
+				"The following list provide items for energy production"
+				"Note that there are tier lowering than the nitro tier. Take the nitro tiers as your ultiimate target."
+			]
+			dependencies: ["372977A288A9D166"]
+			id: "585029B79F5972D2"
+			tasks: [{
+				id: "7412139E0F5813D3"
+				type: "checkmark"
+				title: "Generators"
+			}]
+			rewards: [{
+				id: "0DE4F2DD52968790"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "delightfood"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			description: ["Note that there are tiers lower than the nitro tier. Take the tier as your ultimate target!"]
+			dependencies: ["372977A288A9D166"]
+			id: "1CE6EABD3893CEE9"
+			tasks: [{
+				id: "3C406D90E61B97F7"
+				type: "checkmark"
+				title: "Useful items"
+			}]
+			rewards: [{
+				id: "74E03A7A249FA277"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "delightfood"
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 4.0d
+			description: ["Magamtor generates tons of energy from lava."]
+			dependencies: ["585029B79F5972D2"]
+			id: "23B3967554538214"
+			tasks: [{
+				id: "472701DC65A812C8"
+				type: "item"
+				item: "powah:magmator_nitro"
+			}]
+			rewards: [{
+				id: "04476F1DB9B5FCA9"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bossloot"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 4.0d
+			description: ["Furnator generates energy from fuels"]
+			dependencies: ["585029B79F5972D2"]
+			id: "3074742A057B7C33"
+			tasks: [{
+				id: "783BD1DB88F532E7"
+				type: "item"
+				item: "powah:furnator_nitro"
+			}]
+			rewards: [{
+				id: "565CD1D5D2A86632"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bossloot"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 4.0d
+			description: ["Solar panel generates a lot of energy from sunlight"]
+			dependencies: ["585029B79F5972D2"]
+			id: "6F593E296D3F7EB0"
+			tasks: [{
+				id: "7C21D05283E57936"
+				type: "item"
+				item: "powah:solar_panel_nitro"
+			}]
+			rewards: [{
+				id: "600519772790B08F"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bossloot"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 4.0d
+			description: [
+				"Thermo generator generates little energy from differences in temperature."
+				"Place it on top of lava or magma block, and pump water into it."
+			]
+			dependencies: ["585029B79F5972D2"]
+			id: "67F78F137B5A7E4A"
+			tasks: [{
+				id: "36D421B8E1728E65"
+				type: "item"
+				item: "powah:thermo_generator_nitro"
+			}]
+			rewards: [{
+				id: "03E75F4495C96C11"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bossloot"
+					}
+				}
+			}]
+		}
+		{
+			title: "Reactor!"
+			x: 1.5d
+			y: 4.0d
+			description: ["Largest energy provider in Powah. Craft 36 of this and place it on the ground. The multiblock structure will automatically form."]
+			dependencies: [
+				"585029B79F5972D2"
+				"5C4FCCA392F4422B"
+			]
+			id: "1A9C0AE3E898CD13"
+			tasks: [{
+				id: "02A0DC132FF3E6E3"
+				type: "item"
+				item: "powah:reactor_nitro"
+				count: 36L
+			}]
+			rewards: [{
+				id: "3078A5A1EB85399A"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bossloot"
+					}
+				}
+			}]
+		}
+		{
+			title: "Chest for power"
+			x: 3.0d
+			y: 1.5d
+			description: ["It stores a large amount of energy"]
+			dependencies: ["1CE6EABD3893CEE9"]
+			id: "711C0E6C0281C400"
+			tasks: [{
+				id: "17EDD94D1739FC9A"
+				type: "item"
+				item: "powah:energy_cell_nitro"
+			}]
+			rewards: [{
+				id: "5438472B76E20102"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bossloot"
+					}
+				}
+			}]
+		}
+		{
+			title: "Ender chest, but for power"
+			x: 4.0d
+			y: 2.5d
+			description: ["Copious amount of energy can be stored and access across dimensions, neglecting distance!"]
+			dependencies: ["1CE6EABD3893CEE9"]
+			id: "54C14F0300AFCDF6"
+			tasks: [{
+				id: "2404CE5B72978E8E"
+				type: "item"
+				item: "powah:ender_cell_nitro"
+			}]
+			rewards: [{
+				id: "53326B2F0B70D4D8"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bossloot"
+					}
+				}
+			}]
+		}
+		{
+			title: "Energy cable"
+			x: 5.5d
+			y: 2.5d
+			dependencies: ["1CE6EABD3893CEE9"]
+			id: "7DE87B0CE44A9718"
+			tasks: [{
+				id: "7208DF128775C2EB"
+				type: "item"
+				item: "powah:energy_cable_nitro"
+				count: 12L
+			}]
+			rewards: [{
+				id: "14E0B22C27C481C9"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bossloot"
+					}
+				}
+			}]
+		}
+		{
+			title: "Charging without distance!"
+			x: 6.5d
+			y: 1.5d
+			description: ["It charges items in the player's inventory. You need the binding card to get this function."]
+			dependencies: ["1CE6EABD3893CEE9"]
+			id: "5D857DD4F53263F0"
+			tasks: [{
+				id: "00691EEA666AEAEB"
+				type: "item"
+				item: {
+					id: "powah:player_transmitter_nitro"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "0D3972436603AFCB"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bossloot"
+					}
+				}
+			}]
+		}
+		{
+			title: "Charging intraworld"
+			x: 8.0d
+			y: 1.0d
+			dependencies: ["5D857DD4F53263F0"]
+			id: "0C23822F3E1A93A3"
+			tasks: [{
+				id: "1519E0BC75C713D5"
+				type: "item"
+				item: "powah:binding_card"
+			}]
+			rewards: [{
+				id: "7A0D2BCF2578E440"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bossloot"
+					}
+				}
+			}]
+		}
+		{
+			title: "Charging interworld"
+			x: 8.0d
+			y: 2.0d
+			dependencies: ["5D857DD4F53263F0"]
+			id: "08D5FB29486B71CC"
+			tasks: [{
+				id: "1B1ABFE69D0A42AA"
+				type: "item"
+				item: "powah:binding_card_dim"
+			}]
+			rewards: [{
+				id: "60790E6F2FC7C6FB"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bossloot"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: 0.0d
+			description: ["Charge items in chest directly at high speed"]
+			dependencies: ["1CE6EABD3893CEE9"]
+			id: "44682D85E857FB5A"
+			tasks: [{
+				id: "13CACDF6DCAA5B9A"
+				type: "item"
+				item: "powah:energy_hopper_nitro"
+			}]
+			rewards: [{
+				id: "66DFA809EEB89B01"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bossloot"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: -1.5d
+			description: ["It removes energy from items!"]
+			dependencies: ["1CE6EABD3893CEE9"]
+			id: "696527D5E9872D09"
+			tasks: [{
+				id: "0691E0B7E384A422"
+				type: "item"
+				item: "powah:energy_discharger_nitro"
+			}]
+			rewards: [{
+				id: "177060DACE3E8C3B"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bossloot"
+					}
+				}
+			}]
+		}
+		{
+			title: "Portable energy cell"
+			x: 5.5d
+			y: -2.5d
+			description: ["You can equip this to the curios inventory."]
+			dependencies: ["1CE6EABD3893CEE9"]
+			id: "5B637E0F1D7F6AB9"
+			tasks: [{
+				id: "416CFDF00A80DCC4"
+				type: "item"
+				item: {
+					id: "powah:battery_nitro"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "6EF47F674B91E2EE"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bossloot"
+					}
+				}
+			}]
+		}
+		{
+			title: "Fun item!"
+			x: -3.0d
+			y: 3.5d
+			description: ["This gives a thunder strike when you throw it out."]
+			dependencies: ["17C95C1468678E4C"]
+			id: "10037E34831F4058"
+			tasks: [{
+				id: "4E6719248613CBF5"
+				type: "item"
+				item: "powah:charged_snowball"
+			}]
+		}
+		{
+			title: "Powerful coolant for your reactor"
+			x: 1.5d
+			y: 6.0d
+			description: ["Dry ice spawns naturally underground. Get some dryice when you exploring the caves."]
+			id: "5C4FCCA392F4422B"
+			tasks: [{
+				id: "61E1B5359A6BC570"
+				type: "item"
+				item: "powah:dry_ice"
+				count: 4L
+			}]
+			rewards: [{
+				id: "7B30025C95A09684"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "delightfood"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 11.5d
+			description: ["Input cyanite and water. It will wash the cyanite to produce blutonium."]
+			dependencies: ["724CC76F727ACC29"]
+			id: "0546B61B932B7D5A"
+			tasks: [{
+				id: "1A48B1E1CA6EA6A9"
+				type: "item"
+				item: "biggerreactors:cyanite_reprocessor"
+			}]
+			rewards: [{
+				id: "528EECE6501B0C80"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+			}]
+		}
+		{
+			title: "Bigger reactor"
+			x: -2.0d
+			y: 8.5d
+			description: [
+				"Bigger reactor is one of the most classical mod in Minecraft. Smelt coal in furnace to get graphite ingots, the fundamental material in Bigger Reactors."
+				"{image:kubejs:textures/quests/energy/energy_bigger_reactor.png width:178 height:100 align:1}"
+			]
+			id: "2D4FBEA12138BE22"
+			tasks: [{
+				id: "05A7A010E5255988"
+				type: "item"
+				item: "biggerreactors:graphite_ingot"
+				count: 64L
+			}]
+			rewards: [
+				{
+					id: "49848D55B32C3EA4"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "ingotnore"
+						}
+					}
+				}
+				{
+					id: "759E5C8B696008CA"
+					type: "item"
+					item: "allthemodium:molten_bluelava_bucket"
+					count: 3
+				}
+			]
+		}
+		{
+			title: "Bigger reactor"
+			x: -2.0d
+			y: 10.0d
+			description: [
+				"Time to have the BIGGER REACTOR. The smallest and largest size available are 3x3x3 and 32x48x32 respectively."
+				"The reactor uses uranium as fuel and produces copious amount of energy."
+				"Remember to include coolant for your reactor to maximize energy produced."
+			]
+			dependencies: ["2D4FBEA12138BE22"]
+			id: "724CC76F727ACC29"
+			tasks: [{
+				id: "0B7CEE3F37FE8DD0"
+				type: "item"
+				item: "biggerreactors:reactor_terminal"
+			}]
+			rewards: [{
+				id: "75551FAB12D3A354"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+			}]
+		}
+		{
+			title: "Bigger turbine"
+			x: 0.0d
+			y: 10.0d
+			description: ["If you refuses to put coolant into the reactor, you can use water as the coolant. The steam produced can also produce power in the steam turbine"]
+			dependencies: ["2D4FBEA12138BE22"]
+			id: "43902BFDDD1DE300"
+			tasks: [{
+				id: "7E0B7B7FE98C4DFE"
+				type: "item"
+				item: "biggerreactors:turbine_terminal"
+			}]
+			rewards: [{
+				id: "00E3A3973E580662"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 11.5d
+			description: ["Cyanite ingot is actually the nuclear waste of Bigger Reactor. Input uranium ingot into the reactor and wait a while. Then you will get a cyanite ingot in the output port of the reactor."]
+			dependencies: ["724CC76F727ACC29"]
+			id: "3EC6D82FE0BDA841"
+			tasks: [{
+				id: "2788219CA36B6F09"
+				type: "item"
+				item: "biggerreactors:cyanite_ingot"
+				count: 4L
+			}]
+			rewards: [{
+				id: "5729ED5031F24E43"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 13.0d
+			dependencies: [
+				"0546B61B932B7D5A"
+				"3EC6D82FE0BDA841"
+			]
+			id: "3D594986739BF2FF"
+			tasks: [{
+				id: "55D50024A465882A"
+				type: "item"
+				item: "biggerreactors:blutonium_ingot"
+			}]
+			rewards: [{
+				id: "7BE8D80D4E3DE022"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+			}]
+		}
+		{
+			title: "Flux Network"
+			x: 2.5d
+			y: 8.5d
+			subtitle: "Basic unit"
+			description: [
+				"This mod is a very convenient mod in energy transmission across long distance and dimensions."
+				"Flux dust is obtained by throwing redstone dust under an obdisian block then left click the block."
+			]
+			id: "79EB746554C0DF82"
+			tasks: [{
+				id: "3197A45823CB659A"
+				type: "item"
+				item: "fluxnetworks:flux_dust"
+				count: 64L
+			}]
+			rewards: [{
+				id: "2637BC7DDF1E766C"
+				type: "item"
+				item: "fluxnetworks:flux_dust"
+				count: 64
+			}]
+		}
+		{
+			title: "Other materials"
+			x: 2.5d
+			y: 10.0d
+			description: ["Other materials that you need"]
+			dependencies: ["79EB746554C0DF82"]
+			id: "71F56F4187C165DE"
+			tasks: [
+				{
+					id: "1A1FFA2F4C659A2C"
+					type: "item"
+					item: "fluxnetworks:flux_core"
+				}
+				{
+					id: "6FB5B29CD6485D7A"
+					type: "item"
+					item: "fluxnetworks:flux_block"
+				}
+			]
+			rewards: [{
+				id: "2CDCEA81DA330A28"
+				type: "item"
+				item: "fluxnetworks:flux_dust"
+				count: 64
+			}]
+		}
+		{
+			x: 2.5d
+			y: 13.0d
+			description: ["You can access the configuration of channels through this block."]
+			dependencies: ["71F56F4187C165DE"]
+			id: "4103DDC80C8D9142"
+			tasks: [{
+				id: "6208CFB6412A1F37"
+				type: "item"
+				item: "fluxnetworks:flux_controller"
+			}]
+			rewards: [
+				{
+					id: "327F37985C0A0B9F"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "delightfood"
+						}
+					}
+				}
+				{
+					id: "49ED3742A0F29EA9"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "ingotnore"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 10.0d
+			description: ["An energy storage for flux network."]
+			dependencies: ["71F56F4187C165DE"]
+			id: "6730FC20812C4709"
+			tasks: [{
+				id: "55F038643BB73055"
+				type: "item"
+				item: "fluxnetworks:herculean_flux_storage"
+			}]
+			rewards: [
+				{
+					id: "2E9411B5B8B1022C"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "delightfood"
+						}
+					}
+				}
+				{
+					id: "48D87EC33538442B"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "ingotnore"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Energy transfer"
+			x: 4.5d
+			y: 13.0d
+			description: ["Flux plug import energy into the flux network, and the flux point extract energy from the network to power machines."]
+			dependencies: ["71F56F4187C165DE"]
+			id: "3C573BC2E248BD1B"
+			tasks: [
+				{
+					id: "063A95570B1036C7"
+					type: "item"
+					item: "fluxnetworks:flux_point"
+				}
+				{
+					id: "0C028673C574B3B3"
+					type: "item"
+					item: "fluxnetworks:flux_plug"
+				}
+			]
+			rewards: [
+				{
+					id: "0E0FB7C58B4EB500"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "delightfood"
+						}
+					}
+				}
+				{
+					id: "7FE1B88B990CC2D1"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "ingotnore"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 11.5d
+			description: ["You can copy and paste the configuration with this wrench"]
+			dependencies: ["71F56F4187C165DE"]
+			id: "0A4889260A3D5B45"
+			tasks: [{
+				id: "35302C0163E23AFD"
+				type: "item"
+				item: "fluxnetworks:flux_configurator"
+			}]
+			rewards: [
+				{
+					id: "5B51F0F917279363"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "delightfood"
+						}
+					}
+				}
+				{
+					id: "79717A61C3C6CA88"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "ingotnore"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 7.5d
+			description: [
+				"Generator from Industrial Foregoing is the successor of generators from Extra Utilities 2 from 1.12.2. They work at the same way."
+				"There are 18 types of generator, and one myelial reactor. Once all the 18 types of generator is working in loaded chunks, the mycelial reaction will produce 25,000,000FE/t. Even stronger than the rainbow generator from EU2!!!"
+			]
+			id: "51EB5D8B1CAAC803"
+			tasks: [{
+				id: "0A944C3D46C88763"
+				type: "item"
+				item: "industrialforegoing:pitiful_generator"
+			}]
+			rewards: [{
+				id: "683E0294A99DDE34"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "delightfood"
+					}
+				}
+			}]
+		}
+		{
+			x: 16.5d
+			y: 16.5d
+			dependencies: [
+				"1F276BBF8832B52C"
+				"6E5762BF01E9F1D5"
+				"3B8BBF2529A8C4F7"
+				"4E27543C861853A5"
+				"365A52B375B36964"
+				"79649A95A725C07E"
+				"30771279845C8723"
+				"502D7765612F8285"
+				"4259F1A6E9E35C87"
+				"2356B818C65CB02C"
+				"69C965931759C2FB"
+				"5A190C6B133E495D"
+				"314D8F53C6806A5F"
+				"5AE45226C2311F1B"
+				"72593A0EEE8E4797"
+				"6D306CA4480197DC"
+			]
+			id: "30EEEB584D44CC0F"
+			tasks: [{
+				id: "64157B6A8CF81D4C"
+				type: "item"
+				item: "industrialforegoing:mycelial_reactor"
+			}]
+			rewards: [
+				{
+					id: "14A801D2FEC4A768"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "singularity"
+						}
+					}
+				}
+				{
+					id: "17B27A24CB642C06"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "unobtainable"
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			x: 11.0d
+			y: 9.0d
+			dependencies: ["51EB5D8B1CAAC803"]
+			id: "4E27543C861853A5"
+			tasks: [{
+				id: "3BFF0EDA235B0AB4"
+				type: "item"
+				item: "industrialforegoing:mycelial_frosty"
+			}]
+			rewards: [
+				{
+					id: "40CC5F0A540B73A9"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "ingotnore"
+						}
+					}
+					count: 4
+				}
+				{
+					id: "3B1A999DDC1A9F03"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "delightfood"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 13.0d
+			y: 9.0d
+			dependencies: ["51EB5D8B1CAAC803"]
+			id: "365A52B375B36964"
+			tasks: [{
+				id: "0A6514AF43F2C324"
+				type: "item"
+				item: "industrialforegoing:mycelial_halitosis"
+			}]
+			rewards: [
+				{
+					id: "37FA20FBD1285A54"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "ingotnore"
+						}
+					}
+					count: 4
+				}
+				{
+					id: "73438A9EB9E48084"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "delightfood"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 15.0d
+			y: 9.0d
+			dependencies: ["51EB5D8B1CAAC803"]
+			id: "2356B818C65CB02C"
+			tasks: [{
+				id: "2BA18532C618F41C"
+				type: "item"
+				item: "industrialforegoing:mycelial_magma"
+			}]
+			rewards: [
+				{
+					id: "156191F81FF355DD"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "ingotnore"
+						}
+					}
+					count: 4
+				}
+				{
+					id: "7E0159F69D6E4DA0"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "delightfood"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: 11.0d
+			dependencies: ["51EB5D8B1CAAC803"]
+			id: "1F276BBF8832B52C"
+			tasks: [{
+				id: "079AED074224BE31"
+				type: "item"
+				item: "industrialforegoing:mycelial_netherstar"
+			}]
+			rewards: [
+				{
+					id: "46F1662DEE80997A"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "ingotnore"
+						}
+					}
+					count: 4
+				}
+				{
+					id: "1D75BFB56406D2EA"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "delightfood"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: 9.0d
+			dependencies: ["51EB5D8B1CAAC803"]
+			id: "3B8BBF2529A8C4F7"
+			tasks: [{
+				id: "3A85726AA9050AFD"
+				type: "item"
+				item: "industrialforegoing:mycelial_pink"
+			}]
+			rewards: [
+				{
+					id: "25ED67E5C451E63E"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "ingotnore"
+						}
+					}
+					count: 4
+				}
+				{
+					id: "14F5A47B08603B12"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "delightfood"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 13.0d
+			y: 11.0d
+			dependencies: ["51EB5D8B1CAAC803"]
+			id: "79649A95A725C07E"
+			tasks: [{
+				id: "6E586ABCCD55CE57"
+				type: "item"
+				item: "industrialforegoing:mycelial_death"
+			}]
+			rewards: [
+				{
+					id: "11CA1806162241D2"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "ingotnore"
+						}
+					}
+					count: 4
+				}
+				{
+					id: "1ABB23B6FD3365DB"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "delightfood"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 15.0d
+			y: 11.0d
+			dependencies: ["51EB5D8B1CAAC803"]
+			id: "4259F1A6E9E35C87"
+			tasks: [{
+				id: "7CC9443DC1EBA6C3"
+				type: "item"
+				item: "industrialforegoing:mycelial_explosive"
+			}]
+			rewards: [
+				{
+					id: "4C83AB6B07D05CA3"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "ingotnore"
+						}
+					}
+					count: 4
+				}
+				{
+					id: "02331A1EF1252F47"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "delightfood"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 11.0d
+			y: 13.0d
+			dependencies: ["51EB5D8B1CAAC803"]
+			id: "6E5762BF01E9F1D5"
+			tasks: [{
+				id: "7A9407543B7C5C30"
+				type: "item"
+				item: "industrialforegoing:mycelial_ender"
+			}]
+			rewards: [
+				{
+					id: "73813010D1CEF308"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "ingotnore"
+						}
+					}
+					count: 4
+				}
+				{
+					id: "2A7178CA92FD3632"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "delightfood"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 13.0d
+			y: 13.0d
+			dependencies: ["51EB5D8B1CAAC803"]
+			id: "30771279845C8723"
+			tasks: [{
+				id: "05AA0FF5A4C9047B"
+				type: "item"
+				item: "industrialforegoing:mycelial_crimed"
+			}]
+			rewards: [
+				{
+					id: "7D8F4BB0F9C612E5"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "ingotnore"
+						}
+					}
+					count: 4
+				}
+				{
+					id: "7BED22181C170E24"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "delightfood"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 15.0d
+			y: 13.0d
+			dependencies: ["51EB5D8B1CAAC803"]
+			id: "502D7765612F8285"
+			tasks: [{
+				id: "2E329D89B4697209"
+				type: "item"
+				item: "industrialforegoing:mycelial_meatallurgic"
+			}]
+			rewards: [
+				{
+					id: "26386FB504AF99E8"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "ingotnore"
+						}
+					}
+					count: 4
+				}
+				{
+					id: "4D6E08E5435EC5C4"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "delightfood"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 11.0d
+			y: 15.0d
+			dependencies: ["51EB5D8B1CAAC803"]
+			id: "72593A0EEE8E4797"
+			tasks: [{
+				id: "49BD825B41EC64FF"
+				type: "item"
+				item: "industrialforegoing:mycelial_furnace"
+			}]
+			rewards: [
+				{
+					id: "354416D855D957EC"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "ingotnore"
+						}
+					}
+					count: 4
+				}
+				{
+					id: "3F6B5C590B36581B"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "delightfood"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 13.0d
+			y: 15.0d
+			dependencies: ["51EB5D8B1CAAC803"]
+			id: "5A190C6B133E495D"
+			tasks: [{
+				id: "661AF7F5275B93B4"
+				type: "item"
+				item: "industrialforegoing:biofuel_generator"
+			}]
+			rewards: [
+				{
+					id: "52F052F5EF6119DE"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "ingotnore"
+						}
+					}
+					count: 4
+				}
+				{
+					id: "499F4E6E8CE4207A"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "delightfood"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 15.0d
+			y: 15.0d
+			dependencies: ["51EB5D8B1CAAC803"]
+			id: "69C965931759C2FB"
+			tasks: [{
+				id: "4BD02BFBAB688AD5"
+				type: "item"
+				item: "industrialforegoing:mycelial_slimey"
+			}]
+			rewards: [
+				{
+					id: "5CFCBA2FF0DF093A"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "ingotnore"
+						}
+					}
+					count: 4
+				}
+				{
+					id: "70FC4A13E6A2DF97"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "delightfood"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: 13.0d
+			dependencies: ["51EB5D8B1CAAC803"]
+			id: "6D306CA4480197DC"
+			tasks: [{
+				id: "5E2480CFA8CC82B9"
+				type: "item"
+				item: "industrialforegoing:mycelial_culinary"
+			}]
+			rewards: [
+				{
+					id: "52761A211F5D7815"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "ingotnore"
+						}
+					}
+					count: 4
+				}
+				{
+					id: "1301B5C65FE78E22"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "delightfood"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: 15.0d
+			dependencies: ["51EB5D8B1CAAC803"]
+			id: "5AE45226C2311F1B"
+			tasks: [{
+				id: "01A40E5F14CD2A5A"
+				type: "item"
+				item: "industrialforegoing:mycelial_potion"
+			}]
+			rewards: [
+				{
+					id: "21A09AA93B1159C4"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "ingotnore"
+						}
+					}
+					count: 4
+				}
+				{
+					id: "556105007E28EE68"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "delightfood"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 11.0d
+			y: 11.0d
+			dependencies: ["51EB5D8B1CAAC803"]
+			id: "314D8F53C6806A5F"
+			tasks: [{
+				id: "271BD16E22F78297"
+				type: "item"
+				item: "industrialforegoing:mycelial_disenchantment"
+			}]
+			rewards: [
+				{
+					id: "7E882D028BB625E0"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "ingotnore"
+						}
+					}
+					count: 4
+				}
+				{
+					id: "79442716A4B8D552"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "delightfood"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Draconic Energy Storage"
+			x: -6.5d
+			y: 4.5d
+			description: [
+				"Draconic Evolution has a energy storage with different tiers which sotres different amount of energy."
+				"This is what a tier 8 energy core looks like! Place the energy core down and then right click. Click the \"Build Guide\" option in the GUI and construct the energy cell according to its guide."
+				"{image:kubejs:textures/quests/energy/energy_draconic_storage.png width:178 height:100 align:1}"
+			]
+			id: "61BC8C2A0524FC1B"
+			tasks: [{
+				id: "79C2D4EFF6DA635A"
+				type: "item"
+				item: "draconicevolution:energy_core"
+			}]
+			rewards: [{
+				id: "1BA9304E47B2D7B4"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bossloot"
+					}
+				}
+				count: 4
+			}]
+		}
+		{
+			x: -6.5d
+			y: 6.5d
+			description: [
+				"Here is a list of materials on constructing tier 8 energy core."
+				"{image:kubejs:textures/quests/energy/energy_reactor.png width:230 height:100 align:1 fit:true}"
+			]
+			dependencies: ["61BC8C2A0524FC1B"]
+			id: "1AEE3033DD446B54"
+			tasks: [{
+				id: "20482121EBC5E1EF"
+				type: "checkmark"
+				title: "Tier 8"
+			}]
+			rewards: [{
+				id: "450269CF126F435E"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "unobtainable"
+					}
+				}
+			}]
+		}
+		{
+			title: "Draconic reactor"
+			x: -4.5d
+			y: 4.5d
+			description: [
+				"Reactors from Draconic Evolution is similar to 1.12.2... EXTREMELY DANGEROUS."
+				"I recommend you to build the reactor in the void dimension, and take a look at the tutorial on YT first."
+			]
+			dependencies: ["61BC8C2A0524FC1B"]
+			id: "0D57A8A2CEC435D8"
+			tasks: [
+				{
+					id: "4922D1276E3B3C0F"
+					type: "item"
+					item: "draconicevolution:reactor_injector"
+				}
+				{
+					id: "3D7069D0E85001CA"
+					type: "item"
+					item: "draconicevolution:reactor_core"
+				}
+			]
+			rewards: [{
+				id: "0D81E89C24F499C7"
+				type: "item"
+				item: "mysticalagradditions:awakened_draconium_crux"
+				count: 24
+			}]
+		}
+		{
+			x: -5.5d
+			y: 8.5d
+			description: ["Try the dynamos from Thermal Series"]
+			id: "75E98E90A6D25108"
+			tasks: [{
+				id: "591F5273E82A02CC"
+				type: "checkmark"
+				title: "Dynamos"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 10.0d
+			dependencies: ["75E98E90A6D25108"]
+			id: "508DF1C4265BDEE0"
+			tasks: [{
+				id: "1484728432D6999D"
+				type: "item"
+				item: "thermal:dynamo_stirling"
+			}]
+			rewards: [{
+				id: "1EBE11E8846586C9"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+			}]
+		}
+		{
+			x: -6.5d
+			y: 11.5d
+			dependencies: ["75E98E90A6D25108"]
+			id: "61FE1A8CDDEFAD02"
+			tasks: [{
+				id: "0C20296EE21901AD"
+				type: "item"
+				item: "thermal:dynamo_compression"
+			}]
+			rewards: [{
+				id: "08EEEF3310FB8D6F"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+			}]
+		}
+		{
+			x: -6.5d
+			y: 13.0d
+			dependencies: ["75E98E90A6D25108"]
+			id: "1912185C9222D1C3"
+			tasks: [{
+				id: "4F0CCA033101D529"
+				type: "item"
+				item: "thermal:dynamo_numismatic"
+			}]
+			rewards: [{
+				id: "775DE681372EF7D6"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+			}]
+		}
+		{
+			x: -6.5d
+			y: 14.5d
+			dependencies: ["75E98E90A6D25108"]
+			id: "1B929AA025C2D5BA"
+			tasks: [{
+				id: "2E0E3B4426AF8A64"
+				type: "item"
+				item: "thermal:dynamo_magmatic"
+			}]
+			rewards: [{
+				id: "4BE111B1681352CC"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: 10.0d
+			dependencies: ["75E98E90A6D25108"]
+			id: "5793AFE1F732F211"
+			tasks: [{
+				id: "64D5FE05134BFA2F"
+				type: "item"
+				item: "thermal:dynamo_lapidary"
+			}]
+			rewards: [{
+				id: "59A1B881C5601161"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: 11.5d
+			dependencies: ["75E98E90A6D25108"]
+			id: "713655EE92E7BFDD"
+			tasks: [{
+				id: "143307741FEFF761"
+				type: "item"
+				item: "thermal:dynamo_disenchantment"
+			}]
+			rewards: [{
+				id: "1CB6878C33C31265"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: 13.0d
+			dependencies: ["75E98E90A6D25108"]
+			id: "7C9488C5B01C0453"
+			tasks: [{
+				id: "6C41A1AE57894AC2"
+				type: "item"
+				item: "thermal:dynamo_gourmand"
+			}]
+			rewards: [{
+				id: "199B42E7D3D1639F"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: 6.5d
+			description: ["Here is the portal for void dimension. Do not move instantly when you just enter the dimension XD because you may fall off!"]
+			dependencies: ["0D57A8A2CEC435D8"]
+			id: "5D80A4A7A1B2C433"
+			tasks: [{
+				id: "2576CCFD092A561E"
+				type: "item"
+				item: "javd:portal_block"
+			}]
+			rewards: [{
+				id: "127CF54A3E4E545A"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 4
+			}]
+		}
+		{
+			title: "Notes on soul lava"
+			x: 0.0d
+			y: 8.5d
+			description: [
+				"Due to the property of soul lava, you can't place anything in the flowing soul lava. To place the soul lava adjacently, you may use the following two ways."
+				"1) Place the soul lava quickly next to each other before they start to flow."
+				"2) Use Fluid Placer from Industrial Foregoing which can forcely place soul lava."
+			]
+			dependencies: ["2D4FBEA12138BE22"]
+			id: "4BBBE0166BB7C2D8"
+			tasks: [{
+				id: "502C0AAAF8D3DA54"
+				type: "item"
+				item: "allthemodium:molten_bluelava_bucket"
+				count: 12L
+			}]
+		}
+	]
+}

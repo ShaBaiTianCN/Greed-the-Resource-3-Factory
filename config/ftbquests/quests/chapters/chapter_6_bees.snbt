@@ -1,0 +1,817 @@
+{
+	id: "291D8F04CFEC697E"
+	group: "52335F892C9B07FA"
+	order_index: 5
+	filename: "chapter_6_bees"
+	title: "Chapter 6: Bees"
+	icon: "minecraft:bee_nest"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Tier 0 centrifuge"
+			x: -1.5d
+			y: -2.0d
+			description: [
+				"Craft the electric centrifuge to process the honeycombs. Bees are a preferrable way of resource gathering."
+				"The bee chapter leads you towards End Game"
+			]
+			dependencies: ["5C71DC385C61ECA0"]
+			id: "68B5E52529CF12F0"
+			tasks: [{
+				id: "48E59098D4CFAE94"
+				type: "item"
+				item: "resourcefulbees:centrifuge"
+			}]
+			rewards: [{
+				id: "5792CDC5B7A25E12"
+				type: "item"
+				item: "resourcefulbees:wax"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -3.5d
+			description: ["A bee jar allows you to store the bee for transportation"]
+			dependencies: ["68B5E52529CF12F0"]
+			id: "22779E3A0C423940"
+			tasks: [{
+				id: "18B0BADF4FC72A77"
+				type: "item"
+				item: "resourcefulbees:bee_jar"
+			}]
+			rewards: [{
+				id: "50C23FDC18F9A609"
+				type: "item"
+				item: "minecraft:beehive"
+				count: 4
+			}]
+		}
+		{
+			x: -1.5d
+			y: -5.0d
+			description: ["A bee bow allows you to store up to 10 bees"]
+			dependencies: ["22779E3A0C423940"]
+			id: "3DB8262A83FFAA36"
+			tasks: [{
+				id: "194BEA995859A5C4"
+				type: "item"
+				item: "resourcefulbees:bee_box"
+			}]
+			rewards: [{
+				id: "1F508431BDCFA2D4"
+				type: "item"
+				item: "minecraft:beehive"
+				count: 4
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			description: [
+				"Get a beepedia to get information of bees."
+				"This quest opens Chapter 7"
+			]
+			dependencies: ["68B5E52529CF12F0"]
+			id: "05867F10D433D8BF"
+			tasks: [{
+				id: "090D037F699D635A"
+				type: "item"
+				item: "resourcefulbees:beepedia"
+			}]
+			rewards: [{
+				id: "6BB480C8D5F720FD"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -2.0d
+			description: ["Contains all the bee information."]
+			dependencies: ["05867F10D433D8BF"]
+			id: "44B1A2141E1B64E3"
+			tasks: [{
+				id: "32841331949D3EA6"
+				type: "item"
+				item: {
+					id: "resourcefulbees:beepedia"
+					Count: 1b
+					tag: {
+						Creative: 1b
+					}
+				}
+			}]
+			rewards: [{
+				id: "59BD4A017E0231A5"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+			}]
+		}
+		{
+			x: -7.5d
+			y: -0.5d
+			description: [
+				"Reed tooltip for honeycomb generation information."
+				"Build the apiary, which is a 7x6x7 structure, as shown below. The casing can be any blocks."
+				"{image:kubejs:textures/quests/chapter6/chapter6_apiary.png width:178 height:100 align:1}"
+			]
+			dependencies: ["27144B031F2A9A2D"]
+			id: "597F00A8F440E1E4"
+			tasks: [{
+				id: "4399D586588638B4"
+				type: "item"
+				item: "resourcefulbees:t1_apiary"
+			}]
+			rewards: [{
+				id: "7BE413BC8E6F297E"
+				type: "item"
+				item: "minecraft:honeycomb"
+				count: 16
+			}]
+		}
+		{
+			x: -3.0d
+			y: -2.0d
+			description: ["Reed tooltip for honeycomb generation information."]
+			dependencies: ["68B5E52529CF12F0"]
+			id: "6B868286DA84D491"
+			tasks: [{
+				id: "7D16787D99ED1819"
+				type: "item"
+				item: "resourcefulbees:t1_beehive"
+			}]
+			rewards: [{
+				id: "2330B063DBBC9440"
+				type: "item"
+				item: "minecraft:honeycomb"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -2.0d
+			description: ["Reed tooltip for honeycomb generation information."]
+			dependencies: ["6B868286DA84D491"]
+			id: "5F70B2DC630778C1"
+			tasks: [{
+				id: "175E0CFA616835F1"
+				type: "item"
+				item: "resourcefulbees:t2_beehive"
+			}]
+			rewards: [{
+				id: "671C8F859EEEC0E1"
+				type: "item"
+				item: "minecraft:honeycomb"
+				count: 2
+			}]
+		}
+		{
+			x: -6.0d
+			y: -2.0d
+			description: ["Reed tooltip for honeycomb generation information."]
+			dependencies: ["5F70B2DC630778C1"]
+			id: "52D0DA17B9752CE3"
+			tasks: [{
+				id: "18BA18C89BA34453"
+				type: "item"
+				item: "resourcefulbees:t3_beehive"
+			}]
+			rewards: [{
+				id: "44CDB78E206E7CAA"
+				type: "item"
+				item: "minecraft:honeycomb"
+				count: 4
+			}]
+		}
+		{
+			x: -7.5d
+			y: -2.0d
+			description: ["Reed tooltip for honeycomb generation information."]
+			dependencies: ["52D0DA17B9752CE3"]
+			id: "27144B031F2A9A2D"
+			tasks: [{
+				id: "715D71D674B9862B"
+				type: "item"
+				item: "resourcefulbees:t4_beehive"
+			}]
+			rewards: [{
+				id: "39FB018226B1BC23"
+				type: "item"
+				item: "minecraft:honeycomb"
+				count: 8
+			}]
+		}
+		{
+			x: -6.0d
+			y: -0.5d
+			description: ["Reed tooltip for honeycomb generation information."]
+			dependencies: ["597F00A8F440E1E4"]
+			id: "12964448EAF851D3"
+			tasks: [{
+				id: "764589EF9319990C"
+				type: "item"
+				item: "resourcefulbees:t2_apiary"
+			}]
+			rewards: [{
+				id: "30AAC1A7317776C4"
+				type: "item"
+				item: "minecraft:honeycomb"
+				count: 32
+			}]
+		}
+		{
+			x: -4.5d
+			y: -0.5d
+			description: ["Reed tooltip for honeycomb generation information."]
+			dependencies: ["12964448EAF851D3"]
+			id: "3DAE19C7B299768A"
+			tasks: [{
+				id: "4864FC84E4713DF0"
+				type: "item"
+				item: "resourcefulbees:t3_apiary"
+			}]
+			rewards: [{
+				id: "58CA5CD988EDB78B"
+				type: "item"
+				item: "minecraft:honeycomb"
+				count: 64
+			}]
+		}
+		{
+			x: -3.0d
+			y: -0.5d
+			description: ["Reed tooltip for honeycomb generation information."]
+			dependencies: ["3DAE19C7B299768A"]
+			id: "0568BF3933EC5526"
+			tasks: [{
+				id: "064590EE848791ED"
+				type: "item"
+				item: "resourcefulbees:t4_apiary"
+			}]
+			rewards: [{
+				id: "4ACDE436FB8673EB"
+				type: "item"
+				item: "minecraft:honeycomb"
+				count: 64
+			}]
+		}
+		{
+			x: -3.0d
+			y: 1.0d
+			description: ["Reed tooltip for honeycomb generation information."]
+			dependencies: ["0568BF3933EC5526"]
+			id: "480B422716C05524"
+			tasks: [{
+				id: "7624FED44C24719E"
+				type: "item"
+				item: "creativeapiary:tcreative_apiary"
+			}]
+			rewards: [
+				{
+					id: "44436D298F346F92"
+					type: "item"
+					item: "minecraft:honeycomb"
+					count: 64
+				}
+				{
+					id: "0D00B07BCD3E7EC0"
+					type: "item"
+					item: "minecraft:dragon_head"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -3.5d
+			description: ["This two items are for apiaries, which can store honeycombs and help you breed the bees."]
+			dependencies: ["68B5E52529CF12F0"]
+			id: "2329943CA8BEA45E"
+			tasks: [
+				{
+					id: "0EA20865ED600E76"
+					type: "item"
+					item: "resourcefulbees:apiary_breeder"
+				}
+				{
+					id: "0070EC0B39C22E13"
+					type: "item"
+					item: "resourcefulbees:apiary_storage"
+				}
+			]
+			rewards: [{
+				id: "1FC1D683B486A667"
+				type: "item"
+				item: "minecraft:honeycomb"
+				count: 16
+			}]
+		}
+		{
+			x: -4.5d
+			y: -3.5d
+			description: ["Creative version of breeder and storer"]
+			dependencies: ["2329943CA8BEA45E"]
+			id: "27927D6F4047758B"
+			tasks: [
+				{
+					id: "7F59F58E2C8FE976"
+					type: "item"
+					item: "creativeapiary:creative_apiary_storage"
+				}
+				{
+					id: "7D6D33FB143D92F4"
+					type: "item"
+					item: "creativeapiary:creative_apiary_breeder"
+				}
+			]
+			rewards: [
+				{
+					id: "005FA473C4F37C56"
+					type: "item"
+					item: "minecraft:honeycomb"
+					count: 16
+				}
+				{
+					id: "599855315CAD260A"
+					type: "item"
+					item: "minecraft:dragon_head"
+				}
+			]
+		}
+		{
+			title: "Tier 3 centrifuge"
+			x: -1.5d
+			y: 2.5d
+			description: ["Even better and faster centrifuge"]
+			dependencies: ["72DA012595531FD4"]
+			id: "56ED40350D9C88C5"
+			tasks: [
+				{
+					id: "3383A03785088EB4"
+					type: "item"
+					item: "ctiers:centrifuge_casing_tier_3"
+					count: 35L
+				}
+				{
+					id: "4FD55871CCC540DD"
+					type: "item"
+					item: {
+						id: "ctiers:centrifuge_controller_tier_3"
+						Count: 1b
+						tag: {
+							BlockEntityTag: {
+								inv: {
+									Size: 43
+									Items: [ ]
+								}
+								Tanks: [
+									{
+										FluidName: "minecraft:empty"
+										Amount: 0
+									}
+									{
+										FluidName: "minecraft:empty"
+										Amount: 0
+									}
+									{
+										FluidName: "minecraft:empty"
+										Amount: 0
+									}
+									{
+										FluidName: "minecraft:empty"
+										Amount: 0
+									}
+									{
+										FluidName: "minecraft:empty"
+										Amount: 0
+									}
+									{
+										FluidName: "minecraft:empty"
+										Amount: 0
+									}
+									{
+										FluidName: "minecraft:empty"
+										Amount: 0
+									}
+								]
+								energy: {
+									energy: 0
+								}
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "1A80FEC278976F08"
+				type: "item"
+				item: "allthecompressed:honey_block_3x"
+			}]
+		}
+		{
+			title: "Tier 4 centrifuge"
+			x: -1.5d
+			y: 4.0d
+			description: ["Almost the best and the fastest centrifuge"]
+			dependencies: ["56ED40350D9C88C5"]
+			id: "30C767408747878D"
+			tasks: [
+				{
+					id: "02FCDC7FDEE13EF2"
+					type: "item"
+					item: "ctiers:centrifuge_controller_tier_4"
+				}
+				{
+					id: "43D12C0ECC173B1C"
+					type: "item"
+					item: "ctiers:centrifuge_casing_tier_4"
+					count: 35L
+				}
+			]
+			rewards: [{
+				id: "207B6CD32B70A293"
+				type: "item"
+				item: "allthecompressed:honey_block_5x"
+			}]
+		}
+		{
+			title: "Tier 1 centrifuge"
+			x: -1.5d
+			y: -0.5d
+			description: ["A better and fast centrifuge"]
+			dependencies: ["68B5E52529CF12F0"]
+			id: "33E4BFD3E581DCB5"
+			tasks: [
+				{
+					id: "0E6B1E3D0E1A0D8E"
+					type: "item"
+					item: "resourcefulbees:centrifuge_controller"
+				}
+				{
+					id: "541972A1E8177802"
+					type: "item"
+					item: "resourcefulbees:centrifuge_casing"
+					count: 35L
+				}
+			]
+			rewards: [{
+				id: "28C0B775DFD32F32"
+				type: "item"
+				item: "allthecompressed:honey_block_1x"
+			}]
+		}
+		{
+			title: "Tier infinite centrifuge"
+			x: -1.5d
+			y: 7.0d
+			description: ["Best, fast, and productive centrifuge"]
+			dependencies: ["43102F08F4725846"]
+			id: "0C830613FAF52A42"
+			tasks: [
+				{
+					id: "30137E8413D0DCBB"
+					type: "item"
+					item: "ctiers:centrifuge_controller_tier_creative"
+				}
+				{
+					id: "6EDDA1E66BA7D682"
+					type: "item"
+					item: "ctiers:centrifuge_casing_tier_creative"
+					count: 35L
+				}
+			]
+			rewards: [{
+				id: "6FBD97BBC5DA6021"
+				type: "item"
+				item: "allthecompressed:honey_block_7x"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.5d
+			description: [
+				"With the centrifuges, you will be able to craft this useful item because it is really op but costs a lot of materials."
+				"This table allows you to level up your enchantment ABOVE the limit, e.g. you can level up to lv200 or even more!!! "
+				"For sure, the leveling requirements also cost a lot due to balancing issue ;)"
+				"Note that the item values only support vanilla items, but you can level up any enchantments."
+				"{image:kubejs:textures/quests/chapter6/chapter6_toolleveling.png width:178 height:100 align:1}"
+			]
+			dependencies: ["68B5E52529CF12F0"]
+			id: "52E29539AB7F3210"
+			tasks: [{
+				id: "52009C9B880FECC1"
+				type: "item"
+				item: "toolleveling:tool_leveling_table"
+			}]
+			rewards: [{
+				id: "27072E42F0B0C58C"
+				type: "item"
+				item: "minecraft:netherite_block"
+				count: 64
+			}]
+		}
+		{
+			title: "Tier 2 centrifuge"
+			x: -1.5d
+			y: 1.0d
+			dependencies: ["33E4BFD3E581DCB5"]
+			id: "72DA012595531FD4"
+			tasks: [
+				{
+					id: "77D00E433B79BE0C"
+					type: "item"
+					item: "resourcefulbees:elite_centrifuge_controller"
+				}
+				{
+					id: "204088C384F6C400"
+					type: "item"
+					item: {
+						id: "resourcefulbees:elite_centrifuge_casing"
+						Count: 1b
+						tag: { }
+					}
+					count: 35L
+				}
+			]
+		}
+		{
+			title: "Tier 5 centrifuge"
+			x: -1.5d
+			y: 5.5d
+			description: ["Expansive, but it helps you much"]
+			dependencies: ["30C767408747878D"]
+			id: "43102F08F4725846"
+			tasks: [
+				{
+					id: "0D1CA071D4775C69"
+					type: "item"
+					item: "ctiers:centrifuge_controller_tier_5"
+				}
+				{
+					id: "5505B90C858C4E5F"
+					type: "item"
+					item: "ctiers:centrifuge_casing_tier_5"
+					count: 35L
+				}
+			]
+			rewards: [{
+				id: "70D7355247DF8931"
+				type: "item"
+				item: "allthecompressed:redstone_block_6x"
+				count: 2
+			}]
+		}
+		{
+			x: 0.0d
+			y: -0.5d
+			description: [
+				"Block transmutation is able to transmute certain blocks into items. Check JEI or beepedia for recipes."
+				"The bee transmute the blocks occassionally under presence of their own flower. Set up as below to increase chance of transmutation!"
+				"{image:kubejs:textures/quests/chapter6/chapter6_block_transmutation.png width:178 height:100 align:1}"
+			]
+			dependencies: ["68B5E52529CF12F0"]
+			id: "77F8AD5C8D1C753E"
+			tasks: [{
+				id: "721B55CE787543DF"
+				type: "checkmark"
+				title: "What is block transmutation?"
+			}]
+		}
+		{
+			title: "What is entity transmutation?"
+			x: 1.5d
+			y: -0.5d
+			description: [
+				"Entity transmutation is able to transmute entities into another type of entities. Check JEI or beepedia for recipes"
+				"{image:kubejs:textures/quests/chapter6/chapter6_jei_entity_transmutation.png width:178 height:100 align:1}"
+			]
+			dependencies: ["68B5E52529CF12F0"]
+			id: "14214777C2787B88"
+			tasks: [{
+				id: "5B0F1CBF80D7D56C"
+				type: "checkmark"
+				title: "What is entity transmutation"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			description: ["{image:kubejs:textures/quests/chapter6/chapter6_jei_block_transmutation.png width:178 height:100 align:1}"]
+			dependencies: ["77F8AD5C8D1C753E"]
+			id: "725AC6335AB074D6"
+			tasks: [{
+				id: "0EF8F07C3A794F05"
+				type: "checkmark"
+				title: "JEI support on block transmutation"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.0d
+			description: ["{image:kubejs:textures/quests/chapter6/chapter6_jei_entity_transmutation.png width:178 height:100 align:1}"]
+			dependencies: ["14214777C2787B88"]
+			id: "0B4CF26D02AFA840"
+			tasks: [{
+				id: "5FC3444A2156955B"
+				type: "checkmark"
+				title: "JEI support on entity transmutation"
+			}]
+		}
+		{
+			title: "Common question - Soul Lava Bee"
+			x: 0.0d
+			y: -5.0d
+			description: [
+				"Have you experienced that your valuable bee accidentally gets angry and sting, leading to its death? Angry bees are not collectable by bee jar but you can solve it by brewing a calming potion."
+				"For some hostile bees, such as soul lava bee, they will kill you in one-hite. To prevent your death, brew some calming potion with you is a good idea."
+				"{image:kubejs:textures/quests/chapter6/chapter6_calming_potion.png width:100 height:100 align:1}"
+			]
+			dependencies: ["22779E3A0C423940"]
+			id: "6A8C8DDD12BDCE5F"
+			tasks: [
+				{
+					id: "4FA85D18EE0D3C9A"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "resourcefulbees:calming"
+						}
+					}
+				}
+				{
+					id: "52231D8376FE763A"
+					type: "item"
+					item: {
+						id: "resourcefulbees:bee_jar"
+						Count: 1b
+						tag: {
+							Entity: "resourcefulbees:soul_lava_bee"
+							Brain: {
+								memories: { }
+							}
+							HurtByTimestamp: 1306
+							HasStung: 0b
+							Attributes: [
+								{
+									Base: 48.0d
+									Modifiers: [{
+										Operation: 1
+										UUID: [I;
+											-1511416594
+											1263223555
+											-1759924984
+											-205459881
+										]
+										Amount: -0.028705879014866494d
+										Name: "Random spawn bonus"
+									}]
+									Name: "minecraft:generic.follow_range"
+								}
+								{
+									Base: 0.30000001192092896d
+									Name: "minecraft:generic.movement_speed"
+								}
+								{
+									Base: 0.08d
+									Name: "forge:entity_gravity"
+								}
+								{
+									Base: 0.0d
+									Name: "minecraft:generic.knockback_resistance"
+								}
+							]
+							Invulnerable: 0b
+							AbsorptionAmount: 0.0f
+							FallDistance: 0.0f
+							InLove: 0
+							CanUpdate: 1b
+							ForgeCaps: {
+								"citadel:extended_entity_data_citadel": { }
+								"mekanism:radiation": {
+									radiation: "1.0E-7d"
+								}
+								"pneumaticcraft:hacking": { }
+							}
+							HandDropChances: [
+								0.085f
+								0.085f
+							]
+							PersistenceRequired: 0b
+							FeedCount: 0
+							UUID: [I;
+								-2019023936
+								667045401
+								-2114763001
+								587055396
+							]
+							Color: "#7cc7d6"
+							Air: 300s
+							CitadelData: { }
+							HandItems: [
+								{ }
+								{ }
+							]
+							ArmorDropChances: [
+								0.085f
+								0.085f
+								0.085f
+								0.085f
+							]
+							Pos: [
+								-438.9876570918641d
+								87.65743958687672d
+								1721.7861416727428d
+							]
+							CropsGrownSincePollination: 0
+							CanPickUpLoot: 0b
+							HurtTime: 0s
+							NoGravity: 1b
+							ForgeData: {
+								"naturesaura:time_alive": 1280
+							}
+							FallFlying: 0b
+							ForcedAge: 0
+							PortalCooldown: 0
+							BeeType: "soul_lava"
+							DeathTime: 0s
+							BoundingBox: [
+								-439.33765708590363d
+								87.65743958687672d
+								1721.4361416787033d
+								-438.63765709782456d
+								88.25743961071858d
+								1722.1361416667824d
+							]
+							CannotEnterHiveTicks: 0
+							mutationCount: 0
+							Age: 0
+							TicksSincePollination: 1310
+							AngerTime: 0
+							Motion: [
+								-0.06166502167575451d
+								0.03682881264543647d
+								-0.018085542551631056d
+							]
+							Health: 10.0f
+							HasNectar: 0b
+							display: {
+								Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.soul_lava_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+							}
+							KubeJSPersistentData: { }
+							LeftHanded: 0b
+							OnGround: 0b
+							Rotation: [
+								100.960815f
+								0.0f
+							]
+							Fire: -1s
+							ArmorItems: [
+								{ }
+								{ }
+								{ }
+								{ }
+							]
+							ActiveEffects: [{
+								Ambient: 0b
+								CurativeItems: [{
+									id: "minecraft:milk_bucket"
+									Count: 1b
+								}]
+								ShowIcon: 1b
+								ShowParticles: 1b
+								Duration: 5960
+								Id: -124b
+								Amplifier: 0b
+							}]
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "70FFAAC1A860F410"
+				type: "item"
+				item: {
+					id: "minecraft:splash_potion"
+					Count: 1b
+					tag: {
+						Potion: "resourcefulbees:long_calming"
+					}
+				}
+				count: 3
+			}]
+		}
+	]
+}

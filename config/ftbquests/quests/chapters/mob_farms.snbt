@@ -1,0 +1,912 @@
+{
+	id: "5CA476109B665060"
+	group: "1E2DE02B87CFF91D"
+	order_index: 2
+	filename: "mob_farms"
+	title: "Mob Farms"
+	icon: "minecraft:zombie_head"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -5.5d
+			y: 2.0d
+			description: ["It pushes any mobs away. Strength and area of fan depends on upgrades. Requires redstone signal to function."]
+			dependencies: ["3A7BA6B422F04A1E"]
+			id: "1AEFB6BDD955A22E"
+			tasks: [{
+				id: "79FF4568E4D76C60"
+				type: "item"
+				item: "mob_grinding_utils:fan"
+			}]
+			rewards: [{
+				id: "336F26700E8BAC0B"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mobloot"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: 3.5d
+			description: ["A weaker spike, does not generate player only loot."]
+			dependencies: ["3A7BA6B422F04A1E"]
+			id: "684B9DC3C6E2C339"
+			tasks: [{
+				id: "0DE7A3E1A1ADCCED"
+				type: "item"
+				item: "mob_grinding_utils:spikes"
+			}]
+			rewards: [{
+				id: "533552C59058E2A1"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mobloot"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: 3.5d
+			description: ["Upgrade spike. Requires redstone signal to function."]
+			dependencies: ["684B9DC3C6E2C339"]
+			id: "12295BEF65770F38"
+			tasks: [{
+				id: "20297098B64F9636"
+				type: "item"
+				item: "mob_grinding_utils:saw"
+			}]
+			rewards: [{
+				id: "6BAAD6E3D40AF25B"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mobloot"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: 5.0d
+			description: ["A hopper for 7x7x7 area."]
+			dependencies: ["3A7BA6B422F04A1E"]
+			id: "49104480E3C14DF8"
+			tasks: [{
+				id: "5C484E2BAB8DFEBE"
+				type: "item"
+				item: "mob_grinding_utils:absorption_hopper"
+			}]
+			rewards: [{
+				id: "004EDB80AF9E791E"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mobloot"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: 6.5d
+			description: ["A conveyor"]
+			dependencies: ["3A7BA6B422F04A1E"]
+			id: "530879A48967E5C8"
+			tasks: [{
+				id: "0E6263AAC98B0BE6"
+				type: "item"
+				item: "mob_grinding_utils:entity_conveyor"
+			}]
+			rewards: [{
+				id: "65576F12593A0490"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mobloot"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: 8.0d
+			description: ["Prevent enderman from teleporting away from your mob farm."]
+			dependencies: ["3A7BA6B422F04A1E"]
+			id: "436EA718A7F9FAE4"
+			tasks: [{
+				id: "483AB84AC275C6EF"
+				type: "item"
+				item: "mob_grinding_utils:ender_inhibitor_on"
+			}]
+			rewards: [{
+				id: "7C7E8F101795DAF9"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mobloot"
+					}
+				}
+			}]
+		}
+		{
+			x: -7.5d
+			y: 2.0d
+			description: ["A wither-proof, and light-proof glass."]
+			dependencies: ["3A7BA6B422F04A1E"]
+			id: "4D296438AE69BED9"
+			tasks: [{
+				id: "0DC6F8035CADAA57"
+				type: "item"
+				item: "mob_grinding_utils:tinted_glass"
+			}]
+			rewards: [{
+				id: "2B637ECE8EB97634"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mobloot"
+					}
+				}
+			}]
+		}
+		{
+			x: -7.5d
+			y: 3.5d
+			description: ["Solidify xp to craft items"]
+			dependencies: ["3A7BA6B422F04A1E"]
+			id: "284F2F17C8CD9333"
+			tasks: [{
+				id: "354BCD402EEC518F"
+				type: "item"
+				item: "mob_grinding_utils:xpsolidifier"
+			}]
+			rewards: [{
+				id: "62B2E75F5A6A130B"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mobloot"
+					}
+				}
+			}]
+		}
+		{
+			x: -9.5d
+			y: 3.5d
+			description: ["Use this to fuel the entity spawner."]
+			dependencies: ["284F2F17C8CD9333"]
+			id: "0E6728BD7560404D"
+			tasks: [
+				{
+					id: "3E2298F719F7A8E4"
+					type: "item"
+					item: "mob_grinding_utils:solid_xp_mould_baby"
+				}
+				{
+					id: "0C60CD3B3183040B"
+					type: "item"
+					item: "mob_grinding_utils:solid_xp_baby"
+				}
+				{
+					id: "038DC9CBD7F396C4"
+					type: "item"
+					item: "mob_grinding_utils:solid_xp_block"
+				}
+			]
+			rewards: [{
+				id: "7EADBEEE68E4DFBA"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mobloot"
+					}
+				}
+			}]
+		}
+		{
+			x: -7.5d
+			y: 5.0d
+			description: ["Right click the mob to get DNA."]
+			dependencies: ["3A7BA6B422F04A1E"]
+			id: "0DF5287B28736799"
+			tasks: [{
+				id: "594EB721EB54C423"
+				type: "item"
+				item: "mob_grinding_utils:mob_swab"
+			}]
+			rewards: [{
+				id: "573D436D01BE0F0F"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mobloot"
+					}
+				}
+			}]
+		}
+		{
+			x: -9.5d
+			y: 5.0d
+			description: ["Combine the mob swab, a seed and a bucket of xp to get the GM chicken feed. Feed it to chickens to get spawn eggs."]
+			dependencies: ["0DF5287B28736799"]
+			id: "414E8374BA964BBD"
+			tasks: [{
+				id: "064C4805C755BAC4"
+				type: "item"
+				item: "mob_grinding_utils:gm_chicken_feed"
+			}]
+			rewards: [{
+				id: "6FB54448E49E9EFA"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mobloot"
+					}
+				}
+			}]
+		}
+		{
+			x: -7.5d
+			y: 6.5d
+			description: ["From chicken"]
+			dependencies: ["3A7BA6B422F04A1E"]
+			id: "35271B4FA2E5D6DB"
+			tasks: [{
+				id: "6039E48EDCC25662"
+				type: "item"
+				item: "mob_grinding_utils:golden_egg"
+			}]
+			rewards: [{
+				id: "63427C2F0396CACE"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mobloot"
+					}
+				}
+			}]
+		}
+		{
+			x: -9.5d
+			y: 6.5d
+			description: ["I don't know what this sword is, but just made a recipe for it."]
+			dependencies: ["35271B4FA2E5D6DB"]
+			id: "6765509DD2A37BD1"
+			tasks: [{
+				id: "7BA567CF2859B155"
+				type: "item"
+				item: {
+					id: "mob_grinding_utils:null_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "373978DCEE85919D"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mobloot"
+					}
+				}
+			}]
+		}
+		{
+			x: -7.5d
+			y: 8.0d
+			description: ["Spawn entities by spawn egg and xp jelly."]
+			dependencies: ["3A7BA6B422F04A1E"]
+			id: "43035C6E20466453"
+			tasks: [{
+				id: "1A31B4E48FF3915B"
+				type: "item"
+				item: "mob_grinding_utils:entity_spawner"
+			}]
+			rewards: [{
+				id: "09A609E9F58E1447"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mobloot"
+					}
+				}
+			}]
+		}
+		{
+			x: -7.5d
+			y: 9.5d
+			description: ["Store the xp from absorption hopper."]
+			dependencies: ["3A7BA6B422F04A1E"]
+			id: "414F6F9E8DAA5A91"
+			tasks: [
+				{
+					id: "4C90FB46C01555EE"
+					type: "item"
+					item: "mob_grinding_utils:tank_sink"
+				}
+				{
+					id: "06B012BF59E99D16"
+					type: "item"
+					item: "mob_grinding_utils:xp_tap"
+				}
+			]
+			rewards: [{
+				id: "72433D80659B032B"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mobloot"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: 9.5d
+			description: ["Hide the boss bar of with when building a wither farm."]
+			dependencies: ["3A7BA6B422F04A1E"]
+			id: "024ED4E91A747FB5"
+			tasks: [{
+				id: "323F4741243EACE3"
+				type: "item"
+				item: "mob_grinding_utils:wither_muffler"
+			}]
+			rewards: [{
+				id: "08BDFFE920D06C50"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mobloot"
+					}
+				}
+			}]
+		}
+		{
+			x: -6.5d
+			y: 0.5d
+			description: [
+				""
+				"Mob Grinding Utils is suitable in mob farm automation, and it is able to generate a large amount of loot. It is very cheap also."
+				"{image:kubejs:textures/quests/mob_farm/mob_farm_grinding.png width:178 height:100 align:1}"
+			]
+			id: "3A7BA6B422F04A1E"
+			tasks: [{
+				id: "5B448095136FE8EE"
+				type: "checkmark"
+				title: "Mob Grinding Utils"
+			}]
+			rewards: [{
+				id: "3BA0F47F88210974"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "delightfood"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.5d
+			description: [
+				"A highly efficient, and powerful mob farm. Insta-kill every types of mob, even the WITHER"
+				"{image:kubejs:textures/quests/mob_farm/mob_farm_crushing.png width:178 height:100 align:1}"
+			]
+			id: "2366B15D51D3576B"
+			tasks: [{
+				id: "268E4A625D6E995A"
+				type: "checkmark"
+				title: "Industrial Foregoing"
+			}]
+			rewards: [{
+				id: "0599BE48B0F7DF31"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "delightfood"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 2.0d
+			description: ["Insta-kill every types of mob. XP is stored as essense, which can be used as crafting material and enchanting materials int his mod."]
+			dependencies: ["2366B15D51D3576B"]
+			id: "43EB3FB18EF923B5"
+			tasks: [{
+				id: "3DE62E69DE8F493E"
+				type: "item"
+				item: "industrialforegoing:mob_crusher"
+			}]
+			rewards: [{
+				id: "58615E7CAD49DDD0"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mobloot"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			description: ["A good machine for your wither farm. Build wither automatically."]
+			dependencies: ["2366B15D51D3576B"]
+			id: "1F9CA481676A3242"
+			tasks: [{
+				id: "5331E6D21A847631"
+				type: "item"
+				item: "industrialforegoing:wither_builder"
+			}]
+			rewards: [{
+				id: "6E351021785E4F8D"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mobloot"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 3.5d
+			description: ["Help you to store a type of entity. Similar to golden lasso in Extra Utilities 2."]
+			dependencies: ["2366B15D51D3576B"]
+			id: "27CF948677167AA0"
+			tasks: [{
+				id: "6FF178D1FA6CFEDD"
+				type: "item"
+				item: "industrialforegoing:mob_imprisonment_tool"
+			}]
+			rewards: [{
+				id: "0EC293EBCB94034D"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mobloot"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.5d
+			description: ["Duplicate entity according to the type of entity sotred in mob imprisonment tool."]
+			dependencies: ["2366B15D51D3576B"]
+			id: "6F8006377D2C3EC6"
+			tasks: [{
+				id: "5F73CD0609ACD76C"
+				type: "item"
+				item: "industrialforegoing:mob_duplicator"
+			}]
+			rewards: [{
+				id: "51C9F60966EAA8BB"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mobloot"
+					}
+				}
+			}]
+		}
+		{
+			title: "Hostile Neural Network"
+			x: -1.5d
+			y: 5.0d
+			description: [
+				"This mob is the successor of DeepMobLearning from 1.12.2."
+				"Craft the deep learning, which allows you to level up your data model. Put data models into the learner and level up by killing certain amounts of that type of mob."
+				"{image:kubejs:textures/quests/mob_farm/mob_farm_hostilenetwork.png width:178 height:100 align:1}"
+			]
+			id: "53A6436E7157AC2A"
+			tasks: [{
+				id: "56F7BC1C274233D5"
+				type: "item"
+				item: "hostilenetworks:deep_learner"
+			}]
+			rewards: [{
+				id: "4BB22BF3A7C3F0BB"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "delightfood"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 6.5d
+			description: ["A material to craft the data model."]
+			dependencies: ["53A6436E7157AC2A"]
+			id: "71AFF17A2A0EFAD9"
+			tasks: [{
+				id: "24965834C1B8D54A"
+				type: "item"
+				item: "hostilenetworks:empty_prediction"
+			}]
+			rewards: [{
+				id: "7A23AF13F2DD4B77"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mobloot"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 8.0d
+			description: ["Right click to certain mob to get the data model."]
+			dependencies: ["71AFF17A2A0EFAD9"]
+			id: "57E492986B0FD28A"
+			tasks: [{
+				id: "1F7E0D9A8E6C8C6D"
+				type: "item"
+				item: "hostilenetworks:blank_data_model"
+			}]
+			rewards: [{
+				id: "29303CFFCFE85ACF"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mobloot"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 6.5d
+			description: ["Generate predictions from data model."]
+			dependencies: ["53A6436E7157AC2A"]
+			id: "011D9B72CA4421DC"
+			tasks: [{
+				id: "4A3EA30F82B75B97"
+				type: "item"
+				item: "hostilenetworks:sim_chamber"
+			}]
+			rewards: [{
+				id: "21B88AABF21D7CAA"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mobloot"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 6.5d
+			description: ["Generate mob loots from predictions. It is a fast and efficient way to get mob resources."]
+			dependencies: ["53A6436E7157AC2A"]
+			id: "6BAAD1578511DC70"
+			tasks: [{
+				id: "4E8086E2A093FF53"
+				type: "item"
+				item: "hostilenetworks:loot_fabricator"
+			}]
+			rewards: [{
+				id: "46017817BD316576"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mobloot"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 8.0d
+			description: ["Get a zombie prediction from simulation chamber."]
+			dependencies: ["011D9B72CA4421DC"]
+			id: "4883747A7A7F032D"
+			tasks: [{
+				id: "7C4D869EBB7E5A42"
+				type: "item"
+				item: {
+					id: "hostilenetworks:prediction"
+					Count: 1b
+					tag: {
+						data_model: {
+							id: "hostilenetworks:zombie"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "3AD9C755BC44BC8C"
+				type: "item"
+				item: "hostilenetworks:empty_prediction"
+				count: 4
+			}]
+		}
+		{
+			x: 0.0d
+			y: 9.5d
+			description: ["A by-product generated, and it allows you to craft other useful materials."]
+			dependencies: ["011D9B72CA4421DC"]
+			id: "6D36D43868C65B19"
+			tasks: [{
+				id: "75F2A1BD2977F80A"
+				type: "item"
+				item: "hostilenetworks:overworld_prediction"
+			}]
+			rewards: [{
+				id: "6F452F6E79531D53"
+				type: "item"
+				item: "hostilenetworks:empty_prediction"
+				count: 4
+			}]
+		}
+		{
+			x: 0.0d
+			y: 11.0d
+			description: ["A by-product generated, and it allows you to craft other useful materials."]
+			dependencies: ["011D9B72CA4421DC"]
+			id: "432C81E85BB32957"
+			tasks: [{
+				id: "0E522A644E627AE7"
+				type: "item"
+				item: "hostilenetworks:nether_prediction"
+			}]
+			rewards: [{
+				id: "2F9D3270A1996109"
+				type: "item"
+				item: "hostilenetworks:empty_prediction"
+				count: 4
+			}]
+		}
+		{
+			x: 0.0d
+			y: 12.5d
+			description: ["A by-product generated, and it allows you to craft other useful materials."]
+			dependencies: ["011D9B72CA4421DC"]
+			id: "5EFF1F7D42EF3836"
+			tasks: [{
+				id: "2CFE289FCF69D1A3"
+				type: "item"
+				item: "hostilenetworks:end_prediction"
+			}]
+			rewards: [{
+				id: "621114C20ED72215"
+				type: "item"
+				item: "hostilenetworks:empty_prediction"
+				count: 4
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.5d
+			description: [
+				"You can stabilize the natural spawn by right clicking the spawner with cores from draconic evolution. The spawner will drop down as items. Spawn types can be changed by right clicking a spawn egg which can be obtained from Mob Grinding Utils."
+				"A higher tier of core increases spawning cap and spawning frequency."
+				"{image:kubejs:textures/quests/mob_farm/mob_farm_spawner.png width:178 height:100 align:1}"
+			]
+			id: "41B5D27A7EC4D0FA"
+			tasks: [{
+				id: "5B7F0AECBC55A7E7"
+				type: "checkmark"
+				title: "Draconic Evolution"
+			}]
+			rewards: [{
+				id: "2A83742B2B856D7B"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "delightfood"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.0d
+			description: ["Early game core"]
+			dependencies: ["41B5D27A7EC4D0FA"]
+			id: "7B33C7B6AF4FB75B"
+			tasks: [{
+				id: "2D028CD9B2C8365D"
+				type: "item"
+				item: "draconicevolution:draconium_core"
+			}]
+			rewards: [{
+				id: "28ACCD3ECCEFF4AB"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mobloot"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 2.0d
+			description: ["Early to Mid game core"]
+			dependencies: ["41B5D27A7EC4D0FA"]
+			id: "5CDFBC12C948F9D4"
+			tasks: [{
+				id: "1B1A28798F164938"
+				type: "item"
+				item: "draconicevolution:wyvern_core"
+			}]
+			rewards: [{
+				id: "31F735B3F0F31288"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mobloot"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.5d
+			description: ["Mid game core"]
+			dependencies: ["41B5D27A7EC4D0FA"]
+			id: "4EB1368FD95F1A78"
+			tasks: [{
+				id: "61C7E0C3C11E14EC"
+				type: "item"
+				item: "draconicevolution:awakened_core"
+			}]
+			rewards: [{
+				id: "2CB78DCB7F80A9DF"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bossloot"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 3.5d
+			description: ["Late game core"]
+			dependencies: ["41B5D27A7EC4D0FA"]
+			id: "26431BAEA69B2DBD"
+			tasks: [{
+				id: "323A5E7A22920512"
+				type: "item"
+				item: "draconicevolution:chaotic_core"
+			}]
+			rewards: [{
+				id: "5095C3FF0E516394"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bossloot"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: 2.0d
+			description: ["Also a powerful mob killer maachine"]
+			dependencies: ["41B5D27A7EC4D0FA"]
+			id: "1152BBAC85ADFD39"
+			tasks: [{
+				id: "740AA94A36600CD8"
+				type: "item"
+				item: "draconicevolution:grinder"
+			}]
+			rewards: [{
+				id: "0DDF555CD73244FF"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mobloot"
+					}
+				}
+			}]
+		}
+		{
+			x: -11.5d
+			y: 5.0d
+			description: ["Try to obtain a slime spawn egg! This may help you to set up your Refined Storage Network."]
+			dependencies: ["414E8374BA964BBD"]
+			id: "75B7C98EB77CAB8A"
+			tasks: [{
+				id: "43C979029072FAB1"
+				type: "item"
+				item: "minecraft:slime_spawn_egg"
+			}]
+			rewards: [{
+				id: "796EA826D272585A"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mobloot"
+					}
+				}
+				count: 4
+			}]
+		}
+	]
+}

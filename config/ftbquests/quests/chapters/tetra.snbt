@@ -1,0 +1,399 @@
+{
+	id: "422D057C233C4873"
+	group: "37B8334BBCBD0DFD"
+	order_index: 0
+	filename: "tetra"
+	title: "Tetra"
+	icon: {
+		id: "tetra:modular_double"
+		Count: 1b
+		tag: {
+			"double/handle": "double/basic_handle"
+			"double/head_left": "double/basic_hammer_left"
+			"double/head_right": "double/basic_hammer_right"
+			id: "beb24b1e-1c03-44d7-8f09-2a491f4e942b"
+			"double/basic_hammer_right_material": "basic_hammer/oak"
+			Damage: 0
+			"double/basic_handle_material": "basic_handle/stick"
+			"double/basic_hammer_left_material": "basic_hammer/oak"
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: -1.0d
+			subtitle: "Tetra!"
+			description: [
+				"Tetra is a mod that allows you to customize your tool parts. There is no smeltery or alloying, but just simple materials. There is also a tool leveling system in tetra. Increased times of using will grant specail ability or enchantment to your tools."
+				"The first step, you have to craft a wooden hammer."
+			]
+			id: "5B2BADCD72CAA912"
+			tasks: [{
+				id: "56C8DFC49ABDFEA4"
+				type: "item"
+				item: {
+					id: "tetra:modular_double"
+					Count: 1b
+					tag: {
+						"double/handle": "double/basic_handle"
+						"double/head_left": "double/basic_hammer_left"
+						"double/head_right": "double/basic_hammer_right"
+						id: "054fa965-0c2a-4662-9f19-79ab49a80856"
+						"double/basic_hammer_right_material": "basic_hammer/oak"
+						Damage: 0
+						"double/basic_handle_material": "basic_handle/stick"
+						"double/basic_hammer_left_material": "basic_hammer/oak"
+					}
+				}
+			}]
+			rewards: [{
+				id: "2B852FE5E8347324"
+				type: "item"
+				item: "tetra:geode"
+			}]
+		}
+		{
+			title: "Workbench Mark II"
+			x: -1.0d
+			y: 0.5d
+			description: [
+				"Then, right click a crafting table with the wooden hammer with your wooden hammer."
+				"Note that you cant mine the workbench directly, even with silk touch."
+			]
+			dependencies: ["5B2BADCD72CAA912"]
+			id: "341BA1BEE72F429F"
+			tasks: [{
+				id: "5957978843B64417"
+				type: "advancement"
+				title: "Get a workbench"
+				advancement: "tetra:upgrades/workbench"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "42E9E7D34A68C6B6"
+				type: "item"
+				item: "tetra:geode"
+			}]
+		}
+		{
+			title: "Stone Hammer"
+			x: 1.0d
+			y: 0.5d
+			description: [
+				"Upgrade your hammer with the workbench. It only costs two cobblestones to modify both tool head."
+				"I recommend that you make two hammers, which is convenience for your upgrade of hammer."
+			]
+			dependencies: ["341BA1BEE72F429F"]
+			id: "4918703925ED5CDF"
+			tasks: [{
+				id: "084E871DAF3C70E9"
+				type: "advancement"
+				title: "Craft a stone hammer"
+				advancement: "tetra:upgrades/hammer_2"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "46BB90D604B7F1D8"
+				type: "item"
+				item: "minecraft:stonecutter"
+			}]
+		}
+		{
+			title: "Iron Hammer"
+			x: 2.0d
+			y: 2.0d
+			description: ["To make more powerful tools, you need to have a hammer of higher tier. Get a iron hammer, which allows you to make tools to at most diamond tier."]
+			dependencies: ["4918703925ED5CDF"]
+			id: "2AA1D517284B39EF"
+			tasks: [{
+				id: "4910CF65E594AE19"
+				type: "advancement"
+				title: "Make a iron hammer"
+				advancement: "tetra:upgrades/hammer_3"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "5AF0B6E69DC7FC67"
+				type: "item"
+				item: "tetra:pristine_lapis"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 2.0d
+			description: ["Place the rack on the workbench and place the hammer on it, so that you do not have to carry the hammer all the time."]
+			dependencies: ["341BA1BEE72F429F"]
+			id: "60C6DD1322B32825"
+			tasks: [{
+				id: "26CB68B16360A8FD"
+				type: "item"
+				item: "tetra:rack"
+			}]
+			rewards: [{
+				id: "6AEC716F956654F3"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "delightfood"
+					}
+				}
+			}]
+		}
+		{
+			title: "Ancient ruins"
+			x: -3.0d
+			y: 4.0d
+			description: [
+				"To upgrade the next tier of your tool, you need to find the ancient ruins from tetra located in mountains and snowy biomes. There are tool forges which is the only way to upgrade your hammer to blackstone hammer in case you do not have a higher tier hammer."
+				"There are puzzles in the ruins, you have to prepare before going there."
+			]
+			dependencies: ["2AA1D517284B39EF"]
+			id: "4525AD48D9D31BCB"
+			tasks: [{
+				id: "416195CE13C0CB34"
+				type: "advancement"
+				title: "Find an ancient ruin"
+				advancement: "tetra:spelunking/ancient_ruins"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "37D5275EDABA3290"
+				type: "item"
+				item: "tetra:pristine_emerald"
+			}]
+		}
+		{
+			title: "Find thermal container"
+			x: -1.0d
+			y: 4.0d
+			description: ["The thermal container is found in the loot chest in the ruins. You have to solve the puzzle first."]
+			dependencies: ["4525AD48D9D31BCB"]
+			id: "384BF30A4538C786"
+			tasks: [{
+				id: "0E0027AA73BD161A"
+				type: "advancement"
+				title: "Thermal container"
+				advancement: "tetra:spelunking/find_cell"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "6842F4CB20184DEC"
+				type: "item"
+				item: "tetra:forged_mesh"
+				count: 2
+			}]
+		}
+		{
+			title: "Charge thermal container"
+			x: 1.0d
+			y: 4.0d
+			description: ["Charge the empty thermal container near the extraction pipe."]
+			dependencies: ["384BF30A4538C786"]
+			id: "7E7097944702443F"
+			tasks: [{
+				id: "176B6D9D9F0DB5FA"
+				type: "advancement"
+				title: "Charge the thermal container"
+				advancement: "tetra:spelunking/refill_cell"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "20B86AB281D03B57"
+				type: "item"
+				item: "tetra:quick_latch"
+				count: 2
+			}]
+		}
+		{
+			title: "Fix forge hammer"
+			x: 2.5d
+			y: 4.0d
+			description: ["Solve the puzzle on the hammer to fix it."]
+			dependencies: ["384BF30A4538C786"]
+			id: "5DE992A049DD6842"
+			tasks: [{
+				id: "25B9643FF893E0C4"
+				type: "advancement"
+				title: "Fix the jammed forge hammer"
+				advancement: "tetra:spelunking/hammer_fix"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "7E272F78EEF01F4A"
+				type: "item"
+				item: "tetra:metal_scrap"
+				count: 2
+			}]
+		}
+		{
+			title: "Blackstone hammer"
+			x: 4.0d
+			y: 6.0d
+			description: ["The forge hammer is now fixed. You can upgrade your hammers to higher tier. Forge Hammer itself equals to level 5 hammer."]
+			dependencies: [
+				"7E7097944702443F"
+				"5DE992A049DD6842"
+			]
+			id: "20644510434A7F77"
+			tasks: [{
+				id: "2B85E1D4F99AFCB6"
+				type: "advancement"
+				title: "Make a blackstone hammer"
+				advancement: "tetra:upgrades/hammer_4"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "543A1BC627FF71B0"
+				type: "item"
+				item: "tetra:pristine_diamond"
+			}]
+		}
+		{
+			title: "Obsidian hammer"
+			x: 0.0d
+			y: 6.0d
+			description: ["Upgrade by forge hammer"]
+			dependencies: ["7D05348D4CD2BF1F"]
+			id: "6DD8679F710E796D"
+			tasks: [{
+				id: "4671BAFA1B30B0F4"
+				type: "advancement"
+				title: "Make an obsidian hammer"
+				advancement: "tetra:upgrades/hammer_5"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "0EBA7B728472D6B2"
+				type: "item"
+				item: "tetra:pristine_lapis"
+			}]
+		}
+		{
+			title: "Netherite hammer"
+			x: -2.0d
+			y: 6.0d
+			description: ["Upgrade by forge hammer"]
+			dependencies: ["6DD8679F710E796D"]
+			id: "7195E3AAD7863CD7"
+			tasks: [{
+				id: "658EF1804FA8A2E8"
+				type: "advancement"
+				title: "Make a netherite hammer"
+				advancement: "tetra:upgrades/hammer_6"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "72AE05F280E6F6AA"
+				type: "item"
+				item: {
+					id: "tetra:magmatic_cell"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Upgrade forge hammer"
+			x: 2.0d
+			y: 6.0d
+			description: [
+				"Each combustion will increase the level of forge hammer by one. You can at most install two of the upgrades."
+				"Find these upgrades in solving the puzzles on the boxes."
+			]
+			dependencies: ["20644510434A7F77"]
+			id: "7D05348D4CD2BF1F"
+			tasks: [{
+				id: "413E3F8C106BEDC4"
+				type: "advancement"
+				title: "Upgrade the hammer tier"
+				advancement: "tetra:spelunking/hammer_power"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "5B430D31792806C1"
+				type: "item"
+				item: "tetra:lubricant_dispenser"
+			}]
+		}
+		{
+			title: "Destroy?"
+			x: -4.0d
+			y: 6.0d
+			description: ["You can use a tier 6 hammer to harvest the block in ancient ruins and take them home. Note that your hammer requires silk touch:)"]
+			dependencies: ["7195E3AAD7863CD7"]
+			id: "64382EA00F15B934"
+			tasks: [{
+				id: "4C1C509F7335BB64"
+				type: "advancement"
+				title: "Harvest block in ancient ruin"
+				advancement: "tetra:spelunking/loot_ruins"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "71816924EC2ED939"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 1s
+							id: "minecraft:silk_touch"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			title: "Upgrade your holosphere"
+			x: 0.0d
+			y: 2.0d
+			description: [
+				"You can ugprade your holosphere with eye of ender."
+				"It allows you to locate other ancient ruins"
+			]
+			dependencies: ["2AA1D517284B39EF"]
+			id: "15A61A59EB061A13"
+			tasks: [{
+				id: "6E143D50906569D6"
+				type: "advancement"
+				title: "Upgrade your holosphere"
+				advancement: "tetra:spelunking/scanner"
+				criterion: ""
+			}]
+		}
+		{
+			title: "New Materials!"
+			x: -3.0d
+			y: 0.5d
+			description: [
+				"There are many customised materials with customised attributes. Try them out! Check holosphere for more information."
+				"{image:kubejs:textures/quests/tetra/tetra_materials.png width:178 height:100 align:1}"
+			]
+			dependencies: ["341BA1BEE72F429F"]
+			id: "79D8F6C8C0286B33"
+			tasks: [{
+				id: "226846E82EDBF77C"
+				type: "item"
+				item: "minecraft:iron_ingot"
+			}]
+			rewards: [{
+				id: "7518A99E44B9E2BD"
+				type: "item"
+				item: {
+					id: "betterendforge:iron_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+	]
+}

@@ -1,0 +1,270 @@
+{
+	id: "1BA392AE5FECF85A"
+	group: "37B8334BBCBD0DFD"
+	order_index: 2
+	filename: "mining"
+	title: "Mining"
+	icon: {
+		id: "quarryplus:quarry_pickaxe"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -4.5d
+			y: -1.5d
+			subtitle: "can craft after chapter 5"
+			description: [
+				"Mining gadget is another useful tool for you to mine. However, this tool requires energy to mine."
+				"You need the modification table to modify aspects and upgrades of the gadget."
+			]
+			id: "68AD33F890274133"
+			tasks: [{
+				id: "50E67F20E5843098"
+				type: "item"
+				item: {
+					id: "mininggadgets:mininggadget_simple"
+					Count: 1b
+					tag: {
+						beamRange: 5
+						range: 1
+					}
+				}
+			}]
+			rewards: [{
+				id: "12C760964D7A1FF0"
+				type: "item"
+				item: "mininggadgets:upgrade_empty"
+				count: 2
+			}]
+		}
+		{
+			x: -4.5d
+			y: 0.5d
+			description: ["Actually MK2 are same, just a different fancy appearnace"]
+			dependencies: ["68AD33F890274133"]
+			id: "64721CC1AD7D1F77"
+			tasks: [{
+				id: "19DCDE290BAA7840"
+				type: "item"
+				item: {
+					id: "mininggadgets:mininggadget_fancy"
+					Count: 1b
+					tag: {
+						beamRange: 5
+						range: 1
+					}
+				}
+			}]
+			rewards: [{
+				id: "5643205D82A81274"
+				type: "item"
+				item: "mininggadgets:upgrade_range_3"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 2.5d
+			description: ["Actually MK3 are same, just a different and cool appearnace"]
+			dependencies: ["64721CC1AD7D1F77"]
+			id: "0EFE8EAAB186719A"
+			tasks: [{
+				id: "2D355C44EDC5B744"
+				type: "item"
+				item: {
+					id: "mininggadgets:mininggadget"
+					Count: 1b
+					tag: {
+						beamRange: 5
+						range: 1
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "196A0AF7282669FA"
+					type: "item"
+					item: "mininggadgets:upgrade_battery_3"
+				}
+				{
+					id: "64B105D974C3B9B7"
+					type: "item"
+					item: {
+						id: "mekanism:energy_tablet"
+						Count: 1b
+						tag: {
+							mekData: {
+								EnergyContainers: [{
+									Container: 0b
+									stored: "1000000"
+								}]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -1.5d
+			subtitle: "can craft after chapter 5"
+			description: ["Infinity drill mines large areas quickly. The size of area depends on the tier of your drill. Level up the drill be charging to a certain amount of energy."]
+			id: "5966A1BF5C1D8B6B"
+			tasks: [{
+				id: "174BEE9223D6A710"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_drill"
+					Count: 1b
+					tag: {
+						CanCharge: 1b
+						Special: 0b
+						Selected: "POOR"
+						Energy: 0L
+						Fluid: {
+							FluidName: "biofuel"
+							Amount: 0
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "6548D20A59411C07"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 10
+			}]
+		}
+		{
+			x: -0.5d
+			y: -1.5d
+			description: [
+				"The highest tier pickaxe in mystical series. It has infinite durability!"
+				"The fastest way of obtaining this is probably killing tons of wither."
+			]
+			id: "4E4066CE5EA86620"
+			tasks: [{
+				id: "4B9BF965F9924B2C"
+				type: "item"
+				item: "mysticaladaptations:insanium_pickaxe"
+			}]
+			rewards: [{
+				id: "2B030BF12C626E6C"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 5
+			}]
+		}
+		{
+			x: -8.5d
+			y: -1.5d
+			description: ["A mid game driller choise."]
+			id: "49847604EAC9AF9D"
+			tasks: [{
+				id: "52510667E0537B1B"
+				type: "item"
+				item: {
+					id: "thermal:flux_drill"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "009F5144099F7878"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 3
+			}]
+		}
+		{
+			x: -6.5d
+			y: 0.5d
+			description: [
+				"Modification table can be used to install upgrades onto the mining gadgets."
+				"Note that the recipe is using graphite ingot, not netherite."
+			]
+			dependencies: ["68AD33F890274133"]
+			id: "3302D60B40867F89"
+			tasks: [{
+				id: "40DF8DC0993798CB"
+				type: "item"
+				item: "mininggadgets:modificationtable"
+			}]
+			rewards: [{
+				id: "7BA4FED75123A916"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 4
+			}]
+		}
+		{
+			x: -8.5d
+			y: 0.5d
+			description: ["Tinker's workbench is used to install augments onto the fluxbore."]
+			dependencies: ["49847604EAC9AF9D"]
+			id: "7A6DBE3EF8071E9C"
+			tasks: [{
+				id: "162A9BB8FFC578EC"
+				type: "item"
+				item: "thermal:tinker_bench"
+			}]
+			rewards: [{
+				id: "2D6CAF73255856DC"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 3
+			}]
+		}
+		{
+			x: -0.5d
+			y: 0.5d
+			description: ["Tinkering table allows you to install augments onto tools and weapons from Mystical agriculture or Mystical agraddition."]
+			dependencies: ["4E4066CE5EA86620"]
+			id: "3EBE855299C67FBD"
+			tasks: [{
+				id: "1E164D0379055161"
+				type: "item"
+				item: "mysticalagriculture:tinkering_table"
+			}]
+			rewards: [{
+				id: "1200F2305CAF5C0B"
+				type: "item"
+				item: "mysticalagriculture:supremium_essence"
+			}]
+		}
+	]
+}

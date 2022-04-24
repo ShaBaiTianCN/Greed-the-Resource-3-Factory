@@ -1,0 +1,1041 @@
+{
+	id: "1380091178A4ADF2"
+	group: "52335F892C9B07FA"
+	order_index: 1
+	filename: "chapter_2"
+	title: "Chapter 2: From magic to tech"
+	icon: "astralsorcery:wand"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Time to start"
+			x: -1.0d
+			y: -2.5d
+			description: [
+				"It's probably time to start your own factory. "
+				"However, you cannot start directly with any tech mod such as \"Mekanism\" or \"Industrial Foregoing\". Before that, you need to progress Astral Sorcery a bit first."
+				"Find the ancient shrine structure. It is located at the high mountains or in snowy biomes."
+				"{image:kubejs:textures/quests/chapter2/chapter2_ancient_shrine.png width:178 height:100 align:1}"
+			]
+			dependencies: ["4FED780FB4FBE2DE"]
+			id: "205D0676ED059067"
+			tasks: [{
+				id: "635D3A9E65073CA1"
+				type: "structure"
+				title: "Find the shrine"
+				icon: "astralsorcery:marble_bricks"
+				structure: "astralsorcery:ancient_shrine"
+			}]
+			rewards: [{
+				id: "26EA350935855F0A"
+				type: "item"
+				item: "astralsorcery:aquamarine"
+				count: 4
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.0d
+			description: [
+				"Dig out the shrine and let the crystal expose to the sky."
+				"Put a crafting table nearby. The crafting table will turns into Luminous crafting table by the starlight infusion."
+				"{image:kubejs:textures/quests/chapter2/chapter2_crafting_table_to_luminous.png width:178 height:100 align:1}"
+			]
+			dependencies: ["205D0676ED059067"]
+			id: "16D7BFC2A19E8401"
+			tasks: [{
+				id: "77FC2DBED6EDE8B2"
+				type: "item"
+				item: "astralsorcery:altar_discovery"
+			}]
+			rewards: [{
+				id: "716F46B2860C14FB"
+				type: "item"
+				item: "astralsorcery:aquamarine"
+				count: 4
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.0d
+			description: ["You also need to find some aquamarine to progress through this mod."]
+			dependencies: ["205D0676ED059067"]
+			size: 0.5d
+			id: "493D69DAC4AFB327"
+			tasks: [{
+				id: "0ACA6ED61AB00C2D"
+				type: "item"
+				item: "astralsorcery:aquamarine"
+				count: 32L
+			}]
+			rewards: [{
+				id: "6DBEFFF3DB53A2ED"
+				type: "item"
+				item: "astralsorcery:aquamarine"
+				count: 32
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.0d
+			description: [
+				"To progress through the mod, you need to get the resonating wand. Check Astral Tome for more information."
+				"You have to craft the wand by luminous crafting table in the night with sufficient starlight."
+				"Starlight is a type of energy that only appears in the night. You can only create starlight energy in the later progress of this mod."
+				"Different places have different levels of starlight. But crafting this wand don't uses much starlight."
+			]
+			dependencies: ["16D7BFC2A19E8401"]
+			id: "0C0DE7D72A14A301"
+			tasks: [{
+				id: "1C4765C43D576722"
+				type: "item"
+				item: "astralsorcery:wand"
+			}]
+			rewards: [{
+				id: "6267BCA0A2CD0B2C"
+				type: "item"
+				item: "astralsorcery:aquamarine"
+				count: 4
+			}]
+		}
+		{
+			x: -0.25d
+			y: 0.0d
+			description: [
+				"Observing constellation is an important part in progressing Astral Sorcery."
+				"You can get the constellation papers from opening the chests in different shrines."
+				"Constellation paper can be stored in Astral Tome (as well as in akashic tome). Shift right clicking to open the constellation inventory."
+			]
+			dependencies: ["16D7BFC2A19E8401"]
+			size: 0.5d
+			id: "232D6E2FA0B13173"
+			tasks: [{
+				id: "1DBFBD40C39AD54D"
+				type: "item"
+				item: {
+					id: "astralsorcery:constellation_paper"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 0.0d
+			subtitle: "The sky!"
+			description: ["Try to memorize the constellation shape you have collected, and then link the stars in the sky according to the shape of constellation. You will gradually unlock the progress."]
+			dependencies: ["0C0DE7D72A14A301"]
+			size: 0.5d
+			id: "50777965ACB2F422"
+			tasks: [{
+				id: "5C710CDDD8B4B745"
+				type: "item"
+				item: "astralsorcery:hand_telescope"
+			}]
+			rewards: [{
+				id: "627FD250090F82DE"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: -2.5d
+			description: [
+				"Try to find the rock crystal ore. Hold the resonating wand and locate the white particles coming from the bottom of ground."
+				"{image:kubejs:textures/quests/chapter2/chapter2_rock_crystal.png width:178 height:100 align:1}"
+			]
+			dependencies: ["0C0DE7D72A14A301"]
+			id: "104A562EE09F668D"
+			tasks: [{
+				id: "648CFA85AF6237F1"
+				type: "item"
+				item: {
+					id: "astralsorcery:rock_crystal"
+					Count: 1b
+					tag: {
+						astralsorcery: {
+							crystalProperties: {
+								attributes: [
+									{
+										property: "astralsorcery:purity"
+										pLevel: 2
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:shape"
+										pLevel: 2
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:tool.durability"
+										pLevel: 1
+										discovered: 1b
+									}
+								]
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "21A71E1D4F76F1ED"
+				type: "item"
+				item: "astralsorcery:marble_raw"
+				count: 32
+			}]
+		}
+		{
+			x: 0.5d
+			y: -4.0d
+			description: ["Craft the lightwell using luminous crafting table in the night. Remember to right click with resonating wand to start the crafting progress. The progress will take for a short time."]
+			dependencies: ["104A562EE09F668D"]
+			id: "52055E40902017F2"
+			tasks: [{
+				id: "1CA655DF97329A1D"
+				type: "item"
+				item: "astralsorcery:well"
+			}]
+			rewards: [{
+				id: "589D14E85C050FD3"
+				type: "item"
+				item: "minecraft:bucket"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -4.0d
+			description: [
+				"Liquid starlight is obtained from placing rock crystals or aquamarine on top of the lightwell. Note that rock crystals will produce more starlight than that of aquamarine. Attributes of rock crystals also affects. You will know more about this if you progress deeper in Astral Sorcery."
+				"You can automate the process by pipes and tanks"
+				"{image:kubejs:textures/quests/chapter2/chapter2_lightwell.png width:178 height:100 align:1}"
+			]
+			dependencies: ["52055E40902017F2"]
+			id: "27E2B1580ED23AB5"
+			tasks: [{
+				id: "16BE2657EFA1138A"
+				type: "item"
+				item: "astralsorcery:liquid_starlight_bucket"
+			}]
+			rewards: [{
+				id: "4AFA8EADF3AE791F"
+				type: "item"
+				item: "mekanism:basic_fluid_tank"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -4.0d
+			description: [
+				"With the bucket of liquid starlight, you will be able to get the starlight crafting altar."
+				"This altar requires a multiblock altar to function. Place the altar down and right click with resonating wand to preview the structure."
+				"{image:kubejs:textures/quests/chapter2/chapter2_crafting_altar.png width:178 height:100 align:1}"
+			]
+			dependencies: ["27E2B1580ED23AB5"]
+			id: "1236493724F5464E"
+			tasks: [{
+				id: "544055A3BB3FCF67"
+				type: "item"
+				item: "astralsorcery:altar_attunement"
+			}]
+			rewards: [
+				{
+					id: "2AD5D62CDF8A85E6"
+					type: "item"
+					item: "astralsorcery:marble_raw"
+					count: 32
+				}
+				{
+					id: "3792B2D78978CC66"
+					type: "item"
+					item: "astralsorcery:black_marble_raw"
+					count: 8
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -2.5d
+			description: [
+				"Once the altar is finished, you can now craft your linking tool, for progressing to the next stage of game."
+				"{image:kubejs:textures/quests/chapter2/chapter2_linking_tool.png width:178 height:100 align:1}"
+			]
+			dependencies: ["1236493724F5464E"]
+			id: "77EEC0477DB18091"
+			tasks: [{
+				id: "063B5E81AE2A5C61"
+				type: "item"
+				item: "astralsorcery:linking_tool"
+			}]
+			rewards: [{
+				id: "69A7A9F8F23C0957"
+				type: "item"
+				item: "minecraft:soul_sand"
+				count: 4
+			}]
+		}
+		{
+			title: "Get some netherwart"
+			icon: "minecraft:nether_wart"
+			x: -2.5d
+			y: -1.0d
+			subtitle: "Still not time for tech things"
+			description: [
+				"Before getting your factories, you'll need to have to travel to the Nether and obtain the netherwart from fortress."
+				"PS, You can also mine ores from the nether."
+				"{image:kubejs:textures/quests/chapter2/chapter2_nether_ore.png width:178 height:100 align:1}"
+			]
+			dependencies: ["77EEC0477DB18091"]
+			id: "785684E054B38C88"
+			tasks: [
+				{
+					id: "7F1D186B50C23205"
+					type: "dimension"
+					dimension: "minecraft:the_nether"
+				}
+				{
+					id: "1F3A047C56D5089C"
+					type: "item"
+					item: "quark:nether_wart_sack"
+				}
+				{
+					id: "65BEDE6362E83C9B"
+					type: "structure"
+					structure: "minecraft:fortress"
+				}
+			]
+			rewards: [{
+				id: "742D752FE98FEA7C"
+				type: "item"
+				item: "astralsorcery:glass_lens"
+				count: 2
+			}]
+		}
+		{
+			title: "Starlight transmutation"
+			x: -2.5d
+			y: 0.5d
+			description: ["Use the linking tool to link the crystal to a nether wart block. It will eventually turns into the blood altar."]
+			dependencies: ["785684E054B38C88"]
+			id: "0867267D7227E4FD"
+			tasks: [{
+				id: "50BCB92CB7F8391E"
+				type: "item"
+				item: "bloodmagic:altar"
+			}]
+			rewards: [{
+				id: "4854CD19F7120CA4"
+				type: "item"
+				item: "bloodmagic:speedrune"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 2.0d
+			description: [
+				"Then, you can try to contruct your blood altar. You need a tier II altar, which means that you need 9 runes. Read your Sanguine Scientism for more information."
+				"To craft the slate, you need to use your blood (live essence) to do so. Craft a sacrificial knife to sacrifice your blood near the altar."
+			]
+			dependencies: ["0867267D7227E4FD"]
+			id: "76E19DFC9D4A7D7A"
+			tasks: [{
+				id: "7ADDA37F8C8B1749"
+				type: "item"
+				item: {
+					id: "bloodmagic:sacrificialdagger"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "4B7B3BD1C32B585D"
+				type: "item"
+				item: "bloodmagic:accelerationrune"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.0d
+			description: ["If you have successfully get the live essence, place a stone onto the altar. You blood will transform the stone into the slate."]
+			dependencies: ["76E19DFC9D4A7D7A"]
+			id: "757FCD0813ED2D0F"
+			tasks: [{
+				id: "09E2AF7B649BC441"
+				type: "item"
+				item: "bloodmagic:blankslate"
+			}]
+			rewards: [{
+				id: "472D481B1B71C167"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 2.0d
+			description: [
+				"With the slate crafted, you can eventually craft the runes to set up your tier II altar. (Yes, you only need tier II altar to progress)"
+				"Blood altar can at most go up to tier V, as shown in the figure below. Higher tier means that more runes and thus more powerful altar."
+				"{image:kubejs:textures/quests/chapter2/chapter2_blood_altar.png width:178 height:100 align:1}"
+			]
+			dependencies: ["757FCD0813ED2D0F"]
+			id: "0EBE9D8899A33858"
+			tasks: [{
+				id: "443984B4298E4396"
+				type: "item"
+				item: "bloodmagic:blankrune"
+				count: 7L
+			}]
+			rewards: [{
+				id: "053ADD0AB1B5869F"
+				type: "item"
+				item: "bloodmagic:daggerofsacrifice"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			description: ["After upgrading your altar to tier II, you can eventually get the petal apothecary. Place a stone brick onto the blood altar."]
+			dependencies: ["0EBE9D8899A33858"]
+			id: "6C264EF1750F550B"
+			tasks: [{
+				id: "6F6849D36376E38D"
+				type: "item"
+				item: "botania:apothecary_default"
+			}]
+			rewards: [{
+				id: "37D3728327C96EBB"
+				type: "item"
+				item: "botania:fertilizer"
+				count: 2
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.5d
+			description: ["Before getting into Botania, you need to collect different mystical flower. Firstly, collect two mystical white flower."]
+			dependencies: ["6C264EF1750F550B"]
+			id: "6B596223C15953CE"
+			tasks: [{
+				id: "252093F07085D43E"
+				type: "item"
+				item: "botania:white_mystical_flower"
+				count: 2L
+			}]
+			rewards: [{
+				id: "3723AEC0B1343A7E"
+				type: "item"
+				item: "botania:flower_bag"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.0d
+			description: [
+				"Put the flower onto crafting grid and get the white petal. Bucket the apothecary with water and throw 4 white petal and a seed to get the pure daisy."
+				"{image:kubejs:textures/quests/chapter2/chapter2_pure_daisy.png width:178 height:100 align:1}"
+			]
+			dependencies: ["6B596223C15953CE"]
+			id: "62CA63D7220C64DA"
+			tasks: [{
+				id: "2C998D8FC2792144"
+				type: "item"
+				item: "botania:pure_daisy"
+			}]
+			rewards: [{
+				id: "3F2D3A95FD1C73B6"
+				type: "item"
+				item: "minecraft:oak_log"
+				count: 8
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.5d
+			description: [
+				"Surround 8 stones around pure daisy. The stones will gradually transform into livingrocks."
+				"{image:kubejs:textures/quests/chapter2/chapter2_living_rock.png width:178 height:100 align:1}"
+			]
+			dependencies: ["62CA63D7220C64DA"]
+			id: "03490F98AC137633"
+			tasks: [{
+				id: "35958F32C445FAF1"
+				type: "item"
+				item: "botania:livingrock"
+				count: 8L
+			}]
+			rewards: [{
+				id: "6930B5BEBB42E980"
+				type: "item"
+				item: "botania:livingwood"
+				count: 8
+			}]
+		}
+		{
+			x: 2.0d
+			y: -4.0d
+			description: ["The living rock is used to be transformed into runic altar on blood altar."]
+			dependencies: ["03490F98AC137633"]
+			id: "7F50644065FD5BC2"
+			tasks: [{
+				id: "144F16A6310A1CC0"
+				type: "item"
+				item: "botania:runic_altar"
+			}]
+			rewards: [{
+				id: "6AA7C45E7CF56D8E"
+				type: "item"
+				item: "botania:livingrock"
+				count: 5
+			}]
+		}
+		{
+			x: 2.0d
+			y: -5.5d
+			description: ["Unfortunately, you can't use the runic altar with mana from botania. Get an endoflame to generate mana."]
+			dependencies: ["7F50644065FD5BC2"]
+			id: "70E94C2B637D5B74"
+			tasks: [{
+				id: "21A290400873590E"
+				type: "item"
+				item: "botania:endoflame"
+			}]
+			rewards: [{
+				id: "73FD10C9874D5C62"
+				type: "item"
+				item: "minecraft:coal"
+				count: 2
+			}]
+		}
+		{
+			x: 0.5d
+			y: -5.5d
+			description: ["You need a mana pool to store your mana."]
+			dependencies: ["70E94C2B637D5B74"]
+			id: "22E89D65BEA053A4"
+			tasks: [{
+				id: "7CFF0829E0559490"
+				type: "item"
+				item: "botania:diluted_pool"
+			}]
+			rewards: [{
+				id: "7E8CE9AECC7C94EC"
+				type: "item"
+				item: "minecraft:ender_pearl"
+				count: 2
+			}]
+		}
+		{
+			x: -1.0d
+			y: -5.5d
+			description: ["A way to spread your mana towards runic altar."]
+			dependencies: ["22E89D65BEA053A4"]
+			id: "5AE2FA3CA4B91318"
+			tasks: [{
+				id: "7A8D5A80D60E3959"
+				type: "item"
+				item: "botania:mana_spreader"
+			}]
+			rewards: [{
+				id: "6288750043F9A22B"
+				type: "item"
+				item: "bloodmagic:life_essence_bucket"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -7.0d
+			description: ["Wand of the forest is the wrench in Botania."]
+			dependencies: ["70E94C2B637D5B74"]
+			id: "72F7582F4EFE0429"
+			tasks: [{
+				id: "5BD402B93BD7D81B"
+				type: "item"
+				item: {
+					id: "botania:twig_wand"
+					Count: 1b
+					tag: {
+						color1: 0
+						color2: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0F8BFB268FEAB08A"
+				type: "item"
+				item: "botania:livingwood"
+				count: 4
+			}]
+		}
+		{
+			x: -2.5d
+			y: -5.5d
+			description: [
+				"The last step, place the spreader in front of the mana pool and link it to runic altar. Place suitable ingredients and you will get pity machine frame finally!"
+				"You'll need a bunch of this to progress through different mod."
+				"{image:kubejs:textures/quests/chapter2/chapter2_pity_machine_frame.png width:178 height:100 align:1}"
+				"This quest unlock Chapter 3"
+			]
+			dependencies: ["5AE2FA3CA4B91318"]
+			id: "27CF0C7CBDCAE57C"
+			tasks: [{
+				id: "5EB6D4B3863AC8C0"
+				type: "item"
+				item: "industrialforegoing:machine_frame_pity"
+			}]
+			rewards: [
+				{
+					id: "19C56721DDBC5E3A"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "delightfood"
+						}
+					}
+				}
+				{
+					id: "1A75362346DB3ABC"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "ingotnore"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -4.0d
+			description: [
+				"You may use the mechanical version of runic altar for faster and bulk crafting"
+				"{image:kubejs:textures/quests/chapter2/chapter2_bulkcrafting.png width:178 height:100 align:1}"
+			]
+			dependencies: ["7F50644065FD5BC2"]
+			id: "646D14E63A593BA2"
+			tasks: [{
+				id: "75157B9780C887E1"
+				type: "item"
+				item: {
+					id: "botanicalmachinery:mechanical_runic_altar"
+					Count: 1b
+					tag: {
+						inv: {
+							Size: 33
+							Items: [
+								{
+									Slot: 0
+									id: "botania:livingrock"
+									Count: 48b
+								}
+								{
+									Slot: 2
+									id: "botania:elementium_ingot"
+									Count: 26b
+								}
+								{
+									Slot: 3
+									id: "extrabotany:gildedmashedpotato"
+									Count: 50b
+								}
+								{
+									Slot: 17
+									id: "extrabotany:photonium"
+									Count: 38b
+								}
+							]
+						}
+						outputKey: ""
+						mana: 250000
+						maxProgress: -1
+						x: -473
+						progress: 0
+						y: 84
+						z: 1740
+						inputKey: ""
+						id: "botanicalmachinery:mechanical_runic_altar"
+						slotsUsed: [I; ]
+					}
+				}
+			}]
+			rewards: [{
+				id: "29E235D6DCFC1B25"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "botania"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: -2.5d
+			description: [
+				"Mega Torch prevents hostile mobs from spawning in a 64 radius. However, the recipe is modified for balancing purpose, which means you can no longer craft it out easily in early game."
+				"{image:kubejs:textures/quests/chapter2/chapter2_mega_torch.png width:178 height:100 align:1}"
+			]
+			dependencies: ["77EEC0477DB18091"]
+			id: "4A019E075003EA25"
+			tasks: [{
+				id: "6B5D03D09E2ED399"
+				type: "item"
+				item: "torchmaster:megatorch"
+			}]
+			rewards: [{
+				id: "49CC8F3E6728CA45"
+				type: "item"
+				item: "allthemodium:molten_bluelava_bucket"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.0d
+			description: ["There is a mechanical version of pure daisy, which allows you to automate the living rock/wood production much more easier."]
+			dependencies: ["62CA63D7220C64DA"]
+			id: "5E6B4FB3DC4942EB"
+			tasks: [{
+				id: "28E72C3FAABFA8E5"
+				type: "item"
+				item: "botanicalmachinery:mechanical_daisy"
+			}]
+			rewards: [{
+				id: "5E6CC15A89BDCCAF"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "botania"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 2.0d
+			description: ["There is a mechanical version of apothecary, in which you can pump water into it. This is much more convenient because you do not have to pour bucket of water every time!"]
+			dependencies: ["6C264EF1750F550B"]
+			id: "57BE944D2212A760"
+			tasks: [{
+				id: "21E839C3A031B0A3"
+				type: "item"
+				item: "botanicalmachinery:mechanical_apothecary"
+			}]
+			rewards: [{
+				id: "3ADFB0228FE29F1C"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "botania"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: -8.5d
+			description: ["A mechanicalized mana pool, allowing you to automate the process of alchemist conversion easier."]
+			dependencies: ["03C8D77C07D1113A"]
+			id: "2A1ECCC771F729D5"
+			tasks: [{
+				id: "59B6E88E8AC8B363"
+				type: "item"
+				item: "botanicalmachinery:mechanical_mana_pool"
+			}]
+			rewards: [{
+				id: "55F4E15CF717BE9C"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "botania"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: -7.0d
+			description: ["A very large mana pool, which allows you to store gigantic amount of mana."]
+			dependencies: ["22E89D65BEA053A4"]
+			id: "4C5C70BC62052019"
+			tasks: [{
+				id: "3D0496AFF105E721"
+				type: "item"
+				item: "botanicalmachinery:mana_battery"
+			}]
+			rewards: [{
+				id: "69AE52967C02EA9D"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "botania"
+					}
+				}
+			}]
+		}
+		{
+			title: "Alchemist"
+			x: -1.0d
+			y: -7.0d
+			description: ["Place these two blocks under the mana pool. It allows you to convert items into other things in a cost of mana. Check JEI for more information."]
+			dependencies: ["22E89D65BEA053A4"]
+			id: "03C8D77C07D1113A"
+			tasks: [
+				{
+					id: "23AE29382344299A"
+					type: "item"
+					item: "botania:alchemy_catalyst"
+				}
+				{
+					id: "1C03170F5ABE423B"
+					type: "item"
+					item: "botania:conjuration_catalyst"
+				}
+			]
+			rewards: [{
+				id: "45A54251C2F2C1A1"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "botania"
+					}
+				}
+			}]
+		}
+		{
+			title: "Terrestrial altar"
+			icon: "botania:terra_plate"
+			x: 3.5d
+			y: -2.5d
+			description: [
+				"This quest line guide you to get the elementium ingot, dragonstone, and pixel dust in case you do not know how to get them."
+				"Firstly, craft and grab these things and set up a altar as below."
+				"{image:kubejs:textures/quests/chapter2/chapter2_terrestial_altar.png width:178 height:100 align:1}"
+			]
+			dependencies: ["7F50644065FD5BC2"]
+			id: "16B0CF64624DA278"
+			tasks: [
+				{
+					id: "53054F7981F6DA04"
+					type: "item"
+					item: "botania:terra_plate"
+				}
+				{
+					id: "461F4BE216FF43BD"
+					type: "item"
+					item: "botania:livingrock"
+					count: 5L
+				}
+				{
+					id: "00A4E640B12DD099"
+					type: "item"
+					item: "minecraft:lapis_block"
+					count: 4L
+				}
+				{
+					id: "551DCB8E37663FFB"
+					type: "item"
+					item: "botania:spark"
+					count: 2L
+				}
+			]
+			rewards: [{
+				id: "13DF20066DCB6EF3"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "botania"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: -2.5d
+			description: [
+				"Prepare mana ingot, mana diamond and mana pearl. Place them onto the terrestrial plate by right clicking."
+				"Craftint terrasteel ingot will cost you 0.5 pools of mana. If there is insufficient mana, the crafting process will stop and waste your mana."
+				"Transfer the mana to the terrestrial by sparks. Place a spark on top of the plate and another on top of your mana pool."
+				"{image:kubejs:textures/quests/chapter2/chapter2_terrasteel.png width:178 height:100 align:1}"
+			]
+			dependencies: ["16B0CF64624DA278"]
+			id: "62DC762D12341D8F"
+			tasks: [
+				{
+					id: "0139839F54242044"
+					type: "item"
+					item: "botania:manasteel_ingot"
+				}
+				{
+					id: "705E774E8C0DD9BA"
+					type: "item"
+					item: "botania:mana_pearl"
+				}
+				{
+					id: "107822C7E20D0851"
+					type: "item"
+					item: "botania:mana_diamond"
+				}
+				{
+					id: "02A41CBBB634B7D5"
+					type: "item"
+					item: "botania:terrasteel_ingot"
+				}
+			]
+			rewards: [{
+				id: "02EF326CCA354A47"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "botania"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: -2.5d
+			description: [
+				"After getting your terrasteel, set up a Elven Gateway which allows you to exchange items."
+				"Activate the gateway by right clicking the core with wand of the forest. Activating portal uses a large amount of mana, while keeping the gateway opening won't waste much. Therefore, I recommend you to leave the portal opened."
+				"{image:kubejs:textures/quests/chapter2/chapter2_alfeim_portal.png width:178 height:100 align:1}"
+			]
+			dependencies: ["62DC762D12341D8F"]
+			id: "3F57217CAA17AD81"
+			tasks: [
+				{
+					id: "44A5A646D0CB05A7"
+					type: "item"
+					item: "botania:glimmering_livingwood"
+					count: 3L
+				}
+				{
+					id: "2176B32E7B05E88F"
+					type: "item"
+					item: "botania:livingwood"
+					count: 8L
+				}
+				{
+					id: "50A98930DE99839D"
+					type: "item"
+					item: "botania:alfheim_portal"
+				}
+				{
+					id: "34DDB2F9BE2055AC"
+					type: "item"
+					item: "botania:natura_pylon"
+					count: 2L
+				}
+				{
+					id: "69401FFACB01901D"
+					type: "item"
+					item: "botania:mana_pool"
+					count: 2L
+				}
+			]
+			rewards: [{
+				id: "14134074B4426EFA"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "botania"
+					}
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: -2.5d
+			description: ["Use the gateway to get these."]
+			dependencies: ["3F57217CAA17AD81"]
+			id: "7B17D9CBE1B5DC21"
+			tasks: [
+				{
+					id: "6CC2C9ABC7DD719E"
+					type: "item"
+					item: "botania:pixie_dust"
+				}
+				{
+					id: "036FF57A97384D42"
+					type: "item"
+					item: "botania:elementium_ingot"
+				}
+				{
+					id: "64FEFC3BC4B1FAFC"
+					type: "item"
+					item: "botania:dragonstone"
+				}
+			]
+			rewards: [{
+				id: "184E81586B291EC4"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "botania"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: -4.0d
+			description: ["For sure, there is a mechanical version of Elven Gateway."]
+			dependencies: ["3F57217CAA17AD81"]
+			id: "3010F5A296AC8613"
+			tasks: [{
+				id: "62A665D029D549A5"
+				type: "item"
+				item: "botanicalmachinery:alfheim_market"
+			}]
+			rewards: [{
+				id: "07EDF4B3E09E2543"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "botania"
+					}
+				}
+			}]
+		}
+	]
+}

@@ -1,0 +1,1095 @@
+{
+	id: "71A81AB150C58955"
+	group: "1E2DE02B87CFF91D"
+	order_index: 1
+	filename: "xnet"
+	title: "Logistics and transport"
+	icon: "mekanism:basic_mechanical_pipe"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Xnet"
+			x: -3.0d
+			y: -0.5d
+			description: [
+				"Xnet is a mod that have high performance on item transportation. This mod might be a bit complicated for beginners. It is adviced that you should see tutorials if you are new comers."
+				"The cables in Xnet is buffed in this modpack, which allows you to use the cables extensively with high speed transportation and performance."
+			]
+			id: "30DDBDF9D19C03E0"
+			tasks: [{
+				id: "6527EF849CE37141"
+				type: "item"
+				item: "xnet:controller"
+			}]
+			rewards: [{
+				id: "628ECFF479A0CBCA"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 2.0d
+			description: ["Hold facade on your right hand and shift-right click. It will mimic the block you are pointing to."]
+			dependencies: ["30DDBDF9D19C03E0"]
+			id: "30976F466444C1DA"
+			tasks: [{
+				id: "74F2665ED64F55D8"
+				type: "item"
+				item: "xnet:facade"
+			}]
+			rewards: [{
+				id: "5B793330A09A9803"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.0d
+			description: ["Router allows you to set up communications between several nearby network"]
+			dependencies: ["30DDBDF9D19C03E0"]
+			id: "105E02293BF8FEEC"
+			tasks: [{
+				id: "7783482CFDAEC970"
+				type: "item"
+				item: "xnet:router"
+			}]
+			rewards: [{
+				id: "553F09120A8A73AD"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 1.0d
+			description: ["You can also set up router networks by antenna, ignoring distance."]
+			dependencies: ["30DDBDF9D19C03E0"]
+			id: "15B64183489D771E"
+			tasks: [
+				{
+					id: "3D5EF1B1015D3821"
+					type: "item"
+					item: "xnet:wireless_router"
+				}
+				{
+					id: "39EF8D71BE68D0B9"
+					type: "item"
+					item: "xnet:antenna"
+				}
+				{
+					id: "0EB846985EB5B740"
+					type: "item"
+					item: "xnet:antenna_base"
+				}
+				{
+					id: "319EA34BA252735E"
+					type: "item"
+					item: "xnet:antenna_dish"
+				}
+			]
+			rewards: [
+				{
+					id: "7AE5645B29814E99"
+					type: "item"
+					item: "xnet:controller"
+				}
+				{
+					id: "6721985FF29ECFAB"
+					type: "item"
+					item: "xnet:advanced_connector_blue"
+					count: 32
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -1.5d
+			description: ["Redstone control in Xnet"]
+			dependencies: ["30DDBDF9D19C03E0"]
+			id: "6FAFE76660544099"
+			tasks: [
+				{
+					id: "1E6299F16A437A68"
+					type: "item"
+					item: "xnet:redstone_proxy_upd"
+				}
+				{
+					id: "4CD8AC974F73EB9A"
+					type: "item"
+					item: "xnet:redstone_proxy"
+				}
+			]
+			rewards: [{
+				id: "5AF0A50DF83FEC95"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.5d
+			description: ["Routing connectors set up connections between different routers."]
+			dependencies: ["30DDBDF9D19C03E0"]
+			id: "7A3276BAA44E2E70"
+			tasks: [{
+				id: "409486E2A8154913"
+				type: "item"
+				item: "xnet:connector_routing"
+			}]
+			rewards: [{
+				id: "6555745835246682"
+				type: "item"
+				item: "xnet:connector_upgrade"
+				count: 8
+			}]
+		}
+		{
+			title: "Advanced connectors"
+			x: -3.0d
+			y: -3.0d
+			description: ["The cable in Xnet."]
+			dependencies: ["30DDBDF9D19C03E0"]
+			id: "272DB6F8DF69CF32"
+			tasks: [{
+				id: "0D544AB6C1F01EA7"
+				type: "item"
+				title: "Any #xnet:advanced_connectors"
+				icon: "xnet:advanced_connector_red"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "xnet:advanced_connectors"
+					}
+				}
+			}]
+			rewards: [{
+				id: "3B9166FB22C3EEAE"
+				type: "item"
+				item: "xnet:advanced_connector_green"
+				count: 16
+			}]
+		}
+		{
+			x: 4.0d
+			y: -0.5d
+			description: ["Pipez is a mod that provide ways to moving items, fluids and energy at a cheap cost."]
+			id: "2DBA86B0F3F8A3B5"
+			tasks: [{
+				id: "134238B36B2B2803"
+				type: "checkmark"
+				title: "Pipez"
+			}]
+			rewards: [{
+				id: "215CD057484ACD87"
+				type: "item"
+				item: "pipez:wrench"
+			}]
+		}
+		{
+			title: "Pipes"
+			x: 2.0d
+			y: -1.5d
+			dependencies: ["2DBA86B0F3F8A3B5"]
+			id: "432D277FCD201468"
+			tasks: [
+				{
+					id: "62DDDA5131971376"
+					type: "item"
+					item: "pipez:item_pipe"
+				}
+				{
+					id: "66DD488387AB6B30"
+					type: "item"
+					item: "pipez:fluid_pipe"
+				}
+				{
+					id: "06A6D3A4684C433A"
+					type: "item"
+					item: "pipez:energy_pipe"
+				}
+				{
+					id: "084834E7A321CC73"
+					type: "item"
+					item: "pipez:gas_pipe"
+				}
+				{
+					id: "2586DC6693DA633C"
+					type: "item"
+					item: "pipez:universal_pipe"
+				}
+			]
+			rewards: [{
+				id: "1863E6252B7C8407"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+			}]
+		}
+		{
+			title: "Upgrades!!!"
+			x: 4.0d
+			y: -3.0d
+			description: ["These upgrades are capable of increasing efficiency of transportation, though a bit expensive."]
+			dependencies: ["2DBA86B0F3F8A3B5"]
+			id: "6CEDE26AC81EE376"
+			tasks: [{
+				id: "0DAB3D4FEAE0A303"
+				type: "item"
+				item: "pipez:basic_upgrade"
+			}]
+			rewards: [{
+				id: "20BF84832EA1807C"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: -1.5d
+			dependencies: ["6CEDE26AC81EE376"]
+			id: "7AD9AC9E9EDDC135"
+			tasks: [{
+				id: "69E926B6D1E3E46B"
+				type: "item"
+				item: "pipez:improved_upgrade"
+			}]
+			rewards: [{
+				id: "17D5A8D6FAF85BC9"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.0d
+			dependencies: ["7AD9AC9E9EDDC135"]
+			id: "21540D4780972127"
+			tasks: [{
+				id: "68A269370318C174"
+				type: "item"
+				item: "pipez:advanced_upgrade"
+			}]
+			rewards: [{
+				id: "52CD8A208295B538"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.5d
+			dependencies: ["21540D4780972127"]
+			id: "3F2C5F93ED48EC11"
+			tasks: [{
+				id: "7DAE359C61B047E4"
+				type: "item"
+				item: "pipez:ultimate_upgrade"
+			}]
+			rewards: [{
+				id: "218DB0ACDB33790C"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bossloot"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 4.5d
+			dependencies: ["3F2C5F93ED48EC11"]
+			id: "053C155D1130CC31"
+			tasks: [{
+				id: "1D28BB7BB700CA97"
+				type: "item"
+				item: "pipez:infinity_upgrade"
+			}]
+			rewards: [{
+				id: "2607424F2079FDF4"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bossloot"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.0d
+			description: ["As what has been mentioned in the name, it sets filter content  for the pipe. It is only available in pipes with advanced upgrade or above."]
+			dependencies: ["2DBA86B0F3F8A3B5"]
+			id: "297598D1A5B36C55"
+			tasks: [{
+				id: "0B7F060D8317C535"
+				type: "item"
+				item: "pipez:filter_destination_tool"
+			}]
+			rewards: [{
+				id: "6D810C7EA2464F76"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "delightfood"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 8.5d
+			description: [
+				"Pretty pipes provides a higher configurable logistic network which allows a high efficiency item management."
+				"This mod is pretty similar to logistic pipe in 1.12.2"
+			]
+			id: "08EF9990BA91FE57"
+			tasks: [{
+				id: "4468931CEE180D43"
+				type: "checkmark"
+				title: "Pretty Pipes"
+			}]
+			rewards: [{
+				id: "18F83AFD3F292745"
+				type: "item"
+				item: "prettypipes:wrench"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 6.0d
+			description: ["The pipe for item transfer"]
+			dependencies: ["08EF9990BA91FE57"]
+			id: "1CF1F94F55A225E7"
+			tasks: [
+				{
+					id: "4562E2A80E35D340"
+					type: "item"
+					item: "prettypipes:pipe"
+					count: 16L
+				}
+				{
+					id: "4C8D8D4F0C9F438B"
+					type: "item"
+					item: "ppfluids:fluid_pipe"
+					count: 16L
+				}
+			]
+			rewards: [{
+				id: "64F5CD9FFAD112FC"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 7.5d
+			description: ["For producing different modules."]
+			dependencies: ["08EF9990BA91FE57"]
+			id: "79EEF4BE016F8956"
+			tasks: [{
+				id: "069D7616E232BF15"
+				type: "item"
+				item: "prettypipes:blank_module"
+			}]
+			rewards: [{
+				id: "7F09BE3206C36A5F"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 7.5d
+			description: ["Attach this to a pipe to show the amount of the specific item in the pipe's network"]
+			dependencies: ["08EF9990BA91FE57"]
+			id: "4C8CB7C189E03AD0"
+			tasks: [{
+				id: "3294A818383A06B5"
+				type: "item"
+				item: "prettypipes:pipe_frame"
+			}]
+			rewards: [{
+				id: "491BFCEC730751F3"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 10.0d
+			description: [
+				"Connect the terminal to chests by pipes, so that you can access the items in chest by the terminal."
+				"Note that time is needed to request items from chests."
+			]
+			dependencies: ["08EF9990BA91FE57"]
+			id: "2DDC414812C9E556"
+			tasks: [{
+				id: "08A1B21AB8A9210A"
+				type: "item"
+				item: "prettypipes:item_terminal"
+			}]
+			rewards: [
+				{
+					id: "32EE6F37A64B8ECB"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "ingotnore"
+						}
+					}
+				}
+				{
+					id: "60E1C5E531C4350E"
+					type: "item"
+					item: "storagedrawers:emerald_storage_upgrade"
+					count: 4
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 11.0d
+			description: ["This provides a basic auto-crafting system by directly accessing to your pipe network."]
+			dependencies: ["08EF9990BA91FE57"]
+			id: "10C75111FDEED3A8"
+			tasks: [{
+				id: "7332E5B0400546F1"
+				type: "item"
+				item: "prettypipes:crafting_terminal"
+			}]
+			rewards: [{
+				id: "3BE51CC7C0323C26"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 10.0d
+			description: ["It uses energy to increase transfer speed of the whole pipe network."]
+			dependencies: ["08EF9990BA91FE57"]
+			id: "6E0F36CCAE0C80CA"
+			tasks: [{
+				id: "12712F73529478DA"
+				type: "item"
+				item: "prettypipes:pressurizer"
+			}]
+			rewards: [{
+				id: "3FC8698D58F79918"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+			}]
+		}
+		{
+			title: "Touhou Little Maid"
+			x: 4.0d
+			y: 7.0d
+			description: [
+				"Touhou Little maid is a cute mod. It provides maids for you, who can do a lot of things!!!"
+				"The skin of the maid can be customized, you can either draw it yourself or download it from net. Check Memorizable Genzoku for detailed information."
+				"To summon a maid, you need to build the altar first. Build the altar according to the description in the guide book. Then, put diamond, gold, coal, iron, redstone, lapis on top of the 6 columns."
+				"{image:touhou_little_maid:textures/book/altar.png width:100 height:100 align:1}"
+			]
+			id: "7C6A163BF7A12BD6"
+			tasks: [{
+				id: "655E5C9805B1F128"
+				type: "item"
+				item: {
+					id: "touhou_little_maid:hakurei_gohei"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0533F8DE139B8D65"
+				type: "item"
+				item: "touhou_little_maid:power_point"
+				count: 2
+			}]
+		}
+		{
+			title: "Taming your maid"
+			x: 4.0d
+			y: 9.0d
+			description: [
+				"After summoning the maid, you need cake to tame it."
+				"{image:kubejs:textures/quests/maid/maid_taming.png width:178 height:100 align:1}"
+			]
+			dependencies: ["7C6A163BF7A12BD6"]
+			id: "22372E96ED634EEB"
+			tasks: [{
+				id: "742080C19B8B61D5"
+				type: "item"
+				item: "minecraft:cake"
+			}]
+			rewards: [{
+				id: "008C512002889158"
+				type: "item"
+				item: "touhou_little_maid:power_point"
+				count: 4
+			}]
+		}
+		{
+			title: "Make a sword for you maid!"
+			x: 6.0d
+			y: 7.0d
+			description: [
+				"{image:kubejs:textures/quests/maid/maid_status.png width:178 height:100 align:1}"
+				"Your maid can actually do many things for you!"
+				"There are some baubles for your maid to add extra abilities. Now, try to craft a sword for you maid."
+				"The reward is a flower... try to let your maid take that flower in her main hand, extremely cute!!!"
+			]
+			dependencies: ["22372E96ED634EEB"]
+			id: "751898164E00D458"
+			tasks: [{
+				id: "75D7A11F63065D49"
+				type: "item"
+				title: "Any #forge:swords"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:swords"
+					}
+				}
+			}]
+			rewards: [{
+				id: "085C8BFE273185D2"
+				type: "item"
+				item: "minecraft:white_tulip"
+			}]
+		}
+		{
+			title: "Iron Furnace"
+			x: 12.5d
+			y: -0.5d
+			description: [
+				"Do you hate wasting time on smelting things in vanilla minecraft? Here is the solution."
+				"\"Iron Furnace\" provides furnaces that procress at a high speed and even faster than the industrial ones at higher tier!"
+				"Tooltips are added to help you understand the operation speed of furnaces."
+			]
+			id: "6C0D5BC112E5DEC3"
+			tasks: [{
+				id: "449855C80A06BF67"
+				type: "item"
+				item: "minecraft:furnace"
+			}]
+			rewards: [{
+				id: "23A473C21DE0B395"
+				type: "item"
+				item: "ironfurnaces:item_copy"
+			}]
+		}
+		{
+			x: 15.0d
+			y: -1.5d
+			dependencies: ["6C0D5BC112E5DEC3"]
+			id: "3148FEF96257BB85"
+			tasks: [{
+				id: "5EEFC71F679E5389"
+				type: "item"
+				item: "ironfurnaces:iron_furnace"
+			}]
+			rewards: [{
+				id: "1515EF230C9E83D1"
+				type: "item"
+				item: "ironfurnaces:upgrade_iron"
+			}]
+		}
+		{
+			x: 16.5d
+			y: 0.5d
+			dependencies: ["3148FEF96257BB85"]
+			id: "5D70FCA9D8868160"
+			tasks: [{
+				id: "23EE383A8042AEA9"
+				type: "item"
+				item: "ironfurnaces:gold_furnace"
+			}]
+			rewards: [{
+				id: "30C481245691A875"
+				type: "item"
+				item: "ironfurnaces:upgrade_gold"
+			}]
+		}
+		{
+			x: 16.5d
+			y: 2.0d
+			dependencies: ["5D70FCA9D8868160"]
+			id: "73F50B31AB97C9C6"
+			tasks: [{
+				id: "622AEB9A0053538E"
+				type: "item"
+				item: "ironfurnaces:diamond_furnace"
+			}]
+			rewards: [{
+				id: "3D6963AAA07D5AD9"
+				type: "item"
+				item: "ironfurnaces:upgrade_diamond"
+			}]
+		}
+		{
+			x: 15.0d
+			y: 0.5d
+			dependencies: ["73F50B31AB97C9C6"]
+			id: "39890F8295C78384"
+			tasks: [{
+				id: "641F65A41E1BFCC0"
+				type: "item"
+				item: "ironfurnaces:emerald_furnace"
+			}]
+			rewards: [{
+				id: "03ED9B43C82F32E8"
+				type: "item"
+				item: "ironfurnaces:upgrade_emerald"
+			}]
+		}
+		{
+			x: 13.0d
+			y: 2.5d
+			dependencies: [
+				"39890F8295C78384"
+				"703BE9210CA314B1"
+			]
+			id: "539476AAFD413790"
+			tasks: [{
+				id: "2D9862C655174693"
+				type: "item"
+				item: "ironfurnaces:obsidian_furnace"
+			}]
+			rewards: [{
+				id: "4A2DC38617A45471"
+				type: "item"
+				item: "ironfurnaces:upgrade_obsidian2"
+			}]
+		}
+		{
+			x: 15.0d
+			y: 3.0d
+			dependencies: ["39890F8295C78384"]
+			id: "703BE9210CA314B1"
+			tasks: [{
+				id: "148F93D00C41E8CF"
+				type: "item"
+				item: "ironfurnaces:crystal_furnace"
+			}]
+			rewards: [{
+				id: "57A74B1DAA7EF1A4"
+				type: "item"
+				item: "ironfurnaces:upgrade_crystal"
+			}]
+		}
+		{
+			x: 16.0d
+			y: 4.0d
+			dependencies: ["539476AAFD413790"]
+			id: "08847DC6667BBD62"
+			tasks: [{
+				id: "065D7522F07374AC"
+				type: "item"
+				item: "ironfurnaces:netherite_furnace"
+			}]
+			rewards: [{
+				id: "10344415BA50039A"
+				type: "item"
+				item: "ironfurnaces:upgrade_netherite"
+			}]
+		}
+		{
+			x: 18.0d
+			y: 4.5d
+			dependencies: ["08847DC6667BBD62"]
+			id: "3BA0B6CBB5E3C960"
+			tasks: [{
+				id: "4E1138C0564AD2B5"
+				type: "item"
+				item: "ironfurnaces:allthemodium_furnace"
+			}]
+			rewards: [
+				{
+					id: "1A60A9B155D14645"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "unobtainable"
+						}
+					}
+				}
+				{
+					id: "64EC5CC429ABF109"
+					type: "item"
+					item: "ironfurnaces:upgrade_allthemodium"
+				}
+			]
+		}
+		{
+			x: 18.0d
+			y: 3.5d
+			dependencies: ["3BA0B6CBB5E3C960"]
+			id: "0280971BB61012BB"
+			tasks: [{
+				id: "61DC26EC6E8944C2"
+				type: "item"
+				item: "ironfurnaces:vibranium_furnace"
+			}]
+			rewards: [
+				{
+					id: "49011674D6150CAA"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "unobtainable"
+						}
+					}
+				}
+				{
+					id: "17C5DB8AEFC6D84F"
+					type: "item"
+					item: "ironfurnaces:upgrade_vibranium"
+				}
+			]
+		}
+		{
+			x: 19.0d
+			y: 2.0d
+			dependencies: ["0280971BB61012BB"]
+			id: "7C60E0F55655FD9F"
+			tasks: [{
+				id: "622D75EA938E3C85"
+				type: "item"
+				item: "ironfurnaces:unobtainium_furnace"
+			}]
+			rewards: [
+				{
+					id: "62F6C576E8D1899E"
+					type: "item"
+					item: "ironfurnaces:rainbow_coal"
+				}
+				{
+					id: "05B15BB4B40E0DDB"
+					type: "item"
+					item: "ironfurnaces:upgrade_unobtainium"
+				}
+			]
+		}
+		{
+			x: 17.0d
+			y: -2.5d
+			dependencies: ["6C0D5BC112E5DEC3"]
+			id: "4366D29604EDD31C"
+			tasks: [{
+				id: "5A338D15CCFA1501"
+				type: "item"
+				item: "ironfurnaces:copper_furnace"
+			}]
+			rewards: [{
+				id: "614F8EE83F5935C2"
+				type: "item"
+				item: "ironfurnaces:upgrade_copper"
+			}]
+		}
+		{
+			x: 17.5d
+			y: -0.5d
+			dependencies: ["4366D29604EDD31C"]
+			id: "5861DFEEE2758FBE"
+			tasks: [{
+				id: "761B7C948D8069FB"
+				type: "item"
+				item: "ironfurnaces:silver_furnace"
+			}]
+			rewards: [{
+				id: "40F8EA0E357D7D79"
+				type: "item"
+				item: "ironfurnaces:upgrade_silver"
+			}]
+		}
+		{
+			title: "Cover for your furnace"
+			x: 12.0d
+			y: -2.0d
+			description: ["These two items are cover of your furnace. You can mask your furnace with this."]
+			dependencies: ["6C0D5BC112E5DEC3"]
+			id: "3EFAE7E42D4EE4C4"
+			tasks: [
+				{
+					id: "76D1BC8CB7DFFC34"
+					type: "item"
+					item: "ironfurnaces:item_spooky"
+				}
+				{
+					id: "2FB38A55F5BD84C6"
+					type: "item"
+					item: "ironfurnaces:item_xmas"
+				}
+			]
+			rewards: [{
+				id: "28591F24FFED406D"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+			}]
+		}
+		{
+			x: 15.0d
+			y: 5.0d
+			dependencies: ["08847DC6667BBD62"]
+			id: "0FDE6947AA04CF3C"
+			tasks: [{
+				id: "4F3F213E2DE25E2B"
+				type: "item"
+				item: "ironfurnaces:rainbow_core"
+			}]
+			rewards: [{
+				id: "00D9EE602F2FFA80"
+				type: "item"
+				item: "minecraft:netherite_ingot"
+				count: 2
+			}]
+		}
+		{
+			x: 12.5d
+			y: 4.5d
+			dependencies: [
+				"3148FEF96257BB85"
+				"5D70FCA9D8868160"
+				"39890F8295C78384"
+				"73F50B31AB97C9C6"
+				"703BE9210CA314B1"
+				"539476AAFD413790"
+			]
+			id: "1B07997F44CDAFB9"
+			tasks: [{
+				id: "508ACC9D960DEC05"
+				type: "item"
+				item: "ironfurnaces:rainbow_plating"
+				count: 8L
+			}]
+			rewards: [{
+				id: "6FC9D853DC38C11C"
+				type: "item"
+				item: "minecraft:netherite_ingot"
+				count: 2
+			}]
+		}
+		{
+			x: 16.0d
+			y: 6.5d
+			dependencies: [
+				"1B07997F44CDAFB9"
+				"0FDE6947AA04CF3C"
+			]
+			id: "537890D132E1EF81"
+			tasks: [{
+				id: "5665CE7F07EE4D93"
+				type: "item"
+				item: "ironfurnaces:million_furnace"
+			}]
+			rewards: [{
+				id: "4EF0FD8BD9796D5C"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "unobtainable"
+					}
+				}
+			}]
+		}
+		{
+			title: "Upgrades"
+			x: 11.0d
+			y: 0.0d
+			description: ["You can upgrade your furnace to become more OP!"]
+			dependencies: ["6C0D5BC112E5DEC3"]
+			id: "60CA569E6B4F1E10"
+			tasks: [
+				{
+					id: "7D929B6FDB9089D8"
+					type: "item"
+					item: "ironfurnaces:augment_blasting"
+				}
+				{
+					id: "41354C229AD0A8D8"
+					type: "item"
+					item: "ironfurnaces:augment_smoking"
+				}
+				{
+					id: "45906E2E81F5A491"
+					type: "item"
+					item: "ironfurnaces:augment_speed"
+				}
+				{
+					id: "472656AA65B7A34A"
+					type: "item"
+					item: "ironfurnaces:augment_fuel"
+				}
+			]
+			rewards: [{
+				id: "3CFC8C7F7B7487BA"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "delightfood"
+					}
+				}
+			}]
+		}
+		{
+			title: "Tech support!"
+			x: 12.0d
+			y: 1.0d
+			description: ["Absolutely, this mod supports industrial. You can use FE to smelt items!"]
+			dependencies: ["6C0D5BC112E5DEC3"]
+			id: "347974563242CE46"
+			tasks: [
+				{
+					id: "28D10AAF00A7FBD9"
+					type: "item"
+					item: "ironfurnaces:heater"
+				}
+				{
+					id: "31B5D27EEA7BF166"
+					type: "item"
+					item: "ironfurnaces:item_heater"
+				}
+			]
+			rewards: [{
+				id: "4F33AB45830BDB8C"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: 9.0d
+			description: [
+				"A bauble that makes your maid invulnerable."
+				"PS. This recipe is set to be very cheap intentionally."
+			]
+			dependencies: ["751898164E00D458"]
+			id: "7B9CD65654F1392C"
+			tasks: [{
+				id: "16E7DC92E6B83AD7"
+				type: "item"
+				item: "touhou_little_maid:substitute_jizo"
+			}]
+			rewards: [{
+				id: "4E88CE9B0F356760"
+				type: "item"
+				item: "touhou_little_maid:power_point"
+				count: 64
+			}]
+		}
+	]
+}

@@ -1,0 +1,1017 @@
+{
+	id: "282BC08EF7A6828E"
+	group: "1E2DE02B87CFF91D"
+	order_index: 0
+	filename: "storage"
+	title: "Storages"
+	icon: "minecraft:chest"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Storage chest!"
+			x: -2.5d
+			y: -1.0d
+			description: [
+				"Here are lists of different types of chest."
+				"Of course there are different types of chest made from different types of wood or log."
+			]
+			id: "120C311673DE69FC"
+			tasks: [{
+				id: "66298C6FA285BF27"
+				type: "item"
+				title: "Any #forge:chests/wooden"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:chests/wooden"
+					}
+				}
+			}]
+			rewards: [{
+				id: "7E2E2EC3F75C1C55"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "delightfood"
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: -1.0d
+			dependencies: ["120C311673DE69FC"]
+			id: "5EBA0058CD9F4364"
+			tasks: [{
+				id: "04F0EAC19BF91C07"
+				type: "item"
+				item: "minecraft:ender_chest"
+			}]
+			rewards: [{
+				id: "5491FA237109565B"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 2
+			}]
+		}
+		{
+			x: -2.5d
+			y: 1.0d
+			dependencies: ["120C311673DE69FC"]
+			id: "4280B2F4FF8295BC"
+			tasks: [{
+				id: "34FF021FACFEE147"
+				type: "item"
+				item: "ironchest:iron_chest"
+			}]
+			rewards: [{
+				id: "6454E9D47C74EABE"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "delightfood"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: 3.0d
+			dependencies: ["4280B2F4FF8295BC"]
+			id: "0AB2DE103D6ADFAD"
+			tasks: [{
+				id: "17FD3B0238E607FC"
+				type: "item"
+				item: "ironchest:gold_chest"
+			}]
+			rewards: [{
+				id: "43F8BCCE7D85BE32"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 2
+			}]
+		}
+		{
+			x: -2.5d
+			y: 5.0d
+			dependencies: ["0AB2DE103D6ADFAD"]
+			id: "07C80CB697F82A64"
+			tasks: [{
+				id: "7E08B8079528888F"
+				type: "item"
+				item: "ironchest:diamond_chest"
+			}]
+			rewards: [{
+				id: "6269E0FE7EA418D2"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 2
+			}]
+		}
+		{
+			x: -0.5d
+			y: 1.0d
+			dependencies: ["120C311673DE69FC"]
+			id: "2CEC975B91348272"
+			tasks: [{
+				id: "676EC53989838451"
+				type: "item"
+				item: "ironchest:copper_chest"
+			}]
+			rewards: [{
+				id: "75ACB8DF5B346199"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 2
+			}]
+		}
+		{
+			x: -0.5d
+			y: 3.0d
+			dependencies: ["4280B2F4FF8295BC"]
+			id: "36B2D311C4A5C7CE"
+			tasks: [{
+				id: "6B58F380FEBC1F46"
+				type: "item"
+				item: "ironchest:silver_chest"
+			}]
+			rewards: [{
+				id: "16B1F6911C35B073"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 2
+			}]
+		}
+		{
+			x: -2.5d
+			y: 7.0d
+			dependencies: ["07C80CB697F82A64"]
+			id: "77B6F14CAFCA4B7E"
+			tasks: [{
+				id: "3829748A9D0E79A3"
+				type: "item"
+				item: "ironchest:crystal_chest"
+			}]
+			rewards: [{
+				id: "202E491BD3C698C6"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 2
+			}]
+		}
+		{
+			x: -0.5d
+			y: 7.0d
+			dependencies: ["07C80CB697F82A64"]
+			id: "607513B4B8A9DC9A"
+			tasks: [{
+				id: "2CD5FF27E34734C1"
+				type: "item"
+				item: "ironchest:obsidian_chest"
+			}]
+			rewards: [{
+				id: "072089D36660DCA4"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 2
+			}]
+		}
+		{
+			x: -4.5d
+			y: 1.0d
+			dependencies: ["120C311673DE69FC"]
+			id: "04525C7F60ACB480"
+			tasks: [{
+				id: "4924C96176A032E4"
+				type: "item"
+				item: "ironchest:dirt_chest"
+			}]
+			rewards: [{
+				id: "7F8AA35592A24A5B"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "delightfood"
+					}
+				}
+			}]
+		}
+		{
+			title: "Drawers"
+			icon: "storagedrawers:oak_full_drawers_1"
+			x: 3.0d
+			y: -1.0d
+			description: ["Drawers allow you to storage a large amount of items in just one block!"]
+			id: "5CDF2982F57BC5D5"
+			tasks: [{
+				id: "51F0EF904DD0475D"
+				type: "item"
+				title: "Any #storagedrawers:drawers"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "storagedrawers:drawers"
+					}
+				}
+			}]
+			rewards: [{
+				id: "3DF1A001AE930A8A"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "delightfood"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			description: ["Storage controller allows you to access all the items in the drawer by placer the it next to the drawers."]
+			dependencies: ["5CDF2982F57BC5D5"]
+			id: "0FAE8144069351CC"
+			tasks: [{
+				id: "1D8858171F59DFFE"
+				type: "item"
+				item: "storagedrawers:controller"
+			}]
+			rewards: [{
+				id: "3AA3C8F15FBD783E"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 2
+			}]
+		}
+		{
+			x: 5.0d
+			y: 1.0d
+			description: ["Here are examples of useful upgrades forr drawers."]
+			dependencies: ["5CDF2982F57BC5D5"]
+			id: "1736A97BBF619DEE"
+			tasks: [{
+				id: "44BD5578F828637D"
+				type: "item"
+				item: "storagedrawers:upgrade_template"
+			}]
+			rewards: [{
+				id: "7AD9BB3FCE988869"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "delightfood"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: -1.0d
+			description: [
+				"Compact drawers allows you to access different forms of items at the same time, without crafting or placing them into crafting table."
+				"e.g., you can access both iron nuggets, iron ingots, iron blocks after you have stored 9 iron ingots."
+			]
+			dependencies: ["5CDF2982F57BC5D5"]
+			id: "06227C2078F6F5D3"
+			tasks: [{
+				id: "442E8D9D0DE8D26D"
+				type: "item"
+				item: "storagedrawers:compacting_drawers_3"
+			}]
+			rewards: [{
+				id: "7E8B1DDB8E969FE7"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 2
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.0d
+			description: ["Your 2nd controller. This block cannot be used as the normal controller. It can only exist when there is already one controller in your drawer network."]
+			dependencies: ["0FAE8144069351CC"]
+			id: "6C32A0B8C8C7D800"
+			tasks: [{
+				id: "458C30F020D094C7"
+				type: "item"
+				item: "storagedrawers:controller_slave"
+			}]
+			rewards: [{
+				id: "508FAB6F0CFE923F"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 2
+			}]
+		}
+		{
+			x: 5.0d
+			y: 3.0d
+			dependencies: ["1736A97BBF619DEE"]
+			id: "6A82C1083804D65C"
+			tasks: [{
+				id: "6C64536D464A3743"
+				type: "item"
+				item: "storagedrawers:obsidian_storage_upgrade"
+			}]
+			rewards: [{
+				id: "613BB21EB2773FD7"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 2
+			}]
+		}
+		{
+			x: 5.0d
+			y: 5.0d
+			dependencies: ["1736A97BBF619DEE"]
+			id: "6D8ACAEA23203034"
+			tasks: [{
+				id: "3095F4F1B6F0375D"
+				type: "item"
+				item: "storagedrawers:iron_storage_upgrade"
+			}]
+			rewards: [{
+				id: "38E4131C3AEDB136"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 2
+			}]
+		}
+		{
+			x: 5.0d
+			y: 7.0d
+			dependencies: ["1736A97BBF619DEE"]
+			id: "0BC40BAC5742C605"
+			tasks: [{
+				id: "7EDF2C85C682237B"
+				type: "item"
+				item: "storagedrawers:gold_storage_upgrade"
+			}]
+			rewards: [{
+				id: "40AD257E28C0F0F2"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 2
+			}]
+		}
+		{
+			x: 7.0d
+			y: 3.0d
+			dependencies: ["1736A97BBF619DEE"]
+			id: "1BC993372371390D"
+			tasks: [{
+				id: "61A5A7677B72A7BF"
+				type: "item"
+				item: "storagedrawers:diamond_storage_upgrade"
+			}]
+			rewards: [{
+				id: "5F77BF8F6164CA65"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 2
+			}]
+		}
+		{
+			x: 7.0d
+			y: 5.0d
+			dependencies: ["1736A97BBF619DEE"]
+			id: "5573E803E85621A1"
+			tasks: [{
+				id: "3625562CA53540AB"
+				type: "item"
+				item: "storagedrawers:emerald_storage_upgrade"
+			}]
+			rewards: [{
+				id: "24D93EE6FFB625B4"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 2
+			}]
+		}
+		{
+			x: 7.0d
+			y: 7.0d
+			dependencies: ["1736A97BBF619DEE"]
+			id: "4081C98E95DBCE18"
+			tasks: [{
+				id: "36FE4FA5697CAA8F"
+				type: "item"
+				item: "storagedrawers:creative_storage_upgrade"
+			}]
+			rewards: [{
+				id: "7428BDF9EF7B4A9E"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 2
+			}]
+		}
+		{
+			x: 9.0d
+			y: 3.0d
+			dependencies: ["1736A97BBF619DEE"]
+			id: "611B06253C63725F"
+			tasks: [{
+				id: "57B6C95CB2B63B86"
+				type: "item"
+				item: "storagedrawers:illumination_upgrade"
+			}]
+			rewards: [{
+				id: "735642A8233BFCA3"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 2
+			}]
+		}
+		{
+			title: "Advance management items"
+			x: -5.0d
+			y: 12.5d
+			dependencies: ["72886A8E609A4E38"]
+			id: "6B66915DEC3FF116"
+			tasks: [
+				{
+					id: "7A3944022F590549"
+					type: "item"
+					item: "cabletiers:creative_destructor"
+				}
+				{
+					id: "42A47A6F44DE0540"
+					type: "item"
+					item: "cabletiers:creative_constructor"
+				}
+				{
+					id: "001552C7C886DA64"
+					type: "item"
+					item: "cabletiers:creative_importer"
+				}
+				{
+					id: "448BE04B34D71DC9"
+					type: "item"
+					item: "cabletiers:creative_exporter"
+				}
+				{
+					id: "5E4FD0055EE4364D"
+					type: "item"
+					item: "cabletiers:creative_requester"
+				}
+			]
+			rewards: [{
+				id: "3F578F6A77B4DA8F"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "singularity"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 9.5d
+			description: ["There are so many quests on refined storage in other packs. Therefore, quests will be simplified but remaining a good guidance on this mod."]
+			id: "480030C87B77AFE9"
+			tasks: [{
+				id: "4E31ABEC99355D30"
+				type: "checkmark"
+				title: "Refined Storage"
+			}]
+			rewards: [{
+				id: "1B5C78DC3D01E833"
+				type: "item"
+				item: "refinedstorage:wrench"
+			}]
+		}
+		{
+			title: "Basic materials"
+			x: 1.0d
+			y: 12.0d
+			description: ["Firstly, you have to collect these basic materials. It is not recommended that you start this mod at the beginning because the equipments are pretty expensive."]
+			dependencies: ["480030C87B77AFE9"]
+			id: "5EC93ABC97108CC5"
+			tasks: [
+				{
+					id: "4E868B846635CFE1"
+					type: "item"
+					item: "refinedstorage:quartz_enriched_iron"
+					count: 64L
+				}
+				{
+					id: "07407066A3B2A7FD"
+					type: "item"
+					item: "refinedstorage:processor_binding"
+					count: 64L
+				}
+			]
+			rewards: [{
+				id: "5B3249C727F6B471"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 2
+			}]
+		}
+		{
+			title: "Some processors"
+			x: 3.0d
+			y: 12.0d
+			description: ["Processors are essential in crafting. You will need a bunch of them."]
+			dependencies: ["480030C87B77AFE9"]
+			id: "67A76CF6E547225F"
+			tasks: [
+				{
+					id: "5807F2824365A41B"
+					type: "item"
+					item: "refinedstorage:advanced_processor"
+				}
+				{
+					id: "026B3423EDEEA9D6"
+					type: "item"
+					item: "refinedstorage:improved_processor"
+				}
+				{
+					id: "21BBF24C7F94A055"
+					type: "item"
+					item: "refinedstorage:basic_processor"
+				}
+				{
+					id: "52069991C81BC9C7"
+					type: "item"
+					item: "refinedstorage:destruction_core"
+				}
+				{
+					id: "6652B128270B9BF0"
+					type: "item"
+					item: "refinedstorage:construction_core"
+				}
+			]
+			rewards: [{
+				id: "79B7E95F65F52E7F"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 2
+			}]
+		}
+		{
+			title: "Setting up storage"
+			icon: "refinedstorage:crafting_grid"
+			x: 2.0d
+			y: 14.5d
+			description: [
+				"It's time to start setting up the storage network. You will need storage disk to store items."
+				"Place the related blocks next to each other. The network will start when there is energy. You can also connect the network using cables."
+			]
+			dependencies: [
+				"5EC93ABC97108CC5"
+				"67A76CF6E547225F"
+			]
+			id: "03322CD78E4A86F3"
+			tasks: [
+				{
+					id: "38CBE4D0C3C33B59"
+					type: "item"
+					item: "refinedstorage:crafting_grid"
+				}
+				{
+					id: "68E22ACF37AB51FC"
+					type: "item"
+					item: "refinedstorage:controller"
+				}
+				{
+					id: "38EC86535FE5ED60"
+					type: "item"
+					item: "refinedstorage:disk_drive"
+				}
+			]
+			rewards: [{
+				id: "6525F257091DAAD7"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 2
+			}]
+		}
+		{
+			title: "Wireless network"
+			icon: "refinedstorage:network_card"
+			x: 6.5d
+			y: 12.5d
+			dependencies: ["03322CD78E4A86F3"]
+			id: "341FB1F6338427E7"
+			tasks: [
+				{
+					id: "090EACB36C00C38F"
+					type: "item"
+					item: "refinedstorage:network_card"
+				}
+				{
+					id: "42E6EF9DA45FD40F"
+					type: "item"
+					item: "refinedstorage:network_transmitter"
+				}
+				{
+					id: "571AF092D15784DD"
+					type: "item"
+					item: "refinedstorage:network_receiver"
+				}
+			]
+			rewards: [{
+				id: "15114020E9872FDA"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 2
+			}]
+		}
+		{
+			title: "Portable network"
+			icon: "refinedstorage:wireless_transmitter"
+			x: 6.5d
+			y: 14.5d
+			dependencies: ["03322CD78E4A86F3"]
+			id: "3D7AEAC0E809DE56"
+			tasks: [
+				{
+					id: "0EB094C20EC7DEA8"
+					type: "item"
+					item: "refinedstorage:wireless_transmitter"
+				}
+				{
+					id: "007FD9AAF66477EB"
+					type: "item"
+					item: "refinedstorage:wireless_grid"
+				}
+			]
+			rewards: [{
+				id: "466C12FE284A2F76"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 2
+			}]
+		}
+		{
+			title: "Automation and Management"
+			x: -2.5d
+			y: 12.5d
+			description: ["Refined storage provides a convenient items and ways for automation and management."]
+			dependencies: ["03322CD78E4A86F3"]
+			id: "72886A8E609A4E38"
+			tasks: [
+				{
+					id: "215580ED63AD8CC8"
+					type: "item"
+					item: "refinedstorage:fluid_interface"
+				}
+				{
+					id: "0CB9898469E4BBF1"
+					type: "item"
+					item: "refinedstorage:interface"
+				}
+				{
+					id: "10F9170AFEF0512A"
+					type: "item"
+					item: "refinedstorage:external_storage"
+				}
+				{
+					id: "5F9A6FEB6BD62204"
+					type: "item"
+					item: "refinedstorage:exporter"
+				}
+				{
+					id: "69A6F3A461B939F5"
+					type: "item"
+					item: "refinedstorage:importer"
+				}
+				{
+					id: "2E64F7870750F413"
+					type: "item"
+					item: "refinedstorage:destructor"
+				}
+				{
+					id: "5FDF184B86FBC14F"
+					type: "item"
+					item: "refinedstorage:constructor"
+				}
+			]
+			rewards: [{
+				id: "2FE0B46EE6947DDE"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 2
+			}]
+		}
+		{
+			x: -2.5d
+			y: 14.0d
+			description: ["Here are lists of some of the common upgrades available in refined storage."]
+			dependencies: ["03322CD78E4A86F3"]
+			id: "07DE06909BD87AE4"
+			tasks: [
+				{
+					id: "4ECBBE078577CCE8"
+					type: "item"
+					item: "refinedstorage:stack_upgrade"
+				}
+				{
+					id: "18F2F8E20EFBF549"
+					type: "item"
+					item: "refinedstorage:crafting_upgrade"
+				}
+				{
+					id: "6409DC2C1D699668"
+					type: "item"
+					item: "refinedstorage:range_upgrade"
+				}
+				{
+					id: "30E89B74B982EFC2"
+					type: "item"
+					item: "refinedstorage:speed_upgrade"
+				}
+			]
+			rewards: [{
+				id: "1417C572F507125A"
+				type: "item"
+				item: "refinedstorage:upgrade"
+				count: 4
+			}]
+		}
+		{
+			x: -2.5d
+			y: 15.5d
+			dependencies: ["03322CD78E4A86F3"]
+			id: "30A841781465FFF8"
+			tasks: [{
+				id: "541DD70DF14F5351"
+				type: "item"
+				item: "refinedstorage:filter"
+			}]
+			rewards: [{
+				id: "32780A215D28A253"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 2
+			}]
+		}
+		{
+			x: -2.5d
+			y: 17.0d
+			description: ["Pattern stores recipes for auto crafting."]
+			dependencies: ["03322CD78E4A86F3"]
+			id: "4ED23967EBABC13D"
+			tasks: [{
+				id: "4DA641D3914E1AEE"
+				type: "item"
+				item: "refinedstorage:pattern"
+			}]
+			rewards: [{
+				id: "70243B5383CFFA1B"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 2
+			}]
+		}
+		{
+			title: "Largest type of storage"
+			x: 3.5d
+			y: 17.0d
+			dependencies: ["03322CD78E4A86F3"]
+			id: "542B408560514F71"
+			tasks: [
+				{
+					id: "4D4742DE5A9869DF"
+					type: "item"
+					item: {
+						id: "extrastorage:disk_1048576k_fluid"
+						Count: 1b
+						tag: {
+							ID: [I;
+								628742269
+								1445087639
+								-1789464342
+								1590181588
+							]
+						}
+					}
+				}
+				{
+					id: "5E43AE00E71D9613"
+					type: "item"
+					item: {
+						id: "extrastorage:disk_16384k"
+						Count: 1b
+						tag: {
+							ID: [I;
+								1367011447
+								-2141567660
+								-1845270857
+								-338460117
+							]
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "0512FDE2F9CA572A"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "singularity"
+					}
+				}
+			}]
+		}
+		{
+			title: "Core of auto-crafting"
+			x: 1.0d
+			y: 17.0d
+			description: ["Store a crafting recipe using a pattern in pattern terminal. Then put that pattern into the crafter and connect the craft to your network."]
+			dependencies: ["03322CD78E4A86F3"]
+			id: "779587ECB6E30E5B"
+			tasks: [
+				{
+					id: "7338B1577E8145E8"
+					type: "item"
+					item: "extrastorage:neural_processor"
+				}
+				{
+					id: "676F54A5F97119E4"
+					type: "item"
+					item: "extrastorage:netherite_crafter"
+				}
+			]
+			rewards: [{
+				id: "5C0234634E5E94D9"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "singularity"
+					}
+				}
+			}]
+		}
+	]
+}

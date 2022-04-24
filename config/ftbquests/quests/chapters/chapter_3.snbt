@@ -1,0 +1,875 @@
+{
+	id: "59B96C0E29233BEF"
+	group: "52335F892C9B07FA"
+	order_index: 2
+	filename: "chapter_3"
+	title: "Chapter 3: Supreme tech"
+	icon: "industrialforegoing:plastic"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Power Generator"
+			x: 0.0d
+			y: 0.5d
+			description: [
+				"You enter the industrial and technology age now. More and more power is needed. Craft these two coal generator to provide a stable energy source for your machines."
+				"For more types of energy generation, you can check \"Energy\" chapter."
+			]
+			dependencies: ["27CF0C7CBDCAE57C"]
+			id: "6D2F8EAC1957B4C4"
+			tasks: [
+				{
+					id: "561134A86316CECE"
+					type: "item"
+					item: "industrialforegoing:pitiful_generator"
+				}
+				{
+					id: "6718533B32AA9D23"
+					type: "item"
+					item: "thermal:dynamo_stirling"
+				}
+			]
+			rewards: [{
+				id: "4B838AA9F19580E2"
+				type: "item"
+				item: "minecraft:coal"
+				count: 16
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.5d
+			description: [
+				"Get the fluid extractor and place a log in front of it. It will extract latex from trees slowly. Powering it will increase the speed."
+				"{image:kubejs:textures/quests/chapter3/chapter3_fluid_extractor.png width:178 height:100 align:1}"
+			]
+			dependencies: ["6D2F8EAC1957B4C4"]
+			id: "48132AE94E2B30F0"
+			tasks: [{
+				id: "5F64D1FA5CA48758"
+				type: "item"
+				item: "industrialforegoing:fluid_extractor"
+			}]
+			rewards: [{
+				id: "461BC7BD2529EB20"
+				type: "item"
+				item: "minecraft:oak_log"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.5d
+			description: [
+				"Pipe the liquid latex and water into the processing unit. Power it with your generator."
+				"The latex will be transformed into tiny dry rubber. Combine 9 of it to get dry rubber and smelt it into furnace. You will get plastic eventually."
+			]
+			dependencies: ["48132AE94E2B30F0"]
+			id: "4B0F7DD40325595F"
+			tasks: [
+				{
+					id: "2127B82D858A8A76"
+					type: "item"
+					item: "industrialforegoing:latex_processing_unit"
+				}
+				{
+					id: "471750C7E4462A7C"
+					type: "item"
+					item: "industrialforegoing:plastic"
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "6AC2AD224227D8EF"
+				type: "item"
+				item: "industrialforegoing:latex_bucket"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.5d
+			description: ["You need this to craft different machine frames. I recommend you craft 3 of these at late game, because there are 3 different types of liquid in the recipes."]
+			dependencies: ["4B0F7DD40325595F"]
+			id: "68A706ED3FC01DB5"
+			tasks: [{
+				id: "4961466A129DBF41"
+				type: "item"
+				item: "industrialforegoing:dissolution_chamber"
+			}]
+			rewards: [{
+				id: "0C5CC80A78975CFD"
+				type: "item"
+				item: "thermal:diamond_gear"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.5d
+			description: ["Grab a bucket of latex and craft the simple machine frame. Many mekanism machines require this to craft."]
+			dependencies: ["68A706ED3FC01DB5"]
+			id: "23B97F70C74878A4"
+			tasks: [{
+				id: "2810AD5841B87B44"
+				type: "item"
+				item: "industrialforegoing:machine_frame_simple"
+			}]
+			rewards: [{
+				id: "75872E86449D1379"
+				type: "item"
+				item: "mekanism:basic_control_circuit"
+				count: 4
+			}]
+		}
+		{
+			x: 5.5d
+			y: 0.5d
+			description: ["Craft the enrichment chamber, which is an essential machine in Mekanism. It produces enriched items and that is more cost-effective in recipes in mekanism machines."]
+			dependencies: ["23B97F70C74878A4"]
+			id: "667E54C7D5B2E4A3"
+			tasks: [{
+				id: "28538EDE516BE1C4"
+				type: "item"
+				item: "mekanism:enrichment_chamber"
+			}]
+			rewards: [{
+				id: "64BB2ABF1FD3B555"
+				type: "item"
+				item: "mekanism:enriched_redstone"
+				count: 4
+			}]
+		}
+		{
+			x: 2.0d
+			y: -0.5d
+			description: ["Craft the mob slaughter factory that kills mobs to produce pink slime. Non-hostile mobs produces more pink slime that hostile mobs."]
+			dependencies: ["23B97F70C74878A4"]
+			id: "12653C26FE0E79BD"
+			tasks: [{
+				id: "5652FAEB8CAB646D"
+				type: "item"
+				item: "industrialforegoing:mob_slaughter_factory"
+			}]
+			rewards: [{
+				id: "7282EB41D8E8785D"
+				type: "item"
+				item: "mob_grinding_utils:tank"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.5d
+			description: [
+				"Now, back to the nether and get some netherite scraps first. Also grab your pink slimes to get the advanced machine frame."
+				"This quest open Chapter 4"
+			]
+			dependencies: ["12653C26FE0E79BD"]
+			id: "088B299D9888652D"
+			tasks: [{
+				id: "4D82BBF983BC95CC"
+				type: "item"
+				item: "industrialforegoing:machine_frame_advanced"
+			}]
+			rewards: [{
+				id: "16A62CFBAA351B2F"
+				type: "item"
+				item: "minecraft:netherite_scrap"
+				count: 2
+			}]
+		}
+		{
+			title: "Preparing the ether gas"
+			x: 0.0d
+			y: -2.5d
+			subtitle: "Hi wither"
+			description: ["You will find that you need ether gas to craft the next tier machine frame, the supreme machine frame. To obtain ether gas, you need to summon a wither first."]
+			dependencies: ["088B299D9888652D"]
+			id: "1A0BD54284C8E514"
+			tasks: [
+				{
+					id: "72C8FDBDF25D172D"
+					type: "item"
+					item: "minecraft:wither_skeleton_skull"
+					count: 3L
+				}
+				{
+					id: "33F45C156A9019A4"
+					type: "item"
+					item: "minecraft:soul_sand"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "53F769853F78B4F1"
+					type: "item"
+					item: "wstweaks:fragment"
+					count: 9
+				}
+				{
+					id: "17865BFB1FFB7112"
+					type: "item"
+					item: {
+						id: "industrialforegoing:speed_addon_2"
+						Count: 1b
+						tag: {
+							TitaniumAugment: {
+								Speed: 3.0f
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -1.5d
+			description: ["You need these three machines to obtain ether gas from wither."]
+			dependencies: ["1A0BD54284C8E514"]
+			id: "3F58F41CD1815DFA"
+			tasks: [
+				{
+					id: "113EF918E80F5DBD"
+					type: "item"
+					item: "industrialforegoing:laser_lens10"
+				}
+				{
+					id: "304DFD37A05789A3"
+					type: "item"
+					item: "industrialforegoing:fluid_laser_base"
+				}
+				{
+					id: "5EFB8C571286012C"
+					type: "item"
+					item: "industrialforegoing:laser_drill"
+				}
+			]
+			rewards: [{
+				id: "509B99B3D2D73243"
+				type: "item"
+				item: {
+					id: "industrialforegoing:efficiency_addon_2"
+					Count: 1b
+					tag: {
+						TitaniumAugment: {
+							Efficiency: 0.8f
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: -0.5d
+			description: ["Direct summoning wither is not safe, not safe for your own and your base. Craft a stasis chamber that can limit movement of wither."]
+			dependencies: ["3F58F41CD1815DFA"]
+			id: "597F51B54F9B0577"
+			tasks: [{
+				id: "33134C27F463A017"
+				type: "item"
+				item: "industrialforegoing:stasis_chamber"
+			}]
+			rewards: [{
+				id: "032198501419E6EA"
+				type: "item"
+				item: {
+					id: "industrialforegoing:processing_addon_2"
+					Count: 1b
+					tag: {
+						TitaniumAugment: {
+							Processing: 3.0f
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.5d
+			description: [
+				"Set up the machines similar to below. If you are first time, put some protection walls around wither e.g. wither proof blocks. The laser drill will gradually collect the ether gas."
+				"{image:kubejs:textures/quests/chapter3/chapter3_ether_gas.png width:178 height:100 align:1}"
+			]
+			dependencies: ["597F51B54F9B0577"]
+			id: "505C550480FB01C5"
+			tasks: [{
+				id: "435DCB4CF9345A4A"
+				type: "item"
+				item: "industrialforegoing:ether_gas_bucket"
+			}]
+			rewards: [{
+				id: "4ECB41C97DECFC33"
+				type: "item"
+				item: "minecraft:nether_star"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.5d
+			description: [
+				"With your ether bucket, craft the supreme machine frame."
+				"Now, you are able to craft most of the Mekanism machines!"
+				"For automation of machines, you can check the \"Logistic and Transport\" chapter."
+			]
+			dependencies: ["505C550480FB01C5"]
+			id: "44C57058CA97F63C"
+			tasks: [{
+				id: "141D3DD9439F007F"
+				type: "item"
+				item: "industrialforegoing:machine_frame_supreme"
+			}]
+			rewards: [{
+				id: "10788B5F11A85375"
+				type: "item"
+				item: "industrialforegoing:ether_gas_bucket"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -0.5d
+			subtitle: "Click to submit the Rotten Flesh"
+			description: [
+				"You can actually start your mob farm at this stage to get more resources."
+				"Check the \"Mob Farm\" chapter to get more tips."
+			]
+			dependencies: ["12653C26FE0E79BD"]
+			id: "4E6C8B14B2B83E4B"
+			tasks: [{
+				id: "67D795B9B6A3D45F"
+				type: "item"
+				item: "minecraft:rotten_flesh"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "4EA2E866A55CCA71"
+				type: "item"
+				item: "mysticalagradditions:dragon_scale"
+				count: 3
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.5d
+			description: ["Get the ore laser drill to get ores, it is a good way to you to get ingot or gem resources before you get the digital miner from Mekanism, because there is still a few more steps to go."]
+			dependencies: ["44C57058CA97F63C"]
+			id: "0F93B1EAE224F057"
+			tasks: [{
+				id: "4BEDB31A7D2A56C7"
+				type: "item"
+				item: "industrialforegoing:ore_laser_base"
+			}]
+			rewards: [{
+				id: "71C19A2F0D9A912A"
+				type: "item"
+				item: "industrialforegoing:laser_lens0"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 0.5d
+			description: ["Use configurator to configure your machines in Mekanism."]
+			dependencies: ["667E54C7D5B2E4A3"]
+			id: "4FDFCA0237C7F5E5"
+			tasks: [{
+				id: "1B424EAE57C73A53"
+				type: "item"
+				item: "mekanism:configurator"
+			}]
+			rewards: [{
+				id: "66C3CA4BC5C5ADC4"
+				type: "item"
+				item: {
+					id: "mekanism:energy_tablet"
+					Count: 1b
+					tag: {
+						mekData: {
+							EnergyContainers: [{
+								Container: 0b
+								stored: "1000000"
+							}]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 7.0d
+			description: ["Are you lacking of animal resource? Don't panic. Craft this machine and this allows you to grab resources like wool, milk from animals!"]
+			dependencies: ["4B0F7DD40325595F"]
+			id: "3CABC84AA25E63AF"
+			tasks: [{
+				id: "330CE14D6B5325BF"
+				type: "item"
+				item: "industrialforegoing:animal_rancher"
+			}]
+			rewards: [{
+				id: "595D8793A152126B"
+				type: "item"
+				item: "minecraft:sheep_spawn_egg"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 4.0d
+			description: ["Place the sewer under the animals. It will collect the sewage produced by animals automatically when provided with energy."]
+			dependencies: ["26894F256A06D96E"]
+			id: "5ACDABFDD15C2EA9"
+			tasks: [{
+				id: "5E29CC57773D6794"
+				type: "item"
+				item: "industrialforegoing:sewer"
+			}]
+			rewards: [{
+				id: "18EB789E4F7FD154"
+				type: "item"
+				item: "minecraft:water_bucket"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 4.0d
+			description: ["The sewage composer allows you to convert the sewage into fertilizers which can be used in accelerating crops growth."]
+			dependencies: ["5ACDABFDD15C2EA9"]
+			id: "78623FED80CD23DE"
+			tasks: [{
+				id: "5643D98D979CF3B6"
+				type: "item"
+				item: "industrialforegoing:sewage_composter"
+			}]
+			rewards: [{
+				id: "7F9F11952D50B1A0"
+				type: "item"
+				item: "minecraft:bone_block"
+				count: 2
+			}]
+		}
+		{
+			x: 2.5d
+			y: 4.0d
+			description: ["Do you want a stable food source from animals? Use the combination of these two machines. The separator will separate baby animals once the baby is born from breeding the animals by breeder. (You can also set to only separate the adult animals out)."]
+			dependencies: ["4B0F7DD40325595F"]
+			id: "26894F256A06D96E"
+			tasks: [
+				{
+					id: "48CDCB506C3FE384"
+					type: "item"
+					item: "industrialforegoing:animal_feeder"
+				}
+				{
+					id: "70260E1322150A8C"
+					type: "item"
+					item: "industrialforegoing:animal_baby_separator"
+				}
+			]
+			rewards: [{
+				id: "6C138F1A59C8F776"
+				type: "item"
+				item: "minecraft:wheat_seeds"
+				count: 4
+			}]
+		}
+		{
+			title: "BIG BIG farm"
+			x: 2.5d
+			y: 2.5d
+			description: ["The combination of plant gatherer and plant sower allows you to set up a huge tree farm or crop farm. Place the sower in the middle of you farm and input seeds or saplings. It will plant them automatically when supplied with energy. Place the plant gatherer at the edge of your farm and it will harvest crops or trees automatically."]
+			dependencies: ["4B0F7DD40325595F"]
+			id: "62ECE32749325389"
+			tasks: [
+				{
+					id: "728EBC1ECCD408C9"
+					type: "item"
+					item: "industrialforegoing:plant_sower"
+				}
+				{
+					id: "45F7763E2FD85ED8"
+					type: "item"
+					item: "industrialforegoing:plant_gatherer"
+				}
+			]
+			rewards: [
+				{
+					id: "5DD0002C113E4CC0"
+					type: "item"
+					item: "minecraft:oak_sapling"
+				}
+				{
+					id: "1D59AB6EDF4302DF"
+					type: "item"
+					item: "minecraft:spruce_sapling"
+				}
+				{
+					id: "34EFD2201BFD1C92"
+					type: "item"
+					item: "minecraft:birch_sapling"
+				}
+				{
+					id: "562E6C2F7C32F386"
+					type: "item"
+					item: "minecraft:jungle_sapling"
+				}
+				{
+					id: "1EAC265A8B791270"
+					type: "item"
+					item: "minecraft:acacia_sapling"
+				}
+				{
+					id: "009690CC49F6F5D1"
+					type: "item"
+					item: "minecraft:dark_oak_sapling"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 2.5d
+			description: ["Sludge will be produced in each harvesting process. You need to refined the sludge to protect the environment :). Refining the sludge will produce some useful materials such as clay, sand, etc."]
+			dependencies: ["62ECE32749325389"]
+			id: "597FAB9E2ECB704B"
+			tasks: [{
+				id: "3BF5170592E6F38C"
+				type: "item"
+				item: "industrialforegoing:sludge_refiner"
+			}]
+			rewards: [{
+				id: "3846518A87396DA9"
+				type: "item"
+				item: "mob_grinding_utils:tank"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 1.5d
+			description: [
+				"Plant fertilizer uses fertilizers to accelerate plant growth."
+				"It is good when used together with plant gatherer and plant sower"
+			]
+			dependencies: ["23B97F70C74878A4"]
+			id: "2FB585A29A59DC6F"
+			tasks: [{
+				id: "17BA49CB6DB0687A"
+				type: "item"
+				item: "industrialforegoing:plant_fertilizer"
+			}]
+			rewards: [{
+				id: "1CC70F94E2E5ADE6"
+				type: "item"
+				item: "industrialforegoing:fertilizer"
+				count: 4
+			}]
+		}
+		{
+			x: 2.5d
+			y: 5.5d
+			description: ["Water condensor is also a good machine to produce water with water source. The best thing is that this machine is power optional, which means it will produce water faster when provided with power. However, it is already fast enough even though it does not have any power!!!"]
+			dependencies: ["4B0F7DD40325595F"]
+			id: "1F988317E2BCDF9E"
+			tasks: [{
+				id: "5A6FC3E51CF07B90"
+				type: "item"
+				item: "industrialforegoing:water_condensator"
+			}]
+			rewards: [{
+				id: "164A017B9846292F"
+				type: "item"
+				item: "pipez:fluid_pipe"
+				count: 16
+			}]
+		}
+		{
+			x: 4.0d
+			y: 5.5d
+			description: ["Spores recreator allows you to duplicate mushrooms with water!!! This machine is a MUST for you to get the mushroom singularity."]
+			dependencies: ["1F988317E2BCDF9E"]
+			id: "5EA6B841726FD8D4"
+			tasks: [{
+				id: "292AF3544E6C7321"
+				type: "item"
+				item: "industrialforegoing:spores_recreator"
+			}]
+			rewards: [
+				{
+					id: "1FA569404AA8AA60"
+					type: "item"
+					item: "minecraft:red_mushroom"
+				}
+				{
+					id: "52C67466D63C42AA"
+					type: "item"
+					item: "minecraft:brown_mushroom"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 5.0d
+			description: [
+				"Block breaker and block placer is a set of block that has opposite function.... which is exactly function as what it is in its name."
+				"You can use to block placer with fluid extractor, which allows you to place the log automatically once the log is broken."
+			]
+			dependencies: ["48132AE94E2B30F0"]
+			id: "316530723E434D92"
+			tasks: [
+				{
+					id: "014BEF5CDF1F5A11"
+					type: "item"
+					item: "industrialforegoing:block_placer"
+				}
+				{
+					id: "0954D8B6D28FF392"
+					type: "item"
+					item: "industrialforegoing:block_breaker"
+				}
+			]
+			rewards: [{
+				id: "05D3DFBD43FFBE6C"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 4
+			}]
+		}
+		{
+			x: 5.5d
+			y: 2.5d
+			description: [
+				"Marine fisher allows you to get resources from sea, such as enchantment books, fish, etc by placing on top of a 3x3 water block."
+				"This machine is useful if you wish to use enchantment generator, which needs enchantment books to generate power."
+				"Note that this quest is optional as this machien does not help much in progressing."
+			]
+			dependencies: ["23B97F70C74878A4"]
+			optional: true
+			id: "5CC2F9A3A4842A65"
+			tasks: [{
+				id: "57B092D8B762A314"
+				type: "item"
+				item: "industrialforegoing:marine_fisher"
+			}]
+			rewards: [
+				{
+					id: "7013C6093EAAE8F2"
+					type: "item"
+					item: {
+						id: "minecraft:fishing_rod"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "02E00C183EF1979B"
+					type: "item"
+					item: "minecraft:pufferfish"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -1.5d
+			description: [
+				"These sets of machine allow you to \"play\" with enchantments LMAO."
+				"It requires liquid essence to function, which is produced in mob crusher."
+			]
+			dependencies: ["088B299D9888652D"]
+			id: "431727C1D42CA87B"
+			tasks: [
+				{
+					id: "3B8A438B1B70493A"
+					type: "item"
+					item: "industrialforegoing:enchantment_applicator"
+				}
+				{
+					id: "39C9FEF08E0ECB2E"
+					type: "item"
+					item: "industrialforegoing:enchantment_extractor"
+				}
+				{
+					id: "260279A6325FC9D8"
+					type: "item"
+					item: "industrialforegoing:enchantment_sorter"
+				}
+			]
+			rewards: [
+				{
+					id: "5DBD03436D253EAE"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 4s
+								id: "minecraft:protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "2805FA7B8C951F2C"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 5s
+								id: "minecraft:sharpness"
+							}]
+						}
+					}
+				}
+				{
+					id: "62181B83BD461611"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 5s
+								id: "minecraft:power"
+							}]
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 2.0d
+			description: ["Supreme black hole tank allows you to store almost unlimited amount of liquid."]
+			dependencies: ["44C57058CA97F63C"]
+			id: "78F9EAC429C161C7"
+			tasks: [{
+				id: "0AB52F118F1C69BB"
+				type: "item"
+				item: "industrialforegoing:supreme_black_hole_tank"
+			}]
+			rewards: [{
+				id: "01FC2B90BE911380"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 10
+			}]
+		}
+		{
+			x: -2.5d
+			y: 3.5d
+			description: ["Supreme block hole unit allows you to store almost unlimited amount of items "]
+			dependencies: ["44C57058CA97F63C"]
+			id: "2636B37CF714AC31"
+			tasks: [{
+				id: "1D4FA7F4FDC62657"
+				type: "item"
+				item: "industrialforegoing:supreme_black_hole_unit"
+			}]
+			rewards: [{
+				id: "3E0BCC11E8F9712B"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 10
+			}]
+		}
+		{
+			x: -4.5d
+			y: 4.0d
+			description: ["Black hole controller allows you to store up to 16 black hole unit or black hole tank in one block space."]
+			dependencies: [
+				"78F9EAC429C161C7"
+				"2636B37CF714AC31"
+			]
+			id: "29F76AA34F4205E1"
+			tasks: [{
+				id: "40B81DEF45D121C4"
+				type: "item"
+				item: "industrialforegoing:black_hole_controller"
+			}]
+			rewards: [{
+				id: "0F59A6B22A0E0BB0"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 10
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.5d
+			description: [
+				"Quark Tome is now craftable! However, there is a limit to your enchantment book. You cannot used the enchantment book obtained from anvil to craft the tome, because it contains an extra \"tag\" named \"Repair Cost\". (This tag is only shown in anvil)"
+				"{image:kubejs:textures/quests/chapter3/chapter3_enchantment_book.png width:200 height:100 align:1}"
+				"To fix this, just apply your enchantment book onto random items by \"Enchantment Applicator\" and extract again using \"Enchantment Extractor\". The tag will disappear and it will be allowed to be used again in energizing recipe of Quark Tome :)"
+			]
+			dependencies: ["431727C1D42CA87B"]
+			id: "194962DBA361BDC4"
+			tasks: [{
+				id: "6E5FD272B304E3F2"
+				type: "item"
+				item: {
+					id: "quark:ancient_tome"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 4s
+							id: "minecraft:protection"
+						}]
+					}
+				}
+			}]
+			rewards: [{
+				id: "155761F946E14B3D"
+				type: "item"
+				title: "Small present to you because I am unable to solve this issue :p"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [
+							{
+								lvl: 3s
+								id: "minecraft:thorns"
+							}
+							{
+								lvl: 3s
+								id: "minecraft:unbreaking"
+							}
+							{
+								lvl: 1s
+								id: "minecraft:mending"
+							}
+							{
+								lvl: 4s
+								id: "minecraft:protection"
+							}
+						]
+					}
+				}
+			}]
+		}
+	]
+}

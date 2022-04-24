@@ -1,0 +1,2539 @@
+{
+	id: "6D1568E0C1593899"
+	group: "52335F892C9B07FA"
+	order_index: 6
+	filename: "chapter_7_draconic_evolution"
+	title: "Chapter 7: Draconic Evolution"
+	icon: "draconicevolution:dragon_heart"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.5d
+			y: 4.0d
+			dependencies: ["5B94DFBD2F8CF80F"]
+			id: "6782C4DDC5CC2BDC"
+			tasks: [{
+				id: "471EA88868FE6CA1"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:bronze"
+					}
+				}
+			}]
+			rewards: [{
+				id: "1E5604DFC9F26CF0"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 10
+			}]
+		}
+		{
+			title: "First step to singularity"
+			x: -1.0d
+			y: 2.5d
+			description: ["Automate all the things to get more resources"]
+			dependencies: ["3948D76636DD4046"]
+			id: "5B94DFBD2F8CF80F"
+			tasks: [{
+				id: "2E1F8886B4CC6A72"
+				type: "item"
+				item: "extendedcrafting:compressor"
+			}]
+			rewards: [{
+				id: "1DBF829F6F46194B"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "delightfood"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 4.0d
+			dependencies: ["5B94DFBD2F8CF80F"]
+			id: "1B68C13422EA102F"
+			tasks: [{
+				id: "0432FB3BD9124C9C"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:invar"
+					}
+				}
+			}]
+			rewards: [{
+				id: "4CFAFBB39F5C7744"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 10
+			}]
+		}
+		{
+			x: 3.5d
+			y: 4.0d
+			dependencies: ["5B94DFBD2F8CF80F"]
+			id: "0B9EC1DBB82423D6"
+			tasks: [{
+				id: "0C69CCDB58B4030E"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:electrum"
+					}
+				}
+			}]
+			rewards: [{
+				id: "404D13D9112195ED"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 10
+			}]
+		}
+		{
+			x: 5.0d
+			y: 4.0d
+			dependencies: ["5B94DFBD2F8CF80F"]
+			id: "513EFA7EF29B76F4"
+			tasks: [{
+				id: "07DC4FB1CBA4574D"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:lapis_lazuli"
+					}
+				}
+			}]
+			rewards: [{
+				id: "4FDFDBC6F1D06B50"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 10
+			}]
+		}
+		{
+			x: 6.5d
+			y: 4.0d
+			dependencies: ["5B94DFBD2F8CF80F"]
+			id: "4E1F4D6D076B77FD"
+			tasks: [{
+				id: "52EDF76CBBE8E737"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:compressed_iron"
+					}
+				}
+			}]
+			rewards: [{
+				id: "6B8F95BC27F64585"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 10
+			}]
+		}
+		{
+			x: 8.0d
+			y: 4.0d
+			dependencies: ["5B94DFBD2F8CF80F"]
+			id: "72FBB3037DE4657F"
+			tasks: [{
+				id: "31D6D921A59D0EC0"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:uranium"
+					}
+				}
+			}]
+			rewards: [{
+				id: "737458BB674F9122"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 10
+			}]
+		}
+		{
+			x: 9.5d
+			y: 4.0d
+			dependencies: ["5B94DFBD2F8CF80F"]
+			id: "4E4A7ECA96F7996B"
+			tasks: [{
+				id: "523FA3332DB22E6B"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:coal"
+					}
+				}
+			}]
+			rewards: [{
+				id: "7330554207FD1483"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 10
+			}]
+		}
+		{
+			x: 0.5d
+			y: 5.5d
+			dependencies: ["5B94DFBD2F8CF80F"]
+			id: "6118C64802343B1A"
+			tasks: [{
+				id: "586845E10ED987EA"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:terrasteel"
+					}
+				}
+			}]
+			rewards: [{
+				id: "6ABF68A6EB3787F3"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 10
+			}]
+		}
+		{
+			x: 2.0d
+			y: 5.5d
+			dependencies: ["5B94DFBD2F8CF80F"]
+			id: "16C5669D751C86BE"
+			tasks: [{
+				id: "5A312F92790C6A10"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:redstone"
+					}
+				}
+			}]
+			rewards: [{
+				id: "34BB63B4E78A721C"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 10
+			}]
+		}
+		{
+			x: 3.5d
+			y: 5.5d
+			description: ["Energy Eater"]
+			dependencies: ["5B94DFBD2F8CF80F"]
+			id: "620C0D9977F37B80"
+			tasks: [{
+				id: "53EE7921F7E5A3D2"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:forge_energy"
+					}
+				}
+			}]
+			rewards: [{
+				id: "06F59690AC46A021"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 10
+			}]
+		}
+		{
+			x: 5.0d
+			y: 5.5d
+			description: [
+				"Don't think that you only need metals. You also need some basic blocks... such as wood!"
+				"Build a giant tree farm for this. This is actually very easy to do so (from my experience)"
+			]
+			dependencies: ["5B94DFBD2F8CF80F"]
+			id: "10AFCE58688FD89C"
+			tasks: [{
+				id: "441314520D198080"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:wood"
+					}
+				}
+			}]
+			rewards: [{
+				id: "58D60626CA8387E3"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 10
+			}]
+		}
+		{
+			x: 6.5d
+			y: 5.5d
+			dependencies: ["5B94DFBD2F8CF80F"]
+			id: "32482B7BFFEF969C"
+			tasks: [{
+				id: "51E207248E4F4ADA"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:dirt"
+					}
+				}
+			}]
+			rewards: [{
+				id: "678620CE613317F4"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 10
+			}]
+		}
+		{
+			x: 8.0d
+			y: 5.5d
+			dependencies: ["5B94DFBD2F8CF80F"]
+			id: "101F7C4A24AF3E5D"
+			tasks: [{
+				id: "19098D380BD9C80F"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:platinum"
+					}
+				}
+			}]
+			rewards: [{
+				id: "16F3A6FB47C0B6A7"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 10
+			}]
+		}
+		{
+			x: 9.5d
+			y: 5.5d
+			dependencies: ["5B94DFBD2F8CF80F"]
+			id: "55C55D5C2B9470E8"
+			tasks: [{
+				id: "7D2A535D78258AA9"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:diamond"
+					}
+				}
+			}]
+			rewards: [{
+				id: "0F375E69213406B8"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 10
+			}]
+		}
+		{
+			x: 0.5d
+			y: 7.0d
+			dependencies: ["5B94DFBD2F8CF80F"]
+			id: "1E7A1D2CDE2B9B49"
+			tasks: [{
+				id: "4F00F0EA106DF7BF"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:sand"
+					}
+				}
+			}]
+			rewards: [{
+				id: "3A955D499CF0D94E"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 10
+			}]
+		}
+		{
+			x: 2.0d
+			y: 7.0d
+			dependencies: ["5B94DFBD2F8CF80F"]
+			id: "381B75B9E78C6226"
+			tasks: [{
+				id: "6B0C314BB17ECB40"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:iron"
+					}
+				}
+			}]
+			rewards: [{
+				id: "37AE3D042AE74EF7"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 10
+			}]
+		}
+		{
+			x: 3.5d
+			y: 7.0d
+			dependencies: ["5B94DFBD2F8CF80F"]
+			id: "339539F635AF2959"
+			tasks: [{
+				id: "1B66C4A1EF3F26E2"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:lumium"
+					}
+				}
+			}]
+			rewards: [{
+				id: "77CBFF9977AEA9EC"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 10
+			}]
+		}
+		{
+			x: 5.0d
+			y: 7.0d
+			dependencies: ["5B94DFBD2F8CF80F"]
+			id: "5CE31AF816CD7BAB"
+			tasks: [{
+				id: "3426274F8736E6B3"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:nickel"
+					}
+				}
+			}]
+			rewards: [{
+				id: "45BB42F0283E1D01"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 10
+			}]
+		}
+		{
+			x: 6.5d
+			y: 7.0d
+			dependencies: ["5B94DFBD2F8CF80F"]
+			id: "1778FDFE12C64289"
+			tasks: [{
+				id: "41C3F81F2E017760"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:glowstone"
+					}
+				}
+			}]
+			rewards: [{
+				id: "3E14A022BE0DB8AA"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 10
+			}]
+		}
+		{
+			x: 8.0d
+			y: 7.0d
+			dependencies: ["5B94DFBD2F8CF80F"]
+			id: "5DCC2EB4CA6144F7"
+			tasks: [{
+				id: "725873E55C5E42FF"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:stone"
+					}
+				}
+			}]
+			rewards: [{
+				id: "71D6A097A87665F4"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 10
+			}]
+		}
+		{
+			x: 9.5d
+			y: 7.0d
+			dependencies: ["5B94DFBD2F8CF80F"]
+			id: "62C6F1B614D721C3"
+			tasks: [{
+				id: "29FDE3B0D79C8E8C"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:refined_obsidian"
+					}
+				}
+			}]
+			rewards: [{
+				id: "52A3F58ED4155616"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 10
+			}]
+		}
+		{
+			x: 0.5d
+			y: 8.5d
+			dependencies: ["5B94DFBD2F8CF80F"]
+			id: "477BC4AC675DC702"
+			tasks: [{
+				id: "3A617523E0CEE390"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:steel"
+					}
+				}
+			}]
+			rewards: [{
+				id: "00900857995C3F03"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 10
+			}]
+		}
+		{
+			x: 2.0d
+			y: 8.5d
+			dependencies: ["5B94DFBD2F8CF80F"]
+			id: "11498E9383F038A8"
+			tasks: [{
+				id: "77EF663534C6ADAF"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:enderium"
+					}
+				}
+			}]
+			rewards: [{
+				id: "294A25721D2CB18C"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 10
+			}]
+		}
+		{
+			x: 3.5d
+			y: 8.5d
+			dependencies: ["5B94DFBD2F8CF80F"]
+			id: "056EB78435ACBF56"
+			tasks: [{
+				id: "1D307FC0483DD545"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:emerald"
+					}
+				}
+			}]
+			rewards: [{
+				id: "429C36135E091109"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 10
+			}]
+		}
+		{
+			x: 5.0d
+			y: 8.5d
+			dependencies: ["5B94DFBD2F8CF80F"]
+			id: "59A824706C332DF8"
+			tasks: [{
+				id: "4F1882FF589DD80C"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:gravel"
+					}
+				}
+			}]
+			rewards: [{
+				id: "1FE26702BC1276CB"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 10
+			}]
+		}
+		{
+			x: 6.5d
+			y: 8.5d
+			dependencies: ["5B94DFBD2F8CF80F"]
+			id: "76FD40670BC402AA"
+			tasks: [{
+				id: "7C79D6F69432B4BE"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:netherite"
+					}
+				}
+			}]
+			rewards: [{
+				id: "3AEF88399F5702E0"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 10
+			}]
+		}
+		{
+			x: 8.0d
+			y: 8.5d
+			dependencies: ["5B94DFBD2F8CF80F"]
+			id: "259FE6581B247B95"
+			tasks: [{
+				id: "31E7143A45912046"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:constantan"
+					}
+				}
+			}]
+			rewards: [{
+				id: "3CE950E991E8AA29"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 10
+			}]
+		}
+		{
+			x: 9.5d
+			y: 8.5d
+			dependencies: ["5B94DFBD2F8CF80F"]
+			id: "3D559FA5E4EC1CAC"
+			tasks: [{
+				id: "02D4F96A946A69D5"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:draconium"
+					}
+				}
+			}]
+			rewards: [{
+				id: "68148E91FC59DAC9"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 10
+			}]
+		}
+		{
+			x: 0.5d
+			y: 10.0d
+			dependencies: ["5B94DFBD2F8CF80F"]
+			id: "6030BACF5139DB97"
+			tasks: [{
+				id: "19226711D00B9172"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:aluminum"
+					}
+				}
+			}]
+			rewards: [{
+				id: "2DB76E41E0C1BC24"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 10
+			}]
+		}
+		{
+			x: 2.0d
+			y: 10.0d
+			dependencies: ["5B94DFBD2F8CF80F"]
+			id: "02AD0A320A8D67D8"
+			tasks: [{
+				id: "5FE232B53C9364CE"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:silver"
+					}
+				}
+			}]
+			rewards: [{
+				id: "3E1ADD75EDC0C036"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 10
+			}]
+		}
+		{
+			x: 3.5d
+			y: 10.0d
+			dependencies: ["5B94DFBD2F8CF80F"]
+			id: "6173082A7EA795B4"
+			tasks: [{
+				id: "04389BCA9444798E"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:netherstar"
+					}
+				}
+			}]
+			rewards: [{
+				id: "1ED5992EDD29E442"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 10
+			}]
+		}
+		{
+			x: 5.0d
+			y: 10.0d
+			dependencies: ["5B94DFBD2F8CF80F"]
+			id: "096D513353E9A6F3"
+			tasks: [{
+				id: "08B07847D2695C52"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:tin"
+					}
+				}
+			}]
+			rewards: [{
+				id: "18BD89C2ECF92F5D"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 10
+			}]
+		}
+		{
+			x: 6.5d
+			y: 10.0d
+			dependencies: ["5B94DFBD2F8CF80F"]
+			id: "40AF6A3BA3019ED6"
+			tasks: [{
+				id: "30FE7481629854F5"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:manasteel"
+					}
+				}
+			}]
+			rewards: [{
+				id: "561CC4524C046C2B"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 10
+			}]
+		}
+		{
+			x: 8.0d
+			y: 10.0d
+			dependencies: ["5B94DFBD2F8CF80F"]
+			id: "301A84941FDC4FCD"
+			tasks: [{
+				id: "21039F63D2522037"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:brass"
+					}
+				}
+			}]
+			rewards: [{
+				id: "785F7B192B8927F5"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 10
+			}]
+		}
+		{
+			x: 9.5d
+			y: 10.0d
+			dependencies: ["5B94DFBD2F8CF80F"]
+			id: "6ED9FB44FBDBEDDB"
+			tasks: [{
+				id: "2683E8D23EDC2A8C"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:elementium"
+					}
+				}
+			}]
+			rewards: [{
+				id: "1235E7316CAB1AD8"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 10
+			}]
+		}
+		{
+			x: 0.5d
+			y: 11.5d
+			dependencies: ["5B94DFBD2F8CF80F"]
+			id: "0B24C890B43945DD"
+			tasks: [{
+				id: "35D0BE7EBC7CA383"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:copper"
+					}
+				}
+			}]
+			rewards: [{
+				id: "4ED95C6C51718B2D"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 10
+			}]
+		}
+		{
+			x: 2.0d
+			y: 11.5d
+			dependencies: ["5B94DFBD2F8CF80F"]
+			id: "2E38C8C3CA86F230"
+			tasks: [{
+				id: "43294ACD42861346"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:signalum"
+					}
+				}
+			}]
+			rewards: [{
+				id: "621107337B3AA44D"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 10
+			}]
+		}
+		{
+			x: 3.5d
+			y: 11.5d
+			dependencies: ["5B94DFBD2F8CF80F"]
+			id: "150FC8CF370E0601"
+			tasks: [{
+				id: "400B707374EC6283"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:graphite"
+					}
+				}
+			}]
+			rewards: [{
+				id: "1DE45AB329CA9095"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 10
+			}]
+		}
+		{
+			x: 5.0d
+			y: 11.5d
+			dependencies: ["5B94DFBD2F8CF80F"]
+			id: "0E607EF03AB9994C"
+			tasks: [{
+				id: "20972AA4672CAA7E"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:cobblestone"
+					}
+				}
+			}]
+			rewards: [{
+				id: "18C7D1FB7B342262"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 10
+			}]
+		}
+		{
+			x: 6.5d
+			y: 11.5d
+			dependencies: ["5B94DFBD2F8CF80F"]
+			id: "2E2BDB58956FFDBF"
+			tasks: [{
+				id: "276737CE25212479"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:refined_glowstone"
+					}
+				}
+			}]
+			rewards: [{
+				id: "1E924A1870A093CB"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 10
+			}]
+		}
+		{
+			x: 8.0d
+			y: 11.5d
+			dependencies: ["5B94DFBD2F8CF80F"]
+			id: "1FCB043E03668431"
+			tasks: [{
+				id: "23118E3102CE3AE1"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:lead"
+					}
+				}
+			}]
+			rewards: [{
+				id: "731C252C7691DA7E"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 10
+			}]
+		}
+		{
+			x: 10.5d
+			y: 12.5d
+			description: ["This Chapter unlocks the remaining \"End Game\" quests."]
+			dependencies: [
+				"6782C4DDC5CC2BDC"
+				"6118C64802343B1A"
+				"1E7A1D2CDE2B9B49"
+				"477BC4AC675DC702"
+				"6030BACF5139DB97"
+				"0B24C890B43945DD"
+				"2E38C8C3CA86F230"
+				"02AD0A320A8D67D8"
+				"11498E9383F038A8"
+				"381B75B9E78C6226"
+				"16C5669D751C86BE"
+				"1B68C13422EA102F"
+				"0B9EC1DBB82423D6"
+				"620C0D9977F37B80"
+				"339539F635AF2959"
+				"056EB78435ACBF56"
+				"6173082A7EA795B4"
+				"150FC8CF370E0601"
+				"0E607EF03AB9994C"
+				"096D513353E9A6F3"
+				"59A824706C332DF8"
+				"5CE31AF816CD7BAB"
+				"10AFCE58688FD89C"
+				"513EFA7EF29B76F4"
+				"4E1F4D6D076B77FD"
+				"32482B7BFFEF969C"
+				"1778FDFE12C64289"
+				"76FD40670BC402AA"
+				"40AF6A3BA3019ED6"
+				"2E2BDB58956FFDBF"
+				"1FCB043E03668431"
+				"301A84941FDC4FCD"
+				"259FE6581B247B95"
+				"5DCC2EB4CA6144F7"
+				"101F7C4A24AF3E5D"
+				"72FBB3037DE4657F"
+				"4E4A7ECA96F7996B"
+				"55C55D5C2B9470E8"
+				"62C6F1B614D721C3"
+				"3D559FA5E4EC1CAC"
+				"6ED9FB44FBDBEDDB"
+				"0F7916DBEE75FD0B"
+			]
+			id: "46541E14583B3D09"
+			tasks: [{
+				id: "6C88CEC3507CB97E"
+				type: "item"
+				item: "extendedcrafting:ultimate_singularity"
+			}]
+			rewards: [{
+				id: "67DA1046161D33EC"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "unobtainable"
+					}
+				}
+				count: 4
+			}]
+		}
+		{
+			x: -2.5d
+			y: -6.0d
+			description: ["Craft the basic core"]
+			dependencies: ["05867F10D433D8BF"]
+			id: "1B01E4F3085DED09"
+			tasks: [{
+				id: "2E1440F4B88F6429"
+				type: "item"
+				item: "draconicevolution:draconium_core"
+			}]
+			rewards: [{
+				id: "59F7C3B5E5A55344"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: -4.0d
+			description: ["I hope that you have already defeated wither in this stage. This will be easy to craft"]
+			dependencies: ["1B01E4F3085DED09"]
+			id: "52AF754634B77D80"
+			tasks: [{
+				id: "5A02D5B3AF98D00D"
+				type: "item"
+				item: "draconicevolution:wyvern_core"
+			}]
+			rewards: [{
+				id: "3B0F91CACC55E5AD"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: -2.0d
+			description: ["Another easy item for this stage"]
+			dependencies: [
+				"52AF754634B77D80"
+				"2103BFF1E5921A8D"
+				"1024304B5349BC15"
+			]
+			id: "4FA8FBC532224F3B"
+			tasks: [{
+				id: "197A1FB2B314805B"
+				type: "item"
+				item: "draconicevolution:awakened_core"
+			}]
+			rewards: [{
+				id: "217EDF9396217C94"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bossloot"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.0d
+			description: ["Unlikely, this core is extremely difficult. Proceed to the \"Boss progression\" chapter and learn how to fight the chaos guardian. Large chaos shard is obtained by digging the chaos core that is underground of the chaos guardian."]
+			dependencies: [
+				"4FA8FBC532224F3B"
+				"75E81D25BDBFEA12"
+			]
+			id: "619E096C6B532858"
+			tasks: [{
+				id: "7DC89A0428CB8DFF"
+				type: "item"
+				item: "draconicevolution:chaotic_core"
+			}]
+			rewards: [{
+				id: "0DB9C20CCFEBCFDD"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bossloot"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: -4.0d
+			description: ["Every time you defeat the ender dragon, a dragon heart will be spawn above the portal."]
+			dependencies: ["1B01E4F3085DED09"]
+			id: "69A20DB9C01D3C2A"
+			tasks: [{
+				id: "675FF6FD6268A595"
+				type: "item"
+				item: "draconicevolution:dragon_heart"
+			}]
+			rewards: [{
+				id: "6BB302ED9CB6916F"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bossloot"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: -2.0d
+			description: ["Use the dragon heart to craft the awakened draconium block."]
+			dependencies: ["69A20DB9C01D3C2A"]
+			id: "2103BFF1E5921A8D"
+			tasks: [
+				{
+					id: "5FD4920B031F3C8E"
+					type: "item"
+					item: "draconicevolution:awakened_draconium_block"
+				}
+				{
+					id: "5BEDD9D5AAC3DB5E"
+					type: "item"
+					item: "draconicevolution:awakened_draconium_ingot"
+				}
+			]
+			rewards: [{
+				id: "5E7238A18BD5DBA6"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bossloot"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: -6.0d
+			description: [
+				"The crafting system of Draconic evolution. Place them according to the figure below. Note that the crafting requires energy."
+				"{image:kubejs:textures/quests/chapter7/chapter7_fusion_crafting.png width:178 height:100 align:1}"
+			]
+			dependencies: ["1B01E4F3085DED09"]
+			id: "1EB300F951CD8320"
+			tasks: [
+				{
+					id: "755C4E4F97B17605"
+					type: "item"
+					item: "draconicevolution:basic_crafting_injector"
+				}
+				{
+					id: "3046F57247F7017D"
+					type: "item"
+					item: "draconicevolution:crafting_core"
+				}
+			]
+			rewards: [{
+				id: "43000ADBC0C3530E"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: -4.0d
+			description: ["An upgraded tier of fusion crafting, which as able to craft tier wyvern items."]
+			dependencies: ["1EB300F951CD8320"]
+			id: "1024304B5349BC15"
+			tasks: [{
+				id: "0ACFCD3C3E50ABB9"
+				type: "item"
+				item: "draconicevolution:wyvern_crafting_injector"
+			}]
+			rewards: [{
+				id: "6E6057E3F15B6BCF"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: -2.0d
+			description: [
+				"An upgraded tier of fusion crafting, which as able to craft tier awakened items."
+				"You have to progress Botania to get this :0"
+			]
+			dependencies: ["1024304B5349BC15"]
+			id: "75E81D25BDBFEA12"
+			tasks: [{
+				id: "3C2A9BE6180FBC42"
+				type: "item"
+				item: "draconicevolution:awakened_crafting_injector"
+			}]
+			rewards: [{
+				id: "723BA734C3DF89AE"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bossloot"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.0d
+			description: ["An upgraded tier of fusion crafting, which as able to craft tier chaotic items."]
+			dependencies: ["75E81D25BDBFEA12"]
+			id: "3948D76636DD4046"
+			tasks: [{
+				id: "05C562449DB68AB6"
+				type: "item"
+				item: "draconicevolution:chaotic_crafting_injector"
+			}]
+			rewards: [{
+				id: "7D542EA027FEAA35"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bossloot"
+					}
+				}
+			}]
+		}
+		{
+			title: "Worm hole!"
+			x: -5.0d
+			y: -6.0d
+			description: [
+				"This can act as a teleporter. Place the blocks like below. Right click to bound at the place you want to teleport to. Then, use it to right clickon the dislcoator receptacle to set coordinate."
+				"{image:kubejs:textures/quests/chapter7/chapter7_wormhole.png width:178 height:100 align:1}"
+			]
+			dependencies: ["1B01E4F3085DED09"]
+			id: "71D4AAD14AF1E60E"
+			tasks: [
+				{
+					id: "1F4086680BEDF778"
+					type: "item"
+					item: "draconicevolution:dislocator_receptacle"
+				}
+				{
+					id: "43CF08154C3E2DFB"
+					type: "item"
+					item: "draconicevolution:infused_obsidian"
+				}
+			]
+			rewards: [{
+				id: "4901340342460DE0"
+				type: "item"
+				item: {
+					id: "draconicevolution:dislocator"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: -4.0d
+			description: [
+				"Portable energy storage. Useful in tools that requires electricity."
+				"***How to use capacitor***"
+				"{image:kubejs:textures/quests/chapter7/chapter7_capacitor.png width:178 height:100 align:1}"
+				"Open the tool configuration menu of the capacitor (Check control option for the button). Then click the button on the top left hand corner (The one near HUD button) to open the menu as shown as above. You can toggle the charging action in this page."
+			]
+			dependencies: ["1024304B5349BC15"]
+			id: "42C346C2F008AE51"
+			tasks: [{
+				id: "5617D4425C8DEF53"
+				type: "item"
+				item: {
+					id: "draconicevolution:wyvern_capacitor"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									-928420451
+									689717723
+									-1439002560
+									1583351866
+								]
+								modules: [ ]
+								properties: {
+									charge_main: {
+										hud: 1b
+									}
+									charge_curios: {
+										hud: 1b
+									}
+									charge_hot_bar: {
+										hud: 1b
+									}
+									charge_armor: {
+										hud: 1b
+									}
+									charge_held_item: {
+										hud: 1b
+									}
+								}
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "53ECE79245E9BAC7"
+				type: "item"
+				item: "draconicevolution:draconium_dust"
+				count: 8
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.0d
+			description: ["Portable energy storage. Useful in tools that requires electricity."]
+			dependencies: ["75E81D25BDBFEA12"]
+			id: "58CBCBB230DC8DDD"
+			tasks: [{
+				id: "5AE89D02E0B88BB0"
+				type: "item"
+				item: {
+					id: "draconicevolution:draconic_capacitor"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									807892832
+									764038259
+									-1801296301
+									2110184543
+								]
+								modules: [ ]
+								properties: {
+									charge_main: {
+										hud: 1b
+									}
+									charge_curios: {
+										hud: 1b
+									}
+									charge_hot_bar: {
+										hud: 1b
+									}
+									charge_armor: {
+										hud: 1b
+									}
+									charge_held_item: {
+										hud: 1b
+									}
+								}
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "76AE5A52C9CA8F9D"
+				type: "item"
+				item: "draconicevolution:draconium_dust"
+				count: 64
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			description: ["Portable energy storage. Useful in tools that requires electricity."]
+			dependencies: ["3948D76636DD4046"]
+			id: "6E4EBEAA224CE93C"
+			tasks: [{
+				id: "170C950FE7873044"
+				type: "item"
+				item: {
+					id: "draconicevolution:chaotic_capacitor"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									-220596273
+									-1078116192
+									-1445563917
+									-309032990
+								]
+								modules: [ ]
+								properties: {
+									charge_main: {
+										hud: 1b
+									}
+									charge_curios: {
+										hud: 1b
+									}
+									charge_hot_bar: {
+										hud: 1b
+									}
+									charge_armor: {
+										hud: 1b
+									}
+									charge_held_item: {
+										hud: 1b
+									}
+								}
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "172E524459D52B6C"
+				type: "item"
+				item: "draconicevolution:awakened_draconium_dust"
+				count: 16
+			}]
+		}
+		{
+			title: "Wyvern tools"
+			x: 3.0d
+			y: -4.0d
+			description: ["Tools series in Draconic Evolution requires modules to function. Craft the modules and design your own powerful tool!"]
+			dependencies: ["1024304B5349BC15"]
+			id: "1CEADD1E66573CA4"
+			tasks: [
+				{
+					id: "6754E61ABB031329"
+					type: "item"
+					item: {
+						id: "draconicevolution:wyvern_shovel"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							Parent: {
+								module_host: {
+									provider_id: [I;
+										-760999696
+										-35830034
+										-1834173233
+										575941449
+									]
+									modules: [ ]
+									properties: {
+										mining_speed: {
+											hud: 1b
+											value: 1.0d
+										}
+									}
+								}
+								energy: {
+									energy: 0L
+								}
+							}
+						}
+					}
+				}
+				{
+					id: "7D58DAF97628FB4E"
+					type: "item"
+					item: {
+						id: "draconicevolution:wyvern_hoe"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							Parent: {
+								module_host: {
+									provider_id: [I;
+										-806944998
+										-1606860763
+										-1717267672
+										217083675
+									]
+									modules: [ ]
+									properties: { }
+								}
+								energy: {
+									energy: 0L
+								}
+							}
+						}
+					}
+				}
+				{
+					id: "25FC75B4C3FA996B"
+					type: "item"
+					item: {
+						id: "draconicevolution:wyvern_pickaxe"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							Parent: {
+								module_host: {
+									provider_id: [I;
+										765952034
+										837176233
+										-1503905203
+										-1155441521
+									]
+									modules: [ ]
+									properties: {
+										mining_speed: {
+											hud: 1b
+											value: 1.0d
+										}
+									}
+								}
+								energy: {
+									energy: 0L
+								}
+							}
+						}
+					}
+				}
+				{
+					id: "1F66D1007BFA5493"
+					type: "item"
+					item: {
+						id: "draconicevolution:wyvern_axe"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							Parent: {
+								module_host: {
+									provider_id: [I;
+										760938900
+										-1379840235
+										-1091036478
+										1288785429
+									]
+									modules: [ ]
+									properties: {
+										mining_speed: {
+											hud: 1b
+											value: 1.0d
+										}
+									}
+								}
+								energy: {
+									energy: 0L
+								}
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "72C459656C3F4796"
+				type: "item"
+				item: "draconicevolution:draconium_dust"
+				count: 8
+			}]
+		}
+		{
+			title: "Wyvern weapons"
+			x: 5.0d
+			y: -4.0d
+			dependencies: ["1024304B5349BC15"]
+			id: "64E07A180645DA65"
+			tasks: [
+				{
+					id: "44D058295BB3A222"
+					type: "item"
+					item: {
+						id: "draconicevolution:wyvern_bow"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							Parent: {
+								module_host: {
+									provider_id: [I;
+										1773708272
+										1438663071
+										-1598138214
+										1835280410
+									]
+									modules: [ ]
+									properties: { }
+								}
+								energy: {
+									energy: 0L
+								}
+							}
+						}
+					}
+				}
+				{
+					id: "7C2A714EDEBD66E8"
+					type: "item"
+					item: {
+						id: "draconicevolution:wyvern_sword"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							Parent: {
+								module_host: {
+									provider_id: [I;
+										779772912
+										-13022134
+										-1633981773
+										-1929490547
+									]
+									modules: [ ]
+									properties: { }
+								}
+								energy: {
+									energy: 0L
+								}
+							}
+						}
+					}
+				}
+				{
+					id: "34CA084EB673BF35"
+					type: "item"
+					item: {
+						id: "draconicevolution:wyvern_chestpiece"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							Parent: {
+								module_host: {
+									provider_id: [I;
+										1971939
+										-2138029715
+										-1423440659
+										-134115909
+									]
+									modules: [ ]
+									properties: { }
+								}
+								energy: {
+									energy: 0L
+								}
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "7982D261506956AC"
+				type: "item"
+				item: "draconicevolution:draconium_dust"
+				count: 8
+			}]
+		}
+		{
+			title: "Draconic tools"
+			x: 3.0d
+			y: -2.0d
+			dependencies: ["75E81D25BDBFEA12"]
+			id: "411FE030241C6D21"
+			tasks: [
+				{
+					id: "60DC61B763866BCC"
+					type: "item"
+					item: {
+						id: "draconicevolution:draconic_shovel"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							Parent: {
+								module_host: {
+									provider_id: [I;
+										1401851732
+										-2108471558
+										-1977114919
+										624672242
+									]
+									modules: [ ]
+									properties: {
+										mining_speed: {
+											hud: 1b
+											value: 1.0d
+										}
+									}
+								}
+								energy: {
+									energy: 0L
+								}
+							}
+						}
+					}
+				}
+				{
+					id: "7B6AA086CFF1A5FE"
+					type: "item"
+					item: {
+						id: "draconicevolution:draconic_hoe"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							Parent: {
+								module_host: {
+									provider_id: [I;
+										-1896070254
+										1664172293
+										-1981917253
+										801714680
+									]
+									modules: [ ]
+									properties: { }
+								}
+								energy: {
+									energy: 0L
+								}
+							}
+						}
+					}
+				}
+				{
+					id: "69697F5B92359016"
+					type: "item"
+					item: {
+						id: "draconicevolution:draconic_pickaxe"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							Parent: {
+								module_host: {
+									provider_id: [I;
+										300670567
+										-1792062869
+										-1791982976
+										-1386614930
+									]
+									modules: [ ]
+									properties: {
+										mining_speed: {
+											hud: 1b
+											value: 1.0d
+										}
+									}
+								}
+								energy: {
+									energy: 0L
+								}
+							}
+						}
+					}
+				}
+				{
+					id: "36D0EB7B59725B41"
+					type: "item"
+					item: {
+						id: "draconicevolution:draconic_axe"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							Parent: {
+								module_host: {
+									provider_id: [I;
+										830999328
+										-288797234
+										-1930678544
+										-459890507
+									]
+									modules: [ ]
+									properties: {
+										mining_speed: {
+											hud: 1b
+											value: 1.0d
+										}
+									}
+								}
+								energy: {
+									energy: 0L
+								}
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "49446207B3D44288"
+				type: "item"
+				item: "draconicevolution:draconium_dust"
+				count: 64
+			}]
+		}
+		{
+			title: "Draconic weapons"
+			x: 5.0d
+			y: -2.0d
+			dependencies: ["75E81D25BDBFEA12"]
+			id: "3BBC8081E0BF009F"
+			tasks: [
+				{
+					id: "358AEA6A3EC2B958"
+					type: "item"
+					item: {
+						id: "draconicevolution:draconic_bow"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							Parent: {
+								module_host: {
+									provider_id: [I;
+										-1498866839
+										1202670082
+										-1419219778
+										-1455597416
+									]
+									modules: [ ]
+									properties: { }
+								}
+								energy: {
+									energy: 0L
+								}
+							}
+						}
+					}
+				}
+				{
+					id: "33C8BB4222C1B59B"
+					type: "item"
+					item: {
+						id: "draconicevolution:draconic_sword"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							Parent: {
+								module_host: {
+									provider_id: [I;
+										1983588507
+										-1438169340
+										-1625182108
+										1483129969
+									]
+									modules: [ ]
+									properties: { }
+								}
+								energy: {
+									energy: 0L
+								}
+							}
+						}
+					}
+				}
+				{
+					id: "0D13D2901DC68711"
+					type: "item"
+					item: {
+						id: "draconicevolution:draconic_chestpiece"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							Parent: {
+								module_host: {
+									provider_id: [I;
+										-537572911
+										663962603
+										-1620782516
+										-891964280
+									]
+									modules: [ ]
+									properties: { }
+								}
+								energy: {
+									energy: 0L
+								}
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "1194F8ABE64D9828"
+				type: "item"
+				item: "draconicevolution:draconium_dust"
+				count: 64
+			}]
+		}
+		{
+			title: "Chaotic tools"
+			x: 3.0d
+			y: 0.0d
+			dependencies: ["3948D76636DD4046"]
+			id: "697F6CFFCFCE592F"
+			tasks: [
+				{
+					id: "3FEC40111747AD52"
+					type: "item"
+					item: {
+						id: "draconicevolution:chaotic_shovel"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							Parent: {
+								module_host: {
+									provider_id: [I;
+										-113198873
+										-1321775589
+										-2045392390
+										267423643
+									]
+									modules: [ ]
+									properties: {
+										mining_speed: {
+											hud: 1b
+											value: 1.0d
+										}
+									}
+								}
+								energy: {
+									energy: 0L
+								}
+							}
+						}
+					}
+				}
+				{
+					id: "7D8110DC3CB85A32"
+					type: "item"
+					item: {
+						id: "draconicevolution:chaotic_hoe"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							Parent: {
+								module_host: {
+									provider_id: [I;
+										-2023658806
+										833372437
+										-1998655560
+										1485629326
+									]
+									modules: [ ]
+									properties: { }
+								}
+								energy: {
+									energy: 0L
+								}
+							}
+						}
+					}
+				}
+				{
+					id: "2E5C2EE7A1839027"
+					type: "item"
+					item: {
+						id: "draconicevolution:chaotic_pickaxe"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							Parent: {
+								module_host: {
+									provider_id: [I;
+										186369538
+										251940482
+										-1344202180
+										1143143723
+									]
+									modules: [ ]
+									properties: {
+										mining_speed: {
+											hud: 1b
+											value: 1.0d
+										}
+									}
+								}
+								energy: {
+									energy: 0L
+								}
+							}
+						}
+					}
+				}
+				{
+					id: "10D8AFED99DF5422"
+					type: "item"
+					item: {
+						id: "draconicevolution:chaotic_axe"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							Parent: {
+								module_host: {
+									provider_id: [I;
+										1525263226
+										-948614481
+										-1980752016
+										-27287155
+									]
+									modules: [ ]
+									properties: {
+										mining_speed: {
+											hud: 1b
+											value: 1.0d
+										}
+									}
+								}
+								energy: {
+									energy: 0L
+								}
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "59AC4CF7211FAB30"
+				type: "item"
+				item: "draconicevolution:awakened_draconium_dust"
+				count: 16
+			}]
+		}
+		{
+			title: "Chaotic weapons"
+			x: 5.0d
+			y: 0.0d
+			dependencies: ["3948D76636DD4046"]
+			id: "2F7866AC31123F3C"
+			tasks: [
+				{
+					id: "62DA974737E36416"
+					type: "item"
+					item: {
+						id: "draconicevolution:chaotic_bow"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							Parent: {
+								module_host: {
+									provider_id: [I;
+										-1947865687
+										1220759288
+										-1892855397
+										-1607881757
+									]
+									modules: [ ]
+									properties: { }
+								}
+								energy: {
+									energy: 0L
+								}
+							}
+						}
+					}
+				}
+				{
+					id: "641EE6CFD8ABF658"
+					type: "item"
+					item: {
+						id: "draconicevolution:chaotic_sword"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							Parent: {
+								module_host: {
+									provider_id: [I;
+										-1341823552
+										261442901
+										-1955181368
+										-269507460
+									]
+									modules: [ ]
+									properties: { }
+								}
+								energy: {
+									energy: 0L
+								}
+							}
+						}
+					}
+				}
+				{
+					id: "098382B3A5BC76EE"
+					type: "item"
+					item: {
+						id: "draconicevolution:chaotic_chestpiece"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							Parent: {
+								module_host: {
+									provider_id: [I;
+										-1134130769
+										458640529
+										-1934997080
+										524470033
+									]
+									modules: [ ]
+									properties: { }
+								}
+								energy: {
+									energy: 0L
+								}
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "77A8DE2A6F1C4AF5"
+				type: "item"
+				item: "draconicevolution:awakened_draconium_dust"
+				count: 16
+			}]
+		}
+		{
+			title: "Chaotic AIOT"
+			x: 7.0d
+			y: 0.0d
+			dependencies: [
+				"697F6CFFCFCE592F"
+				"2F7866AC31123F3C"
+			]
+			id: "0DE054C5972585F4"
+			tasks: [{
+				id: "7A1419C11DB4B40E"
+				type: "item"
+				item: {
+					id: "draconicevolution:chaotic_staff"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									-1498597574
+									-146715099
+									-1869773872
+									948556811
+								]
+								modules: [ ]
+								properties: {
+									mining_speed: {
+										hud: 1b
+										value: 1.0d
+									}
+								}
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "34633D45F87DD344"
+				type: "item"
+				item: "draconicevolution:awakened_draconium_dust"
+				count: 16
+			}]
+		}
+		{
+			x: -5.0d
+			y: -7.5d
+			description: ["A pedestal that hold the dislocator and teleport player upon right clicking"]
+			dependencies: ["71D4AAD14AF1E60E"]
+			id: "2C190F31E47B3131"
+			tasks: [{
+				id: "5B753660EA135869"
+				type: "item"
+				item: "draconicevolution:dislocator_pedestal"
+			}]
+			rewards: [{
+				id: "1C1D6B9F41CF98F3"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+			}]
+		}
+		{
+			x: 9.5d
+			y: 11.5d
+			dependencies: ["5B94DFBD2F8CF80F"]
+			id: "0F7916DBEE75FD0B"
+			tasks: [{
+				id: "3D302D31AF3A007C"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:mushroom"
+					}
+				}
+			}]
+			rewards: [{
+				id: "39CFA0722171B9F4"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 10
+			}]
+		}
+	]
+}

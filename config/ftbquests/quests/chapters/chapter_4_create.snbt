@@ -1,0 +1,925 @@
+{
+	id: "4B9EC036FD7AB8CC"
+	group: "52335F892C9B07FA"
+	order_index: 3
+	filename: "chapter_4_create"
+	title: "Chapter 4: Create"
+	icon: "create:cogwheel"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -10.0d
+			y: -3.5d
+			description: [
+				"Create is a mod that depends on your intelligence and your creativity. To progress the mod, you need to craft a combiner from Mekanism first."
+				"For the set up of create system, there is an in-game animation (aka ponder) for you to learn about create. Press \"w\" to open Ponder."
+			]
+			dependencies: ["088B299D9888652D"]
+			id: "5F500E7B2439E635"
+			tasks: [{
+				id: "7B472F464384CB8F"
+				type: "item"
+				item: "mekanism:combiner"
+			}]
+			rewards: [{
+				id: "76FC9C5D38CFBC07"
+				type: "item"
+				item: "minecraft:andesite"
+				count: 4
+			}]
+		}
+		{
+			x: -10.0d
+			y: -2.0d
+			description: ["Craft the andesite alloy using the combiner."]
+			dependencies: ["5F500E7B2439E635"]
+			id: "1FCE9CBE4DF93A30"
+			tasks: [{
+				id: "5B27EE45D5E4138B"
+				type: "item"
+				item: "create:andesite_alloy"
+			}]
+			rewards: [{
+				id: "13905095A76E67F2"
+				type: "item"
+				item: "create:wrench"
+			}]
+		}
+		{
+			x: -8.5d
+			y: 1.0d
+			description: ["You need this in a lot of recipes in Create."]
+			dependencies: ["14B482920A182851"]
+			id: "6C45FB4C68061788"
+			tasks: [{
+				id: "58207C1D8F8A9CB3"
+				type: "item"
+				item: "create:rose_quartz"
+			}]
+			rewards: [{
+				id: "6C4DA7D3B49E11F0"
+				type: "item"
+				item: "mysticalagriculture:nether_quartz_seeds"
+				count: 4
+			}]
+		}
+		{
+			x: -8.5d
+			y: 2.5d
+			description: ["You can use Enriching factory to automate in a fast processing speed."]
+			dependencies: ["6C45FB4C68061788"]
+			id: "4D9B8F1004B6F130"
+			tasks: [{
+				id: "0043125D75A43C70"
+				type: "item"
+				item: "create:polished_rose_quartz"
+			}]
+			rewards: [{
+				id: "0376788E79B8D109"
+				type: "item"
+				item: "create:rose_quartz"
+				count: 8
+			}]
+		}
+		{
+			x: -8.5d
+			y: -0.5d
+			description: ["You can use infusing factory to have get rose quartz with less redstone."]
+			dependencies: ["1FCE9CBE4DF93A30"]
+			id: "14B482920A182851"
+			tasks: [{
+				id: "0CE21EB9E6103C6D"
+				type: "item"
+				item: "mekanism:metallurgic_infuser"
+			}]
+			rewards: [{
+				id: "418C542AAA6F44F7"
+				type: "item"
+				item: "mekanism:enriched_redstone"
+				count: 4
+			}]
+		}
+		{
+			x: -10.0d
+			y: -0.5d
+			description: ["Get some kelp from the sea and dry them using furnaces."]
+			dependencies: ["1FCE9CBE4DF93A30"]
+			id: "72FAEA86AD647E29"
+			tasks: [
+				{
+					id: "6D287AEC586B9A40"
+					type: "item"
+					item: "minecraft:kelp"
+				}
+				{
+					id: "4FA2E62F480B92DE"
+					type: "item"
+					item: "minecraft:dried_kelp"
+				}
+			]
+			rewards: [{
+				id: "2F99FE22C7D200CC"
+				type: "item"
+				item: "upgrade_aquatic:thorny_kelp"
+				count: 64
+			}]
+		}
+		{
+			x: -10.0d
+			y: 1.0d
+			description: [
+				"Then, craft mechanical belts for automating create recipes."
+				"Also, mechanical belts are also needed for sequenced mechanism."
+			]
+			dependencies: ["72FAEA86AD647E29"]
+			id: "4E5F7689331609F3"
+			tasks: [{
+				id: "67C2DADC0E5801AD"
+				type: "item"
+				item: "create:belt_connector"
+			}]
+			rewards: [{
+				id: "2A380416A04396F5"
+				type: "item"
+				item: "minecraft:dried_kelp_block"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -0.5d
+			description: ["Craft the Press to help you get metal sheets."]
+			dependencies: ["1FCE9CBE4DF93A30"]
+			id: "318E601056783095"
+			tasks: [{
+				id: "11C2CCF11B518D45"
+				type: "item"
+				item: "create:mechanical_press"
+			}]
+			rewards: [{
+				id: "339847CAA1527168"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 2
+			}]
+		}
+		{
+			x: -5.5d
+			y: 1.0d
+			description: ["Craft the Mechanical mixer and Basin to operate mixing recipes, in order to get the Brass alloy."]
+			dependencies: ["318E601056783095"]
+			id: "3E4B461AE072D92A"
+			tasks: [
+				{
+					id: "4148CA4291C168A7"
+					type: "item"
+					item: "create:mechanical_mixer"
+				}
+				{
+					id: "5C52994D578C0007"
+					type: "item"
+					item: "create:basin"
+				}
+			]
+			rewards: [{
+				id: "397983D78340A96B"
+				type: "item"
+				item: "create:crushed_brass"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 2.5d
+			description: ["Get your brass alloy."]
+			dependencies: ["3E4B461AE072D92A"]
+			id: "62ED0CB3F03C85FB"
+			tasks: [{
+				id: "2FC83B538DD295E7"
+				type: "item"
+				item: "create:brass_ingot"
+				count: 4L
+			}]
+			rewards: [{
+				id: "5E5FA338BE70DF54"
+				type: "item"
+				item: "create:crushed_brass"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 4.0d
+			description: ["Turn the brass ingot into sheets."]
+			dependencies: ["62ED0CB3F03C85FB"]
+			id: "38CEFE4182C0E964"
+			tasks: [{
+				id: "6886A113D6B7480D"
+				type: "item"
+				item: "create:brass_sheet"
+			}]
+			rewards: [{
+				id: "65C7386EC018F018"
+				type: "item"
+				item: {
+					id: "betterendforge:diamond_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: 5.5d
+			description: [
+				"Use the brass sheet to craft the deployer."
+				"This allows you to process the sequenced assembly recipes, to craft precision sawmill."
+			]
+			dependencies: ["38CEFE4182C0E964"]
+			id: "758D62A1D0ED6A21"
+			tasks: [
+				{
+					id: "2CFB0D6D9BDF05B2"
+					type: "item"
+					item: "create:depot"
+				}
+				{
+					id: "36F5B5DA5F2003A3"
+					type: "item"
+					item: "create:deployer"
+				}
+			]
+			rewards: [{
+				id: "3D50266A7259BE23"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+			}]
+		}
+		{
+			x: -10.0d
+			y: 5.5d
+			description: [
+				"You need it in the mechanical crafting."
+				"For setting up a sequenced assembly, which is needed to craft precision mechanism. Firstly, set up a mechanical belt from left to right. Place 3 deployer, which holds cogwheel, large cogwheel, and iron nugget, from left to right respectively. Turn the mechanical belt on, and throw a brass ingot onto the belt. The sequenced assembly will start automatically."
+				"Note that you have to repeat this process for 5 times, and only 80% success chance (which is specify in JEI)"
+				"{image:kubejs:textures/quests/chapter4/chapter4_sequenced_assembly_setup.png width:178 height:100 align:1}"
+			]
+			dependencies: [
+				"4E5F7689331609F3"
+				"758D62A1D0ED6A21"
+			]
+			id: "5D6F3910FCE740A2"
+			tasks: [{
+				id: "0A960F227BEC782B"
+				type: "item"
+				item: "create:precision_mechanism"
+			}]
+			rewards: [{
+				id: "20AB87CE45094C21"
+				type: "item"
+				item: "minecraft:gold_block"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -0.5d
+			description: ["Rolling turns metals into rods or wires."]
+			dependencies: ["1FCE9CBE4DF93A30"]
+			id: "2BBCAF09A8028CE7"
+			tasks: [{
+				id: "2F34659E065E157B"
+				type: "item"
+				item: "createaddition:rolling_mill"
+			}]
+			rewards: [{
+				id: "770DA0FF23D8F5AB"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: 1.0d
+			description: ["Turn gold plates into wires."]
+			dependencies: [
+				"2BBCAF09A8028CE7"
+				"318E601056783095"
+			]
+			id: "09E579A07F590663"
+			tasks: [{
+				id: "75321292ADEB3829"
+				type: "item"
+				item: "createaddition:gold_wire"
+			}]
+			rewards: [{
+				id: "0010440561ADA35B"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: 4.0d
+			description: ["You need it in the mechanical crafting."]
+			dependencies: ["09E579A07F590663"]
+			id: "7104505C0BA327F7"
+			tasks: [{
+				id: "45182F89BBAD0A22"
+				type: "item"
+				item: "createaddition:gold_spool"
+			}]
+			rewards: [{
+				id: "515020962283A209"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: 4.0d
+			description: ["You need it in the mechanical crafting."]
+			dependencies: [
+				"2BBCAF09A8028CE7"
+				"62ED0CB3F03C85FB"
+			]
+			id: "24254AC14B5856BD"
+			tasks: [{
+				id: "11969BE1F5F7CED3"
+				type: "item"
+				item: "createaddition:brass_rod"
+			}]
+			rewards: [{
+				id: "01E5CF93CD521B2D"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+			}]
+		}
+		{
+			x: -7.0d
+			y: 1.0d
+			description: ["Craft the blaze cake which allows you to get mixing recipes that requires heat."]
+			dependencies: ["3E4B461AE072D92A"]
+			id: "53EB5241B19A292A"
+			tasks: [{
+				id: "2524C0CA68CE740D"
+				type: "item"
+				item: "create:blaze_cake"
+			}]
+			rewards: [{
+				id: "698D66FBB95E74E4"
+				type: "item"
+				item: "minecraft:ghast_tear"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 4.0d
+			description: ["You need it in the mechanical crafting."]
+			dependencies: [
+				"53EB5241B19A292A"
+				"4D9B8F1004B6F130"
+			]
+			id: "5A297B45E702BC0D"
+			tasks: [{
+				id: "78C284AAA93D06F2"
+				type: "item"
+				item: "createsupercharged:raw_essence"
+			}]
+			rewards: [{
+				id: "2210FB89D82EAB32"
+				type: "item"
+				item: "create:blaze_cake"
+			}]
+		}
+		{
+			x: -8.5d
+			y: 4.0d
+			description: ["You need it in the mechanical crafting."]
+			dependencies: ["4D9B8F1004B6F130"]
+			id: "2C3DAF4B8F23846F"
+			tasks: [{
+				id: "560D47E62BDC69C8"
+				type: "item"
+				item: "create:electron_tube"
+			}]
+			rewards: [{
+				id: "7F75DD40F315D038"
+				type: "item"
+				item: {
+					id: "create:red_sand_paper"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -10.0d
+			y: 7.0d
+			description: ["Get 25x mechanical craft to start your Thermal chapter."]
+			dependencies: [
+				"24254AC14B5856BD"
+				"7104505C0BA327F7"
+				"2C3DAF4B8F23846F"
+				"5A297B45E702BC0D"
+				"5D6F3910FCE740A2"
+			]
+			id: "7B9A09DA4F041363"
+			tasks: [{
+				id: "334FAE7D506C53BC"
+				type: "item"
+				item: "create:mechanical_crafter"
+				count: 25L
+			}]
+			rewards: [{
+				id: "4836288BE13F57E3"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+			}]
+		}
+		{
+			title: "Thermal basics"
+			x: -10.0d
+			y: 9.0d
+			description: ["When you successfully crafted this, you opens the Thermal Chapter."]
+			dependencies: ["7B9A09DA4F041363"]
+			id: "418F83A0A03DE815"
+			tasks: [
+				{
+					id: "38610CF3FE1BE8CC"
+					type: "item"
+					item: "thermal:rf_coil"
+				}
+				{
+					id: "541D4C819543CE27"
+					type: "item"
+					item: "thermal:redstone_servo"
+				}
+				{
+					id: "6F872156A77A308A"
+					type: "item"
+					item: "thermal:machine_frame"
+				}
+			]
+			rewards: [{
+				id: "46FAE4188AC32CF4"
+				type: "item"
+				item: "glassential:glass_light"
+				count: 8
+			}]
+		}
+		{
+			title: "Combination crafting"
+			x: -11.5d
+			y: 9.0d
+			description: [
+				"You need this to craft the two of the most dimension portal in this modpack!"
+				"Place the pedestal around the combination core. For the pedestal, you need Tier 3 blood altar to craft it."
+				"{image:kubejs:textures/quests/end_game/end_game_combination_crafting.png width:178 height:100 align:1}"
+			]
+			dependencies: ["7B9A09DA4F041363"]
+			id: "7EA338CC2B87D852"
+			tasks: [
+				{
+					id: "2F3A123AAAE21F98"
+					type: "item"
+					item: "extendedcrafting:crafting_core"
+				}
+				{
+					id: "76403B4F903E6C23"
+					type: "item"
+					item: "extendedcrafting:pedestal"
+					count: 16L
+				}
+			]
+			rewards: [{
+				id: "1F8BED2F573AE42F"
+				type: "item"
+				item: "extendedcrafting:black_iron_block"
+				count: 2
+			}]
+		}
+		{
+			x: -13.0d
+			y: -0.5d
+			subtitle: "Kinetic energy source"
+			description: ["Create does not use FE energy. Instead, it uses kinetic energy, which can be produced by several blocks. One of the block is water mill."]
+			dependencies: ["1FCE9CBE4DF93A30"]
+			id: "672A6D168E410201"
+			tasks: [{
+				id: "1D82DC2240B59916"
+				type: "item"
+				item: "create:water_wheel"
+			}]
+			rewards: [{
+				id: "6738A68010BDD745"
+				type: "item"
+				item: "minecraft:water_bucket"
+			}]
+		}
+		{
+			x: -13.0d
+			y: 1.0d
+			subtitle: "Kinetic energy source with bigger capacity."
+			description: [
+				"Apart from kinetic energy or rotational speed provided, you also need to take the capacity as consideration. Water wheel does not provide much capacity, which is a bit inconvenience because it stops you to operate different system at one time."
+				"In this case, it will be good to use a wind mill, in which its capacity increases with the sail attached on the wind mill."
+			]
+			dependencies: ["672A6D168E410201"]
+			id: "0F4E541203409180"
+			tasks: [
+				{
+					id: "2C4484B46EC0F9F4"
+					type: "item"
+					item: "create:windmill_bearing"
+				}
+				{
+					id: "68FB8790BE436928"
+					type: "item"
+					item: "create:white_sail"
+				}
+			]
+			rewards: [{
+				id: "6337AF70EBEDF1BC"
+				type: "item"
+				item: "minecraft:white_wool"
+				count: 10
+			}]
+		}
+		{
+			x: -13.0d
+			y: 7.0d
+			description: ["You can use FE to produce kinetic energy!"]
+			dependencies: [
+				"7B9A09DA4F041363"
+				"0F4E541203409180"
+			]
+			id: "4EE95B1B04B4D0F2"
+			tasks: [{
+				id: "4F30B502771CEF7B"
+				type: "item"
+				item: "createaddition:electric_motor"
+			}]
+			rewards: [{
+				id: "66AE7E08F1E9ADF9"
+				type: "item"
+				item: "powah:energy_cell_hardened"
+			}]
+		}
+		{
+			x: -11.5d
+			y: -2.0d
+			description: ["The goggles allow you to see the amount of capacity and energy that your system involves."]
+			dependencies: ["1FCE9CBE4DF93A30"]
+			id: "49A82C3F3F43712E"
+			tasks: [{
+				id: "6D3C2B0B976F649D"
+				type: "item"
+				item: "create:goggles"
+			}]
+			rewards: [{
+				id: "5404FABED287745E"
+				type: "item"
+				item: {
+					id: "createplus:goggle_diamond_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "System monitoring"
+			x: -13.0d
+			y: -2.0d
+			description: ["Speedometre and stressometre allows you to monitor the rotational speed and the stress in your system for better management and prevent sudden crack."]
+			dependencies: ["49A82C3F3F43712E"]
+			id: "159503980F550AFE"
+			tasks: [
+				{
+					id: "0B99558DF331A11C"
+					type: "item"
+					item: "create:stressometer"
+				}
+				{
+					id: "6447F8CFAF53B1EA"
+					type: "item"
+					item: "create:speedometer"
+				}
+			]
+			rewards: [{
+				id: "2BD15F6F0B8B11AF"
+				type: "item"
+				item: "create:shaft"
+				count: 16
+			}]
+		}
+		{
+			x: -14.5d
+			y: -0.5d
+			description: ["Not only is andesite casing an important crafting material, but also a good block to cover your shafts."]
+			dependencies: ["1FCE9CBE4DF93A30"]
+			id: "5E0C579DCACF7075"
+			tasks: [{
+				id: "5F7872D2CD8C5581"
+				type: "item"
+				item: "create:andesite_casing"
+			}]
+			rewards: [{
+				id: "4EEAAFB6DB7996D8"
+				type: "item"
+				item: "minecraft:andesite"
+				count: 64
+			}]
+		}
+		{
+			x: -4.0d
+			y: 5.5d
+			description: ["Weight ejector will throw the item to specific place. Shift-right click to set the designated place."]
+			dependencies: ["758D62A1D0ED6A21"]
+			id: "043F91BB306B36C6"
+			tasks: [{
+				id: "755A39CA144D541B"
+				type: "item"
+				item: "create:weighted_ejector"
+			}]
+			rewards: [{
+				id: "596D077A51DF88A3"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 3
+			}]
+		}
+		{
+			x: -11.5d
+			y: -0.5d
+			description: [
+				"Funnels allow you to import and export items from chests, machines, etc, just like a hopper."
+				"Tunnels are used on mechanical belts, which allows you to separate the item into two ways for transportation."
+			]
+			dependencies: ["72FAEA86AD647E29"]
+			id: "1ABC1F31E699F237"
+			tasks: [
+				{
+					id: "0570051DC310991C"
+					type: "item"
+					item: "create:andesite_funnel"
+				}
+				{
+					id: "44FFB57B4D0BC383"
+					type: "item"
+					item: "create:andesite_tunnel"
+				}
+			]
+			rewards: [{
+				id: "5436302C00B4E251"
+				type: "item"
+				item: "create:cogwheel"
+				count: 4
+			}]
+		}
+		{
+			x: -11.5d
+			y: 1.0d
+			description: ["Brass version of tunnel and funnel accept filters and item amount limitation."]
+			dependencies: ["1ABC1F31E699F237"]
+			id: "543AD659303F2D22"
+			tasks: [
+				{
+					id: "2B7C18A4CFB8CD73"
+					type: "item"
+					item: "create:brass_funnel"
+				}
+				{
+					id: "181D8EAF14377E5E"
+					type: "item"
+					item: "create:brass_tunnel"
+				}
+			]
+			rewards: [{
+				id: "31D6D592432508EC"
+				type: "item"
+				item: "create:belt_connector"
+				count: 2
+			}]
+		}
+		{
+			title: "Filters!"
+			x: -11.5d
+			y: 2.5d
+			description: ["Filters contains both blacklist and whitelist mode. It also allows NBT containing or ignorant."]
+			dependencies: ["543AD659303F2D22"]
+			id: "7AFE063E8D5BBC4B"
+			tasks: [
+				{
+					id: "344BBA26069A7D93"
+					type: "item"
+					item: {
+						id: "create:filter"
+						Count: 1b
+						tag: {
+							Items: { }
+						}
+					}
+				}
+				{
+					id: "4A4276563E8E15F3"
+					type: "item"
+					item: {
+						id: "create:attribute_filter"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [{
+				id: "0093F0DF82A2D02E"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 4
+			}]
+		}
+		{
+			x: -14.5d
+			y: 1.0d
+			description: ["Shafts can only transfer kinetic energy in one direction. Use gearboxes to alter the directions."]
+			dependencies: ["5E0C579DCACF7075"]
+			id: "244E32A402E9020E"
+			tasks: [
+				{
+					id: "24C28787BD18DDE9"
+					type: "item"
+					item: "create:gearbox"
+				}
+				{
+					id: "6E2EB36E70822475"
+					type: "item"
+					item: "create:vertical_gearbox"
+				}
+			]
+			rewards: [{
+				id: "7FBF2E1E1BF1C840"
+				type: "item"
+				item: "create:shaft"
+				count: 16
+			}]
+		}
+		{
+			x: -14.5d
+			y: 2.5d
+			description: ["Gearshift allows you to change the rotation direction of shaft into the opposite direction by applying a redstone signal."]
+			dependencies: ["244E32A402E9020E"]
+			id: "4290BAEDDC4FE830"
+			tasks: [{
+				id: "6B20F437761AE3A1"
+				type: "item"
+				item: "create:gearshift"
+			}]
+			rewards: [{
+				id: "07DBCCC2F2520406"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 4
+			}]
+		}
+		{
+			x: -14.5d
+			y: 4.0d
+			description: ["Clutch allows you stop the transfer of energy by applying redstone signal, which lets your system shut down."]
+			dependencies: ["4290BAEDDC4FE830"]
+			id: "1626855409094F85"
+			tasks: [{
+				id: "5B46CFE5E1F78996"
+				type: "item"
+				item: "create:clutch"
+			}]
+			rewards: [{
+				id: "2880DA48F0368C7E"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 4
+			}]
+		}
+		{
+			x: -16.0d
+			y: -0.5d
+			description: ["A chute can move items in vertical directions, i.e. upward and downward."]
+			dependencies: ["1FCE9CBE4DF93A30"]
+			id: "193893D7B9EA2E58"
+			tasks: [{
+				id: "2C82ABDCCD92D83A"
+				type: "item"
+				item: "create:chute"
+			}]
+			rewards: [{
+				id: "6FDB0F589E343A87"
+				type: "item"
+				item: "minecraft:chest"
+				count: 64
+			}]
+		}
+		{
+			x: -16.0d
+			y: 1.0d
+			description: ["Smart chute accept filters."]
+			dependencies: ["193893D7B9EA2E58"]
+			id: "72242A04BEF5D2B9"
+			tasks: [{
+				id: "2DC21302B54C3182"
+				type: "item"
+				item: "create:smart_chute"
+			}]
+			rewards: [{
+				id: "7D19364C8DF153B7"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "delightfood"
+					}
+				}
+				count: 4
+			}]
+		}
+		{
+			x: -17.5d
+			y: -0.5d
+			description: ["Crushing wheel is a good way to multipling the ores, e.g. diamond ores, ancient debris."]
+			dependencies: ["1FCE9CBE4DF93A30"]
+			id: "32CA393EE08D86F3"
+			tasks: [{
+				id: "4E1856D3ED722A85"
+				type: "item"
+				item: "create:crushing_wheel"
+			}]
+			rewards: [{
+				id: "2502F48806E53BA6"
+				type: "item"
+				item: "minecraft:ancient_debris"
+			}]
+		}
+	]
+}

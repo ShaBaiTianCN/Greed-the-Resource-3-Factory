@@ -1,0 +1,8 @@
+{
+	chapter_groups: [
+		{ id: "52335F892C9B07FA", title: "Progress Guide" }
+		{ id: "37B8334BBCBD0DFD", title: "Tools" }
+		{ id: "1E2DE02B87CFF91D", title: "Automation" }
+		{ id: "31CBCB77414EC9E0", title: "Misc" }
+	]
+}

@@ -1,0 +1,555 @@
+{
+	id: "63DB687C63039DF8"
+	group: "52335F892C9B07FA"
+	order_index: 4
+	filename: "chapter_5_thermal"
+	title: "Chapter 5: Thermal"
+	icon: { id: "thermal:upgrade_augment_3", Count: 64b }
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Thermal series"
+			x: -1.0d
+			y: -1.0d
+			description: [
+				"To this stage, you are capable of progressing the mod fast."
+				"If you are the first time to craft thermal alloys, you need fire charge and craft them through crafting table."
+			]
+			dependencies: ["418F83A0A03DE815"]
+			id: "1E29C13F42A32221"
+			tasks: [{
+				id: "1EA98E58DD9414D1"
+				type: "item"
+				item: "minecraft:fire_charge"
+			}]
+			rewards: [{
+				id: "1F395203754AC258"
+				type: "item"
+				item: "pneumaticcraft:minigun"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.0d
+			description: ["Craft alloys and turn it into gears"]
+			dependencies: ["1E29C13F42A32221"]
+			id: "647259AAA932690B"
+			tasks: [
+				{
+					id: "3E7B3CBEC174D8D6"
+					type: "item"
+					item: "thermal:invar_ingot"
+				}
+				{
+					id: "7DD47DEF35F4D8CB"
+					type: "item"
+					item: "thermal:invar_gear"
+				}
+			]
+			rewards: [{
+				id: "02971D81704F8A9B"
+				type: "item"
+				item: "thermal:press_gear_die"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 3.0d
+			description: ["Get the induction smelter which allows you to craft the alloys using electricity, instead of fire charges!"]
+			dependencies: ["647259AAA932690B"]
+			id: "07448AFB113C9942"
+			tasks: [{
+				id: "4B3F5F72F89D45B3"
+				type: "item"
+				item: "thermal:machine_smelter"
+			}]
+			rewards: [{
+				id: "0335729A34B8041C"
+				type: "item"
+				item: {
+					id: "mekanism:energy_tablet"
+					Count: 1b
+					tag: {
+						mekData: {
+							EnergyContainers: [{
+								Container: 0b
+								stored: "1000000"
+							}]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 3.0d
+			description: [
+				"Prepare for your digital miner."
+				"Enderium ingot is an alloy crafted from induction smetler."
+			]
+			dependencies: ["07448AFB113C9942"]
+			id: "450D1762411931B6"
+			tasks: [{
+				id: "1112DB59D002B357"
+				type: "item"
+				item: "thermal:enderium_ingot"
+			}]
+			rewards: [{
+				id: "683DFC8B042F2143"
+				type: "item"
+				item: "thermal:signalum_ingot"
+				count: 4
+			}]
+		}
+		{
+			x: -5.0d
+			y: 3.0d
+			description: ["You are finally here, a great and fast way to obtain resources!"]
+			dependencies: [
+				"450D1762411931B6"
+				"6A0565222D32DFAC"
+			]
+			id: "2FC61CF73376AC37"
+			tasks: [{
+				id: "39F32144F910B5E7"
+				type: "item"
+				item: "mekanism:digital_miner"
+			}]
+			rewards: [{
+				id: "5E4D7C374CC05238"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 20
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.0d
+			description: ["Auto-crafter from thermal, with higher processing speed"]
+			dependencies: ["1E29C13F42A32221"]
+			id: "6054076304BD001E"
+			tasks: [{
+				id: "6C983B708007FF01"
+				type: "item"
+				item: "thermal:machine_crafter"
+			}]
+			rewards: [{
+				id: "3FF692C61A73CF59"
+				type: "item"
+				item: "thermal:wrench"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			description: [
+				"Find vibranium in nether"
+				"{image:kubejs:textures/quests/chapter5/chapter5_vibranium.png width:178 height:100 align:1}"
+			]
+			dependencies: ["1E29C13F42A32221"]
+			id: "10ED71B3E1D1E1BA"
+			tasks: [{
+				id: "6423CF39BF363483"
+				type: "item"
+				item: "allthemodium:vibranium_ingot"
+			}]
+			rewards: [{
+				id: "071AEA4FEA49E8BF"
+				type: "item"
+				item: "mekanism:sulfuric_acid_bucket"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.0d
+			description: ["Get this workbench to help you to craft the quarry parts"]
+			dependencies: [
+				"6054076304BD001E"
+				"10ED71B3E1D1E1BA"
+			]
+			id: "262C78D825E4ACCF"
+			tasks: [{
+				id: "64B0B68EB4E9B062"
+				type: "item"
+				item: "quarryplus:workbenchplus"
+			}]
+			rewards: [{
+				id: "38E87CF09F927CFB"
+				type: "item"
+				item: "allthemodium:unobtainium_nugget"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 5.0d
+			description: ["use the quarry to help you find the UNOBTAINIUM ORES!"]
+			dependencies: ["262C78D825E4ACCF"]
+			id: "706FA5BCB763FCB2"
+			tasks: [
+				{
+					id: "3F25FE416A77F071"
+					type: "item"
+					item: "quarryplus:quarry"
+				}
+				{
+					id: "24B63478CF0EF6AC"
+					type: "item"
+					item: "quarryplus:markerplus"
+					count: 3L
+				}
+			]
+			rewards: [{
+				id: "48B19BC2B2EFAC2A"
+				type: "item"
+				item: "allthemodium:unobtainium_nugget"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 7.0d
+			description: [
+				"Get your first unobtainium ore by quarry!"
+				"{image:kubejs:textures/quests/chapter5/chapter5_unobtanium.png width:178 height:100 align:1}"
+			]
+			dependencies: ["706FA5BCB763FCB2"]
+			id: "3127889BFC227F94"
+			tasks: [{
+				id: "50D6E97F85872E1F"
+				type: "item"
+				item: "allthemodium:unobtainium_ore"
+			}]
+			rewards: [{
+				id: "18A14A576DBAC99C"
+				type: "item"
+				item: "mekanism:sulfuric_acid_bucket"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -1.0d
+			description: [
+				"Find allthemodium ores in ocean biomes to craft the digital miner. However, it is pretty rare that might cost you time if you don't have a correect tool. You can proceed to the \"Mining\" chapter to find out useful mining tools."
+				"{image:kubejs:textures/quests/chapter5/chapter5_allthemodium.png width:178 height:100 align:1}"
+			]
+			dependencies: ["1E29C13F42A32221"]
+			id: "6A0565222D32DFAC"
+			tasks: [{
+				id: "3DFE0BB81B0DCF5B"
+				type: "item"
+				item: "allthemodium:allthemodium_ingot"
+			}]
+			rewards: [{
+				id: "2BE7F1129B77EB5A"
+				type: "item"
+				item: "mekanism:sulfuric_acid_bucket"
+			}]
+		}
+		{
+			x: -7.5d
+			y: -1.0d
+			description: ["Allthemodium ores is common in the mining dimension"]
+			dependencies: ["6A0565222D32DFAC"]
+			id: "7D3BB12176E8458D"
+			tasks: [{
+				id: "157AE51F5E7228F0"
+				type: "item"
+				item: "jamd:mine_portal_block"
+			}]
+			rewards: [
+				{
+					id: "6EC07E02D0B9D4CF"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:imperium_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "720FE8E9059D7270"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 5s
+								id: "minecraft:efficiency"
+							}]
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 5.0d
+			description: ["Get the enchantment mover, to move enchantments from diamond pickaxes to the quarry to increase efficiency."]
+			dependencies: ["262C78D825E4ACCF"]
+			id: "5274B89462EB2B23"
+			tasks: [{
+				id: "2B74B4420D1AB9C5"
+				type: "item"
+				item: "quarryplus:enchantmover"
+			}]
+			rewards: [{
+				id: "07E59BC34F407406"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 5s
+							id: "minecraft:efficiency"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 9.5d
+			description: ["You need this to craft the centrifuge."]
+			dependencies: ["07448AFB113C9942"]
+			id: "072DC588C93ADE87"
+			tasks: [
+				{
+					id: "6F320B294F80FB96"
+					type: "item"
+					item: "thermal:signalum_ingot"
+				}
+				{
+					id: "58A6015F03436D8E"
+					type: "item"
+					item: "thermal:lumium_ingot"
+				}
+			]
+			rewards: [{
+				id: "76E0523C3FBD9483"
+				type: "item"
+				item: "minecraft:fire_charge"
+				count: 4
+			}]
+		}
+		{
+			x: -3.0d
+			y: 9.5d
+			description: ["You need this to craft the centrifuge."]
+			dependencies: ["072DC588C93ADE87"]
+			id: "2E94EA087A61B6F4"
+			tasks: [
+				{
+					id: "0351EE1A1A00A7B4"
+					type: "item"
+					item: "thermal:signalum_glass"
+				}
+				{
+					id: "11EEC4C820378388"
+					type: "item"
+					item: "thermal:lumium_glass"
+				}
+			]
+			rewards: [{
+				id: "4153C1ABFA7449BD"
+				type: "item"
+				item: "minecraft:glass"
+				count: 4
+			}]
+		}
+		{
+			x: -5.0d
+			y: 9.5d
+			description: [
+				"Get the centrifuge, and start your beeskeeper life."
+				"This quest opens the next chapter."
+			]
+			dependencies: ["2E94EA087A61B6F4"]
+			id: "5C71DC385C61ECA0"
+			tasks: [{
+				id: "7F65116A8A0E9A7F"
+				type: "item"
+				item: "resourcefulbees:mechanical_centrifuge"
+			}]
+			rewards: [{
+				id: "0A332B5D4DDDDC3B"
+				type: "item"
+				item: "resourcefulbees:wax"
+			}]
+		}
+		{
+			title: "All sort of tools!"
+			x: -3.0d
+			y: 7.0d
+			description: ["A very strong tool sets"]
+			dependencies: ["19D7185DACE5B596"]
+			id: "48DD7AE9E5DD5C6E"
+			tasks: [
+				{
+					id: "0D561CDE6DB04FF7"
+					type: "item"
+					item: {
+						id: "allthemodium:alloy_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3C6D69B6C10A7EDD"
+					type: "item"
+					item: {
+						id: "allthemodium:alloy_pick"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6498EF4E1952810D"
+					type: "item"
+					item: {
+						id: "allthemodium:alloy_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "25076056135BC7AE"
+					type: "item"
+					item: {
+						id: "allthemodium:alloy_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+							AS_Amulet_Holder: [I;
+								-375519035
+								-1975500603
+								-1903724788
+								1345288620
+							]
+						}
+					}
+				}
+				{
+					id: "34C96F3F2158710A"
+					type: "item"
+					item: {
+						id: "allthemodium:alloy_paxel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "56543AD91CBC8402"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "singularity"
+						}
+					}
+				}
+				{
+					id: "16DCAD3969C992D5"
+					type: "item"
+					item: "mininggadgets:upgrade_range_3"
+				}
+			]
+		}
+		{
+			title: "Allthemodium alloy"
+			x: -3.0d
+			y: 5.0d
+			description: ["With induction smelter, you can produce alloy from allthemodium series, which can use it to craft very strong tools and sword"]
+			dependencies: ["07448AFB113C9942"]
+			id: "19D7185DACE5B596"
+			tasks: [
+				{
+					id: "780C909CE2DFB4C1"
+					type: "item"
+					item: "allthemodium:unobtainium_allthemodium_alloy_ingot"
+				}
+				{
+					id: "45B0720BADE5DD81"
+					type: "item"
+					item: "allthemodium:unobtainium_vibranium_alloy_ingot"
+				}
+				{
+					id: "4CE91D42928A1B73"
+					type: "item"
+					item: "allthemodium:vibranium_allthemodium_alloy_ingot"
+				}
+			]
+			rewards: [{
+				id: "320346529C06FBCF"
+				type: "item"
+				item: "mininggadgets:upgrade_efficiency_5"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 5.0d
+			description: [
+				"You can also craft the time in a bottle with induction smelter. Check JEI for recipe"
+				"After crafting time in a bottle, the bottle will start counting the time and store the time in the bottle. Right click any machine with the time stored, it will allow you to accelerate the machines."
+			]
+			dependencies: ["07448AFB113C9942"]
+			id: "633A2A061951115D"
+			tasks: [{
+				id: "1F7F839C3AFCD438"
+				type: "item"
+				item: {
+					id: "tiab:timeinabottle"
+					Count: 1b
+					tag: {
+						timeData: {
+							storedTime: 480
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "4F8E5F937CAE0CC5"
+				type: "item"
+				item: "minecraft:clock"
+				count: 4
+			}]
+		}
+		{
+			x: -5.0d
+			y: 7.0d
+			description: ["Spawner is now craftable for the ease of making mob farms !!!"]
+			dependencies: ["07448AFB113C9942"]
+			id: "62D4E816818A151D"
+			tasks: [{
+				id: "6B040FB02A7787A9"
+				type: "item"
+				item: "minecraft:spawner"
+			}]
+			rewards: [{
+				id: "4ABCC6F0B1334669"
+				type: "item"
+				item: "allthecompressed:iron_block_2x"
+			}]
+		}
+	]
+}

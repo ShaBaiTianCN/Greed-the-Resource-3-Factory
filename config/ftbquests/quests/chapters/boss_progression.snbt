@@ -1,0 +1,1085 @@
+{
+	id: "23D362C849E76620"
+	group: "31CBCB77414EC9E0"
+	order_index: 0
+	filename: "boss_progression"
+	title: "Boss progression"
+	icon: {
+		id: "minecraft:netherite_sword"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -12.5d
+			y: -1.0d
+			shape: "rsquare"
+			description: [
+				"Here are some minibosses and bosses from the Dungeons Mobs. You can only find them in specific dungeons generated in Overworld."
+				"Difficulties are adjusted that you can't defeat them easily!"
+				"There are customed loots to help you progress through this modpack."
+				"Recommended armor: full set of allthemodium with protection IV or equivalent."
+				"Recommended weapon: Ultimerite Sword, Ultimertie Bow, ... or equivalent"
+			]
+			dependencies: ["42ABAB6DFD2E6C0D"]
+			size: 1.5d
+			id: "58972E2E76C8D5EA"
+			tasks: [{
+				id: "54B85EEBDCE50B3D"
+				type: "checkmark"
+				title: "Dungeons Mobs"
+			}]
+			rewards: [{
+				id: "702BB97B83ED8D9B"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -15.0d
+			y: 0.5d
+			subtitle: "Crawler"
+			description: [
+				"Crawler is invented by scientists accidentally. Be aware of its attack. It is hidden in laboratory spawn in overworld, with many scientists taking care of him."
+				"{image:kubejs:textures/quests/boss/boss_lab.png width:178 height:100 align:1}"
+			]
+			dependencies: ["58972E2E76C8D5EA"]
+			id: "74040EC0332F5B25"
+			tasks: [{
+				id: "1C96C567A2576BC6"
+				type: "kill"
+				entity: "dungeonsmod:crawler"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "328FFA4C6FB94389"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "7E6CECEF0F6E52D3"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "bossloot"
+						}
+					}
+				}
+				{
+					id: "206132B2E93F816A"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "singularity"
+						}
+					}
+				}
+				{
+					id: "6BD75F02B334941B"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "ingotnore"
+						}
+					}
+					count: 4
+				}
+			]
+		}
+		{
+			x: -10.0d
+			y: -2.5d
+			subtitle: "Sandstorm with fire"
+			description: [
+				"The Deserted spawns in sandstone structures underground. It has very strong attack but It can't move. Make smart uses of blocks :)"
+				"{image:kubejs:textures/quests/boss/boss_house.png width:178 height:100 align:1}"
+			]
+			dependencies: ["58972E2E76C8D5EA"]
+			id: "4FC1CF0FCAE8FD63"
+			tasks: [{
+				id: "4BB87E4AA6181171"
+				type: "kill"
+				entity: "dungeonsmod:deserted"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "5CAFF7FFB80D1C3F"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "421A2002CC26EAA7"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "bossloot"
+						}
+					}
+				}
+				{
+					id: "1C5B8833D39DE993"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "singularity"
+						}
+					}
+				}
+				{
+					id: "0330D0E7C6A6D224"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "ingotnore"
+						}
+					}
+					count: 4
+				}
+			]
+		}
+		{
+			x: -15.5d
+			y: -1.0d
+			subtitle: "Dig, dig, dig ..."
+			description: [
+				"Iron slimes spawn in a mine-like structure in overworld. If there is any iron-related items on your body (e.g. iron sword, iron pickaxe), the attributes of iron slime will multiply by 8 times! Avoid iron things."
+				"To fight the iron slime, you should bring a pickaxe instead. \"Mine\" the iron slime repeatedly, until it's iron shield shed off. Then you can hit it by swords."
+				"The knockback per attack is proportional to the current health. It have the probability to destroy walls. The damage and slowness per attack is proportionally inverse to the current health. Iron Slime takes double damage when is on fire and ignites players attacked."
+				"Note that all players near have mining fatigue."
+			]
+			dependencies: ["58972E2E76C8D5EA"]
+			id: "17EAA0ECCC8D559B"
+			tasks: [{
+				id: "12CE4520B6FF9A27"
+				type: "kill"
+				entity: "dungeonsmod:ironslime"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "2CC589F86190CC9A"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "42E4AA5FCE65867E"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "bossloot"
+						}
+					}
+				}
+				{
+					id: "329F764E52131143"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "singularity"
+						}
+					}
+				}
+				{
+					id: "78D5A5892AA29BE9"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "ingotnore"
+						}
+					}
+					count: 4
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: -1.0d
+			subtitle: "King of the world"
+			description: [
+				"King spawn in the upper most layer of Castle, which is a sturcture generated randomly overworld."
+				"{image:kubejs:textures/quests/boss/boss_king.png width:178 height:100 align:1}"
+			]
+			dependencies: ["58972E2E76C8D5EA"]
+			id: "7A814EA2D2C5EA6D"
+			tasks: [{
+				id: "5E6A2B2E625DEDDA"
+				type: "kill"
+				entity: "dungeonsmod:king"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "496767D62B17F11B"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "bossloot"
+						}
+					}
+				}
+				{
+					id: "5C20A8255134DB19"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "singularity"
+						}
+					}
+				}
+				{
+					id: "3D0DC3C15EA89382"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "ingotnore"
+						}
+					}
+					count: 4
+				}
+			]
+		}
+		{
+			x: -15.0d
+			y: -2.5d
+			subtitle: "Bigger squid?"
+			description: ["Kraken spawns in seas. It is an easy boss. Prepare Trident :)"]
+			dependencies: ["58972E2E76C8D5EA"]
+			id: "46A5D692F830CDB7"
+			tasks: [{
+				id: "4E35C32D13B9655C"
+				type: "kill"
+				entity: "dungeonsmod:kraken"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "506ACB2D05BB7551"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "00C0CD02F6A001EF"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "bossloot"
+						}
+					}
+				}
+				{
+					id: "79998E02BBCA6B34"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "singularity"
+						}
+					}
+				}
+				{
+					id: "19097047EC3B251D"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "ingotnore"
+						}
+					}
+					count: 4
+				}
+			]
+		}
+		{
+			x: -14.0d
+			y: 1.5d
+			subtitle: "Powerful skeleton."
+			description: [
+				"To summon Lord Skeleton, construct an idol of Bone Blocks and a Carved Pumpkin in the same shape as an Iron Golem. Use a Soul Bottle on the Pumpkin at night to summon Lord Skeleton."
+				"Chapels can be found in Swamp biomes that contains a pre-built idol."
+				" Lord skeleton spawns a Haunter every 15 seconds. Spawns a Deadhound every 20 seconds for each nearby player. It is immune to drowning."
+				"{image:kubejs:textures/quests/boss/boss_chapel.png width:178 height:100 align:1}"
+			]
+			dependencies: ["58972E2E76C8D5EA"]
+			id: "26A45869ECC6378A"
+			tasks: [{
+				id: "5EDAC254FAF1EB46"
+				type: "kill"
+				entity: "dungeonsmod:lordskeleton"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "5BC489E8853823D5"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "4E50AD2E1FB2F7DC"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "bossloot"
+						}
+					}
+				}
+				{
+					id: "798C1AD8EDB7C5A9"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "singularity"
+						}
+					}
+				}
+				{
+					id: "3252FD1A423F09B3"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "ingotnore"
+						}
+					}
+					count: 4
+				}
+			]
+		}
+		{
+			x: -12.5d
+			y: 2.0d
+			subtitle: "normal mobs"
+			description: ["Note head has a very small chance spawning in Desert biomes."]
+			dependencies: ["58972E2E76C8D5EA"]
+			id: "0D8E6220CF43B200"
+			tasks: [{
+				id: "3C9E7597FE1C76EF"
+				type: "kill"
+				entity: "dungeonsmod:notehead"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "2A1C2D4BADE89F15"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "616FEF2983D6D40F"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "bossloot"
+						}
+					}
+				}
+				{
+					id: "3262AAF57FF8FA0E"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "ingotnore"
+						}
+					}
+					count: 4
+				}
+			]
+		}
+		{
+			x: -10.0d
+			y: 0.5d
+			subtitle: "Nether destroyer"
+			description: [
+				"For summoning Sun, you need to go to the Nether, wearing 6 armor points of any armor (3 chestplate points), having 6 health points (3 hearts), and holding 6 iron blocks on the main hand. Set yourself on Fire to summon the boss."
+				"The only way to damage the Sun is to construct a multiblock structure of 3x3x3 blue ice with a TNT inside. Lighting up the TNT inside will damage the boss by 16.67% of its maximum health (which means the boss will die if you repeat it for 6 times). It is recommended that you build the multiblock structure before summoning the boss. The boss has the ability to damage any blocks and pass through wither-proof blocks and obsidians. Note that the blue ice bomb only has a 10 blocks radius."
+				"{image:kubejs:textures/quests/boss/boss_blueicebomb.png width:178 height:100 align:1}"
+			]
+			dependencies: ["58972E2E76C8D5EA"]
+			id: "2B2B1413A53E9A96"
+			tasks: [{
+				id: "4D254395223A5133"
+				type: "kill"
+				entity: "dungeonsmod:sun"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "47892A82EE45C5C7"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "18F366F3B5B9A608"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "bossloot"
+						}
+					}
+				}
+				{
+					id: "1A3035F27D96B303"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "singularity"
+						}
+					}
+				}
+				{
+					id: "09D01C4950B5A297"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "ingotnore"
+						}
+					}
+					count: 4
+				}
+			]
+		}
+		{
+			x: -11.0d
+			y: 1.5d
+			subtitle: "Eyes from the void..."
+			description: [
+				"Void Master spawns in structures found in the End dimension. The structure is rare but you can found it using the \"unstable map\", which is an item spawn in loot chest in the \"Sewer\" structure spawn under the Beach biomes."
+				"The void master has 3 phases, in its 100%, 66% and 33% health respectively. It shoots lasers and the lasers will deduct you 10% health per seconds. Each phase increases the duration of the laser. At phase 3, Void Master feels tired and it receives 200% more damage from all source."
+				"Void Master can only be hit by bows. I recommend you bring along with strong bow with power VI with a lot of harming II potions."
+				"{image:kubejs:textures/quests/boss/boss_sewer.png width:178 height:100 align:1}"
+			]
+			dependencies: ["58972E2E76C8D5EA"]
+			id: "0F0AFE91F9862773"
+			tasks: [{
+				id: "15086B24560BC36E"
+				type: "kill"
+				entity: "dungeonsmod:voidmaster"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "160AA545ACC71491"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "2D1CE16D809AFDF4"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "bossloot"
+						}
+					}
+				}
+				{
+					id: "3422E999C31A2AA1"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "singularity"
+						}
+					}
+				}
+				{
+					id: "580EC404E7ADEE38"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "ingotnore"
+						}
+					}
+					count: 4
+				}
+			]
+		}
+		{
+			x: -11.0d
+			y: -3.5d
+			subtitle: "normal mobs"
+			description: ["Whirlwind has a very low chance spawn in snowy biome"]
+			dependencies: ["58972E2E76C8D5EA"]
+			id: "72DB5E093962A578"
+			tasks: [{
+				id: "01DDD8D08F5D6247"
+				type: "kill"
+				entity: "dungeonsmod:whirlwind"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "7F026656E18CC4C7"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "01D18DCEEB83B21C"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "bossloot"
+						}
+					}
+				}
+				{
+					id: "6DBE222C596309A8"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "singularity"
+						}
+					}
+				}
+				{
+					id: "4BF517BA6519BB4E"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "ingotnore"
+						}
+					}
+					count: 4
+				}
+			]
+		}
+		{
+			x: -14.0d
+			y: -3.5d
+			subtitle: "Hunter to hunt prey... You are the prey"
+			description: [
+				"To summon Winter Hunter, you need to find a plitcher in snowy biomes, which is an offensive plant that can digest any thing that fall into their jaws. There are two ways to summon it."
+				"1) Offer a mob as sacrifice, for each tick of damage there's a chance to summon it."
+				"2) Fall unarmored into the pit. This will summon the Winter Hunter instantly."
+				"The Winter Hunter will spawn pitchers every 15 seconds as well will spawn angry wolfs every 20 seconds for every player near."
+			]
+			dependencies: ["58972E2E76C8D5EA"]
+			id: "1D78F93BB87B98F4"
+			tasks: [{
+				id: "69FD74D4FB4F7C98"
+				type: "kill"
+				entity: "dungeonsmod:winterhunter"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "000988AF7545895A"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "5637107CEAB14E1E"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "bossloot"
+						}
+					}
+				}
+				{
+					id: "7443BC328F25C18B"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "singularity"
+						}
+					}
+				}
+				{
+					id: "01EBFA4AC65EE2B1"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "ingotnore"
+						}
+					}
+					count: 4
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -4.0d
+			id: "41453A0AA8D5CBE9"
+			tasks: [{
+				id: "21BFDB4C28FB23B0"
+				type: "dimension"
+				dimension: "minecraft:the_end"
+			}]
+			rewards: [
+				{
+					id: "27CCBDC0A78D7262"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "1BB9BFB4C5959D6D"
+					type: "item"
+					item: "minecraft:carved_pumpkin"
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: -4.0d
+			id: "59A346B08DFDCF17"
+			tasks: [{
+				id: "1949789CF72CA726"
+				type: "dimension"
+				dimension: "minecraft:the_nether"
+			}]
+			rewards: [
+				{
+					id: "07FE0C74FE09D91C"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "23F9B70DE6B81168"
+					type: "item"
+					item: {
+						id: "minecraft:golden_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			icon: "minecraft:wither_skeleton_skull"
+			x: -5.5d
+			y: -2.0d
+			description: [
+				"Note the the Wither will become stronger every time you defeat it. Some tips: Magic damage towards with will increase by 100% every 150 health it loss"
+				"{image:kubejs:textures/quests/boss/boss_wither.png width:178 height:100 align:1}"
+			]
+			dependencies: ["59A346B08DFDCF17"]
+			id: "11A22D342BC5E69F"
+			tasks: [{
+				id: "1A0942E5BDE79968"
+				type: "kill"
+				entity: "minecraft:wither"
+				value: 24L
+			}]
+			rewards: [
+				{
+					id: "3091FC8935A183F8"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "0EDCF4CC263983D7"
+					type: "item"
+					item: "minecraft:nether_star"
+					count: 20
+				}
+				{
+					id: "35F3642902714153"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "bossloot"
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			icon: "minecraft:dragon_head"
+			x: -1.0d
+			y: -2.0d
+			description: [
+				"Note that the Ender Dragon will become stronger every time you defeat it."
+				"{image:kubejs:textures/quests/boss/boss_ender_dragon.png width:178 height:100 align:1}"
+			]
+			dependencies: ["41453A0AA8D5CBE9"]
+			id: "0BF27CF5D3B3645B"
+			tasks: [{
+				id: "16BD17CD768AC852"
+				type: "kill"
+				entity: "minecraft:ender_dragon"
+				value: 24L
+			}]
+			rewards: [
+				{
+					id: "2D040B700D845032"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "26E5130882DAE751"
+					type: "item"
+					item: "minecraft:dragon_egg"
+					count: 19
+				}
+				{
+					id: "4A771D09E3D31F0E"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "bossloot"
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			icon: "botania:gaia_head"
+			x: -5.5d
+			y: 2.0d
+			description: [
+				"Defeat 20 Gaia from Botania! You have to build the altar as shown below. To summon Gaia, shift-right click the beacon with a terrasteel."
+				"{image:kubejs:textures/quests/boss/boss_gaia.png width:178 height:100 align:1}"
+			]
+			dependencies: ["76446683F82CCC22"]
+			id: "3F47FBB1C8F44A3F"
+			tasks: [{
+				id: "5D86572A4C2CB820"
+				type: "kill"
+				entity: "botania:doppleganger"
+				value: 20L
+			}]
+			rewards: [
+				{
+					id: "561E89C3E041F3A3"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "5B9633C9C71662AA"
+					type: "item"
+					item: "botania:gaia_ingot"
+					count: 5
+				}
+				{
+					id: "41E8F56185AE834C"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "bossloot"
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -2.0d
+			description: [
+				"You can only obtain chaotic shard by defeating chaotic guardian in the End dimension. It spawns every 20000 blocks in the End"
+				"{image:kubejs:textures/quests/boss/boss_chaos_guardian.png width:178 height:100 align:1}"
+			]
+			dependencies: [
+				"41453A0AA8D5CBE9"
+				"541B8284DCEA862D"
+			]
+			id: "2B407D16F77B1E60"
+			tasks: [{
+				id: "49D80F5324B963DC"
+				type: "kill"
+				icon: "draconicevolution:chaos_shard"
+				entity: "draconicevolution:draconic_guardian"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "6D624299444F07FB"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "1C7D364F3F75069F"
+					type: "item"
+					item: "draconicevolution:chaos_shard"
+				}
+				{
+					id: "0267CD4416D63566"
+					type: "item"
+					item: "allthemodium:unobtainium_block"
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: 0.0d
+			description: ["You need to build an altar to summon altar. Collect these materials first"]
+			id: "76446683F82CCC22"
+			tasks: [
+				{
+					id: "126556FD1083D9DF"
+					type: "item"
+					item: "botania:gaia_pylon"
+				}
+				{
+					id: "3E18B9ECF6523F59"
+					type: "item"
+					item: "minecraft:beacon"
+				}
+			]
+			rewards: [{
+				id: "2088532579B46B5D"
+				type: "item"
+				item: "minecraft:iron_block"
+				count: 34
+			}]
+		}
+		{
+			x: -12.5d
+			y: -4.0d
+			id: "42ABAB6DFD2E6C0D"
+			tasks: [{
+				id: "4DDB0E88040A4379"
+				type: "dimension"
+				dimension: "minecraft:overworld"
+			}]
+			rewards: [{
+				id: "27CEDC172FB2430C"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "delightfood"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: -2.0d
+			description: [
+				"Netherite Monstrosity spawn in a structure called \"Soul Black Smith\" in nether."
+				"{image:kubejs:textures/quests/boss/boss_netherite_monstrosity.png width:178 height:100 align:1}"
+			]
+			dependencies: ["59A346B08DFDCF17"]
+			id: "665E8E2F1D47EB72"
+			tasks: [
+				{
+					id: "08AEE296DBD330A2"
+					type: "kill"
+					icon: "cataclysm:netherite_monstrosity_spawn_egg"
+					entity: "cataclysm:netherite_monstrosity"
+					value: 1L
+				}
+				{
+					id: "6C41F353B3C2F509"
+					type: "item"
+					item: {
+						id: "cataclysm:infernal_forge"
+						Count: 1b
+						tag: {
+							Damage: 0
+							AS_Amulet_Holder: [I;
+								-375519035
+								-1975500603
+								-1903724788
+								1345288620
+							]
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "04858DB85A386B03"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "71ECDE9CE0B3D8E0"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "bossloot"
+						}
+					}
+				}
+				{
+					id: "28EF7B326CFB4A24"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "singularity"
+						}
+					}
+				}
+				{
+					id: "6350084E148EE131"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "ingotnore"
+						}
+					}
+					count: 4
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -2.0d
+			description: [
+				"Ender guardian spawns in \"Citadel\" in the End dimension."
+				"{image:kubejs:textures/quests/boss/boss_ender_guardian.png width:178 height:100 align:1}"
+			]
+			dependencies: ["41453A0AA8D5CBE9"]
+			id: "06B1120AC5773433"
+			tasks: [
+				{
+					id: "05B2CCBB3FF21533"
+					type: "kill"
+					icon: "cataclysm:ender_guardian_spawn_egg"
+					entity: "cataclysm:ender_guardian"
+					value: 1L
+				}
+				{
+					id: "21CDF0D27DADF714"
+					type: "item"
+					item: "cataclysm:void_core"
+				}
+				{
+					id: "784E9AA10556BE11"
+					type: "item"
+					item: "cataclysm:gauntlet_of_guard"
+				}
+			]
+			rewards: [
+				{
+					id: "557233AAEB8F9056"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "679A60C0A6A1BE33"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "bossloot"
+						}
+					}
+				}
+				{
+					id: "64157A9D3710C152"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "singularity"
+						}
+					}
+				}
+				{
+					id: "7791EBA79A6BE5B5"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "ingotnore"
+						}
+					}
+					count: 4
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -2.0d
+			description: [
+				"Chaos guardian is really hard to defeat. Here is a recommended item lists that you should bring."
+				"Jetpacks, awakened armors and tool sets, bows, food, potions, baubles."
+				"Effect of angel ring will be removed during the attack of the guardian. Therefore, jetpack is better."
+			]
+			id: "541B8284DCEA862D"
+			tasks: [{
+				id: "7CD6EDC524A51E97"
+				type: "checkmark"
+				title: "Tips on fighting chaos guardian"
+			}]
+		}
+	]
+}

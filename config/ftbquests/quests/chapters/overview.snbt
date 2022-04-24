@@ -1,0 +1,270 @@
+{
+	id: "16111F3D8EBA9505"
+	group: ""
+	order_index: 0
+	filename: "overview"
+	title: "Overview"
+	icon: "minecraft:dragon_head"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Welcome!"
+			x: -3.5d
+			y: -0.5d
+			description: [
+				"Here is a overview for this modpack. It states the important events across this modpack."
+				"You can go the the \"Tips\" chapter to take a look of it first."
+				"Then, start your trip from \"Chapter 1\"!"
+			]
+			id: "09C0777BF18C9294"
+			tasks: [{
+				id: "65FC069FB34796BE"
+				type: "dimension"
+				dimension: "minecraft:overworld"
+			}]
+			rewards: [{
+				id: "34BE60F8FDE8931E"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "delightfood"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 3.0d
+			shape: "gear"
+			description: ["Finishing this task means that you have finished this modpack. Thank you for playing and hope you could recommend the modpack to your friends"]
+			size: 3.0d
+			id: "105C25321E4162FD"
+			tasks: [{
+				id: "07D2138DFEBAC186"
+				type: "item"
+				item: {
+					id: "minecraft:structure_void"
+					Count: 1b
+					tag: {
+						display: {
+							Name: "{\"text\":\"Certificate of Completion\"}"
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6B843235E2339024"
+					type: "item"
+					item: "mekanism:creative_fluid_tank"
+				}
+				{
+					id: "3214A08907F2FFEE"
+					type: "item"
+					item: "mekanism:creative_chemical_tank"
+				}
+				{
+					id: "2CB4EB4A32B8886D"
+					type: "item"
+					item: "mekanism:creative_bin"
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: 3.0d
+			description: [
+				"Here is the time to start getting singularities. Get this machine and input items into it."
+				"Craft every type of singularity and combine them together in order to get the ULTIMATE SINGULARITY."
+				"{image:kubejs:textures/quests/overview/overview_ultimate_singularity.png width:178 height:100 align:1}"
+			]
+			dependencies: ["4BE2792A86D7E16B"]
+			id: "4178EDE08B16E672"
+			tasks: [{
+				id: "6630562EC8D94654"
+				type: "item"
+				item: "extendedcrafting:compressor"
+			}]
+			rewards: [
+				{
+					id: "71DBD1DDBBE1196E"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "unobtainable"
+						}
+					}
+				}
+				{
+					id: "7B4200A19F16A329"
+					type: "item"
+					item: "extendedcrafting:elite_catalyst"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 3.0d
+			description: ["Obtain eye of ender by starlight infusion from Astral Sorcery. Prepare yourself, and defeat the buffed ender dragon."]
+			dependencies: ["09C0777BF18C9294"]
+			id: "614E57BE75D3358C"
+			tasks: [
+				{
+					id: "1CE40C1C6A391FD6"
+					type: "kill"
+					entity: "minecraft:ender_dragon"
+					value: 1L
+				}
+				{
+					id: "2B4D6B305BD2D362"
+					type: "item"
+					item: "minecraft:ender_eye"
+				}
+			]
+			rewards: [{
+				id: "5AAF3D729B27A842"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "unobtainable"
+					}
+				}
+			}]
+		}
+		{
+			x: -6.5d
+			y: -0.5d
+			description: [
+				"Exhausted?"
+				"No, not yet"
+			]
+			dependencies: ["4178EDE08B16E672"]
+			id: "409C4C7E39BB3400"
+			tasks: [
+				{
+					id: "2B50F4B232CEBC7B"
+					type: "item"
+					item: "extendedcrafting:ultimate_singularity"
+				}
+				{
+					id: "210A98A2869E6902"
+					type: "item"
+					item: "extendedcrafting:the_ultimate_ingot"
+				}
+			]
+			rewards: [
+				{
+					id: "36CB2398F5C19D6F"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "bossloot"
+						}
+					}
+					count: 10
+				}
+				{
+					id: "3A23F11DD730B217"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "singularity"
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 6.5d
+			description: [
+				"Travel to different dimensions to get all this three types of ores, which is the most rare ores."
+				"Do not smelt them in furnace :)"
+				"You may desire a 5x ore process first before you smelting them."
+				"{image:kubejs:textures/quests/overview/overview_allthemodium.png width:178 height:100 align:1}"
+			]
+			dependencies: ["614E57BE75D3358C"]
+			id: "15CDD6BEBC1903BC"
+			tasks: [
+				{
+					id: "49CD7DA993B1CAEE"
+					type: "item"
+					item: "allthemodium:allthemodium_ore"
+				}
+				{
+					id: "7EFA383172C65625"
+					type: "item"
+					item: "allthemodium:vibranium_ore"
+				}
+				{
+					id: "46159959488C8EC3"
+					type: "item"
+					item: "allthemodium:unobtainium_ore"
+				}
+			]
+			rewards: [
+				{
+					id: "7F5FF1BA4A825988"
+					type: "item"
+					item: "thermal:sulfur_dust"
+					count: 64
+				}
+				{
+					id: "4B1E60421AC611AB"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "unobtainable"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Fly"
+			x: -6.5d
+			y: 6.5d
+			description: ["Get the angel ring that brings convenience in building and constructing"]
+			dependencies: ["15CDD6BEBC1903BC"]
+			id: "4BE2792A86D7E16B"
+			tasks: [
+				{
+					id: "0B0CDF8079A8782E"
+					type: "item"
+					item: "angelring:itemdiamondring"
+				}
+				{
+					id: "24F12420C25F6E45"
+					type: "item"
+					item: "angelring:itemring"
+				}
+			]
+			rewards: [{
+				id: "049931E86FA08826"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingotnore"
+					}
+				}
+				count: 20
+			}]
+		}
+	]
+}

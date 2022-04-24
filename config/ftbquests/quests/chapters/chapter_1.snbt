@@ -1,0 +1,545 @@
+{
+	id: "166134070F12DE6E"
+	group: "52335F892C9B07FA"
+	order_index: 0
+	filename: "chapter_1"
+	title: "Chapter 1: Basics"
+	icon: {
+		id: "minecraft:leather_helmet"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Mining gadget V1"
+			x: -1.5d
+			y: -2.5d
+			description: ["To get all types of ores, you need to have a iron pickaxe, or even diamond pickaxe."]
+			dependencies: ["6EA046C47D5C0A2A"]
+			id: "24007C4ACCC9D900"
+			tasks: [
+				{
+					id: "687928922EEEECA4"
+					type: "item"
+					item: {
+						id: "minecraft:iron_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "509F096887CAE86C"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "0B1B70367281685D"
+				type: "item"
+				item: "minecraft:diamond"
+				count: 3
+			}]
+		}
+		{
+			x: 0.5d
+			y: -2.5d
+			description: [
+				"I understand that it is hard to carry so much things in your inventory. Therefore, you can use dank to help you store your items."
+				"There are total 7 tiers of tanks, with more spaces in each tier. In a space inside a dank, it can store more thank 64 items."
+				"There are two modes in dank, construction and backpack, which can be changed by pressing \"i\" by default."
+			]
+			dependencies: ["5E5A234981263D61"]
+			id: "684056A445D5111F"
+			tasks: [{
+				id: "51839933D41438AA"
+				type: "item"
+				item: "dankstorage:dank_1"
+			}]
+			rewards: [{
+				id: "1C210D4BE309B658"
+				type: "item"
+				item: "minecraft:redstone_block"
+				count: 8
+			}]
+		}
+		{
+			x: 0.5d
+			y: -0.5d
+			description: ["Dank can also be placed down, like a chest. You can craft a donk to place the dank down."]
+			dependencies: ["684056A445D5111F"]
+			id: "5052D56BD89ED081"
+			tasks: [{
+				id: "4A8B2D4D01DF68C2"
+				type: "item"
+				item: "dankstorage:dock"
+			}]
+			rewards: [{
+				id: "2CC9E50FACC6F4FB"
+				type: "item"
+				item: "minecraft:gold_ingot"
+				count: 4
+			}]
+		}
+		{
+			title: "All the ores"
+			x: -1.5d
+			y: -0.5d
+			description: ["Check if you have gotten all types of ingots and gems :)"]
+			dependencies: [
+				"24007C4ACCC9D900"
+				"5052D56BD89ED081"
+			]
+			id: "6B678E923E788972"
+			tasks: [
+				{
+					id: "04FF2759A39DCEBF"
+					type: "item"
+					item: "alltheores:copper_ingot"
+				}
+				{
+					id: "5EA9FE9B7FDA6027"
+					type: "item"
+					item: "alltheores:lead_ingot"
+				}
+				{
+					id: "52855FAA06BBD205"
+					type: "item"
+					item: "alltheores:nickel_ingot"
+				}
+				{
+					id: "012626525347A0C2"
+					type: "item"
+					item: "alltheores:osmium_ingot"
+				}
+				{
+					id: "6B7D1B886A131301"
+					type: "item"
+					item: "alltheores:platinum_ingot"
+				}
+				{
+					id: "36E8B4D2E4AF49DD"
+					type: "item"
+					item: "alltheores:silver_ingot"
+				}
+				{
+					id: "7D77B2D1A35C0996"
+					type: "item"
+					item: "alltheores:tin_ingot"
+				}
+				{
+					id: "5C4FFC54701FC4B4"
+					type: "item"
+					item: "alltheores:uranium_ingot"
+				}
+				{
+					id: "42F5181BB5F0AA3B"
+					type: "item"
+					item: "alltheores:zinc_ingot"
+				}
+				{
+					id: "06121563E39DEFE1"
+					type: "item"
+					item: "minecraft:diamond"
+				}
+				{
+					id: "04F89CB60C55D93F"
+					type: "item"
+					item: "powah:uraninite"
+				}
+				{
+					id: "491DA96EB8A302C7"
+					type: "item"
+					item: "thermal:sulfur"
+				}
+				{
+					id: "13454063065174BF"
+					type: "item"
+					item: "minecraft:gold_ingot"
+				}
+				{
+					id: "5C951A4767AA702B"
+					type: "item"
+					item: "minecraft:iron_ingot"
+				}
+				{
+					id: "6765BFBF3B717BEF"
+					type: "item"
+					item: "rftoolsbase:dimensionalshard"
+				}
+				{
+					id: "488B2004FC3C2253"
+					type: "item"
+					item: "minecraft:redstone"
+				}
+				{
+					id: "5845C6D2DCE80572"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+				}
+				{
+					id: "6D41C4A24B24AE3C"
+					type: "item"
+					item: "mekanism:fluorite_gem"
+				}
+				{
+					id: "653D0646607C67A3"
+					type: "item"
+					item: "alltheores:aluminum_ingot"
+				}
+			]
+			rewards: [{
+				id: "5F7898567B233FCC"
+				type: "item"
+				item: "minecraft:netherite_scrap"
+			}]
+		}
+		{
+			title: "Build your base!"
+			x: -1.5d
+			y: 1.5d
+			description: [
+				"After getting those resources, it's probably time to build your own base. Here is a useful tool, which allows you to build multiple blocks in one click!"
+				"For storages, you can check the \"Storages\" chapter."
+			]
+			dependencies: ["6B678E923E788972"]
+			id: "0D83FCA738F72E36"
+			tasks: [{
+				id: "39895E7D19442FBA"
+				type: "item"
+				item: {
+					id: "constructionwand:iron_wand"
+					Count: 1b
+					tag: {
+						wand_options: { }
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7BF072AD21CB8402"
+				type: "item"
+				item: {
+					id: "constructionwand:iron_wand"
+					Count: 1b
+					tag: {
+						wand_options: { }
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Food delight"
+			x: -3.75d
+			y: 0.75d
+			subtitle: "I'm hungry"
+			description: [
+				"What are you eating now? There is a food mod that allows you to cook many types of food, and those are more delicious than the vanilla ones!"
+				"Grab the things and set up your own kitchen!"
+				"{image:kubejs:textures/quests/chapter1/chapter1_delight.png width:178 height:100 align:1}"
+			]
+			dependencies: ["0D83FCA738F72E36"]
+			size: 0.75d
+			id: "440FE4BE2A2315ED"
+			tasks: [
+				{
+					id: "101925AD16E3FAE8"
+					type: "item"
+					item: "farmersdelight:cutting_board"
+				}
+				{
+					id: "5329B6FE82965729"
+					type: "item"
+					item: {
+						id: "farmersdelight:iron_knife"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "31B0B289D6C7538F"
+					type: "item"
+					item: "farmersdelight:stove"
+					count: 2L
+				}
+				{
+					id: "5FFC02963DD7ED35"
+					type: "item"
+					item: "farmersdelight:cooking_pot"
+				}
+				{
+					id: "68EC77A3B26CB33A"
+					type: "item"
+					item: {
+						id: "farmersdelight:skillet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "13A5009DC2897193"
+					type: "item"
+					item: "cfm:spruce_kitchen_sink_light"
+				}
+				{
+					id: "7B7011F6DA4352C4"
+					type: "item"
+					item: "cfm:stripped_oak_kitchen_drawer"
+				}
+				{
+					id: "4D4E3A61C465B8EA"
+					type: "item"
+					item: "minecraft:bricks"
+					count: 16
+				}
+			]
+		}
+		{
+			title: "Sources of food"
+			x: -1.5d
+			y: 3.5d
+			description: ["For \"Farmer's delight\", you also need resources of food. Many raw materials are plantable, such as tomato, cabbage, etc."]
+			dependencies: ["0D83FCA738F72E36"]
+			id: "574BFB2F1CA3AFF3"
+			tasks: [{
+				id: "552B81A62351DA2C"
+				type: "advancement"
+				advancement: "minecraft:husbandry/plant_seed"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "0E2ABA2F7E23B9BD"
+					type: "item"
+					item: "farmersdelight:cabbage_seeds"
+					count: 4
+				}
+				{
+					id: "4D26813AF6A1CCB3"
+					type: "item"
+					item: "farmersdelight:tomato_seeds"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "Decorating your base"
+			x: 0.5d
+			y: 1.5d
+			subtitle: "My base is beautiful"
+			description: ["There are some mods that helps you to decorate the base. \"Chisel\" is the classical one. Also, \"Absent by Design\", \"MyCrayFish\" series, \"Engineer's deco\", and \"Macaw\" series are also fantastic mod that contains fantastic blocks to help you on."]
+			dependencies: ["0D83FCA738F72E36"]
+			id: "40D22C391D807AE3"
+			tasks: [{
+				id: "5284EE0ADCD8790B"
+				type: "item"
+				item: {
+					id: "chisel:iron_chisel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "06250C3797BF9A81"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 2
+			}]
+		}
+		{
+			title: "Prepare for your trip"
+			x: -1.5d
+			y: 5.5d
+			description: [
+				"Prepare your trip to progress next chapter."
+				"This quest unlock Chapter 2"
+			]
+			dependencies: ["574BFB2F1CA3AFF3"]
+			id: "4FED780FB4FBE2DE"
+			tasks: [{
+				id: "210AB4F1690727D8"
+				type: "item"
+				item: {
+					id: "minecraft:iron_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "71CCB862070DC27B"
+				type: "item"
+				item: {
+					id: "minecraft:iron_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Sushi"
+			icon: "simplefarming:sushi"
+			x: -3.75d
+			y: 2.625d
+			description: [
+				"\"Sushi Go Crafting\" is another kitchen-related mod which allows you to make your own sushi! Different sushi will even grant you different effects."
+				"{image:kubejs:textures/quests/chapter1/chapter1_sushi.png width:178 height:100 align:1}"
+			]
+			dependencies: ["0D83FCA738F72E36"]
+			size: 0.75d
+			id: "46C436C760FEA398"
+			tasks: [
+				{
+					id: "7925675C5A941D56"
+					type: "item"
+					item: "sushigocrafting:cleaver_knife"
+				}
+				{
+					id: "3FA16A8AEC062830"
+					type: "item"
+					item: "sushigocrafting:roller"
+				}
+				{
+					id: "1A161093EAEB9688"
+					type: "item"
+					item: "sushigocrafting:rice_cooker"
+				}
+				{
+					id: "281D151222F62F31"
+					type: "item"
+					item: "sushigocrafting:fermentation_barrel"
+				}
+				{
+					id: "770A877E89766870"
+					type: "item"
+					item: "sushigocrafting:cooler_box"
+				}
+				{
+					id: "2C4A07EF8C46B5CB"
+					type: "item"
+					item: "sushigocrafting:cutting_board"
+				}
+			]
+			rewards: [{
+				id: "389DD0C6B1087258"
+				type: "item"
+				item: "sushigocrafting:crab_cheese_california"
+				count: 2
+			}]
+		}
+		{
+			x: -3.5d
+			y: -2.5d
+			description: ["You may take a look at the \"Tetra\" chapter on how to craft a useful and powerful tool."]
+			dependencies: ["5E5A234981263D61"]
+			id: "6EA046C47D5C0A2A"
+			tasks: [{
+				id: "255A14EA6EF85661"
+				type: "item"
+				item: {
+					id: "minecraft:stone_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2F3304EC6FBD508B"
+				type: "item"
+				item: "minecraft:coal"
+				count: 4
+			}]
+		}
+		{
+			title: "Get some cobblestones"
+			x: -1.5d
+			y: -4.5d
+			description: [
+				"The next step is to get some cobble stone."
+				"Try to use FTB ultimine to get 64x cobble at once!"
+			]
+			dependencies: ["35F7FC31EFD9D706"]
+			id: "5E5A234981263D61"
+			tasks: [{
+				id: "1476AD933FCC61FE"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 64L
+			}]
+			rewards: [
+				{
+					id: "7280DD01F8C9B375"
+					type: "item"
+					item: "minecraft:torch"
+					count: 16
+				}
+				{
+					id: "2D488D299503C374"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -6.5d
+			description: ["Do you think that the first things to do chopping logs? Yes, but also NO. You have to go to control to set the keys first. Chop some wood to finish this quest"]
+			id: "35F7FC31EFD9D706"
+			tasks: [{
+				id: "0A545DF3129B9F82"
+				type: "item"
+				item: "minecraft:oak_log"
+				count: 8L
+			}]
+			rewards: [
+				{
+					id: "2ABBEB92A1B50974"
+					type: "item"
+					item: {
+						id: "minecraft:stone_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "34900D9F0B0776B3"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "delightfood"
+						}
+					}
+				}
+			]
+		}
+	]
+}
