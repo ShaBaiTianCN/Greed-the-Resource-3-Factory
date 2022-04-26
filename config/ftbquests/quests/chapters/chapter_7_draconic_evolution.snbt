@@ -3,7 +3,7 @@
 	group: "52335F892C9B07FA"
 	order_index: 6
 	filename: "chapter_7_draconic_evolution"
-	title: "Chapter 7: Draconic Evolution"
+	title: "第七章：龙之进化"
 	icon: "draconicevolution:dragon_heart"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -38,10 +38,10 @@
 			}]
 		}
 		{
-			title: "First step to singularity"
+			title: "获得奇点的第一步"
 			x: -1.0d
 			y: 2.5d
-			description: ["Automate all the things to get more resources"]
+			description: ["将所有东西自动化以得到更多资源"]
 			dependencies: ["3948D76636DD4046"]
 			id: "5B94DFBD2F8CF80F"
 			tasks: [{
@@ -296,7 +296,7 @@
 		{
 			x: 3.5d
 			y: 5.5d
-			description: ["Energy Eater"]
+			description: ["能量吞噬者"]
 			dependencies: ["5B94DFBD2F8CF80F"]
 			id: "620C0D9977F37B80"
 			tasks: [{
@@ -327,8 +327,8 @@
 			x: 5.0d
 			y: 5.5d
 			description: [
-				"Don't think that you only need metals. You also need some basic blocks... such as wood!"
-				"Build a giant tree farm for this. This is actually very easy to do so (from my experience)"
+				"你不只需要金属！你还需要一些基本的方块……比如木头！"
+				"建一个大的树场。这并不难（对我来说）。"
 			]
 			dependencies: ["5B94DFBD2F8CF80F"]
 			id: "10AFCE58688FD89C"
@@ -1229,7 +1229,7 @@
 		{
 			x: 10.5d
 			y: 12.5d
-			description: ["This Chapter unlocks the remaining \"End Game\" quests."]
+			description: ["这一章会解锁剩下的“最终篇”的任务。"]
 			dependencies: [
 				"6782C4DDC5CC2BDC"
 				"6118C64802343B1A"
@@ -1296,7 +1296,7 @@
 		{
 			x: -2.5d
 			y: -6.0d
-			description: ["Craft the basic core"]
+			description: ["制作龙芯"]
 			dependencies: ["05867F10D433D8BF"]
 			id: "1B01E4F3085DED09"
 			tasks: [{
@@ -1319,7 +1319,7 @@
 		{
 			x: -2.5d
 			y: -4.0d
-			description: ["I hope that you have already defeated wither in this stage. This will be easy to craft"]
+			description: ["我希望你已经成功杀死了凋灵，因为这有利于你后面的合成。"]
 			dependencies: ["1B01E4F3085DED09"]
 			id: "52AF754634B77D80"
 			tasks: [{
@@ -1342,7 +1342,7 @@
 		{
 			x: -2.5d
 			y: -2.0d
-			description: ["Another easy item for this stage"]
+			description: ["这个阶段里的另一个简单物品"]
 			dependencies: [
 				"52AF754634B77D80"
 				"2103BFF1E5921A8D"
@@ -1369,7 +1369,7 @@
 		{
 			x: -2.5d
 			y: 0.0d
-			description: ["Unlikely, this core is extremely difficult. Proceed to the \"Boss progression\" chapter and learn how to fight the chaos guardian. Large chaos shard is obtained by digging the chaos core that is underground of the chaos guardian."]
+			description: ["这个核心是不大可能被制作出来的。“Boss进度”章节会教你如何打混沌守卫。挖混沌守卫底下的核心来获得大混沌碎片吧。"]
 			dependencies: [
 				"4FA8FBC532224F3B"
 				"75E81D25BDBFEA12"
@@ -1395,7 +1395,7 @@
 		{
 			x: -5.0d
 			y: -4.0d
-			description: ["Every time you defeat the ender dragon, a dragon heart will be spawn above the portal."]
+			description: ["打死了末影龙之后，在祭坛的中央会产生一颗龙心。"]
 			dependencies: ["1B01E4F3085DED09"]
 			id: "69A20DB9C01D3C2A"
 			tasks: [{
@@ -1418,7 +1418,7 @@
 		{
 			x: -5.0d
 			y: -2.0d
-			description: ["Use the dragon heart to craft the awakened draconium block."]
+			description: ["用龙心来制造觉醒龙块。"]
 			dependencies: ["69A20DB9C01D3C2A"]
 			id: "2103BFF1E5921A8D"
 			tasks: [
@@ -1449,7 +1449,7 @@
 			x: -1.0d
 			y: -6.0d
 			description: [
-				"The crafting system of Draconic evolution. Place them according to the figure below. Note that the crafting requires energy."
+				"按下图摆放龙之进化的合成系统。注：合成是需要充能的。"
 				"{image:kubejs:textures/quests/chapter7/chapter7_fusion_crafting.png width:178 height:100 align:1}"
 			]
 			dependencies: ["1B01E4F3085DED09"]
@@ -1481,7 +1481,7 @@
 		{
 			x: -1.0d
 			y: -4.0d
-			description: ["An upgraded tier of fusion crafting, which as able to craft tier wyvern items."]
+			description: ["升级聚合装置以合成飞龙级别的物品。"]
 			dependencies: ["1EB300F951CD8320"]
 			id: "1024304B5349BC15"
 			tasks: [{
@@ -1505,8 +1505,8 @@
 			x: -1.0d
 			y: -2.0d
 			description: [
-				"An upgraded tier of fusion crafting, which as able to craft tier awakened items."
-				"You have to progress Botania to get this :0"
+				"升级聚合装置以合成觉醒级别的物品。"
+				"你需要发展植物魔法来获得这个："
 			]
 			dependencies: ["1024304B5349BC15"]
 			id: "75E81D25BDBFEA12"
@@ -1530,7 +1530,7 @@
 		{
 			x: -1.0d
 			y: 0.0d
-			description: ["An upgraded tier of fusion crafting, which as able to craft tier chaotic items."]
+			description: ["升级聚合装置以合成混沌级别的物品。"]
 			dependencies: ["75E81D25BDBFEA12"]
 			id: "3948D76636DD4046"
 			tasks: [{
@@ -1551,11 +1551,11 @@
 			}]
 		}
 		{
-			title: "Worm hole!"
+			title: "虫洞！"
 			x: -5.0d
 			y: -6.0d
 			description: [
-				"This can act as a teleporter. Place the blocks like below. Right click to bound at the place you want to teleport to. Then, use it to right clickon the dislcoator receptacle to set coordinate."
+				"这可以当做传送器。把方块如下图所示放置。手持传送符咒右键以绑定你想要传送到的地方，然后用它右键位移收纳容器来设置坐标。"
 				"{image:kubejs:textures/quests/chapter7/chapter7_wormhole.png width:178 height:100 align:1}"
 			]
 			dependencies: ["1B01E4F3085DED09"]
@@ -1588,10 +1588,10 @@
 			x: 1.0d
 			y: -4.0d
 			description: [
-				"Portable energy storage. Useful in tools that requires electricity."
-				"***How to use capacitor***"
+				"便携式储能装置。适用于需要电的工具。"
+				"***如何使用电容***"
 				"{image:kubejs:textures/quests/chapter7/chapter7_capacitor.png width:178 height:100 align:1}"
-				"Open the tool configuration menu of the capacitor (Check control option for the button). Then click the button on the top left hand corner (The one near HUD button) to open the menu as shown as above. You can toggle the charging action in this page."
+				"打开工具设置菜单（在按键设置中确认快捷键）。接着点击左上角的按钮（就在HUD按钮旁边）打开如上图所示的菜单。你可以在这里切换充能操作。"
 			]
 			dependencies: ["1024304B5349BC15"]
 			id: "42C346C2F008AE51"
@@ -1647,7 +1647,7 @@
 		{
 			x: 1.0d
 			y: -2.0d
-			description: ["Portable energy storage. Useful in tools that requires electricity."]
+			description: ["便携式储能装置。适用于需要电的工具。"]
 			dependencies: ["75E81D25BDBFEA12"]
 			id: "58CBCBB230DC8DDD"
 			tasks: [{
@@ -1702,7 +1702,7 @@
 		{
 			x: 1.0d
 			y: 0.0d
-			description: ["Portable energy storage. Useful in tools that requires electricity."]
+			description: ["便携式储能装置。适用于需要电的工具。"]
 			dependencies: ["3948D76636DD4046"]
 			id: "6E4EBEAA224CE93C"
 			tasks: [{
@@ -1755,10 +1755,10 @@
 			}]
 		}
 		{
-			title: "Wyvern tools"
+			title: "双足飞龙工具"
 			x: 3.0d
 			y: -4.0d
-			description: ["Tools series in Draconic Evolution requires modules to function. Craft the modules and design your own powerful tool!"]
+			description: ["龙之研究的工具可以用模块升级。设计你自己模块来制作更强大的工具！"]
 			dependencies: ["1024304B5349BC15"]
 			id: "1CEADD1E66573CA4"
 			tasks: [
@@ -1890,7 +1890,7 @@
 			}]
 		}
 		{
-			title: "Wyvern weapons"
+			title: "双足飞龙武器"
 			x: 5.0d
 			y: -4.0d
 			dependencies: ["1024304B5349BC15"]
@@ -1983,7 +1983,7 @@
 			}]
 		}
 		{
-			title: "Draconic tools"
+			title: "神龙工具"
 			x: 3.0d
 			y: -2.0d
 			dependencies: ["75E81D25BDBFEA12"]
@@ -2117,7 +2117,7 @@
 			}]
 		}
 		{
-			title: "Draconic weapons"
+			title: "神龙武器"
 			x: 5.0d
 			y: -2.0d
 			dependencies: ["75E81D25BDBFEA12"]
@@ -2210,7 +2210,7 @@
 			}]
 		}
 		{
-			title: "Chaotic tools"
+			title: "混沌工具"
 			x: 3.0d
 			y: 0.0d
 			dependencies: ["3948D76636DD4046"]
@@ -2344,7 +2344,7 @@
 			}]
 		}
 		{
-			title: "Chaotic weapons"
+			title: "混沌武器"
 			x: 5.0d
 			y: 0.0d
 			dependencies: ["3948D76636DD4046"]
@@ -2437,7 +2437,7 @@
 			}]
 		}
 		{
-			title: "Chaotic AIOT"
+			title: "混沌全能工具"
 			x: 7.0d
 			y: 0.0d
 			dependencies: [
@@ -2486,7 +2486,7 @@
 		{
 			x: -5.0d
 			y: -7.5d
-			description: ["A pedestal that hold the dislocator and teleport player upon right clicking"]
+			description: ["一个可以放置传送符咒的基座。右键可以传送到符咒所绑定的地点。"]
 			dependencies: ["71D4AAD14AF1E60E"]
 			id: "2C190F31E47B3131"
 			tasks: [{

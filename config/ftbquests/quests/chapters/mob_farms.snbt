@@ -3,7 +3,7 @@
 	group: "1E2DE02B87CFF91D"
 	order_index: 2
 	filename: "mob_farms"
-	title: "Mob Farms"
+	title: "怪物农场"
 	icon: "minecraft:zombie_head"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -11,7 +11,7 @@
 		{
 			x: -5.5d
 			y: 2.0d
-			description: ["It pushes any mobs away. Strength and area of fan depends on upgrades. Requires redstone signal to function."]
+			description: ["它能把任何怪物推开。风扇的强度和范围取决于你安装了多少升级。它需要红石信号才能正常工作"]
 			dependencies: ["3A7BA6B422F04A1E"]
 			id: "1AEFB6BDD955A22E"
 			tasks: [{
@@ -34,7 +34,7 @@
 		{
 			x: -5.5d
 			y: 3.5d
-			description: ["A weaker spike, does not generate player only loot."]
+			description: ["最弱的钉刺，不算作玩家击杀，因此不会掉落战利品。"]
 			dependencies: ["3A7BA6B422F04A1E"]
 			id: "684B9DC3C6E2C339"
 			tasks: [{
@@ -57,7 +57,7 @@
 		{
 			x: -4.0d
 			y: 3.5d
-			description: ["Upgrade spike. Requires redstone signal to function."]
+			description: ["铁钉的升级，需要红石信号才能正常工作"]
 			dependencies: ["684B9DC3C6E2C339"]
 			id: "12295BEF65770F38"
 			tasks: [{
@@ -80,7 +80,7 @@
 		{
 			x: -5.5d
 			y: 5.0d
-			description: ["A hopper for 7x7x7 area."]
+			description: ["吸收7x7x7范围中的的物品。"]
 			dependencies: ["3A7BA6B422F04A1E"]
 			id: "49104480E3C14DF8"
 			tasks: [{
@@ -103,7 +103,7 @@
 		{
 			x: -5.5d
 			y: 6.5d
-			description: ["A conveyor"]
+			description: ["传送带"]
 			dependencies: ["3A7BA6B422F04A1E"]
 			id: "530879A48967E5C8"
 			tasks: [{
@@ -126,7 +126,7 @@
 		{
 			x: -5.5d
 			y: 8.0d
-			description: ["Prevent enderman from teleporting away from your mob farm."]
+			description: ["防止末影人从你的怪物农场中传送走"]
 			dependencies: ["3A7BA6B422F04A1E"]
 			id: "436EA718A7F9FAE4"
 			tasks: [{
@@ -149,7 +149,7 @@
 		{
 			x: -7.5d
 			y: 2.0d
-			description: ["A wither-proof, and light-proof glass."]
+			description: ["挡光并能防止凋零破坏的玻璃"]
 			dependencies: ["3A7BA6B422F04A1E"]
 			id: "4D296438AE69BED9"
 			tasks: [{
@@ -172,7 +172,7 @@
 		{
 			x: -7.5d
 			y: 3.5d
-			description: ["Solidify xp to craft items"]
+			description: ["把经验固化用于制作物品"]
 			dependencies: ["3A7BA6B422F04A1E"]
 			id: "284F2F17C8CD9333"
 			tasks: [{
@@ -195,7 +195,7 @@
 		{
 			x: -9.5d
 			y: 3.5d
-			description: ["Use this to fuel the entity spawner."]
+			description: ["使用它来为实体生成器提供燃料。"]
 			dependencies: ["284F2F17C8CD9333"]
 			id: "0E6728BD7560404D"
 			tasks: [
@@ -230,7 +230,7 @@
 		{
 			x: -7.5d
 			y: 5.0d
-			description: ["Right click the mob to get DNA."]
+			description: ["右键怪物收集DNA"]
 			dependencies: ["3A7BA6B422F04A1E"]
 			id: "0DF5287B28736799"
 			tasks: [{
@@ -253,7 +253,7 @@
 		{
 			x: -9.5d
 			y: 5.0d
-			description: ["Combine the mob swab, a seed and a bucket of xp to get the GM chicken feed. Feed it to chickens to get spawn eggs."]
+			description: ["把怪物棉签，种子和经验桶合成GM鸡饲料，把GM鸡饲料喂给鸡后可以得到怪物棉签DNA的刷怪蛋"]
 			dependencies: ["0DF5287B28736799"]
 			id: "414E8374BA964BBD"
 			tasks: [{
@@ -276,7 +276,7 @@
 		{
 			x: -7.5d
 			y: 6.5d
-			description: ["From chicken"]
+			description: ["由鸡得到"]
 			dependencies: ["3A7BA6B422F04A1E"]
 			id: "35271B4FA2E5D6DB"
 			tasks: [{
@@ -299,7 +299,7 @@
 		{
 			x: -9.5d
 			y: 6.5d
-			description: ["I don't know what this sword is, but just made a recipe for it."]
+			description: ["我不知道这把剑是什么，只是做了一个配方。"]
 			dependencies: ["35271B4FA2E5D6DB"]
 			id: "6765509DD2A37BD1"
 			tasks: [{
@@ -328,7 +328,7 @@
 		{
 			x: -7.5d
 			y: 8.0d
-			description: ["Spawn entities by spawn egg and xp jelly."]
+			description: ["通过刷怪蛋和经验果冻宝宝生成实体。"]
 			dependencies: ["3A7BA6B422F04A1E"]
 			id: "43035C6E20466453"
 			tasks: [{
@@ -351,7 +351,7 @@
 		{
 			x: -7.5d
 			y: 9.5d
-			description: ["Store the xp from absorption hopper."]
+			description: ["储存吸收漏斗中的经验。"]
 			dependencies: ["3A7BA6B422F04A1E"]
 			id: "414F6F9E8DAA5A91"
 			tasks: [
@@ -381,7 +381,7 @@
 		{
 			x: -5.5d
 			y: 9.5d
-			description: ["Hide the boss bar of with when building a wither farm."]
+			description: ["建造凋零农场时用于消除凋零死亡音效和隐藏凋零的血条"]
 			dependencies: ["3A7BA6B422F04A1E"]
 			id: "024ED4E91A747FB5"
 			tasks: [{
@@ -406,7 +406,7 @@
 			y: 0.5d
 			description: [
 				""
-				"Mob Grinding Utils is suitable in mob farm automation, and it is able to generate a large amount of loot. It is very cheap also."
+				"刷怪塔实用设备的物品用于怪物农场自动化，能够得到大量掉落物，而且制作材料不贵。"
 				"{image:kubejs:textures/quests/mob_farm/mob_farm_grinding.png width:178 height:100 align:1}"
 			]
 			id: "3A7BA6B422F04A1E"
@@ -431,7 +431,7 @@
 			x: -1.5d
 			y: 0.5d
 			description: [
-				"A highly efficient, and powerful mob farm. Insta-kill every types of mob, even the WITHER"
+				"一个高效且强大的怪物农场，屠宰机可以杀死各种怪物，甚至是凋零"
 				"{image:kubejs:textures/quests/mob_farm/mob_farm_crushing.png width:178 height:100 align:1}"
 			]
 			id: "2366B15D51D3576B"
@@ -455,7 +455,7 @@
 		{
 			x: -1.5d
 			y: 2.0d
-			description: ["Insta-kill every types of mob. XP is stored as essense, which can be used as crafting material and enchanting materials int his mod."]
+			description: ["屠宰机可以杀掉各种怪物，并把经验储存为精华液，精华液可以在工业先锋机器中进行附魔或者制作材料"]
 			dependencies: ["2366B15D51D3576B"]
 			id: "43EB3FB18EF923B5"
 			tasks: [{
@@ -478,7 +478,7 @@
 		{
 			x: 0.0d
 			y: 2.0d
-			description: ["A good machine for your wither farm. Build wither automatically."]
+			description: ["用于建造凋零农场的好机器，自动生成凋零"]
 			dependencies: ["2366B15D51D3576B"]
 			id: "1F9CA481676A3242"
 			tasks: [{
@@ -501,7 +501,7 @@
 		{
 			x: -1.5d
 			y: 3.5d
-			description: ["Help you to store a type of entity. Similar to golden lasso in Extra Utilities 2."]
+			description: ["帮你捕捉一只生物，类似于实用设备中的黄金套索"]
 			dependencies: ["2366B15D51D3576B"]
 			id: "27CF948677167AA0"
 			tasks: [{
@@ -524,7 +524,7 @@
 		{
 			x: 0.0d
 			y: 3.5d
-			description: ["Duplicate entity according to the type of entity sotred in mob imprisonment tool."]
+			description: ["自动刷怪机可根据大师球中的样本复制实体。"]
 			dependencies: ["2366B15D51D3576B"]
 			id: "6F8006377D2C3EC6"
 			tasks: [{
@@ -545,12 +545,12 @@
 			}]
 		}
 		{
-			title: "Hostile Neural Network"
+			title: "怪物神经网络"
 			x: -1.5d
 			y: 5.0d
 			description: [
-				"This mob is the successor of DeepMobLearning from 1.12.2."
-				"Craft the deep learning, which allows you to level up your data model. Put data models into the learner and level up by killing certain amounts of that type of mob."
+				"这个模组是从1.12.2的深度怪物学习中继承而来。"
+				"制作一个深度学习器，它允许你升级数据模型。将数据模型放入学习器中，并击杀一定数量的数据模型所对应的怪物可以提升数据模型的等级。"
 				"{image:kubejs:textures/quests/mob_farm/mob_farm_hostilenetwork.png width:178 height:100 align:1}"
 			]
 			id: "53A6436E7157AC2A"
@@ -574,7 +574,7 @@
 		{
 			x: -1.5d
 			y: 6.5d
-			description: ["A material to craft the data model."]
+			description: ["一个用于制作数据模型的材料。"]
 			dependencies: ["53A6436E7157AC2A"]
 			id: "71AFF17A2A0EFAD9"
 			tasks: [{
@@ -597,7 +597,7 @@
 		{
 			x: -1.5d
 			y: 8.0d
-			description: ["Right click to certain mob to get the data model."]
+			description: ["鼠标右键一个生物以创建一个对应生物的数据模型。"]
 			dependencies: ["71AFF17A2A0EFAD9"]
 			id: "57E492986B0FD28A"
 			tasks: [{
@@ -620,7 +620,7 @@
 		{
 			x: 0.0d
 			y: 6.5d
-			description: ["Generate predictions from data model."]
+			description: ["从数据模型中生成预测产物。"]
 			dependencies: ["53A6436E7157AC2A"]
 			id: "011D9B72CA4421DC"
 			tasks: [{
@@ -643,7 +643,7 @@
 		{
 			x: 1.5d
 			y: 6.5d
-			description: ["Generate mob loots from predictions. It is a fast and efficient way to get mob resources."]
+			description: ["从预测产物中获取战利品。这是获取生物资源最快速有效的办法。"]
 			dependencies: ["53A6436E7157AC2A"]
 			id: "6BAAD1578511DC70"
 			tasks: [{
@@ -666,7 +666,7 @@
 		{
 			x: 0.0d
 			y: 8.0d
-			description: ["Get a zombie prediction from simulation chamber."]
+			description: ["从模拟室中获取僵尸预测产物。"]
 			dependencies: ["011D9B72CA4421DC"]
 			id: "4883747A7A7F032D"
 			tasks: [{
@@ -692,7 +692,7 @@
 		{
 			x: 0.0d
 			y: 9.5d
-			description: ["A by-product generated, and it allows you to craft other useful materials."]
+			description: ["一个通过模拟女巫，蜘蛛，骷髅，幻翼，守卫者，幻魔者，僵尸，卫道士，苦力怕，史莱姆，远古守卫者等的数据模型产生的副产物，并且允许你制作其他有用的材料，例如通用下界预测产物或部分怪物战利品。"]
 			dependencies: ["011D9B72CA4421DC"]
 			id: "6D36D43868C65B19"
 			tasks: [{
@@ -710,7 +710,7 @@
 		{
 			x: 0.0d
 			y: 11.0d
-			description: ["A by-product generated, and it allows you to craft other useful materials."]
+			description: ["一个通过模拟岩浆怪，烈焰人，僵尸猪灵，恶魂，凋灵骷髅等的数据模型产生的副产物，并且允许你制作其他有用的材料，例如通用末地预测产物或部分怪物战利品。"]
 			dependencies: ["011D9B72CA4421DC"]
 			id: "432C81E85BB32957"
 			tasks: [{
@@ -728,7 +728,7 @@
 		{
 			x: 0.0d
 			y: 12.5d
-			description: ["A by-product generated, and it allows you to craft other useful materials."]
+			description: ["一个通过模拟末影人，凋灵，末影龙，潜影贝等的数据模型产生的副产物，并且允许你制作其他有用的材料，例如部分怪物战利品。"]
 			dependencies: ["011D9B72CA4421DC"]
 			id: "5EFF1F7D42EF3836"
 			tasks: [{
@@ -747,8 +747,8 @@
 			x: 3.0d
 			y: 0.5d
 			description: [
-				"You can stabilize the natural spawn by right clicking the spawner with cores from draconic evolution. The spawner will drop down as items. Spawn types can be changed by right clicking a spawn egg which can be obtained from Mob Grinding Utils."
-				"A higher tier of core increases spawning cap and spawning frequency."
+				"你可以拿着龙芯对着刷怪笼进行右键，可以将刷怪笼变成稳定刷怪笼。它会以掉落物的形式进入你的背包。可以通过从怪物塔实用设备模组里获取的刷怪蛋来改变刷怪笼生成的生物的类型。"
+				"核心的等级越高，生成怪物的上限和频率越快高。"
 				"{image:kubejs:textures/quests/mob_farm/mob_farm_spawner.png width:178 height:100 align:1}"
 			]
 			id: "41B5D27A7EC4D0FA"
@@ -772,7 +772,7 @@
 		{
 			x: 3.0d
 			y: 2.0d
-			description: ["Early game core"]
+			description: ["龙之研究最基础的核心。"]
 			dependencies: ["41B5D27A7EC4D0FA"]
 			id: "7B33C7B6AF4FB75B"
 			tasks: [{
@@ -795,7 +795,7 @@
 		{
 			x: 4.5d
 			y: 2.0d
-			description: ["Early to Mid game core"]
+			description: ["龙之研究从初期转向中期的核心。"]
 			dependencies: ["41B5D27A7EC4D0FA"]
 			id: "5CDFBC12C948F9D4"
 			tasks: [{
@@ -818,7 +818,7 @@
 		{
 			x: 3.0d
 			y: 3.5d
-			description: ["Mid game core"]
+			description: ["龙之研究进行到中期的核心。"]
 			dependencies: ["41B5D27A7EC4D0FA"]
 			id: "4EB1368FD95F1A78"
 			tasks: [{
@@ -841,7 +841,7 @@
 		{
 			x: 4.5d
 			y: 3.5d
-			description: ["Late game core"]
+			description: ["龙之研究进行到后期的核心。"]
 			dependencies: ["41B5D27A7EC4D0FA"]
 			id: "26431BAEA69B2DBD"
 			tasks: [{
@@ -864,7 +864,7 @@
 		{
 			x: 6.0d
 			y: 2.0d
-			description: ["Also a powerful mob killer maachine"]
+			description: ["怪物磨床是一个极其强大的怪物杀手。"]
 			dependencies: ["41B5D27A7EC4D0FA"]
 			id: "1152BBAC85ADFD39"
 			tasks: [{
@@ -887,7 +887,7 @@
 		{
 			x: -11.5d
 			y: 5.0d
-			description: ["Try to obtain a slime spawn egg! This may help you to set up your Refined Storage Network."]
+			description: ["尝试获得一个史莱姆刷怪蛋！它可以帮助你建立一个精致存储网络。"]
 			dependencies: ["414E8374BA964BBD"]
 			id: "75B7C98EB77CAB8A"
 			tasks: [{

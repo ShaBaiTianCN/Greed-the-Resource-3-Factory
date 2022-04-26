@@ -26,8 +26,8 @@
 			y: -1.0d
 			subtitle: "Tetra!"
 			description: [
-				"Tetra is a mod that allows you to customize your tool parts. There is no smeltery or alloying, but just simple materials. There is also a tool leveling system in tetra. Increased times of using will grant specail ability or enchantment to your tools."
-				"The first step, you have to craft a wooden hammer."
+				"Tetra是一个允许你定制你的工具部件的模组，不需要熔炼金属或者融合合金，只需要简单的材料。Tetra还有一个工具平衡系统。随着工具的使用可以让你打磨你的工具，使其拥有特殊的能力和附魔。"
+				"那第一步就是制作一个你自己的木锤。"
 			]
 			id: "5B2BADCD72CAA912"
 			tasks: [{
@@ -55,19 +55,19 @@
 			}]
 		}
 		{
-			title: "Workbench Mark II"
+			title: "加工台Mark II"
 			x: -1.0d
 			y: 0.5d
 			description: [
-				"Then, right click a crafting table with the wooden hammer with your wooden hammer."
-				"Note that you cant mine the workbench directly, even with silk touch."
+				"然后，用你的木锤右击一个工作台。"
+				"注：你不能挖掘你的加工台，即使是精准采集。"
 			]
 			dependencies: ["5B2BADCD72CAA912"]
 			id: "341BA1BEE72F429F"
 			tasks: [{
 				id: "5957978843B64417"
 				type: "advancement"
-				title: "Get a workbench"
+				title: "制作一个加工台"
 				advancement: "tetra:upgrades/workbench"
 				criterion: ""
 			}]
@@ -78,19 +78,19 @@
 			}]
 		}
 		{
-			title: "Stone Hammer"
+			title: "石锤"
 			x: 1.0d
 			y: 0.5d
 			description: [
-				"Upgrade your hammer with the workbench. It only costs two cobblestones to modify both tool head."
-				"I recommend that you make two hammers, which is convenience for your upgrade of hammer."
+				"用你的加工台升级你的锤子，替换两个锤头只需要两块石头。"
+				"我建议你做两个锤子，因为这样你才可以升级你的锤子。"
 			]
 			dependencies: ["341BA1BEE72F429F"]
 			id: "4918703925ED5CDF"
 			tasks: [{
 				id: "084E871DAF3C70E9"
 				type: "advancement"
-				title: "Craft a stone hammer"
+				title: "制作一个石锤"
 				advancement: "tetra:upgrades/hammer_2"
 				criterion: ""
 			}]
@@ -101,16 +101,16 @@
 			}]
 		}
 		{
-			title: "Iron Hammer"
+			title: "铁锤"
 			x: 2.0d
 			y: 2.0d
-			description: ["To make more powerful tools, you need to have a hammer of higher tier. Get a iron hammer, which allows you to make tools to at most diamond tier."]
+			description: ["为了制作更强大的工具，你需要一个更高级的锤子。制作一个铁锤，它能让你的工具提升到钻石水平。"]
 			dependencies: ["4918703925ED5CDF"]
 			id: "2AA1D517284B39EF"
 			tasks: [{
 				id: "4910CF65E594AE19"
 				type: "advancement"
-				title: "Make a iron hammer"
+				title: "制作一个铁锤"
 				advancement: "tetra:upgrades/hammer_3"
 				criterion: ""
 			}]
@@ -123,7 +123,7 @@
 		{
 			x: -2.0d
 			y: 2.0d
-			description: ["Place the rack on the workbench and place the hammer on it, so that you do not have to carry the hammer all the time."]
+			description: ["把工具架放在加工台上，把锤子放在工具架上，这样你就不用随身携带锤子了。"]
 			dependencies: ["341BA1BEE72F429F"]
 			id: "60C6DD1322B32825"
 			tasks: [{
@@ -144,19 +144,19 @@
 			}]
 		}
 		{
-			title: "Ancient ruins"
+			title: "锻造遗迹"
 			x: -3.0d
 			y: 4.0d
 			description: [
-				"To upgrade the next tier of your tool, you need to find the ancient ruins from tetra located in mountains and snowy biomes. There are tool forges which is the only way to upgrade your hammer to blackstone hammer in case you do not have a higher tier hammer."
-				"There are puzzles in the ruins, you have to prepare before going there."
+				"为了升级你的工具到下一级，你需要找到山地和寒冷生物群系的锻造遗迹，在这里，你可以使用“锻造”方块升级你的工具，这是你升级到黑石锤子的唯一办法。"
+				"在锻造遗迹中有一些难题，你去之前需要做点准备。"
 			]
 			dependencies: ["2AA1D517284B39EF"]
 			id: "4525AD48D9D31BCB"
 			tasks: [{
 				id: "416195CE13C0CB34"
 				type: "advancement"
-				title: "Find an ancient ruin"
+				title: "找到一个锻造遗迹"
 				advancement: "tetra:spelunking/ancient_ruins"
 				criterion: ""
 			}]
@@ -167,16 +167,16 @@
 			}]
 		}
 		{
-			title: "Find thermal container"
+			title: "找到热力单元"
 			x: -1.0d
 			y: 4.0d
-			description: ["The thermal container is found in the loot chest in the ruins. You have to solve the puzzle first."]
+			description: ["热力单元在遗迹的战利品箱子中。但是你得先解开这个难题。"]
 			dependencies: ["4525AD48D9D31BCB"]
 			id: "384BF30A4538C786"
 			tasks: [{
 				id: "0E0027AA73BD161A"
 				type: "advancement"
-				title: "Thermal container"
+				title: "热力单元"
 				advancement: "tetra:spelunking/find_cell"
 				criterion: ""
 			}]
@@ -188,16 +188,16 @@
 			}]
 		}
 		{
-			title: "Charge thermal container"
+			title: "给热力单元充电"
 			x: 1.0d
 			y: 4.0d
-			description: ["Charge the empty thermal container near the extraction pipe."]
+			description: ["用提取管道给附近的空的热力单元充电。"]
 			dependencies: ["384BF30A4538C786"]
 			id: "7E7097944702443F"
 			tasks: [{
 				id: "176B6D9D9F0DB5FA"
 				type: "advancement"
-				title: "Charge the thermal container"
+				title: "给热力单元充电"
 				advancement: "tetra:spelunking/refill_cell"
 				criterion: ""
 			}]
@@ -209,16 +209,16 @@
 			}]
 		}
 		{
-			title: "Fix forge hammer"
+			title: "修复锻造锤"
 			x: 2.5d
 			y: 4.0d
-			description: ["Solve the puzzle on the hammer to fix it."]
+			description: ["解决锤子上的难题来修理它。"]
 			dependencies: ["384BF30A4538C786"]
 			id: "5DE992A049DD6842"
 			tasks: [{
 				id: "25B9643FF893E0C4"
 				type: "advancement"
-				title: "Fix the jammed forge hammer"
+				title: "修理卡住的锻造锤"
 				advancement: "tetra:spelunking/hammer_fix"
 				criterion: ""
 			}]
@@ -230,10 +230,10 @@
 			}]
 		}
 		{
-			title: "Blackstone hammer"
+			title: "黑石锤"
 			x: 4.0d
 			y: 6.0d
-			description: ["The forge hammer is now fixed. You can upgrade your hammers to higher tier. Forge Hammer itself equals to level 5 hammer."]
+			description: ["锻造锤已经被修理好了，现在你可以升级你的锤子到更高的等级了，锻造锤本身相当于5级锤。"]
 			dependencies: [
 				"7E7097944702443F"
 				"5DE992A049DD6842"
@@ -242,7 +242,7 @@
 			tasks: [{
 				id: "2B85E1D4F99AFCB6"
 				type: "advancement"
-				title: "Make a blackstone hammer"
+				title: "制作一个黑石锤"
 				advancement: "tetra:upgrades/hammer_4"
 				criterion: ""
 			}]
@@ -253,16 +253,16 @@
 			}]
 		}
 		{
-			title: "Obsidian hammer"
+			title: "黑曜石锤"
 			x: 0.0d
 			y: 6.0d
-			description: ["Upgrade by forge hammer"]
+			description: ["通过锻造锤升级"]
 			dependencies: ["7D05348D4CD2BF1F"]
 			id: "6DD8679F710E796D"
 			tasks: [{
 				id: "4671BAFA1B30B0F4"
 				type: "advancement"
-				title: "Make an obsidian hammer"
+				title: "制作一个黑曜石锤"
 				advancement: "tetra:upgrades/hammer_5"
 				criterion: ""
 			}]
@@ -273,16 +273,16 @@
 			}]
 		}
 		{
-			title: "Netherite hammer"
+			title: "下届合金锤"
 			x: -2.0d
 			y: 6.0d
-			description: ["Upgrade by forge hammer"]
+			description: ["通过锻造锤升级"]
 			dependencies: ["6DD8679F710E796D"]
 			id: "7195E3AAD7863CD7"
 			tasks: [{
 				id: "658EF1804FA8A2E8"
 				type: "advancement"
-				title: "Make a netherite hammer"
+				title: "制作一个下界合金锤"
 				advancement: "tetra:upgrades/hammer_6"
 				criterion: ""
 			}]
@@ -299,19 +299,19 @@
 			}]
 		}
 		{
-			title: "Upgrade forge hammer"
+			title: "升级锻造锤"
 			x: 2.0d
 			y: 6.0d
 			description: [
-				"Each combustion will increase the level of forge hammer by one. You can at most install two of the upgrades."
-				"Find these upgrades in solving the puzzles on the boxes."
+				"燃烧室可以为锻造锤提升1级锻造等级，你最多可以安装两个升级。"
+				"在解决箱子上的难题后找到这些升级。"
 			]
 			dependencies: ["20644510434A7F77"]
 			id: "7D05348D4CD2BF1F"
 			tasks: [{
 				id: "413E3F8C106BEDC4"
 				type: "advancement"
-				title: "Upgrade the hammer tier"
+				title: "升级锻造锤"
 				advancement: "tetra:spelunking/hammer_power"
 				criterion: ""
 			}]
@@ -322,16 +322,16 @@
 			}]
 		}
 		{
-			title: "Destroy?"
+			title: "销毁？"
 			x: -4.0d
 			y: 6.0d
-			description: ["You can use a tier 6 hammer to harvest the block in ancient ruins and take them home. Note that your hammer requires silk touch:)"]
+			description: ["你可以用你的6级锤子将锻造遗迹里的工具打包带回家。注：你的锤子需要精准采集：）"]
 			dependencies: ["7195E3AAD7863CD7"]
 			id: "64382EA00F15B934"
 			tasks: [{
 				id: "4C1C509F7335BB64"
 				type: "advancement"
-				title: "Harvest block in ancient ruin"
+				title: "在锻造遗迹中收获锻造方块"
 				advancement: "tetra:spelunking/loot_ruins"
 				criterion: ""
 			}]
@@ -351,29 +351,29 @@
 			}]
 		}
 		{
-			title: "Upgrade your holosphere"
+			title: "升级你的全息球"
 			x: 0.0d
 			y: 2.0d
 			description: [
-				"You can ugprade your holosphere with eye of ender."
-				"It allows you to locate other ancient ruins"
+				"你可以用末影之眼升级你的全息球。"
+				"它可以让你找到锻造遗迹。"
 			]
 			dependencies: ["2AA1D517284B39EF"]
 			id: "15A61A59EB061A13"
 			tasks: [{
 				id: "6E143D50906569D6"
 				type: "advancement"
-				title: "Upgrade your holosphere"
+				title: "升级你的全息球"
 				advancement: "tetra:spelunking/scanner"
 				criterion: ""
 			}]
 		}
 		{
-			title: "New Materials!"
+			title: "新材料！"
 			x: -3.0d
 			y: 0.5d
 			description: [
-				"There are many customised materials with customised attributes. Try them out! Check holosphere for more information."
+				"我们有许多定制属性的定制材料，快来试一试吧。查看全息球来了解更多信息。"
 				"{image:kubejs:textures/quests/tetra/tetra_materials.png width:178 height:100 align:1}"
 			]
 			dependencies: ["341BA1BEE72F429F"]

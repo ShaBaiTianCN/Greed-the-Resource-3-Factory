@@ -3,7 +3,7 @@
 	group: "37B8334BBCBD0DFD"
 	order_index: 2
 	filename: "mining"
-	title: "Mining"
+	title: "挖矿"
 	icon: {
 		id: "quarryplus:quarry_pickaxe"
 		Count: 1b
@@ -17,10 +17,10 @@
 		{
 			x: -4.5d
 			y: -1.5d
-			subtitle: "can craft after chapter 5"
+			subtitle: "在第五章之后可以制作"
 			description: [
-				"Mining gadget is another useful tool for you to mine. However, this tool requires energy to mine."
-				"You need the modification table to modify aspects and upgrades of the gadget."
+				"采矿小工具是你挖矿的另一个工具，但是需要能量才能使用"
+				"你可以在改装台中使用升级扩展来升级采矿小工具。"
 			]
 			id: "68AD33F890274133"
 			tasks: [{
@@ -45,7 +45,7 @@
 		{
 			x: -4.5d
 			y: 0.5d
-			description: ["Actually MK2 are same, just a different fancy appearnace"]
+			description: ["实际上和MK2是一样的，只是有一个不同的外观"]
 			dependencies: ["68AD33F890274133"]
 			id: "64721CC1AD7D1F77"
 			tasks: [{
@@ -69,7 +69,7 @@
 		{
 			x: -4.5d
 			y: 2.5d
-			description: ["Actually MK3 are same, just a different and cool appearnace"]
+			description: ["MK3实际上也是一样的，只是有更酷的外观"]
 			dependencies: ["64721CC1AD7D1F77"]
 			id: "0EFE8EAAB186719A"
 			tasks: [{
@@ -111,8 +111,8 @@
 		{
 			x: -2.5d
 			y: -1.5d
-			subtitle: "can craft after chapter 5"
-			description: ["Infinity drill mines large areas quickly. The size of area depends on the tier of your drill. Level up the drill be charging to a certain amount of energy."]
+			subtitle: "在第五章之后可以制作"
+			description: ["无限钻头可快速开采大面积区域，区域的大小取决于充能的等级，潜行右键可以调节当前的采掘区域。"]
 			id: "5966A1BF5C1D8B6B"
 			tasks: [{
 				id: "174BEE9223D6A710"
@@ -149,8 +149,8 @@
 			x: -0.5d
 			y: -1.5d
 			description: [
-				"The highest tier pickaxe in mystical series. It has infinite durability!"
-				"The fastest way of obtaining this is probably killing tons of wither."
+				"神秘农业中最高级的镐子，它有无限的耐久!"
+				"最快的制作方法可能是杀大量的凋零。"
 			]
 			id: "4E4066CE5EA86620"
 			tasks: [{
@@ -174,7 +174,7 @@
 		{
 			x: -8.5d
 			y: -1.5d
-			description: ["A mid game driller choise."]
+			description: ["游戏中期可选择的挖矿工具"]
 			id: "49847604EAC9AF9D"
 			tasks: [{
 				id: "52510667E0537B1B"
@@ -202,8 +202,8 @@
 			x: -6.5d
 			y: 0.5d
 			description: [
-				"Modification table can be used to install upgrades onto the mining gadgets."
-				"Note that the recipe is using graphite ingot, not netherite."
+				"改装台可以给采矿小工具装升级。"
+				"注：合成用的是石墨锭而不是下界合金锭"
 			]
 			dependencies: ["68AD33F890274133"]
 			id: "3302D60B40867F89"
@@ -228,7 +228,7 @@
 		{
 			x: -8.5d
 			y: 0.5d
-			description: ["Tinker's workbench is used to install augments onto the fluxbore."]
+			description: ["工匠工作台可以为通量电钻安装组件和升级。"]
 			dependencies: ["49847604EAC9AF9D"]
 			id: "7A6DBE3EF8071E9C"
 			tasks: [{
@@ -252,7 +252,7 @@
 		{
 			x: -0.5d
 			y: 0.5d
-			description: ["Tinkering table allows you to install augments onto tools and weapons from Mystical agriculture or Mystical agraddition."]
+			description: ["工具装配台可以让你在神秘农业的工具，武器和盔甲上安装升级。"]
 			dependencies: ["4E4066CE5EA86620"]
 			id: "3EBE855299C67FBD"
 			tasks: [{

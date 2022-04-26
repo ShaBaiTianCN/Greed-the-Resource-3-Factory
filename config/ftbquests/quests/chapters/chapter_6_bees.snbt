@@ -3,18 +3,18 @@
 	group: "52335F892C9B07FA"
 	order_index: 5
 	filename: "chapter_6_bees"
-	title: "Chapter 6: Bees"
+	title: "第六章：蜜蜂"
 	icon: "minecraft:bee_nest"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Tier 0 centrifuge"
+			title: "0级离心机"
 			x: -1.5d
 			y: -2.0d
 			description: [
-				"Craft the electric centrifuge to process the honeycombs. Bees are a preferrable way of resource gathering."
-				"The bee chapter leads you towards End Game"
+				"制作离心机来处理蜜脾。通过蜜蜂收集资源也是挺不错的。"
+				"蜜蜂章节将带你走向终章。"
 			]
 			dependencies: ["5C71DC385C61ECA0"]
 			id: "68B5E52529CF12F0"
@@ -32,7 +32,7 @@
 		{
 			x: -1.5d
 			y: -3.5d
-			description: ["A bee jar allows you to store the bee for transportation"]
+			description: ["空蜂罐可以用来运输蜜蜂。"]
 			dependencies: ["68B5E52529CF12F0"]
 			id: "22779E3A0C423940"
 			tasks: [{
@@ -50,7 +50,7 @@
 		{
 			x: -1.5d
 			y: -5.0d
-			description: ["A bee bow allows you to store up to 10 bees"]
+			description: ["蜂盒最多可以装10只蜜蜂。"]
 			dependencies: ["22779E3A0C423940"]
 			id: "3DB8262A83FFAA36"
 			tasks: [{
@@ -69,8 +69,8 @@
 			x: 0.0d
 			y: -2.0d
 			description: [
-				"Get a beepedia to get information of bees."
-				"This quest opens Chapter 7"
+				"做一个蜜蜂百科来查看蜜蜂的信息。"
+				"这个任务将开启第7章。"
 			]
 			dependencies: ["68B5E52529CF12F0"]
 			id: "05867F10D433D8BF"
@@ -94,7 +94,7 @@
 		{
 			x: 1.5d
 			y: -2.0d
-			description: ["Contains all the bee information."]
+			description: ["收集所有蜜蜂的信息。"]
 			dependencies: ["05867F10D433D8BF"]
 			id: "44B1A2141E1B64E3"
 			tasks: [{
@@ -124,8 +124,8 @@
 			x: -7.5d
 			y: -0.5d
 			description: [
-				"Reed tooltip for honeycomb generation information."
-				"Build the apiary, which is a 7x6x7 structure, as shown below. The casing can be any blocks."
+				"阅读提示以获取蜜脾生成信息。"
+				"如下图所示，建造一个7x6x7的养蜂场。外壳可以是任何方块。"
 				"{image:kubejs:textures/quests/chapter6/chapter6_apiary.png width:178 height:100 align:1}"
 			]
 			dependencies: ["27144B031F2A9A2D"]
@@ -145,7 +145,7 @@
 		{
 			x: -3.0d
 			y: -2.0d
-			description: ["Reed tooltip for honeycomb generation information."]
+			description: ["阅读蜂箱产物的相关信息。"]
 			dependencies: ["68B5E52529CF12F0"]
 			id: "6B868286DA84D491"
 			tasks: [{
@@ -162,7 +162,7 @@
 		{
 			x: -4.5d
 			y: -2.0d
-			description: ["Reed tooltip for honeycomb generation information."]
+			description: ["阅读提示以获取蜜脾生成信息。"]
 			dependencies: ["6B868286DA84D491"]
 			id: "5F70B2DC630778C1"
 			tasks: [{
@@ -180,7 +180,7 @@
 		{
 			x: -6.0d
 			y: -2.0d
-			description: ["Reed tooltip for honeycomb generation information."]
+			description: ["阅读提示以获取蜜脾生成信息。"]
 			dependencies: ["5F70B2DC630778C1"]
 			id: "52D0DA17B9752CE3"
 			tasks: [{
@@ -198,7 +198,7 @@
 		{
 			x: -7.5d
 			y: -2.0d
-			description: ["Reed tooltip for honeycomb generation information."]
+			description: ["阅读提示以获取蜜脾生成信息。"]
 			dependencies: ["52D0DA17B9752CE3"]
 			id: "27144B031F2A9A2D"
 			tasks: [{
@@ -216,7 +216,7 @@
 		{
 			x: -6.0d
 			y: -0.5d
-			description: ["Reed tooltip for honeycomb generation information."]
+			description: ["阅读提示以获取蜜脾生成信息。"]
 			dependencies: ["597F00A8F440E1E4"]
 			id: "12964448EAF851D3"
 			tasks: [{
@@ -234,7 +234,7 @@
 		{
 			x: -4.5d
 			y: -0.5d
-			description: ["Reed tooltip for honeycomb generation information."]
+			description: ["阅读提示以获取蜜脾生成信息。"]
 			dependencies: ["12964448EAF851D3"]
 			id: "3DAE19C7B299768A"
 			tasks: [{
@@ -252,7 +252,7 @@
 		{
 			x: -3.0d
 			y: -0.5d
-			description: ["Reed tooltip for honeycomb generation information."]
+			description: ["阅读提示以获取蜜脾生成信息。"]
 			dependencies: ["3DAE19C7B299768A"]
 			id: "0568BF3933EC5526"
 			tasks: [{
@@ -270,7 +270,7 @@
 		{
 			x: -3.0d
 			y: 1.0d
-			description: ["Reed tooltip for honeycomb generation information."]
+			description: ["阅读提示以获取蜜脾生成信息。"]
 			dependencies: ["0568BF3933EC5526"]
 			id: "480B422716C05524"
 			tasks: [{
@@ -295,7 +295,7 @@
 		{
 			x: -3.0d
 			y: -3.5d
-			description: ["This two items are for apiaries, which can store honeycombs and help you breed the bees."]
+			description: ["这是2个与养蜂场相关的物品，它们可以帮你繁殖蜜蜂和储存蜜脾。"]
 			dependencies: ["68B5E52529CF12F0"]
 			id: "2329943CA8BEA45E"
 			tasks: [
@@ -320,7 +320,7 @@
 		{
 			x: -4.5d
 			y: -3.5d
-			description: ["Creative version of breeder and storer"]
+			description: ["创造版本的蜂场储存器和培育器。"]
 			dependencies: ["2329943CA8BEA45E"]
 			id: "27927D6F4047758B"
 			tasks: [
@@ -350,10 +350,10 @@
 			]
 		}
 		{
-			title: "Tier 3 centrifuge"
+			title: "3级离心机"
 			x: -1.5d
 			y: 2.5d
-			description: ["Even better and faster centrifuge"]
+			description: ["更快更好的离心机。"]
 			dependencies: ["72DA012595531FD4"]
 			id: "56ED40350D9C88C5"
 			tasks: [
@@ -420,10 +420,10 @@
 			}]
 		}
 		{
-			title: "Tier 4 centrifuge"
+			title: "4级离心机"
 			x: -1.5d
 			y: 4.0d
-			description: ["Almost the best and the fastest centrifuge"]
+			description: ["几乎是最快最好的离心机。"]
 			dependencies: ["56ED40350D9C88C5"]
 			id: "30C767408747878D"
 			tasks: [
@@ -446,10 +446,10 @@
 			}]
 		}
 		{
-			title: "Tier 1 centrifuge"
+			title: "1级离心机"
 			x: -1.5d
 			y: -0.5d
-			description: ["A better and fast centrifuge"]
+			description: ["快点好点的离心机。"]
 			dependencies: ["68B5E52529CF12F0"]
 			id: "33E4BFD3E581DCB5"
 			tasks: [
@@ -472,10 +472,10 @@
 			}]
 		}
 		{
-			title: "Tier infinite centrifuge"
+			title: "无限等级离心机"
 			x: -1.5d
 			y: 7.0d
-			description: ["Best, fast, and productive centrifuge"]
+			description: ["最快、最好、最高产的离心机。"]
 			dependencies: ["43102F08F4725846"]
 			id: "0C830613FAF52A42"
 			tasks: [
@@ -501,10 +501,10 @@
 			x: 0.0d
 			y: -3.5d
 			description: [
-				"With the centrifuges, you will be able to craft this useful item because it is really op but costs a lot of materials."
-				"This table allows you to level up your enchantment ABOVE the limit, e.g. you can level up to lv200 or even more!!! "
-				"For sure, the leveling requirements also cost a lot due to balancing issue ;)"
-				"Note that the item values only support vanilla items, but you can level up any enchantments."
+				"有了离心机你就可以做这个非常有用的东西。它真的很有用！尽管需要很多材料。"
+				"这个台子允许你突破原版附魔等级上限。你可以提升到200级甚至更高！！！ "
+				"当然，为了平衡，所需要的价值也很多：）"
+				"注：仅支持原版物品，但可以升级任何附魔。"
 				"{image:kubejs:textures/quests/chapter6/chapter6_toolleveling.png width:178 height:100 align:1}"
 			]
 			dependencies: ["68B5E52529CF12F0"]
@@ -522,7 +522,7 @@
 			}]
 		}
 		{
-			title: "Tier 2 centrifuge"
+			title: "2级离心机"
 			x: -1.5d
 			y: 1.0d
 			dependencies: ["33E4BFD3E581DCB5"]
@@ -546,10 +546,10 @@
 			]
 		}
 		{
-			title: "Tier 5 centrifuge"
+			title: "5级离心机"
 			x: -1.5d
 			y: 5.5d
-			description: ["Expansive, but it helps you much"]
+			description: ["贵，但是很有帮助。"]
 			dependencies: ["30C767408747878D"]
 			id: "43102F08F4725846"
 			tasks: [
@@ -576,8 +576,8 @@
 			x: 0.0d
 			y: -0.5d
 			description: [
-				"Block transmutation is able to transmute certain blocks into items. Check JEI or beepedia for recipes."
-				"The bee transmute the blocks occassionally under presence of their own flower. Set up as below to increase chance of transmutation!"
+				"欧"
+				"蜜蜂有时会在采蜜后将回巢途中使经过的方块突变。像下图设置以增加突变几率！"
 				"{image:kubejs:textures/quests/chapter6/chapter6_block_transmutation.png width:178 height:100 align:1}"
 			]
 			dependencies: ["68B5E52529CF12F0"]
@@ -585,15 +585,15 @@
 			tasks: [{
 				id: "721B55CE787543DF"
 				type: "checkmark"
-				title: "What is block transmutation?"
+				title: "什么是方块突变？"
 			}]
 		}
 		{
-			title: "What is entity transmutation?"
+			title: "什么是实体突变？"
 			x: 1.5d
 			y: -0.5d
 			description: [
-				"Entity transmutation is able to transmute entities into another type of entities. Check JEI or beepedia for recipes"
+				"实体突变能让实体突变成另一种实体。配方请查看JEI或蜜蜂百科。"
 				"{image:kubejs:textures/quests/chapter6/chapter6_jei_entity_transmutation.png width:178 height:100 align:1}"
 			]
 			dependencies: ["68B5E52529CF12F0"]
@@ -601,7 +601,7 @@
 			tasks: [{
 				id: "5B0F1CBF80D7D56C"
 				type: "checkmark"
-				title: "What is entity transmutation"
+				title: "什么是实体突变"
 			}]
 		}
 		{
@@ -613,7 +613,7 @@
 			tasks: [{
 				id: "0EF8F07C3A794F05"
 				type: "checkmark"
-				title: "JEI support on block transmutation"
+				title: "方块突变的JEI支持"
 			}]
 		}
 		{
@@ -625,16 +625,16 @@
 			tasks: [{
 				id: "5FC3444A2156955B"
 				type: "checkmark"
-				title: "JEI support on entity transmutation"
+				title: "实体突变的JEI支持"
 			}]
 		}
 		{
-			title: "Common question - Soul Lava Bee"
+			title: "简单任务——灵魂熔岩蜜蜂"
 			x: 0.0d
 			y: -5.0d
 			description: [
-				"Have you experienced that your valuable bee accidentally gets angry and sting, leading to its death? Angry bees are not collectable by bee jar but you can solve it by brewing a calming potion."
-				"For some hostile bees, such as soul lava bee, they will kill you in one-hite. To prevent your death, brew some calming potion with you is a good idea."
+				"你有过不小心惹恼自己珍贵的蜜蜂并让它蜇了人而导致它死去的经历吗？生气的蜜蜂无法被蜜蜂罐收集，但你可以酿造平静药水来解决这样的问题。"
+				"对于一些“热情的”蜜蜂，比如灵魂熔岩蜜蜂，它们的蛰伤足以一击使你毙命。为了你的生命安全，随身携带一些平静药水是个好主意。"
 				"{image:kubejs:textures/quests/chapter6/chapter6_calming_potion.png width:100 height:100 align:1}"
 			]
 			dependencies: ["22779E3A0C423940"]
@@ -676,7 +676,7 @@
 											-205459881
 										]
 										Amount: -0.028705879014866494d
-										Name: "Random spawn bonus"
+										Name: "随机生成奖励"
 									}]
 									Name: "minecraft:generic.follow_range"
 								}

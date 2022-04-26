@@ -3,7 +3,7 @@
 	group: "52335F892C9B07FA"
 	order_index: 3
 	filename: "chapter_4_create"
-	title: "Chapter 4: Create"
+	title: "第四章：机械动力"
 	icon: "create:cogwheel"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -12,8 +12,8 @@
 			x: -10.0d
 			y: -3.5d
 			description: [
-				"Create is a mod that depends on your intelligence and your creativity. To progress the mod, you need to craft a combiner from Mekanism first."
-				"For the set up of create system, there is an in-game animation (aka ponder) for you to learn about create. Press \"w\" to open Ponder."
+				"机械动力是一个依赖于你的智力和创造力的模组。 要开展这个模组，你需要先制作一个通用机械融合机."
+				"对于搭建机械动力系统，游戏内有一个动画（又名：思索）来让你学习机械动力。按住“w”来打开思索。."
 			]
 			dependencies: ["088B299D9888652D"]
 			id: "5F500E7B2439E635"
@@ -32,7 +32,7 @@
 		{
 			x: -10.0d
 			y: -2.0d
-			description: ["Craft the andesite alloy using the combiner."]
+			description: ["制作安山合金需要使用融合机。"]
 			dependencies: ["5F500E7B2439E635"]
 			id: "1FCE9CBE4DF93A30"
 			tasks: [{
@@ -49,7 +49,7 @@
 		{
 			x: -8.5d
 			y: 1.0d
-			description: ["You need this in a lot of recipes in Create."]
+			description: ["在机械动力的很多配方中都需要它。"]
 			dependencies: ["14B482920A182851"]
 			id: "6C45FB4C68061788"
 			tasks: [{
@@ -67,7 +67,7 @@
 		{
 			x: -8.5d
 			y: 2.5d
-			description: ["You can use Enriching factory to automate in a fast processing speed."]
+			description: ["你可以使用富集仓来快速的处理速度并进行自动化。"]
 			dependencies: ["6C45FB4C68061788"]
 			id: "4D9B8F1004B6F130"
 			tasks: [{
@@ -85,7 +85,7 @@
 		{
 			x: -8.5d
 			y: -0.5d
-			description: ["You can use infusing factory to have get rose quartz with less redstone."]
+			description: ["你可以使用冶金灌注机获得使用较少的红石制作的玫瑰石英。"]
 			dependencies: ["1FCE9CBE4DF93A30"]
 			id: "14B482920A182851"
 			tasks: [{
@@ -103,7 +103,7 @@
 		{
 			x: -10.0d
 			y: -0.5d
-			description: ["Get some kelp from the sea and dry them using furnaces."]
+			description: ["从海里取一些海带，用熔炉把它们烘干。"]
 			dependencies: ["1FCE9CBE4DF93A30"]
 			id: "72FAEA86AD647E29"
 			tasks: [
@@ -129,8 +129,8 @@
 			x: -10.0d
 			y: 1.0d
 			description: [
-				"Then, craft mechanical belts for automating create recipes."
-				"Also, mechanical belts are also needed for sequenced mechanism."
+				"然后，制作传送带的自动合成配方."
+				"此外，流水线机械装置也需要传送带。"
 			]
 			dependencies: ["72FAEA86AD647E29"]
 			id: "4E5F7689331609F3"
@@ -148,7 +148,7 @@
 		{
 			x: -5.5d
 			y: -0.5d
-			description: ["Craft the Press to help you get metal sheets."]
+			description: ["制作动力辊压机来帮助你获取金属板。"]
 			dependencies: ["1FCE9CBE4DF93A30"]
 			id: "318E601056783095"
 			tasks: [{
@@ -166,7 +166,7 @@
 		{
 			x: -5.5d
 			y: 1.0d
-			description: ["Craft the Mechanical mixer and Basin to operate mixing recipes, in order to get the Brass alloy."]
+			description: ["制作动力搅拌器和机械盆来完成混合配方以获取黄铜合金。"]
 			dependencies: ["318E601056783095"]
 			id: "3E4B461AE072D92A"
 			tasks: [
@@ -190,7 +190,7 @@
 		{
 			x: -5.5d
 			y: 2.5d
-			description: ["Get your brass alloy."]
+			description: ["获取黄铜合金。"]
 			dependencies: ["3E4B461AE072D92A"]
 			id: "62ED0CB3F03C85FB"
 			tasks: [{
@@ -208,7 +208,7 @@
 		{
 			x: -5.5d
 			y: 4.0d
-			description: ["Turn the brass ingot into sheets."]
+			description: ["将黄铜锭变成黄铜板。"]
 			dependencies: ["62ED0CB3F03C85FB"]
 			id: "38CEFE4182C0E964"
 			tasks: [{
@@ -232,8 +232,8 @@
 			x: -5.5d
 			y: 5.5d
 			description: [
-				"Use the brass sheet to craft the deployer."
-				"This allows you to process the sequenced assembly recipes, to craft precision sawmill."
+				"使用黄铜板来制作机械手。"
+				"这能让你制作有序的组装配方以制作精密构件。"
 			]
 			dependencies: ["38CEFE4182C0E964"]
 			id: "758D62A1D0ED6A21"
@@ -265,9 +265,9 @@
 			x: -10.0d
 			y: 5.5d
 			description: [
-				"You need it in the mechanical crafting."
-				"For setting up a sequenced assembly, which is needed to craft precision mechanism. Firstly, set up a mechanical belt from left to right. Place 3 deployer, which holds cogwheel, large cogwheel, and iron nugget, from left to right respectively. Turn the mechanical belt on, and throw a brass ingot onto the belt. The sequenced assembly will start automatically."
-				"Note that you have to repeat this process for 5 times, and only 80% success chance (which is specify in JEI)"
+				"在机械合成中你需要用到它。"
+				"设置装配顺序是制作精密构件所必须的。首先，从左至右搭建一条传送带。放置3个机械手，从左至右分别拿上齿轮、大齿轮和铁粒。启动传送带并在传送带上丢一个黄铜锭。机器将自动按顺序依次启动。"
+				"请注意你需要重复这个过程5次，且仅有80%的概率成功（JEI中有表明）。"
 				"{image:kubejs:textures/quests/chapter4/chapter4_sequenced_assembly_setup.png width:178 height:100 align:1}"
 			]
 			dependencies: [
@@ -289,7 +289,7 @@
 		{
 			x: -4.0d
 			y: -0.5d
-			description: ["Rolling turns metals into rods or wires."]
+			description: ["轧制使金属变成杆或线。"]
 			dependencies: ["1FCE9CBE4DF93A30"]
 			id: "2BBCAF09A8028CE7"
 			tasks: [{
@@ -312,7 +312,7 @@
 		{
 			x: -4.0d
 			y: 1.0d
-			description: ["Turn gold plates into wires."]
+			description: ["将金板变成金线。"]
 			dependencies: [
 				"2BBCAF09A8028CE7"
 				"318E601056783095"
@@ -338,7 +338,7 @@
 		{
 			x: -2.5d
 			y: 4.0d
-			description: ["You need it in the mechanical crafting."]
+			description: ["在动力合成中你需要它。"]
 			dependencies: ["09E579A07F590663"]
 			id: "7104505C0BA327F7"
 			tasks: [{
@@ -361,7 +361,7 @@
 		{
 			x: -4.0d
 			y: 4.0d
-			description: ["You need it in the mechanical crafting."]
+			description: ["在动力合成中你需要它。"]
 			dependencies: [
 				"2BBCAF09A8028CE7"
 				"62ED0CB3F03C85FB"
@@ -387,7 +387,7 @@
 		{
 			x: -7.0d
 			y: 1.0d
-			description: ["Craft the blaze cake which allows you to get mixing recipes that requires heat."]
+			description: ["制作烈焰蛋糕来使你能够制作需要加热的混合配方。"]
 			dependencies: ["3E4B461AE072D92A"]
 			id: "53EB5241B19A292A"
 			tasks: [{
@@ -404,7 +404,7 @@
 		{
 			x: -7.0d
 			y: 4.0d
-			description: ["You need it in the mechanical crafting."]
+			description: ["在动力合成中你需要它。"]
 			dependencies: [
 				"53EB5241B19A292A"
 				"4D9B8F1004B6F130"
@@ -424,7 +424,7 @@
 		{
 			x: -8.5d
 			y: 4.0d
-			description: ["You need it in the mechanical crafting."]
+			description: ["在动力合成中你需要它。"]
 			dependencies: ["4D9B8F1004B6F130"]
 			id: "2C3DAF4B8F23846F"
 			tasks: [{
@@ -447,7 +447,7 @@
 		{
 			x: -10.0d
 			y: 7.0d
-			description: ["Get 25x mechanical craft to start your Thermal chapter."]
+			description: ["制作25个动力合成器来开始你的热力章节"]
 			dependencies: [
 				"24254AC14B5856BD"
 				"7104505C0BA327F7"
@@ -475,10 +475,10 @@
 			}]
 		}
 		{
-			title: "Thermal basics"
+			title: "热力基础"
 			x: -10.0d
 			y: 9.0d
-			description: ["When you successfully crafted this, you opens the Thermal Chapter."]
+			description: ["当你成功做完这些时，你就打开了你的热力章节。"]
 			dependencies: ["7B9A09DA4F041363"]
 			id: "418F83A0A03DE815"
 			tasks: [
@@ -506,12 +506,12 @@
 			}]
 		}
 		{
-			title: "Combination crafting"
+			title: "组合合成"
 			x: -11.5d
 			y: 9.0d
 			description: [
-				"You need this to craft the two of the most dimension portal in this modpack!"
-				"Place the pedestal around the combination core. For the pedestal, you need Tier 3 blood altar to craft it."
+				"你需要用这个来制作这个整合包中最大的两个传送门！"
+				"将基座放在合成核心周围。 而基座，您需要三阶的血之祭坛来制作它。"
 				"{image:kubejs:textures/quests/end_game/end_game_combination_crafting.png width:178 height:100 align:1}"
 			]
 			dependencies: ["7B9A09DA4F041363"]
@@ -539,8 +539,8 @@
 		{
 			x: -13.0d
 			y: -0.5d
-			subtitle: "Kinetic energy source"
-			description: ["Create does not use FE energy. Instead, it uses kinetic energy, which can be produced by several blocks. One of the block is water mill."]
+			subtitle: "动能来源"
+			description: ["机械动力不使用FE能量。相反，它使用动能，动能可以由几个方块产生。其中一个方块是水车。"]
 			dependencies: ["1FCE9CBE4DF93A30"]
 			id: "672A6D168E410201"
 			tasks: [{
@@ -557,10 +557,10 @@
 		{
 			x: -13.0d
 			y: 1.0d
-			subtitle: "Kinetic energy source with bigger capacity."
+			subtitle: "更大应力的动能来源"
 			description: [
-				"Apart from kinetic energy or rotational speed provided, you also need to take the capacity as consideration. Water wheel does not provide much capacity, which is a bit inconvenience because it stops you to operate different system at one time."
-				"In this case, it will be good to use a wind mill, in which its capacity increases with the sail attached on the wind mill."
+				"除了动能和转速以外，还需要考虑应力。水车提供的应力并不多，无法让不同的系统在同一时间运作，因此并不是非常便利。"
+				"在这种情况下，风车会是一个不错的选择，它所产生的应力会随连接的风帆的数量的增加而增加。"
 			]
 			dependencies: ["672A6D168E410201"]
 			id: "0F4E541203409180"
@@ -586,7 +586,7 @@
 		{
 			x: -13.0d
 			y: 7.0d
-			description: ["You can use FE to produce kinetic energy!"]
+			description: ["你可以使用FE来产生动能！"]
 			dependencies: [
 				"7B9A09DA4F041363"
 				"0F4E541203409180"
@@ -606,7 +606,7 @@
 		{
 			x: -11.5d
 			y: -2.0d
-			description: ["The goggles allow you to see the amount of capacity and energy that your system involves."]
+			description: ["工程师护目镜可以让你看见你系统所包含的应力和能力。"]
 			dependencies: ["1FCE9CBE4DF93A30"]
 			id: "49A82C3F3F43712E"
 			tasks: [{
@@ -627,10 +627,10 @@
 			}]
 		}
 		{
-			title: "System monitoring"
+			title: "系统监控"
 			x: -13.0d
 			y: -2.0d
-			description: ["Speedometre and stressometre allows you to monitor the rotational speed and the stress in your system for better management and prevent sudden crack."]
+			description: ["速度表和应力表可以让你监测系统中的转速和应力来更好地进行管理与避免突然的过载。"]
 			dependencies: ["49A82C3F3F43712E"]
 			id: "159503980F550AFE"
 			tasks: [
@@ -655,7 +655,7 @@
 		{
 			x: -14.5d
 			y: -0.5d
-			description: ["Not only is andesite casing an important crafting material, but also a good block to cover your shafts."]
+			description: ["安山机壳不仅是重要的合成材料，还可以用于覆盖你的传动轴。"]
 			dependencies: ["1FCE9CBE4DF93A30"]
 			id: "5E0C579DCACF7075"
 			tasks: [{
@@ -673,7 +673,7 @@
 		{
 			x: -4.0d
 			y: 5.5d
-			description: ["Weight ejector will throw the item to specific place. Shift-right click to set the designated place."]
+			description: ["弹射置物台可以将物品投掷到指定的位置。shift右键来设置目的地。"]
 			dependencies: ["758D62A1D0ED6A21"]
 			id: "043F91BB306B36C6"
 			tasks: [{
@@ -698,8 +698,8 @@
 			x: -11.5d
 			y: -0.5d
 			description: [
-				"Funnels allow you to import and export items from chests, machines, etc, just like a hopper."
-				"Tunnels are used on mechanical belts, which allows you to separate the item into two ways for transportation."
+				"漏斗可以让你从箱子、机器等容器中输出或输入物品，就像（原版）漏斗一样。"
+				"隧道需要安装在传送带上，它能让你将物品分成两条路运输。"
 			]
 			dependencies: ["72FAEA86AD647E29"]
 			id: "1ABC1F31E699F237"
@@ -725,7 +725,7 @@
 		{
 			x: -11.5d
 			y: 1.0d
-			description: ["Brass version of tunnel and funnel accept filters and item amount limitation."]
+			description: ["黄铜版本的隧道和漏斗可以设置过滤和物品数量限制。"]
 			dependencies: ["1ABC1F31E699F237"]
 			id: "543AD659303F2D22"
 			tasks: [
@@ -751,7 +751,7 @@
 			title: "Filters!"
 			x: -11.5d
 			y: 2.5d
-			description: ["Filters contains both blacklist and whitelist mode. It also allows NBT containing or ignorant."]
+			description: ["过滤器有黑名单和白名单两种模式。同时也有属性匹配或忽略。"]
 			dependencies: ["543AD659303F2D22"]
 			id: "7AFE063E8D5BBC4B"
 			tasks: [
@@ -792,7 +792,7 @@
 		{
 			x: -14.5d
 			y: 1.0d
-			description: ["Shafts can only transfer kinetic energy in one direction. Use gearboxes to alter the directions."]
+			description: ["传动轴只能在同一方向上传输动能。使用齿轮箱来进行转向。"]
 			dependencies: ["5E0C579DCACF7075"]
 			id: "244E32A402E9020E"
 			tasks: [
@@ -817,7 +817,7 @@
 		{
 			x: -14.5d
 			y: 2.5d
-			description: ["Gearshift allows you to change the rotation direction of shaft into the opposite direction by applying a redstone signal."]
+			description: ["反转齿轮箱在有红石信号的情况下可以反转传动方向。"]
 			dependencies: ["244E32A402E9020E"]
 			id: "4290BAEDDC4FE830"
 			tasks: [{
@@ -841,7 +841,7 @@
 		{
 			x: -14.5d
 			y: 4.0d
-			description: ["Clutch allows you stop the transfer of energy by applying redstone signal, which lets your system shut down."]
+			description: ["离合器在有红石信号的情况下回停止传输动能，这会让你的系统停止运作。"]
 			dependencies: ["4290BAEDDC4FE830"]
 			id: "1626855409094F85"
 			tasks: [{
@@ -865,7 +865,7 @@
 		{
 			x: -16.0d
 			y: -0.5d
-			description: ["A chute can move items in vertical directions, i.e. upward and downward."]
+			description: ["溜槽可以在垂直方向传输物品：向上和向下。"]
 			dependencies: ["1FCE9CBE4DF93A30"]
 			id: "193893D7B9EA2E58"
 			tasks: [{
@@ -883,7 +883,7 @@
 		{
 			x: -16.0d
 			y: 1.0d
-			description: ["Smart chute accept filters."]
+			description: ["智能溜槽可以设置过滤。"]
 			dependencies: ["193893D7B9EA2E58"]
 			id: "72242A04BEF5D2B9"
 			tasks: [{
@@ -907,7 +907,7 @@
 		{
 			x: -17.5d
 			y: -0.5d
-			description: ["Crushing wheel is a good way to multipling the ores, e.g. diamond ores, ancient debris."]
+			description: ["粉碎轮是一种不错的增产矿物的方法，例如：钻石矿和远古残骸。"]
 			dependencies: ["1FCE9CBE4DF93A30"]
 			id: "32CA393EE08D86F3"
 			tasks: [{

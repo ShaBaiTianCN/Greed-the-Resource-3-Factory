@@ -3,7 +3,7 @@
 	group: "1E2DE02B87CFF91D"
 	order_index: 1
 	filename: "xnet"
-	title: "Logistics and transport"
+	title: "物流和运输"
 	icon: "mekanism:basic_mechanical_pipe"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -13,8 +13,8 @@
 			x: -3.0d
 			y: -0.5d
 			description: [
-				"Xnet is a mod that have high performance on item transportation. This mod might be a bit complicated for beginners. It is adviced that you should see tutorials if you are new comers."
-				"The cables in Xnet is buffed in this modpack, which allows you to use the cables extensively with high speed transportation and performance."
+				"XNet是一个在物品运输上有高性能的模组。 这个模组对初学者来说可能有点复杂。 如果您是新手，建议您应该看教程。  ."
+				"XNet中的线缆在这个整合包中得到了加强，它允许你广泛地使用高性能的线缆。"
 			]
 			id: "30DDBDF9D19C03E0"
 			tasks: [{
@@ -37,7 +37,7 @@
 		{
 			x: -3.0d
 			y: 2.0d
-			description: ["Hold facade on your right hand and shift-right click. It will mimic the block you are pointing to."]
+			description: ["对准方块右击或潜行右击可以模拟该方块的材质。对准网络线缆/连接器右击或潜行右击来完成伪装。"]
 			dependencies: ["30DDBDF9D19C03E0"]
 			id: "30976F466444C1DA"
 			tasks: [{
@@ -60,7 +60,7 @@
 		{
 			x: -1.0d
 			y: 1.0d
-			description: ["Router allows you to set up communications between several nearby network"]
+			description: ["控制物流网络内的不同的子网络间不同频道的互相传输，和控制器间通过连接器连接，不同子网络的路由器用路由连接器和路由网络线缆连接。"]
 			dependencies: ["30DDBDF9D19C03E0"]
 			id: "105E02293BF8FEEC"
 			tasks: [{
@@ -83,7 +83,7 @@
 		{
 			x: -5.0d
 			y: 1.0d
-			description: ["You can also set up router networks by antenna, ignoring distance."]
+			description: ["你也可以通过天线建立一个忽略距离的路由器网络。"]
 			dependencies: ["30DDBDF9D19C03E0"]
 			id: "15B64183489D771E"
 			tasks: [
@@ -125,7 +125,7 @@
 		{
 			x: -5.0d
 			y: -1.5d
-			description: ["Redstone control in Xnet"]
+			description: ["XNet中的红石控件！"]
 			dependencies: ["30DDBDF9D19C03E0"]
 			id: "6FAFE76660544099"
 			tasks: [
@@ -155,7 +155,7 @@
 		{
 			x: -1.0d
 			y: -1.5d
-			description: ["Routing connectors set up connections between different routers."]
+			description: ["用于完成不同路由器方块、无线路由器方块之间的连接。"]
 			dependencies: ["30DDBDF9D19C03E0"]
 			id: "7A3276BAA44E2E70"
 			tasks: [{
@@ -171,16 +171,16 @@
 			}]
 		}
 		{
-			title: "Advanced connectors"
+			title: "高级连接器"
 			x: -3.0d
 			y: -3.0d
-			description: ["The cable in Xnet."]
+			description: ["XNet中的线缆"]
 			dependencies: ["30DDBDF9D19C03E0"]
 			id: "272DB6F8DF69CF32"
 			tasks: [{
 				id: "0D544AB6C1F01EA7"
 				type: "item"
-				title: "Any #xnet:advanced_connectors"
+				title: "任意#xnet:advanced_connectors"
 				icon: "xnet:advanced_connector_red"
 				item: {
 					id: "itemfilters:tag"
@@ -200,7 +200,7 @@
 		{
 			x: 4.0d
 			y: -0.5d
-			description: ["Pipez is a mod that provide ways to moving items, fluids and energy at a cheap cost."]
+			description: ["Pipez是一个能够低成本移动物品、流体和能量的模组。"]
 			id: "2DBA86B0F3F8A3B5"
 			tasks: [{
 				id: "134238B36B2B2803"
@@ -259,10 +259,10 @@
 			}]
 		}
 		{
-			title: "Upgrades!!!"
+			title: "升级!!!"
 			x: 4.0d
 			y: -3.0d
-			description: ["These upgrades are capable of increasing efficiency of transportation, though a bit expensive."]
+			description: ["这些升级能够提高运输效率，尽管有点贵。"]
 			dependencies: ["2DBA86B0F3F8A3B5"]
 			id: "6CEDE26AC81EE376"
 			tasks: [{
@@ -373,7 +373,7 @@
 		{
 			x: 2.0d
 			y: 1.0d
-			description: ["As what has been mentioned in the name, it sets filter content  for the pipe. It is only available in pipes with advanced upgrade or above."]
+			description: ["正如名称中提到的，它为管道设置过滤器内容。它只适用于具有高级管道升级或更高级别的管道。"]
 			dependencies: ["2DBA86B0F3F8A3B5"]
 			id: "297598D1A5B36C55"
 			tasks: [{
@@ -397,14 +397,14 @@
 			x: -3.0d
 			y: 8.5d
 			description: [
-				"Pretty pipes provides a higher configurable logistic network which allows a high efficiency item management."
-				"This mod is pretty similar to logistic pipe in 1.12.2"
+				"更好的管道提供了更高的可配置物流网络，允许高效率的物品管理。  "
+				"这个模组与1.12.2中的物流管道（logistic\ pipe）非常相似。"
 			]
 			id: "08EF9990BA91FE57"
 			tasks: [{
 				id: "4468931CEE180D43"
 				type: "checkmark"
-				title: "Pretty Pipes"
+				title: "更好的管道"
 			}]
 			rewards: [{
 				id: "18F83AFD3F292745"
@@ -415,7 +415,7 @@
 		{
 			x: -3.0d
 			y: 6.0d
-			description: ["The pipe for item transfer"]
+			description: ["用于物品传输的管道。"]
 			dependencies: ["08EF9990BA91FE57"]
 			id: "1CF1F94F55A225E7"
 			tasks: [
@@ -447,7 +447,7 @@
 		{
 			x: -5.0d
 			y: 7.5d
-			description: ["For producing different modules."]
+			description: ["用于合成不同的模块。"]
 			dependencies: ["08EF9990BA91FE57"]
 			id: "79EEF4BE016F8956"
 			tasks: [{
@@ -470,7 +470,7 @@
 		{
 			x: -1.0d
 			y: 7.5d
-			description: ["Attach this to a pipe to show the amount of the specific item in the pipe's network"]
+			description: ["连接到管道或管道相邻方块上显示管道网络中物品的数量。"]
 			dependencies: ["08EF9990BA91FE57"]
 			id: "4C8CB7C189E03AD0"
 			tasks: [{
@@ -494,8 +494,8 @@
 			x: -5.0d
 			y: 10.0d
 			description: [
-				"Connect the terminal to chests by pipes, so that you can access the items in chest by the terminal."
-				"Note that time is needed to request items from chests."
+				"物品终端通过管道和箱子连接，通过物品终端可以访问箱子内的物品。"
+				"注意：从箱子请求物品需要时间。"
 			]
 			dependencies: ["08EF9990BA91FE57"]
 			id: "2DDC414812C9E556"
@@ -527,7 +527,7 @@
 		{
 			x: -3.0d
 			y: 11.0d
-			description: ["This provides a basic auto-crafting system by directly accessing to your pipe network."]
+			description: ["合成终端通过直接访问管道网络提供了一个基本的自动制作系统。"]
 			dependencies: ["08EF9990BA91FE57"]
 			id: "10C75111FDEED3A8"
 			tasks: [{
@@ -550,7 +550,7 @@
 		{
 			x: -1.0d
 			y: 10.0d
-			description: ["It uses energy to increase transfer speed of the whole pipe network."]
+			description: ["它通过能量来提升整个管道网络的传输速度。"]
 			dependencies: ["08EF9990BA91FE57"]
 			id: "6E0F36CCAE0C80CA"
 			tasks: [{
@@ -571,13 +571,13 @@
 			}]
 		}
 		{
-			title: "Touhou Little Maid"
+			title: "车万女仆"
 			x: 4.0d
 			y: 7.0d
 			description: [
-				"Touhou Little maid is a cute mod. It provides maids for you, who can do a lot of things!!!"
-				"The skin of the maid can be customized, you can either draw it yourself or download it from net. Check Memorizable Genzoku for detailed information."
-				"To summon a maid, you need to build the altar first. Build the altar according to the description in the guide book. Then, put diamond, gold, coal, iron, redstone, lapis on top of the 6 columns."
+				"车万女仆是一个可爱的模组，它为你提供小女仆，可以做很多事情！！！"
+				"女仆的皮肤可以定制，你可以自己画，也可以从网上下载。 详细信息请查看memorable Genzoku。"
+				"想要召唤女仆，你得先建好祭坛。 按照指南上的描述建造祭坛。 然后，把钻石，黄金，煤，铁，红石，青金石放在六根柱子的上面。  "
 				"{image:touhou_little_maid:textures/book/altar.png width:100 height:100 align:1}"
 			]
 			id: "7C6A163BF7A12BD6"
@@ -600,11 +600,11 @@
 			}]
 		}
 		{
-			title: "Taming your maid"
+			title: "驯服你的女仆"
 			x: 4.0d
 			y: 9.0d
 			description: [
-				"After summoning the maid, you need cake to tame it."
+				"召唤女仆后，你需要用蛋糕来驯服它。"
 				"{image:kubejs:textures/quests/maid/maid_taming.png width:178 height:100 align:1}"
 			]
 			dependencies: ["7C6A163BF7A12BD6"]
@@ -622,21 +622,21 @@
 			}]
 		}
 		{
-			title: "Make a sword for you maid!"
+			title: "为你的女仆做一把剑!"
 			x: 6.0d
 			y: 7.0d
 			description: [
 				"{image:kubejs:textures/quests/maid/maid_status.png width:178 height:100 align:1}"
-				"Your maid can actually do many things for you!"
-				"There are some baubles for your maid to add extra abilities. Now, try to craft a sword for you maid."
-				"The reward is a flower... try to let your maid take that flower in her main hand, extremely cute!!!"
+				"你的女仆实际上可以为你做很多事情!"
+				"有些小玩意可以让你的女仆拥有额外的能力。 现在，试着为你的女仆制作一把剑。"
+				"奖励是一朵花…试着让你的女仆用她的主手拿那朵花，非常可爱！！！"
 			]
 			dependencies: ["22372E96ED634EEB"]
 			id: "751898164E00D458"
 			tasks: [{
 				id: "75D7A11F63065D49"
 				type: "item"
-				title: "Any #forge:swords"
+				title: "任意 #forge:swords"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -652,13 +652,13 @@
 			}]
 		}
 		{
-			title: "Iron Furnace"
+			title: "更多熔炉"
 			x: 12.5d
 			y: -0.5d
 			description: [
-				"Do you hate wasting time on smelting things in vanilla minecraft? Here is the solution."
-				"\"Iron Furnace\" provides furnaces that procress at a high speed and even faster than the industrial ones at higher tier!"
-				"Tooltips are added to help you understand the operation speed of furnaces."
+				"你讨厌再熔炼东西上花费大量的时间吗？这里有解决方案！"
+				"“更多熔炉”提供更高的熔炼速度，甚至比高炉还要快。"
+				"我们增加了一点提示，帮助你了解各种炉子的操作速度。"
 			]
 			id: "6C0D5BC112E5DEC3"
 			tasks: [{
@@ -901,10 +901,10 @@
 			}]
 		}
 		{
-			title: "Cover for your furnace"
+			title: "盖上你的炉子"
 			x: 12.0d
 			y: -2.0d
-			description: ["These two items are cover of your furnace. You can mask your furnace with this."]
+			description: ["这两个东西是熔炉的装饰，你可以用这个装饰你的熔炉。"]
 			dependencies: ["6C0D5BC112E5DEC3"]
 			id: "3EFAE7E42D4EE4C4"
 			tasks: [
@@ -999,10 +999,10 @@
 			}]
 		}
 		{
-			title: "Upgrades"
+			title: "升级"
 			x: 11.0d
 			y: 0.0d
-			description: ["You can upgrade your furnace to become more OP!"]
+			description: ["你可以升级的你熔炉来让它变得更加OP！"]
 			dependencies: ["6C0D5BC112E5DEC3"]
 			id: "60CA569E6B4F1E10"
 			tasks: [
@@ -1040,10 +1040,10 @@
 			}]
 		}
 		{
-			title: "Tech support!"
+			title: "技术支持！"
 			x: 12.0d
 			y: 1.0d
-			description: ["Absolutely, this mod supports industrial. You can use FE to smelt items!"]
+			description: ["当然，这个模组也支持和工业模组联动，你可以用FE来熔炼物品。"]
 			dependencies: ["6C0D5BC112E5DEC3"]
 			id: "347974563242CE46"
 			tasks: [
@@ -1074,8 +1074,8 @@
 			x: 6.0d
 			y: 9.0d
 			description: [
-				"A bauble that makes your maid invulnerable."
-				"PS. This recipe is set to be very cheap intentionally."
+				"一个能让你的女仆刀枪不入的小玩意。"
+				"PS：这个物品的配方被我设置的非常便宜！"
 			]
 			dependencies: ["751898164E00D458"]
 			id: "7B9CD65654F1392C"

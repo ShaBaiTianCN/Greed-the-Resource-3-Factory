@@ -3,7 +3,7 @@
 	group: "37B8334BBCBD0DFD"
 	order_index: 1
 	filename: "construction"
-	title: "Construction"
+	title: "建设"
 	icon: "minecraft:stone_bricks"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -12,7 +12,7 @@
 			x: -5.0d
 			y: 0.5d
 			description: [
-				"A wand from Astral Sorcery that help you to convert blocks, which is similar to exchanging gadget. Shift right click to set area of size."
+				"一根来自Astral Sorcery的魔杖，它能帮你替换方块，类似于更替小帮手。Shift右键可以设置范围。"
 				"{image:kubejs:textures/quests/construction/construction_conversion_wand.png width:178 height:100 align:1}"
 			]
 			dependencies: ["2A58C5E08522716D"]
@@ -45,7 +45,7 @@
 			x: -5.0d
 			y: 2.5d
 			description: [
-				"A wand from Astral Sorcery that help you to build blocks, and similar to that of building gadget. Shift right click to change mode."
+				"一根来自Astral Sorcery的魔杖，可以帮助你建筑，类似与建筑小帮手。Shift右键切换模式。"
 				"{image:kubejs:textures/quests/construction/construction_formation_wand.png width:178 height:100 align:1}"
 			]
 			dependencies: ["2A58C5E08522716D"]
@@ -84,8 +84,8 @@
 			x: -7.0d
 			y: 0.5d
 			description: [
-				"Building gadget can help you build many different types of shapes in just one click, where the size is from 1x1 to at most 15x15."
-				"Press \"g\" to open GUI meanu and shift click to set target block"
+				"建筑小帮手允许你在1x1到最大15x15的范围快速建筑。"
+				"按“g”打开GUI，Shift+右键设置目标方块。"
 				"{image:kubejs:textures/quests/construction/construction_building_gadget.png width:178 height:100 align:1}"
 			]
 			dependencies: ["2A58C5E08522716D"]
@@ -123,7 +123,7 @@
 			x: -7.0d
 			y: 2.5d
 			description: [
-				"Exchanging gadget help you to exchange a certain range of blocks into certain types of blocks. Press \"g\" to open GUI and shift right click to set blocks to be used in exchange."
+				"更替小帮手可以让你一键替换一定范围内的方块。按“g”打开GUI，shift+右键设置你想换成方块。"
 				"{image:kubejs:textures/quests/construction/construction_exchanging_gadget.png width:178 height:100 align:1}"
 			]
 			dependencies: ["2A58C5E08522716D"]
@@ -161,7 +161,7 @@
 			x: -7.0d
 			y: 4.5d
 			description: [
-				"A convenient tool that help you copy and paste the structure that you wand to build repeatedly. Right click to set first point and Shift right click to set the second point. Press \"g\" to open GUI to set copy mode or paste mode."
+				"复制粘贴小帮手让你可以复制建筑并粘贴到其他位置。先Shift＋右键一个方块选择复制的起始位置，再右键另一个方块确认复制的末位置。按“g”打开GUI可以调整模式。"
 				"{image:kubejs:textures/quests/construction/construction_copyandpaste_gadget.png width:178 height:100 align:1}"
 			]
 			dependencies: ["2A58C5E08522716D"]
@@ -199,7 +199,7 @@
 			x: -7.0d
 			y: 6.5d
 			description: [
-				"A convenient that help you to remove a large area of blocks, at most 16x16x16. Shift right click to open settings."
+				"破坏小帮手可以帮助你移除最大16x16x16区域的方块。Shift+右键打开设置界面。"
 				"{image:kubejs:textures/quests/construction/construction_destruction_gadget.png width:178 height:100 align:1}"
 			]
 			dependencies: ["2A58C5E08522716D"]
@@ -231,7 +231,7 @@
 		{
 			x: -9.0d
 			y: 0.5d
-			description: ["A builden wand which can place 128 blocks each time"]
+			description: ["每次可以放置128个方块的建筑手杖。"]
 			dependencies: ["2A58C5E08522716D"]
 			id: "11031614E9DD03F9"
 			tasks: [{
@@ -255,7 +255,7 @@
 		{
 			x: -9.0d
 			y: 2.5d
-			description: ["A builder wand which can place 1024 blocks each time."]
+			description: ["每次可以放置1024个方块的建筑手杖"]
 			dependencies: ["2A58C5E08522716D"]
 			id: "4B9271377AC77D7A"
 			tasks: [{
@@ -276,10 +276,10 @@
 			}]
 		}
 		{
-			title: "Addon for construction wand"
+			title: "建筑手杖插件"
 			x: -9.0d
 			y: 4.5d
-			description: ["Here are two cores that alters the function of your wand. Their uses are specified in the tooltips."]
+			description: ["这是两个可以改变手杖功能的核心。在工具提示中查看详细使用方式。"]
 			dependencies: ["2A58C5E08522716D"]
 			id: "0099D8347E7B9E57"
 			tasks: [
@@ -303,7 +303,7 @@
 		{
 			x: -3.0d
 			y: 0.5d
-			description: ["A wand that use energy to allow you to push and pull blocks. Set the keys in control to switch mode."]
+			description: ["使用能量推拉方块的魔杖。在控制中设置快捷键以切换模式。"]
 			dependencies: ["2A58C5E08522716D"]
 			id: "0DFB6796EF4DF0BB"
 			tasks: [{
@@ -330,7 +330,7 @@
 		{
 			x: -3.0d
 			y: 2.5d
-			description: ["Another option for you of building wand. Set keys in option to switch mods and size."]
+			description: ["另一个建筑魔杖的选择。在控制中设置快捷键以切换模式和范围。"]
 			dependencies: ["2A58C5E08522716D"]
 			id: "51A22AE93DBB094A"
 			tasks: [{
@@ -397,7 +397,7 @@
 		{
 			x: -3.0d
 			y: 4.5d
-			description: ["A wand that is similar to exchanging gadget. Set keys in ccontrol."]
+			description: ["这个魔杖和更替小帮手有些类似。在控制中设置快捷键。"]
 			dependencies: ["2A58C5E08522716D"]
 			id: "5074546D6CE007DF"
 			tasks: [{
@@ -424,7 +424,7 @@
 		{
 			x: -3.0d
 			y: 6.5d
-			description: ["A wand that move blocks for you. Right click to take the block up. Right click again to put the block down."]
+			description: ["为你移动方块的魔杖。右键将方块拿起，再次右键将方块放下。"]
 			dependencies: ["2A58C5E08522716D"]
 			id: "355845F7DCA43B53"
 			tasks: [{
@@ -448,7 +448,7 @@
 			title: "Construting tools"
 			x: -6.0d
 			y: -2.0d
-			description: ["This chapter provides a list of tools that may help you to construct and build things."]
+			description: ["这个章节为您提供一个帮助您建筑的工具列表。"]
 			id: "2A58C5E08522716D"
 			tasks: [{
 				id: "72AB1496AAD27364"
@@ -469,7 +469,7 @@
 		{
 			x: -0.5d
 			y: -2.0d
-			description: ["End Portal is now breakable with a pickaxe enchanted with silk touch. Also, it is craftable. Check the recipe in JEI."]
+			description: ["末地传送门现在可以被有精准采集附魔的稿子挖掘。另外，它也可以被合成，在JEI中查看配方。"]
 			id: "2F294BEF2F4BAF8C"
 			tasks: [{
 				id: "7D33FE12F861763B"

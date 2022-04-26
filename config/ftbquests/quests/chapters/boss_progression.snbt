@@ -3,7 +3,7 @@
 	group: "31CBCB77414EC9E0"
 	order_index: 0
 	filename: "boss_progression"
-	title: "Boss progression"
+	title: "Boss进度"
 	icon: {
 		id: "minecraft:netherite_sword"
 		Count: 1b
@@ -19,11 +19,11 @@
 			y: -1.0d
 			shape: "rsquare"
 			description: [
-				"Here are some minibosses and bosses from the Dungeons Mobs. You can only find them in specific dungeons generated in Overworld."
-				"Difficulties are adjusted that you can't defeat them easily!"
-				"There are customed loots to help you progress through this modpack."
-				"Recommended armor: full set of allthemodium with protection IV or equivalent."
-				"Recommended weapon: Ultimerite Sword, Ultimertie Bow, ... or equivalent"
+				"以下是来自地牢的一些小Boss和Boss。你只能在主世界中生成的特定地牢中找到它们."
+				"难度已经调整到你不能轻易的击败它们!"
+				"有自定义战利品帮助你在这个整合包中继续前进."
+				"推荐盔甲：全套带保护IV或同等级别的全套盔甲."
+				"推荐武器：Ultimerite Sword，Ultimertie Bow，...或同等级的武器"
 			]
 			dependencies: ["42ABAB6DFD2E6C0D"]
 			size: 1.5d
@@ -31,7 +31,7 @@
 			tasks: [{
 				id: "54B85EEBDCE50B3D"
 				type: "checkmark"
-				title: "Dungeons Mobs"
+				title: "地牢怪物"
 			}]
 			rewards: [{
 				id: "702BB97B83ED8D9B"
@@ -42,9 +42,9 @@
 		{
 			x: -15.0d
 			y: 0.5d
-			subtitle: "Crawler"
+			subtitle: "爬行动物"
 			description: [
-				"Crawler is invented by scientists accidentally. Be aware of its attack. It is hidden in laboratory spawn in overworld, with many scientists taking care of him."
+				"生化大蛇是科学家偶然发明的。 注意它的攻击。 它隐藏在主世界的实验室中，有许多科学家照顾它."
 				"{image:kubejs:textures/quests/boss/boss_lab.png width:178 height:100 align:1}"
 			]
 			dependencies: ["58972E2E76C8D5EA"]
@@ -100,9 +100,9 @@
 		{
 			x: -10.0d
 			y: -2.5d
-			subtitle: "Sandstorm with fire"
+			subtitle: "沙尘暴与火"
 			description: [
-				"The Deserted spawns in sandstone structures underground. It has very strong attack but It can't move. Make smart uses of blocks :)"
+				"遗忘者生成于地下的砂岩结构中。 它有很强的攻击力，但它不能移动。 你可巧妙利用搭高方块:)"
 				"{image:kubejs:textures/quests/boss/boss_house.png width:178 height:100 align:1}"
 			]
 			dependencies: ["58972E2E76C8D5EA"]
@@ -158,12 +158,12 @@
 		{
 			x: -15.5d
 			y: -1.0d
-			subtitle: "Dig, dig, dig ..."
+			subtitle: "挖，挖，挖……"
 			description: [
-				"Iron slimes spawn in a mine-like structure in overworld. If there is any iron-related items on your body (e.g. iron sword, iron pickaxe), the attributes of iron slime will multiply by 8 times! Avoid iron things."
-				"To fight the iron slime, you should bring a pickaxe instead. \"Mine\" the iron slime repeatedly, until it's iron shield shed off. Then you can hit it by swords."
-				"The knockback per attack is proportional to the current health. It have the probability to destroy walls. The damage and slowness per attack is proportionally inverse to the current health. Iron Slime takes double damage when is on fire and ignites players attacked."
-				"Note that all players near have mining fatigue."
+				"钢铁史莱姆在主世界的类似矿井的结构中生成。 如果你身上有任何铁制物品（例如铁剑、铁镐），钢铁史莱姆的属性将乘以8倍！ 避免身上有铁的东西。"
+				"为了与钢铁史莱姆战斗，你反而应该带上镐子。 反复“挖掘”钢铁史莱姆，直到它的铁壳脱落。 然后你可以用剑攻击它。"
+				"每次攻击的击退距离与当前生命值成正比。有概率破坏墙壁。每次攻击的伤害和缓慢效果与当前的生命值成反比。（它每次攻击造成的伤害、击退距离和缓慢效果与它的当前生命值成正比，而且有概率破坏墙壁。）它着火时会受到双倍伤害，但也会点燃被它攻击的玩家。"
+				"注：附近的所有玩家都会挖掘疲劳."
 			]
 			dependencies: ["58972E2E76C8D5EA"]
 			id: "17EAA0ECCC8D559B"
@@ -218,9 +218,9 @@
 		{
 			x: -9.5d
 			y: -1.0d
-			subtitle: "King of the world"
+			subtitle: "世界之王"
 			description: [
-				"King spawn in the upper most layer of Castle, which is a sturcture generated randomly overworld."
+				"国王会在城堡的最上层生成。城堡是随机生成的结构。"
 				"{image:kubejs:textures/quests/boss/boss_king.png width:178 height:100 align:1}"
 			]
 			dependencies: ["58972E2E76C8D5EA"]
@@ -271,8 +271,8 @@
 		{
 			x: -15.0d
 			y: -2.5d
-			subtitle: "Bigger squid?"
-			description: ["Kraken spawns in seas. It is an easy boss. Prepare Trident :)"]
+			subtitle: "巨大的鱿鱼?"
+			description: ["克拉肯在海里生成。这是一个简单的Boss。准备好三叉戟:)"]
 			dependencies: ["58972E2E76C8D5EA"]
 			id: "46A5D692F830CDB7"
 			tasks: [{
@@ -326,11 +326,11 @@
 		{
 			x: -14.0d
 			y: 1.5d
-			subtitle: "Powerful skeleton."
+			subtitle: "强大的骷髅."
 			description: [
-				"To summon Lord Skeleton, construct an idol of Bone Blocks and a Carved Pumpkin in the same shape as an Iron Golem. Use a Soul Bottle on the Pumpkin at night to summon Lord Skeleton."
-				"Chapels can be found in Swamp biomes that contains a pre-built idol."
-				" Lord skeleton spawns a Haunter every 15 seconds. Spawns a Deadhound every 20 seconds for each nearby player. It is immune to drowning."
+				"要召唤骷髅领主，用骨块和雕刻过的南瓜搭建类似铁傀儡的结构。 在晚上用灵魂瓶右键南瓜头召唤骷髅领主。"
+				"教堂可以在沼泽生物群系中找到，其中包含一个预先搭建好的结构。"
+				" 骷髅领主每会15秒召唤一个狩猎者，同时每20秒会给每个靠近的玩家生成一只死亡猎犬。"
 				"{image:kubejs:textures/quests/boss/boss_chapel.png width:178 height:100 align:1}"
 			]
 			dependencies: ["58972E2E76C8D5EA"]
@@ -386,8 +386,8 @@
 		{
 			x: -12.5d
 			y: 2.0d
-			subtitle: "normal mobs"
-			description: ["Note head has a very small chance spawning in Desert biomes."]
+			subtitle: "普通小怪"
+			description: ["在沙漠生物群系中有非常小的几率生成音符头。"]
 			dependencies: ["58972E2E76C8D5EA"]
 			id: "0D8E6220CF43B200"
 			tasks: [{
@@ -430,10 +430,10 @@
 		{
 			x: -10.0d
 			y: 0.5d
-			subtitle: "Nether destroyer"
+			subtitle: "下界毁灭者"
 			description: [
-				"For summoning Sun, you need to go to the Nether, wearing 6 armor points of any armor (3 chestplate points), having 6 health points (3 hearts), and holding 6 iron blocks on the main hand. Set yourself on Fire to summon the boss."
-				"The only way to damage the Sun is to construct a multiblock structure of 3x3x3 blue ice with a TNT inside. Lighting up the TNT inside will damage the boss by 16.67% of its maximum health (which means the boss will die if you repeat it for 6 times). It is recommended that you build the multiblock structure before summoning the boss. The boss has the ability to damage any blocks and pass through wither-proof blocks and obsidians. Note that the blue ice bomb only has a 10 blocks radius."
+				"为了召唤日之子，你需要去下界，穿着6点护甲值（3个盔甲图标）的任意护甲，拥有6点生命值（3颗心），并在主手上拿着6个铁块。 点燃自己召唤Boss."
+				"制作一个内部有TNT的3×3×3蓝冰多方快结构。点燃TNT会产生伴随 10%冰块的爆炸，并延伸10个方块的距离。如果爆炸冲击波碰到日之子，将造成最大生命值的16.67%的伤害（这意味着如果你重复6次boss就会死）。可以先点燃TNT，再在爆炸之前完成这个结构。Boss有能力破坏任何方块并穿过防凋零方块和黑曜石。 注：爆炸半径只有10格。"
 				"{image:kubejs:textures/quests/boss/boss_blueicebomb.png width:178 height:100 align:1}"
 			]
 			dependencies: ["58972E2E76C8D5EA"]
@@ -489,11 +489,11 @@
 		{
 			x: -11.0d
 			y: 1.5d
-			subtitle: "Eyes from the void..."
+			subtitle: "来自虚空的眼睛..."
 			description: [
-				"Void Master spawns in structures found in the End dimension. The structure is rare but you can found it using the \"unstable map\", which is an item spawn in loot chest in the \"Sewer\" structure spawn under the Beach biomes."
-				"The void master has 3 phases, in its 100%, 66% and 33% health respectively. It shoots lasers and the lasers will deduct you 10% health per seconds. Each phase increases the duration of the laser. At phase 3, Void Master feels tired and it receives 200% more damage from all source."
-				"Void Master can only be hit by bows. I recommend you bring along with strong bow with power VI with a lot of harming II potions."
+				"虚空领主在末地维度中的结构中生成。 该结构很少见，但您可以使用“不稳定的地图”找到它，这是在沙滩生物群系下的“下水道”结构中的战利品箱中生成的物品."
+				"虚空领主有 3 个阶段，分别处于生命值100%、66%和33%。 它会发射激光，激光每秒会减少你10%的生命值。每个阶段都会增加激光的持续时间。在第3阶段，虚空领主感到疲倦，受到所有伤害增加200%。"
+				"虚空领主只能被弓箭击中。 我建议你带上强力VI的弓和瞬间伤害II的箭。"
 				"{image:kubejs:textures/quests/boss/boss_sewer.png width:178 height:100 align:1}"
 			]
 			dependencies: ["58972E2E76C8D5EA"]
@@ -549,8 +549,8 @@
 		{
 			x: -11.0d
 			y: -3.5d
-			subtitle: "normal mobs"
-			description: ["Whirlwind has a very low chance spawn in snowy biome"]
+			subtitle: "普通小怪"
+			description: ["在下雪的生物群系中有非常小的几率生成旋风"]
 			dependencies: ["58972E2E76C8D5EA"]
 			id: "72DB5E093962A578"
 			tasks: [{
@@ -604,12 +604,12 @@
 		{
 			x: -14.0d
 			y: -3.5d
-			subtitle: "Hunter to hunt prey... You are the prey"
+			subtitle: "你是猎人，还是猎物？"
 			description: [
-				"To summon Winter Hunter, you need to find a plitcher in snowy biomes, which is an offensive plant that can digest any thing that fall into their jaws. There are two ways to summon it."
-				"1) Offer a mob as sacrifice, for each tick of damage there's a chance to summon it."
-				"2) Fall unarmored into the pit. This will summon the Winter Hunter instantly."
-				"The Winter Hunter will spawn pitchers every 15 seconds as well will spawn angry wolfs every 20 seconds for every player near."
+				"要召唤凛冬猎人，你需要在下雪的生物群系中找到一个陶罐怪，这是一种攻击性植物，可以消化掉入它们下颚的任何东西。 有两种召唤方式."
+				"1）提供一个生物作为祭品，祭品每受到一次伤害就有机会召唤它."
+				"2）不穿戴护甲掉进去。这将立即召唤它."
+				"凛冬猎人每15秒生成一个陶罐怪，同时每20秒为每个靠近的玩家生成一只愤怒的狼."
 			]
 			dependencies: ["58972E2E76C8D5EA"]
 			id: "1D78F93BB87B98F4"
@@ -716,7 +716,7 @@
 			x: -5.5d
 			y: -2.0d
 			description: [
-				"Note the the Wither will become stronger every time you defeat it. Some tips: Magic damage towards with will increase by 100% every 150 health it loss"
+				"请注意，每次击败凋灵都会使其变得更强大。即：凋零每少150滴血，其魔法伤害将增加100%"
 				"{image:kubejs:textures/quests/boss/boss_wither.png width:178 height:100 align:1}"
 			]
 			dependencies: ["59A346B08DFDCF17"]
@@ -758,7 +758,7 @@
 			x: -1.0d
 			y: -2.0d
 			description: [
-				"Note that the Ender Dragon will become stronger every time you defeat it."
+				"请注意，每次击败末影龙都会变得更强大。"
 				"{image:kubejs:textures/quests/boss/boss_ender_dragon.png width:178 height:100 align:1}"
 			]
 			dependencies: ["41453A0AA8D5CBE9"]
@@ -800,7 +800,7 @@
 			x: -5.5d
 			y: 2.0d
 			description: [
-				"Defeat 20 Gaia from Botania! You have to build the altar as shown below. To summon Gaia, shift-right click the beacon with a terrasteel."
+				"击败20名植物魔法的盖亚！你必须如下所示建造祭坛。然后用泰拉钢右键单击信标。"
 				"{image:kubejs:textures/quests/boss/boss_gaia.png width:178 height:100 align:1}"
 			]
 			dependencies: ["76446683F82CCC22"]
@@ -841,7 +841,7 @@
 			x: 2.0d
 			y: -2.0d
 			description: [
-				"You can only obtain chaotic shard by defeating chaotic guardian in the End dimension. It spawns every 20000 blocks in the End"
+				"只有在末地维度击败混沌守卫才能获得混沌碎片。每20000格方块生成一只"
 				"{image:kubejs:textures/quests/boss/boss_chaos_guardian.png width:178 height:100 align:1}"
 			]
 			dependencies: [
@@ -877,7 +877,7 @@
 		{
 			x: -5.5d
 			y: 0.0d
-			description: ["You need to build an altar to summon altar. Collect these materials first"]
+			description: ["你需要建立一个祭坛来进行召唤。先收集这些材料"]
 			id: "76446683F82CCC22"
 			tasks: [
 				{
@@ -923,7 +923,7 @@
 			x: -4.0d
 			y: -2.0d
 			description: [
-				"Netherite Monstrosity spawn in a structure called \"Soul Black Smith\" in nether."
+				"下界合金巨兽在下界的一个名为“灵魂锻造厂”的结构中生成。"
 				"{image:kubejs:textures/quests/boss/boss_netherite_monstrosity.png width:178 height:100 align:1}"
 			]
 			dependencies: ["59A346B08DFDCF17"]
@@ -1000,7 +1000,7 @@
 			x: 0.5d
 			y: -2.0d
 			description: [
-				"Ender guardian spawns in \"Citadel\" in the End dimension."
+				"末影守卫在末地维度的“废弃堡垒”中生成。"
 				"{image:kubejs:textures/quests/boss/boss_ender_guardian.png width:178 height:100 align:1}"
 			]
 			dependencies: ["41453A0AA8D5CBE9"]
@@ -1070,15 +1070,15 @@
 			x: 3.5d
 			y: -2.0d
 			description: [
-				"Chaos guardian is really hard to defeat. Here is a recommended item lists that you should bring."
-				"Jetpacks, awakened armors and tool sets, bows, food, potions, baubles."
-				"Effect of angel ring will be removed during the attack of the guardian. Therefore, jetpack is better."
+				"混沌守卫真的很难打败。 这是推荐你应该携带的物品清单。"
+				"喷气背包、神龙护胸和工具、弓、食物、药水、饰品。"
+				"混沌守卫攻击时，天使指环的效果会被移除。所以用喷气背包比较好。"
 			]
 			id: "541B8284DCEA862D"
 			tasks: [{
 				id: "7CD6EDC524A51E97"
 				type: "checkmark"
-				title: "Tips on fighting chaos guardian"
+				title: "混沌守卫的战斗技巧"
 			}]
 		}
 	]

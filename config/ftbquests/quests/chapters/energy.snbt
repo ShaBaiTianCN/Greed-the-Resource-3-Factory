@@ -3,7 +3,7 @@
 	group: "1E2DE02B87CFF91D"
 	order_index: 3
 	filename: "energy"
-	title: "Energy"
+	title: "能源"
 	icon: "mekanism:basic_energy_cube"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false

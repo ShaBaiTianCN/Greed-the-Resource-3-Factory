@@ -3,7 +3,7 @@
 	group: "52335F892C9B07FA"
 	order_index: 0
 	filename: "chapter_1"
-	title: "Chapter 1: Basics"
+	title: "第一章：基础"
 	icon: {
 		id: "minecraft:leather_helmet"
 		Count: 1b
@@ -15,10 +15,10 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Mining gadget V1"
+			title: "挖矿工具V1"
 			x: -1.5d
 			y: -2.5d
-			description: ["To get all types of ores, you need to have a iron pickaxe, or even diamond pickaxe."]
+			description: ["为了能挖所有种类的矿物，你需要一把铁镐甚至一把钻石镐。"]
 			dependencies: ["6EA046C47D5C0A2A"]
 			id: "24007C4ACCC9D900"
 			tasks: [
@@ -56,9 +56,9 @@
 			x: 0.5d
 			y: -2.5d
 			description: [
-				"I understand that it is hard to carry so much things in your inventory. Therefore, you can use dank to help you store your items."
-				"There are total 7 tiers of tanks, with more spaces in each tier. In a space inside a dank, it can store more thank 64 items."
-				"There are two modes in dank, construction and backpack, which can be changed by pressing \"i\" by default."
+				"我知道用物品栏来携带如此多的物品是非常困难的，所以我为你推荐黑盒来存储你的物品。"
+				"一共有7个等级的黑盒，每升一级就会有更多的空间。在黑盒中的每一格里，你都可以存储超过64个物品。"
+				"黑盒有两种模式：建造和包裹。默认可以使用“i”键更改模式。"
 			]
 			dependencies: ["5E5A234981263D61"]
 			id: "684056A445D5111F"
@@ -77,7 +77,7 @@
 		{
 			x: 0.5d
 			y: -0.5d
-			description: ["Dank can also be placed down, like a chest. You can craft a donk to place the dank down."]
+			description: ["黑盒像箱子一样可以被放置下来。你可以制作一个坞来存放黑盒。"]
 			dependencies: ["684056A445D5111F"]
 			id: "5052D56BD89ED081"
 			tasks: [{
@@ -93,10 +93,10 @@
 			}]
 		}
 		{
-			title: "All the ores"
+			title: "所有矿物"
 			x: -1.5d
 			y: -0.5d
-			description: ["Check if you have gotten all types of ingots and gems :)"]
+			description: ["检查你是否获得了所有种类的锭和宝石。"]
 			dependencies: [
 				"24007C4ACCC9D900"
 				"5052D56BD89ED081"
@@ -206,12 +206,12 @@
 			}]
 		}
 		{
-			title: "Build your base!"
+			title: "建造属于你的基地！"
 			x: -1.5d
 			y: 1.5d
 			description: [
-				"After getting those resources, it's probably time to build your own base. Here is a useful tool, which allows you to build multiple blocks in one click!"
-				"For storages, you can check the \"Storages\" chapter."
+				"在你获取了这些资源后，是时候建造你自己的基地了。这里有一个实用的模组，可以让你一次点击搭建多个方块！"
+				"至于存储，你可以查看“存储”章节。"
 			]
 			dependencies: ["6B678E923E788972"]
 			id: "0D83FCA738F72E36"
@@ -241,13 +241,13 @@
 			}]
 		}
 		{
-			title: "Food delight"
+			title: "饮食乐事"
 			x: -3.75d
 			y: 0.75d
-			subtitle: "I'm hungry"
+			subtitle: "我饿了"
 			description: [
-				"What are you eating now? There is a food mod that allows you to cook many types of food, and those are more delicious than the vanilla ones!"
-				"Grab the things and set up your own kitchen!"
+				"你现在在吃什么？这里有一个模组可以让你烹饪非常多种类的食物，且这些食物都比原版的美味得多！"
+				"获取这些厨具并建立你自己的厨房吧！"
 				"{image:kubejs:textures/quests/chapter1/chapter1_delight.png width:178 height:100 align:1}"
 			]
 			dependencies: ["0D83FCA738F72E36"]
@@ -313,10 +313,10 @@
 			]
 		}
 		{
-			title: "Sources of food"
+			title: "食物来源"
 			x: -1.5d
 			y: 3.5d
-			description: ["For \"Farmer's delight\", you also need resources of food. Many raw materials are plantable, such as tomato, cabbage, etc."]
+			description: ["因为“农夫乐事”模组，你需要获取食物的材料。许多原材料是可以通过种植获取的，例如番茄、卷心菜等等。"]
 			dependencies: ["0D83FCA738F72E36"]
 			id: "574BFB2F1CA3AFF3"
 			tasks: [{
@@ -341,11 +341,11 @@
 			]
 		}
 		{
-			title: "Decorating your base"
+			title: "装饰你的基地"
 			x: 0.5d
 			y: 1.5d
-			subtitle: "My base is beautiful"
-			description: ["There are some mods that helps you to decorate the base. \"Chisel\" is the classical one. Also, \"Absent by Design\", \"MyCrayFish\" series, \"Engineer's deco\", and \"Macaw\" series are also fantastic mod that contains fantastic blocks to help you on."]
+			subtitle: "我的基地真漂亮"
+			description: ["这里有一些模组可以帮助你装饰你的基地。“凿子”模组就是很经典的一个。包括“Absent by Design”、“MyCrayFish”系列、“工程师的装饰”、“Macaw”系列也都有精美的方块可以帮助你装饰基地。"]
 			dependencies: ["0D83FCA738F72E36"]
 			id: "40D22C391D807AE3"
 			tasks: [{
@@ -367,12 +367,12 @@
 			}]
 		}
 		{
-			title: "Prepare for your trip"
+			title: "为你的旅途做好准备"
 			x: -1.5d
 			y: 5.5d
 			description: [
-				"Prepare your trip to progress next chapter."
-				"This quest unlock Chapter 2"
+				"为你前往下一章的旅途做好准备。"
+				"这个任务会解锁第二章任务"
 			]
 			dependencies: ["574BFB2F1CA3AFF3"]
 			id: "4FED780FB4FBE2DE"
@@ -400,12 +400,12 @@
 			}]
 		}
 		{
-			title: "Sushi"
+			title: "寿司"
 			icon: "simplefarming:sushi"
 			x: -3.75d
 			y: 2.625d
 			description: [
-				"\"Sushi Go Crafting\" is another kitchen-related mod which allows you to make your own sushi! Different sushi will even grant you different effects."
+				"“巧制寿司”是另一个和厨房有关的模组，你可以用它来制作你自己的寿司。不同的寿司可以给你不同的效果。"
 				"{image:kubejs:textures/quests/chapter1/chapter1_sushi.png width:178 height:100 align:1}"
 			]
 			dependencies: ["0D83FCA738F72E36"]
@@ -453,7 +453,7 @@
 		{
 			x: -3.5d
 			y: -2.5d
-			description: ["You may take a look at the \"Tetra\" chapter on how to craft a useful and powerful tool."]
+			description: ["你可以查看“Tetra”章节来学习如何制作实用且强大的工具。"]
 			dependencies: ["5E5A234981263D61"]
 			id: "6EA046C47D5C0A2A"
 			tasks: [{
@@ -475,12 +475,12 @@
 			}]
 		}
 		{
-			title: "Get some cobblestones"
+			title: "获取一些圆石"
 			x: -1.5d
 			y: -4.5d
 			description: [
-				"The next step is to get some cobble stone."
-				"Try to use FTB ultimine to get 64x cobble at once!"
+				"下一步是获取一些圆石。"
+				"尝试使用连锁破坏来一次获取64个圆石！"
 			]
 			dependencies: ["35F7FC31EFD9D706"]
 			id: "5E5A234981263D61"
@@ -508,7 +508,7 @@
 		{
 			x: -1.5d
 			y: -6.5d
-			description: ["Do you think that the first things to do chopping logs? Yes, but also NO. You have to go to control to set the keys first. Chop some wood to finish this quest"]
+			description: ["你觉得第一件事是撸树吗？是，但也不是。你需要先去设置一些按键。然后撸些原木来完成这个任务。"]
 			id: "35F7FC31EFD9D706"
 			tasks: [{
 				id: "0A545DF3129B9F82"

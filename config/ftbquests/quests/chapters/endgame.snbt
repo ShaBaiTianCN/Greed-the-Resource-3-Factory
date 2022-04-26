@@ -3,7 +3,7 @@
 	group: "52335F892C9B07FA"
 	order_index: 7
 	filename: "endgame"
-	title: "End-Game"
+	title: "最终篇"
 	icon: "extendedcrafting:ultimate_singularity"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -11,7 +11,7 @@
 		{
 			x: 0.0d
 			y: 0.0d
-			description: ["In the Eng-game stage, you are going to craft the creative items. Firstly, you'll need the crafting tables from the Extended Crafting."]
+			description: ["在游戏末期，你将制作创造物品。首先，你需要合成拓展中的工作台。"]
 			id: "305672E83FC28E4F"
 			tasks: [{
 				id: "6C7FBC4DBF100E4C"
@@ -27,7 +27,7 @@
 		{
 			x: 0.0d
 			y: 1.5d
-			description: ["A bigger crafting table"]
+			description: ["一个更大的工作台"]
 			dependencies: ["305672E83FC28E4F"]
 			id: "5B4A283FE408276D"
 			tasks: [{
@@ -44,7 +44,7 @@
 		{
 			x: 0.0d
 			y: 3.0d
-			description: ["Even bigger crafting table"]
+			description: ["比之前更大的工作台"]
 			dependencies: ["5B4A283FE408276D"]
 			id: "49D6B6C849A1CA48"
 			tasks: [{
@@ -75,7 +75,7 @@
 		{
 			x: 0.0d
 			y: 4.5d
-			description: ["Biggest crafting table in this pack"]
+			description: ["这个整合包中最大的工作台"]
 			dependencies: ["49D6B6C849A1CA48"]
 			id: "1AE6036FF9B012D3"
 			tasks: [{
@@ -93,8 +93,8 @@
 			x: 0.0d
 			y: 6.0d
 			description: [
-				"Craft all the creative items!"
-				"This quest requires the completion of Chapter7"
+				"制作所有的创造物品！"
+				"你需要完成第七章才能做"
 			]
 			dependencies: [
 				"1AE6036FF9B012D3"
@@ -312,7 +312,7 @@
 		{
 			x: 5.0d
 			y: 14.0d
-			description: ["Note that this will only eat your energy. You need the CHARGED version in order to provide an infinite energy supply. Check JEI for the multiblock structure (similar to ATM6)"]
+			description: ["注：这个只会消耗您的能量。您需要“有电”版本才能提供无限能量供应。检查JEI的多块结构（类似于ATM6）"]
 			dependencies: ["6BCD7D23BC9E1117"]
 			id: "6029D3D997CF917A"
 			tasks: [{
@@ -367,13 +367,13 @@
 			}]
 		}
 		{
-			title: "Certificate on Completion"
+			title: "结业证书"
 			x: 0.0d
 			y: 18.5d
-			subtitle: "Here comes to the END"
+			subtitle: "到此为止了"
 			description: [
-				"Getting this means that you have completed this modpack!"
-				"PS. You have to also complete all the quest in \"Boss Progression\""
+				"获得这个意味着你已经完成了这个整合包！"
+				"注：你还完成“BOSS进度”章节的所有任务"
 			]
 			dependencies: [
 				"5007C73102445AD8"
@@ -434,7 +434,7 @@
 						Count: 1b
 						tag: {
 							display: {
-								Name: "{\"text\":\"Certificate of Completion\"}"
+								Name: "{\"text\":\"结业证书\"}"
 							}
 						}
 					}
@@ -444,7 +444,7 @@
 		{
 			x: -1.5d
 			y: 0.5d
-			description: ["Send items, fluids, gases, energies across long distance and dimensions."]
+			description: ["远距离和跨维度传送物品、流体、气体、能量。"]
 			dependencies: ["5B4A283FE408276D"]
 			id: "30165EF89713A9A1"
 			tasks: [{
@@ -472,7 +472,7 @@
 		{
 			x: -1.5d
 			y: 2.0d
-			description: ["Send items, fluids, gases, energies across long distance and dimensions."]
+			description: ["远距离和跨维度传送物品、流体、气体、能量。"]
 			dependencies: ["5B4A283FE408276D"]
 			id: "05271E0358B93878"
 			tasks: [{
@@ -496,7 +496,7 @@
 		{
 			x: 2.5d
 			y: 4.5d
-			description: ["Very fast pickaxe, and unbreakable. Charge it with FE."]
+			description: ["非常快的镐子，且坚不可摧。需要用FE充电。"]
 			dependencies: ["1AE6036FF9B012D3"]
 			id: "1C49576859BC9378"
 			tasks: [{
@@ -527,7 +527,7 @@
 			title: "Stronger ingot!"
 			x: 0.0d
 			y: 7.5d
-			description: ["Creativerite grant you creative power!"]
+			description: ["Creativerite会赋予你创造力!"]
 			dependencies: ["6BCD7D23BC9E1117"]
 			id: "732AE78CC837B7D6"
 			tasks: [{
@@ -572,7 +572,7 @@
 		{
 			x: -5.0d
 			y: 6.5d
-			description: ["Wireless grid across long distance"]
+			description: ["远距离的无线网络"]
 			dependencies: ["49D6B6C849A1CA48"]
 			id: "3BD6C9413A228DF9"
 			tasks: [{
@@ -595,7 +595,7 @@
 		{
 			x: -5.0d
 			y: 4.5d
-			description: ["Wireless grid across dimensions"]
+			description: ["跨纬度的无线网络"]
 			dependencies: ["49D6B6C849A1CA48"]
 			id: "1B1DD7112BA2833A"
 			tasks: [{
@@ -676,7 +676,7 @@
 		{
 			x: -5.0d
 			y: 2.5d
-			description: ["A tool that help you collect souls rapidly."]
+			description: ["帮助你快速收集灵魂的工具。"]
 			dependencies: ["49D6B6C849A1CA48"]
 			id: "34CA5C39A6D4CDFF"
 			tasks: [{
@@ -698,10 +698,10 @@
 			}]
 		}
 		{
-			title: "Creativerite armor set"
+			title: "Creativerite 盔甲套装"
 			x: 0.0d
 			y: 9.5d
-			description: ["Infinity Armor V.2!!!"]
+			description: ["无尽护甲V.2！！！"]
 			dependencies: ["732AE78CC837B7D6"]
 			id: "4BF49A1C48E6C5F8"
 			tasks: [
@@ -748,10 +748,10 @@
 			]
 		}
 		{
-			title: "Creativerite weapons set"
+			title: "Creativerite 武器套装"
 			x: 1.5d
 			y: 9.5d
-			description: ["Sword of Cosmos"]
+			description: ["寰宇支配之剑"]
 			dependencies: ["732AE78CC837B7D6"]
 			id: "326426B340BA955A"
 			tasks: [
@@ -798,10 +798,10 @@
 			]
 		}
 		{
-			title: "Creativerite tools set"
+			title: "Creativerite工具组"
 			x: -1.5d
 			y: 9.5d
-			description: ["World breaker, Planter Eater, Nature's ruin"]
+			description: ["世界崩解之镐，星球吞噬之铲，自然荒芜之斧"]
 			dependencies: ["732AE78CC837B7D6"]
 			id: "1277FA300BA9F055"
 			tasks: [
@@ -845,7 +845,7 @@
 		{
 			x: 5.0d
 			y: 2.5d
-			description: ["You need \"Controller\" appearance of \"Factory\" block to craft this item!"]
+			description: ["你需要科幻方块的“控制器”外观来制作此物品！"]
 			dependencies: ["49D6B6C849A1CA48"]
 			id: "4E3ECF6F8F879418"
 			tasks: [{

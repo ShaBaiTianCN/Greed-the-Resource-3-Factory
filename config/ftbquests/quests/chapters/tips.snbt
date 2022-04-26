@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 1
 	filename: "tips"
-	title: "Tips"
+	title: "提示"
 	icon: {
 		id: "botania:cosmetic_questgiver_mark"
 		Count: 1b
@@ -16,13 +16,13 @@
 			x: -8.0d
 			y: -0.5d
 			shape: "octagon"
-			description: ["All the tips, including those updated, will be concentrated and put in here."]
+			description: ["所有提示，包括更新，都在这里。"]
 			size: 1.75d
 			id: "070D530BC1F3CE76"
 			tasks: [{
 				id: "5FAF3F268D2AD6A0"
 				type: "checkmark"
-				title: "Hey guys~"
+				title: "嘿！靓仔~"
 				icon: {
 					id: "botania:cosmetic_questgiver_mark"
 					Count: 1b
@@ -52,14 +52,14 @@
 			x: -8.0d
 			y: 2.0d
 			shape: "diamond"
-			description: ["Here is the brief introduction to chapters."]
+			description: ["下面是各个章节的简要介绍。"]
 			dependencies: ["070D530BC1F3CE76"]
 			size: 1.4d
 			id: "33027F6CA5EE9E6F"
 			tasks: [{
 				id: "4E01AF741B9B5118"
 				type: "checkmark"
-				title: "What is provided?"
+				title: "提供了什么？"
 				icon: "minecraft:nether_star"
 			}]
 			rewards: [{
@@ -77,13 +77,13 @@
 		{
 			x: -5.0d
 			y: 2.0d
-			description: ["NOT every mods contains quests. I always think that the experience and progress will be limited and affected if there is too much quest. I want to remain a space for players to dig out and have fun on it!"]
+			description: ["不是每个模组都有任务！我一直认为，过多的任务会限制和影响你收获的经验和进步。我想给玩家留下空间，让他们挖掘并享受其中的乐趣！"]
 			dependencies: ["070D530BC1F3CE76"]
 			id: "0F042C9F9056F8A1"
 			tasks: [{
 				id: "5473DA21F7134D58"
 				type: "checkmark"
-				title: "Why there is no XXX quest?"
+				title: "这里为什么没有XXX任务？"
 				icon: "mekanism:digital_miner"
 			}]
 			rewards: [{
@@ -99,11 +99,11 @@
 			}]
 		}
 		{
-			title: "\"Tools\""
+			title: "“工具”"
 			x: -9.5d
 			y: 4.5d
 			description: [
-				"The \"Tools and Armors\" chapter suggested lists of tools that may help you to progress through this modpack."
+				"“工具和盔甲”章节推荐了一些工具帮助你完成这个整合包。"
 				"{image:kubejs:textures/quests/tips/tips_tool.png width:178 height:100 align:1}"
 			]
 			dependencies: ["33027F6CA5EE9E6F"]
@@ -111,7 +111,7 @@
 			tasks: [{
 				id: "2A4EF4140F959693"
 				type: "checkmark"
-				title: "Armors and Tools"
+				title: "工具和盔甲"
 				icon: {
 					id: "minecraft:diamond_sword"
 					Count: 1b
@@ -133,12 +133,12 @@
 			}]
 		}
 		{
-			title: "\"Automation\""
+			title: "“自动化”"
 			icon: "quark:oak_chest"
 			x: -8.0d
 			y: 4.5d
 			description: [
-				"The \"Automation\" chapter guides you to mods related to storage, logistics and transportation"
+				"“自动化”章节将引导你了解与存储、物流、运输相关的模组。"
 				"{image:kubejs:textures/quests/tips/tips_automation.png width:178 height:100 align:1}"
 			]
 			dependencies: ["33027F6CA5EE9E6F"]
@@ -146,7 +146,7 @@
 			tasks: [{
 				id: "363494C9E9246675"
 				type: "checkmark"
-				title: "The "
+				title: "自动化"
 			}]
 			rewards: [{
 				id: "60D28C6AB22C48BF"
@@ -164,7 +164,7 @@
 			x: -6.5d
 			y: 4.5d
 			description: [
-				"The \"Energy\" chapter guides you ways to generate energy as well as how to use them."
+				"“能量”章节将教你产生和使用能量"
 				"{image:kubejs:textures/quests/tips/tips_energy.png width:178 height:100 align:1}"
 			]
 			dependencies: ["33027F6CA5EE9E6F"]
@@ -172,7 +172,7 @@
 			tasks: [{
 				id: "63067279ABD07E67"
 				type: "checkmark"
-				title: "\"Energy\""
+				title: "“能量”"
 				icon: "mekanism:basic_energy_cube"
 			}]
 			rewards: [{
@@ -191,7 +191,7 @@
 			x: -5.0d
 			y: 4.5d
 			description: [
-				"The \"Final Stage\" chapter provides lists of ultimate advancements and achievements for you to achieve in this modpack. It also lists some creative items which is waiting you to craft it."
+				"“最终阶段”章节列出了你想要完结这个整合包需要做的事。同时也列出了些创造物品等你来做。"
 				"{image:kubejs:textures/quests/tips/tips_end_game.png width:178 height:100 align:1}"
 			]
 			dependencies: ["33027F6CA5EE9E6F"]
@@ -199,7 +199,7 @@
 			tasks: [{
 				id: "18E842FDBBD6E7BA"
 				type: "checkmark"
-				title: "\"Final Stage\""
+				title: "“最终阶段”"
 				icon: "extendedcrafting:ultimate_singularity"
 			}]
 			rewards: [{
@@ -215,14 +215,14 @@
 			}]
 		}
 		{
-			title: "My computer is shitty, how do I increase FPS or reduce RAM usage???"
+			title: "我的电脑很烂，我该如何优化FPS或减少RAM的使用？？？"
 			x: -5.0d
 			y: -0.5d
 			description: [
-				"This packs is designed towards players with medium level of computer."
-				"There are many mods that are included to increase FPS. Do not add Optifine into this pack because there are known issues of rendering blocks."
-				"To increase FPS, you may try to lower the render distasnce and decrease the amount of chunk-loaded areas. Try to separate your base into different places so that you do not have to load so much things in a small area."
-				"To reduce RAM usage, you can only do little things. Here is the only ways but not recommended. You can disable or remove the mod related to cosmetic purposes, such as absent by design, Macaw's series, etc. This is not recommended due to the potential recipe bug issues."
+				"这个整合包是给用一般电脑的玩家设计的。"
+				"整合包拥有许多优化FPS的模组。由于一些方块存在渲染问题，请不要安装Optifine。"
+				"你可以尝试降低渲染距离或减少块加载区域的数量来优化FPS。试着让你的基地分散一些，这样你就不必在小范围内装载那么多东西。"
+				"只有一个小方法能帮你减少RAM的使用。即禁用或删除装饰相关的模组。例如absent\ by\ design、Macaw's\ series等。由于可能有潜在的配方错误问题，不建议你这样做。"
 			]
 			dependencies: ["070D530BC1F3CE76"]
 			id: "57F359AC2F8BE537"
@@ -244,11 +244,11 @@
 			}]
 		}
 		{
-			title: "\"Process Guide\""
+			title: "“合成指南”"
 			x: -11.0d
 			y: 4.5d
 			description: [
-				"This chapter provides a guide on how you can progress this modpack under the modification of the recipes."
+				"本章节将教你如何游玩这个魔改包。"
 				"{image:kubejs:textures/quests/tips/tips_overview.png width:178 height:100 align:1}"
 			]
 			dependencies: ["33027F6CA5EE9E6F"]
@@ -256,7 +256,7 @@
 			tasks: [{
 				id: "4B19EA3FAE39E57C"
 				type: "checkmark"
-				title: "\"Origin\""
+				title: "“起源”"
 				icon: "minecraft:dragon_head"
 			}]
 			rewards: [{
@@ -272,11 +272,11 @@
 			}]
 		}
 		{
-			title: "Recipes"
+			title: "合成表"
 			x: -11.0d
 			y: -0.5d
 			description: [
-				"Many recipes are modified to increase playability and better mod integration and compatibility. Remember to check JEI for the reecipes before any crafting."
+				"我魔改了很多合成表来提高可玩性和整合包兼容性。在合成之前记得先看下JEI。"
 				"{image:kubejs:textures/quests/tips/tips_jei.png width:178 height:100 align:1}"
 			]
 			dependencies: ["070D530BC1F3CE76"]
@@ -299,13 +299,13 @@
 			}]
 		}
 		{
-			title: "Minimap"
+			title: "小地图"
 			x: -11.0d
 			y: -3.0d
 			description: [
-				"The default minimap used (which is on the top right hand corner) is FTP minimap. You can switch to Xaero's minimap by disabling minimap from FTB and enabling it."
-				"Press  \"m\" to open the FTB minimap and the setting is in the bottom left cornor."
-				"Press \"j\" to open xaero's world map to enable the minimap"
+				"默认使用FTB小地图（右上角的）。你可以切换成Xaero的小地图"
+				"按“m”打开FTB小地图，在左下角设置。"
+				"按“j”启用Xaero的小地图。"
 				"{image:kubejs:textures/quests/tips/tips_minimap.png width:178 height:100 align:1}"
 			]
 			dependencies: ["070D530BC1F3CE76"]
@@ -313,7 +313,7 @@
 			tasks: [{
 				id: "23729A57CED28D83"
 				type: "stat"
-				title: "Jump 10 times!"
+				title: "跳跃10次！"
 				icon: {
 					id: "minecraft:chainmail_boots"
 					Count: 1b
@@ -337,12 +337,12 @@
 			}]
 		}
 		{
-			title: "FTB ultimine"
+			title: "连锁破坏"
 			x: -8.0d
 			y: -3.0d
 			description: [
-				"FTB Ultimine is provided for convenient mining!"
-				"Press \" ` \" to enable. Press \"shift\" and scroll while holding \" ` \" to swtich mode."
+				"连锁破坏用于方便采矿！"
+				"按“`”以启用。按住“`”键的同时按下“shift”键并滚动鼠标滚轮可切换模式。"
 				"{image:kubejs:textures/quests/tips/tips_ultimine.png width:160 height:100 align:1}"
 			]
 			dependencies: ["070D530BC1F3CE76"]
@@ -366,11 +366,11 @@
 			}]
 		}
 		{
-			title: "FTB quest"
+			title: "FTB任务"
 			x: -5.0d
 			y: -3.0d
 			description: [
-				"You can open the quest through short cut key : \"shift+Q\". Put your cursor on the arrow left hand side. Chapters of quests can be expanded. On the top right cornor, you can click the icon to claim all the rewards at one time."
+				"您可以通过快捷键：“shift+Q”打开任务。 将光标放在箭头左侧， 可以扩展任务的章节。 在右上角，您可以点击图标，一次性领取所有您未领取的奖励。"
 				"{image:kubejs:textures/quests/tips/tips_quest.png width:178 height:100 align:1}"
 			]
 			dependencies: ["070D530BC1F3CE76"]
@@ -393,7 +393,7 @@
 			}]
 		}
 		{
-			title: "Plonk!"
+			title: "世界内物品放置(Plonk)！"
 			icon: {
 				id: "botania:cosmetic_thinking_hand"
 				Count: 1b
@@ -402,7 +402,7 @@
 			x: -11.0d
 			y: 2.0d
 			description: [
-				"Have you ever appears a weird thought that you want to place things on the ground? \"Plonk\" is a mod that allows you to place ANYTHING onto the ground! Press \"P\" to do so"
+				"你有没有出现过想把东西放在地上的奇怪想法？“世界内物品放置” 是一个可以让你把任何东西放到地上的模组！ 只要按 “P” 像这样做。"
 				"{image:kubejs:textures/quests/tips/tips_plonk.png width:178 height:100 align:1}"
 			]
 			dependencies: ["070D530BC1F3CE76"]
@@ -424,13 +424,13 @@
 			}]
 		}
 		{
-			title: "Farmer's delight"
+			title: "农家乐事"
 			icon: "minecraft:carrot"
 			x: -2.5d
 			y: -0.5d
 			description: [
-				"'Farmer's Delight' and its addons is included in this pack. You may check JEI for the recipes of food."
-				"Eating food with higher variation is able to increase your attributes and grant you some speical effects. Check 'Food Book' for more information. Lunch box from this mod is disabled due to unknown bug."
+				"“农家乐事”及其插件包含在本包中。你可以用JEI查看食物的合成表。"
+				"吃不重复的食物可以增加你的血量并给你一些神奇的效果。更多信息请查看“食物手册”。由于存在未知bug，禁止使用此模组的午餐盒。"
 				"{image:kubejs:textures/quests/tips/tips_kitchen.png width:178 height:100 align:1}"
 			]
 			id: "4697101249EA6A87"
@@ -451,12 +451,12 @@
 			}]
 		}
 		{
-			title: "My server becomes lag suddenly, what should I do????"
+			title: "我的服务器突然lag了怎么办？？？？"
 			icon: "create:goggles"
 			x: -2.5d
 			y: 2.0d
 			description: [
-				"\"Observable\" is included in this modpack. This mod helps you check the source of lagging by pressing \"End\". Therefore, you can adjust your decoration/ machines to reduce the lag!"
+				"“可视性能侦测”模组被添加在这个整合包里。按下“End”按钮来帮你找lag的原因。因此，你可以调整装饰/机器来减少lag。"
 				"{image:kubejs:textures/quests/tips/tips_observable.png width:178 height:100 align:1}"
 			]
 			id: "767382D0CD207C0B"
@@ -481,14 +481,14 @@
 			x: 0.0d
 			y: -0.5d
 			description: [
-				"This mod includes tons of decoration mods, such as MyCrayfish Furniture, Absent By Design, Macaw's series and etc. You can build your elegant and beautiful base whenever, wherever!"
+				"这个整合包包含大量装饰性模组，例如MyCrayfish\ Furniture、Absent\ By\ Design、Macaw's\ series等等。你可以随时随地打造你精致美丽的基地。"
 				"{image:kubejs:textures/quests/tips/tips_decoration.png width:178 height:100 align:1}"
 			]
 			id: "2453988B8F3B8C79"
 			tasks: [{
 				id: "404CFEB0F814CE79"
 				type: "checkmark"
-				title: "Decorations!"
+				title: "装饰！"
 			}]
 			rewards: [{
 				id: "660047F65F7237B5"
@@ -513,14 +513,14 @@
 			x: 0.0d
 			y: 2.0d
 			description: [
-				"Absolutely, there are tools to help you to construct things in a convenient way. \"Building gadgets, construction wand and some other items from different mods may help you a lot!"
+				"当然，我们有建筑小帮手、建筑之杖等模组物品来帮助你建筑。"
 				"{image:kubejs:textures/quests/tips/tips_build.png width:178 height:100 align:1}"
 			]
 			id: "773F8270AFEB9653"
 			tasks: [{
 				id: "0105A551836E3C08"
 				type: "checkmark"
-				title: "I want to build a GIGANTIC base"
+				title: "我想建个巨大的基地！"
 			}]
 			rewards: [{
 				id: "26F05697DC9F7497"
@@ -535,14 +535,14 @@
 			}]
 		}
 		{
-			title: "How do I get ores from AllTheModium?"
+			title: "我该怎样获得Allthemodium模组的矿？"
 			icon: "allthemodium:unobtainium_ore"
 			x: -2.5d
 			y: -3.0d
 			description: [
-				"For allthemodium, check tooltips and dig it by yourselve :). After getting the first one, you can craft the miner portal to go to the miner dimension, in which the allthemodium ore is common in that dimension."
-				"Vibranium is pretty common in nether."
-				"For unobtainium, You have to use the quarry from Quarry plus to find out the extremely rare unobtainium ore in the End dimension."
+				"请对照工具提示自己挖ATM矿石：）。当你得到第一个后你就可以制作通往挖矿维度的钥匙，ATM矿石在该维度中非常常见。"
+				"振金矿石在下界特别常见。"
+				"你可以在末地使用增强型采石场来找难得素矿石。"
 				"{image:kubejs:textures/quests/overview/overview_allthemodium.png width:178 height:100 align:1}"
 			]
 			id: "397AE9BBE86D010C"
@@ -563,14 +563,14 @@
 			}]
 		}
 		{
-			title: "Possible tools that may help you in digging all the modium"
+			title: "整合包里有可以让你挖矿更舒服的工具。"
 			x: 0.0d
 			y: -3.0d
 			description: [
-				"The mining gadget allows you to mining very fast using laser. The laser beam is highly configurable in its appearance. It's really cool, isn't it"
-				"The infinity drill from Industrial Foregoing allows you to mine a huge area each time, in which it can mine at most 13x13x1 every time! This will greatly increase the chance of seeing allthemodium ore!"
-				"Fluxbore from Thermal series allows you to mine blocks in a maximum area of 7x7, which is also a very convenient tool in mining. Using a tinker workbench in configuring. Press \" Shift+' \" (\" ' \" is the key near the colon on keyboard, and you can change the keybinding according your habit) to change mode."
-				"Material and Energy cost: Mining gadget< Fluxbore< Infinity Drill"
+				"采掘小帮手可以让你用激光快速挖矿，你可以自己配置激光束的效果。这很酷，对吧？"
+				"工业先锋里的无限钻头让你一次可以一大片区域，最大可以到13x13x13。这将大大增加你看到Allthemodium模组的矿的机会！"
+				"热力系列的通量电钻允许你在最大7x7的区域内开采方块。在工匠工作台中可对其进行充能与增强。按Shift+’（‘是键盘上靠近：的键）以更改模式"
+				"材料和能源成本：采掘小帮手＜通量电钻＜无限钻头"
 			]
 			id: "188A1780C446AFFE"
 			tasks: [

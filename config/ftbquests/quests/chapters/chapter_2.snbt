@@ -3,19 +3,19 @@
 	group: "52335F892C9B07FA"
 	order_index: 1
 	filename: "chapter_2"
-	title: "Chapter 2: From magic to tech"
+	title: "第二章：从魔法到科技"
 	icon: "astralsorcery:wand"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Time to start"
+			title: "是时候开始了"
 			x: -1.0d
 			y: -2.5d
 			description: [
-				"It's probably time to start your own factory. "
-				"However, you cannot start directly with any tech mod such as \"Mekanism\" or \"Industrial Foregoing\". Before that, you need to progress Astral Sorcery a bit first."
-				"Find the ancient shrine structure. It is located at the high mountains or in snowy biomes."
+				"现在是时候来搭建你自己的工厂了。"
+				"然而，你不能直接开始游玩例如“通用机械”或者“工业先锋”这样的科技模组。在那之前，你需要先发展一部分星辉魔法。"
+				"寻找古代神殿。它坐落于高山或雪原群系。"
 				"{image:kubejs:textures/quests/chapter2/chapter2_ancient_shrine.png width:178 height:100 align:1}"
 			]
 			dependencies: ["4FED780FB4FBE2DE"]
@@ -23,7 +23,7 @@
 			tasks: [{
 				id: "635D3A9E65073CA1"
 				type: "structure"
-				title: "Find the shrine"
+				title: "寻找神殿"
 				icon: "astralsorcery:marble_bricks"
 				structure: "astralsorcery:ancient_shrine"
 			}]
@@ -38,8 +38,8 @@
 			x: -1.0d
 			y: -1.0d
 			description: [
-				"Dig out the shrine and let the crystal expose to the sky."
-				"Put a crafting table nearby. The crafting table will turns into Luminous crafting table by the starlight infusion."
+				"挖开神殿来使水晶暴露在空气中。"
+				"在（水晶）附近放置一个工作台。工作台会在星光下转变为星辉合成台。"
 				"{image:kubejs:textures/quests/chapter2/chapter2_crafting_table_to_luminous.png width:178 height:100 align:1}"
 			]
 			dependencies: ["205D0676ED059067"]
@@ -59,7 +59,7 @@
 		{
 			x: -1.0d
 			y: 0.0d
-			description: ["You also need to find some aquamarine to progress through this mod."]
+			description: ["你还需要找一些海蓝宝石来推进此模组。"]
 			dependencies: ["205D0676ED059067"]
 			size: 0.5d
 			id: "493D69DAC4AFB327"
@@ -80,10 +80,10 @@
 			x: 0.5d
 			y: -1.0d
 			description: [
-				"To progress through the mod, you need to get the resonating wand. Check Astral Tome for more information."
-				"You have to craft the wand by luminous crafting table in the night with sufficient starlight."
-				"Starlight is a type of energy that only appears in the night. You can only create starlight energy in the later progress of this mod."
-				"Different places have different levels of starlight. But crafting this wand don't uses much starlight."
+				"为了推进这个模组，你需要获取共振星杖。查看星芒宝典以获取更多信息。"
+				"你必须在有充足的星能的夜晚用星辉合成台制作共振星杖。"
+				"星能是一种只在夜晚出现的能量。你只能此模组更后面的阶段创造星能。"
+				"不同的地方有不同等级的星能。但是制作共振星杖不需要很多星能。"
 			]
 			dependencies: ["16D7BFC2A19E8401"]
 			id: "0C0DE7D72A14A301"
@@ -103,9 +103,9 @@
 			x: -0.25d
 			y: 0.0d
 			description: [
-				"Observing constellation is an important part in progressing Astral Sorcery."
-				"You can get the constellation papers from opening the chests in different shrines."
-				"Constellation paper can be stored in Astral Tome (as well as in akashic tome). Shift right clicking to open the constellation inventory."
+				"观察星座也是星辉魔法中重要的一个部分。"
+				"你可以通过打开神殿中不同的箱子来获取星图。"
+				"星图可以被存储在星芒宝典中。手持星芒宝典shift右键打开星图库存。"
 			]
 			dependencies: ["16D7BFC2A19E8401"]
 			size: 0.5d
@@ -125,8 +125,8 @@
 		{
 			x: 0.5d
 			y: 0.0d
-			subtitle: "The sky!"
-			description: ["Try to memorize the constellation shape you have collected, and then link the stars in the sky according to the shape of constellation. You will gradually unlock the progress."]
+			subtitle: "夜空！"
+			description: ["试着记住你收集的星座的轮廓，然后根据星座的形状（在望远镜中）连接夜空中的星星。你会逐渐解锁进程。"]
 			dependencies: ["0C0DE7D72A14A301"]
 			size: 0.5d
 			id: "50777965ACB2F422"
@@ -151,7 +151,7 @@
 			x: 0.5d
 			y: -2.5d
 			description: [
-				"Try to find the rock crystal ore. Hold the resonating wand and locate the white particles coming from the bottom of ground."
+				"尝试的寻找水晶石矿石。手持共振星杖来寻找来自地底深处的白色粒子。"
 				"{image:kubejs:textures/quests/chapter2/chapter2_rock_crystal.png width:178 height:100 align:1}"
 			]
 			dependencies: ["0C0DE7D72A14A301"]
@@ -197,7 +197,7 @@
 		{
 			x: 0.5d
 			y: -4.0d
-			description: ["Craft the lightwell using luminous crafting table in the night. Remember to right click with resonating wand to start the crafting progress. The progress will take for a short time."]
+			description: ["在夜晚使用星汇合成台制作聚星缸。记得使用共振星杖右键星辉合成台来开始合成。合成过程需要花费一点时间。"]
 			dependencies: ["104A562EE09F668D"]
 			id: "52055E40902017F2"
 			tasks: [{
@@ -215,8 +215,8 @@
 			x: -1.0d
 			y: -4.0d
 			description: [
-				"Liquid starlight is obtained from placing rock crystals or aquamarine on top of the lightwell. Note that rock crystals will produce more starlight than that of aquamarine. Attributes of rock crystals also affects. You will know more about this if you progress deeper in Astral Sorcery."
-				"You can automate the process by pipes and tanks"
+				"通过在聚星缸上放置水晶石或海蓝宝石来获取星能液。注意，水晶石相较于海蓝宝石可以生产更多星能液。水晶石的属性也会对产量有影响。当你进一步了解星辉魔法，你会了解更多。"
+				"你可以使用管道和储罐来自动化这个过程。"
 				"{image:kubejs:textures/quests/chapter2/chapter2_lightwell.png width:178 height:100 align:1}"
 			]
 			dependencies: ["52055E40902017F2"]
@@ -236,8 +236,8 @@
 			x: -2.5d
 			y: -4.0d
 			description: [
-				"With the bucket of liquid starlight, you will be able to get the starlight crafting altar."
-				"This altar requires a multiblock altar to function. Place the altar down and right click with resonating wand to preview the structure."
+				"拥有了星能液桶后，你就可以制作星辉祭坛了。"
+				"星辉祭坛是一个多方块祭坛。放下星辉祭坛并使用共振星杖右键来查看这个结构。"
 				"{image:kubejs:textures/quests/chapter2/chapter2_crafting_altar.png width:178 height:100 align:1}"
 			]
 			dependencies: ["27E2B1580ED23AB5"]
@@ -266,7 +266,7 @@
 			x: -2.5d
 			y: -2.5d
 			description: [
-				"Once the altar is finished, you can now craft your linking tool, for progressing to the next stage of game."
+				"一旦星辉祭坛被搭建完成了，你就可以制作连接器了，连接器可以让你进入这个模组的下一阶段。"
 				"{image:kubejs:textures/quests/chapter2/chapter2_linking_tool.png width:178 height:100 align:1}"
 			]
 			dependencies: ["1236493724F5464E"]
@@ -284,14 +284,14 @@
 			}]
 		}
 		{
-			title: "Get some netherwart"
+			title: "获取一些下界疣"
 			icon: "minecraft:nether_wart"
 			x: -2.5d
 			y: -1.0d
-			subtitle: "Still not time for tech things"
+			subtitle: "还没到科技物品"
 			description: [
-				"Before getting your factories, you'll need to have to travel to the Nether and obtain the netherwart from fortress."
-				"PS, You can also mine ores from the nether."
+				"在你获取机器之前，你必须前往地狱并在地狱堡垒中获取下界疣。"
+				"PS 你也可以在地狱挖矿。"
 				"{image:kubejs:textures/quests/chapter2/chapter2_nether_ore.png width:178 height:100 align:1}"
 			]
 			dependencies: ["77EEC0477DB18091"]
@@ -321,10 +321,10 @@
 			}]
 		}
 		{
-			title: "Starlight transmutation"
+			title: "星能转化"
 			x: -2.5d
 			y: 0.5d
-			description: ["Use the linking tool to link the crystal to a nether wart block. It will eventually turns into the blood altar."]
+			description: ["使用连接器将水晶和袋装下界疣。它最终会转变成血之祭坛。"]
 			dependencies: ["785684E054B38C88"]
 			id: "0867267D7227E4FD"
 			tasks: [{
@@ -343,7 +343,7 @@
 			y: 2.0d
 			description: [
 				"Then, you can try to contruct your blood altar. You need a tier II altar, which means that you need 9 runes. Read your Sanguine Scientism for more information."
-				"To craft the slate, you need to use your blood (live essence) to do so. Craft a sacrificial knife to sacrifice your blood near the altar."
+				"你需要使用你自己的血（生命源质）来制作石板。制作一把牺牲匕首来献祭你自己的血液到附近的血之祭坛。"
 			]
 			dependencies: ["0867267D7227E4FD"]
 			id: "76E19DFC9D4A7D7A"
@@ -365,7 +365,7 @@
 		{
 			x: -1.0d
 			y: 2.0d
-			description: ["If you have successfully get the live essence, place a stone onto the altar. You blood will transform the stone into the slate."]
+			description: ["如果你成功获取了生命源质，就放一个石头在祭坛上。你的血液会将石头转变成空白石板。"]
 			dependencies: ["76E19DFC9D4A7D7A"]
 			id: "757FCD0813ED2D0F"
 			tasks: [{
@@ -389,8 +389,8 @@
 			x: 0.5d
 			y: 2.0d
 			description: [
-				"With the slate crafted, you can eventually craft the runes to set up your tier II altar. (Yes, you only need tier II altar to progress)"
-				"Blood altar can at most go up to tier V, as shown in the figure below. Higher tier means that more runes and thus more powerful altar."
+				"做完符文之后，你终于可以制作空白符文来搭建你的2级祭坛了。（是的，你只需要2级祭坛来继续发展）"
+				"血之祭坛最多可以升级到5级，如下图所示。更高的等级意味着需要更多的符文和更强大的祭坛。"
 				"{image:kubejs:textures/quests/chapter2/chapter2_blood_altar.png width:178 height:100 align:1}"
 			]
 			dependencies: ["757FCD0813ED2D0F"]
@@ -410,7 +410,7 @@
 		{
 			x: 2.0d
 			y: 2.0d
-			description: ["After upgrading your altar to tier II, you can eventually get the petal apothecary. Place a stone brick onto the blood altar."]
+			description: ["将血之祭坛升级到2级后，你终于可以制作花药台了。在血之祭坛上放置一个石砖来制作花药台。"]
 			dependencies: ["0EBE9D8899A33858"]
 			id: "6C264EF1750F550B"
 			tasks: [{
@@ -428,7 +428,7 @@
 		{
 			x: 2.0d
 			y: 0.5d
-			description: ["Before getting into Botania, you need to collect different mystical flower. Firstly, collect two mystical white flower."]
+			description: ["在开始植物魔法之前，你需要先收集不同的神秘花。一开始，先收集两朵白色神秘花。"]
 			dependencies: ["6C264EF1750F550B"]
 			id: "6B596223C15953CE"
 			tasks: [{
@@ -447,7 +447,7 @@
 			x: 2.0d
 			y: -1.0d
 			description: [
-				"Put the flower onto crafting grid and get the white petal. Bucket the apothecary with water and throw 4 white petal and a seed to get the pure daisy."
+				"将白色神秘花在合成栏里制作白色神秘花瓣。在花药台中倒入水并丢入4个白色神秘花瓣和一个种子来获取白雏菊。"
 				"{image:kubejs:textures/quests/chapter2/chapter2_pure_daisy.png width:178 height:100 align:1}"
 			]
 			dependencies: ["6B596223C15953CE"]
@@ -468,7 +468,7 @@
 			x: 2.0d
 			y: -2.5d
 			description: [
-				"Surround 8 stones around pure daisy. The stones will gradually transform into livingrocks."
+				"在白雏菊周围摆上8个石头。这些石头将被逐步转化为活石。"
 				"{image:kubejs:textures/quests/chapter2/chapter2_living_rock.png width:178 height:100 align:1}"
 			]
 			dependencies: ["62CA63D7220C64DA"]
@@ -489,7 +489,7 @@
 		{
 			x: 2.0d
 			y: -4.0d
-			description: ["The living rock is used to be transformed into runic altar on blood altar."]
+			description: ["将活石放置于血之祭坛上来制作符文祭坛。"]
 			dependencies: ["03490F98AC137633"]
 			id: "7F50644065FD5BC2"
 			tasks: [{
@@ -525,7 +525,7 @@
 		{
 			x: 0.5d
 			y: -5.5d
-			description: ["You need a mana pool to store your mana."]
+			description: ["你需要一个魔力池来储存魔力。"]
 			dependencies: ["70E94C2B637D5B74"]
 			id: "22E89D65BEA053A4"
 			tasks: [{
@@ -543,7 +543,7 @@
 		{
 			x: -1.0d
 			y: -5.5d
-			description: ["A way to spread your mana towards runic altar."]
+			description: ["一种为符文祭坛供给魔力的方法。"]
 			dependencies: ["22E89D65BEA053A4"]
 			id: "5AE2FA3CA4B91318"
 			tasks: [{
@@ -560,7 +560,7 @@
 		{
 			x: 2.0d
 			y: -7.0d
-			description: ["Wand of the forest is the wrench in Botania."]
+			description: ["森林法杖是植物魔法的扳手。"]
 			dependencies: ["70E94C2B637D5B74"]
 			id: "72F7582F4EFE0429"
 			tasks: [{
@@ -586,10 +586,10 @@
 			x: -2.5d
 			y: -5.5d
 			description: [
-				"The last step, place the spreader in front of the mana pool and link it to runic altar. Place suitable ingredients and you will get pity machine frame finally!"
-				"You'll need a bunch of this to progress through different mod."
+				"最后一步，将魔力发射器放在魔力池边上，绑定至符文祭坛。放上合适的材料，你就可以制作低级机器框架了。"
+				"你需要通过发展mod来获得这些材料。"
 				"{image:kubejs:textures/quests/chapter2/chapter2_pity_machine_frame.png width:178 height:100 align:1}"
-				"This quest unlock Chapter 3"
+				"这个任务将开启第三章。"
 			]
 			dependencies: ["5AE2FA3CA4B91318"]
 			id: "27CF0C7CBDCAE57C"
@@ -627,7 +627,7 @@
 			x: 3.5d
 			y: -4.0d
 			description: [
-				"You may use the mechanical version of runic altar for faster and bulk crafting"
+				"你可以使用机械符文祭坛来做到更快且批量的合成。"
 				"{image:kubejs:textures/quests/chapter2/chapter2_bulkcrafting.png width:178 height:100 align:1}"
 			]
 			dependencies: ["7F50644065FD5BC2"]
@@ -693,7 +693,7 @@
 			x: -4.0d
 			y: -2.5d
 			description: [
-				"Mega Torch prevents hostile mobs from spawning in a 64 radius. However, the recipe is modified for balancing purpose, which means you can no longer craft it out easily in early game."
+				"巨型火把可以防止其所在位置半径64格以内的怪物生成。然而巨型火把的配方因平衡性目的被魔改了，这意味着你再也不能在前期制作它了。"
 				"{image:kubejs:textures/quests/chapter2/chapter2_mega_torch.png width:178 height:100 align:1}"
 			]
 			dependencies: ["77EEC0477DB18091"]
@@ -712,7 +712,7 @@
 		{
 			x: 3.5d
 			y: -1.0d
-			description: ["There is a mechanical version of pure daisy, which allows you to automate the living rock/wood production much more easier."]
+			description: ["这是一个机械版本的白雏菊，它可以让自动化合成活石活木变得容易许多。"]
 			dependencies: ["62CA63D7220C64DA"]
 			id: "5E6B4FB3DC4942EB"
 			tasks: [{
@@ -735,7 +735,7 @@
 		{
 			x: 3.5d
 			y: 2.0d
-			description: ["There is a mechanical version of apothecary, in which you can pump water into it. This is much more convenient because you do not have to pour bucket of water every time!"]
+			description: ["这里有一个机械版本的花药台，你可以抽水给它。这会非常方便因为你无需每次使用它都要为它倒水。"]
 			dependencies: ["6C264EF1750F550B"]
 			id: "57BE944D2212A760"
 			tasks: [{
@@ -758,7 +758,7 @@
 		{
 			x: -1.0d
 			y: -8.5d
-			description: ["A mechanicalized mana pool, allowing you to automate the process of alchemist conversion easier."]
+			description: ["一台机械魔力池可以让自动化魔力灌注变得简单许多。"]
 			dependencies: ["03C8D77C07D1113A"]
 			id: "2A1ECCC771F729D5"
 			tasks: [{
@@ -781,7 +781,7 @@
 		{
 			x: 0.5d
 			y: -7.0d
-			description: ["A very large mana pool, which allows you to store gigantic amount of mana."]
+			description: ["一个非常大的魔力池，它可以存储巨量的魔力。"]
 			dependencies: ["22E89D65BEA053A4"]
 			id: "4C5C70BC62052019"
 			tasks: [{
@@ -802,10 +802,10 @@
 			}]
 		}
 		{
-			title: "Alchemist"
+			title: "炼金术士"
 			x: -1.0d
 			y: -7.0d
-			description: ["Place these two blocks under the mana pool. It allows you to convert items into other things in a cost of mana. Check JEI for more information."]
+			description: ["将这两个方块放置于魔力池下方。它可以让你使用魔力将一种物品转换成另一种物品。查看JEI来获取更多信息。"]
 			dependencies: ["22E89D65BEA053A4"]
 			id: "03C8D77C07D1113A"
 			tasks: [
@@ -833,13 +833,13 @@
 			}]
 		}
 		{
-			title: "Terrestrial altar"
+			title: "泰拉祭坛"
 			icon: "botania:terra_plate"
 			x: 3.5d
 			y: -2.5d
 			description: [
-				"This quest line guide you to get the elementium ingot, dragonstone, and pixel dust in case you do not know how to get them."
-				"Firstly, craft and grab these things and set up a altar as below."
+				"这条任务线会指导你如何获取源质钢锭、龙石和精灵尘，以防万一你不知道如何获取它们。"
+				"一开始，制作这些物品并搭建如下图所示的祭坛。"
 				"{image:kubejs:textures/quests/chapter2/chapter2_terrestial_altar.png width:178 height:100 align:1}"
 			]
 			dependencies: ["7F50644065FD5BC2"]
@@ -885,9 +885,9 @@
 			x: 5.0d
 			y: -2.5d
 			description: [
-				"Prepare mana ingot, mana diamond and mana pearl. Place them onto the terrestrial plate by right clicking."
-				"Craftint terrasteel ingot will cost you 0.5 pools of mana. If there is insufficient mana, the crafting process will stop and waste your mana."
-				"Transfer the mana to the terrestrial by sparks. Place a spark on top of the plate and another on top of your mana pool."
+				"准备好魔力钢、魔力钻石和魔力珍珠。将它们右键放置于泰拉凝聚板上。"
+				"制作泰拉钢锭会消耗半池子的魔力。如果魔力不足，合成会停止，已消耗了的魔力会白白浪费掉。"
+				"使用火花将魔力传输到泰拉凝聚板。在泰拉凝聚板上方和魔力池上方各放置一个火花即可。"
 				"{image:kubejs:textures/quests/chapter2/chapter2_terrasteel.png width:178 height:100 align:1}"
 			]
 			dependencies: ["16B0CF64624DA278"]
@@ -930,8 +930,8 @@
 			x: 6.5d
 			y: -2.5d
 			description: [
-				"After getting your terrasteel, set up a Elven Gateway which allows you to exchange items."
-				"Activate the gateway by right clicking the core with wand of the forest. Activating portal uses a large amount of mana, while keeping the gateway opening won't waste much. Therefore, I recommend you to leave the portal opened."
+				"在获取了泰拉钢锭后，搭建一个精灵传送门，精灵传送门可以用于交换物品。"
+				"通过使用森林法杖右键精灵门核心来开启精灵传送门。开启精灵传送门会消耗大量魔力，但保持门开启并不会浪费过多魔力。因此，我推荐你让精灵传送门一直开着。"
 				"{image:kubejs:textures/quests/chapter2/chapter2_alfeim_portal.png width:178 height:100 align:1}"
 			]
 			dependencies: ["62DC762D12341D8F"]
@@ -982,7 +982,7 @@
 		{
 			x: 8.0d
 			y: -2.5d
-			description: ["Use the gateway to get these."]
+			description: ["使用精灵传送门来获取这些东西。"]
 			dependencies: ["3F57217CAA17AD81"]
 			id: "7B17D9CBE1B5DC21"
 			tasks: [
@@ -1017,7 +1017,7 @@
 		{
 			x: 6.5d
 			y: -4.0d
-			description: ["For sure, there is a mechanical version of Elven Gateway."]
+			description: ["当然，这里也有机械版本的精灵传送门。"]
 			dependencies: ["3F57217CAA17AD81"]
 			id: "3010F5A296AC8613"
 			tasks: [{

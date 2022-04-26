@@ -3,7 +3,7 @@
 	group: "31CBCB77414EC9E0"
 	order_index: 1
 	filename: "some_random_advancements"
-	title: "Some other achievements"
+	title: "一些成就"
 	icon: "minecraft:diamond"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -23,19 +23,19 @@
 			}
 			x: 0.0d
 			y: 0.0d
-			description: ["Produce 10M FE/t !"]
+			description: ["产生10M FE/t！"]
 			dependencies: ["3F50FF64E74C9A48"]
 			id: "7D6CD14C9F210B9D"
 			tasks: [{
 				id: "39044E238B4F6744"
 				type: "checkmark"
-				title: "Energy!"
+				title: "能量！"
 			}]
 		}
 		{
 			x: -5.0d
 			y: 2.5d
-			description: ["Try to Acquire 500 XP Levels"]
+			description: ["尝试达到500级"]
 			dependencies: ["2B2E87C6D506B7CD"]
 			id: "56AE366D1276A426"
 			tasks: [{
@@ -53,7 +53,7 @@
 		{
 			x: -5.0d
 			y: 0.0d
-			description: ["Walk 1B blocks!"]
+			description: ["走10亿格！"]
 			dependencies: ["2B2E87C6D506B7CD"]
 			id: "691B4FDF52932817"
 			tasks: [{
@@ -78,27 +78,27 @@
 		{
 			x: 0.0d
 			y: 2.5d
-			description: ["Fully fill a supreme black hole tank with lava!"]
+			description: ["用岩浆装满至尊黑洞储液罐！"]
 			dependencies: ["3F50FF64E74C9A48"]
 			id: "3F66BD8ADA55FC17"
 			tasks: [{
 				id: "7D76A9066AF4D100"
 				type: "checkmark"
-				title: "Lava!"
+				title: "岩浆！"
 				icon: "minecraft:lava_bucket"
 			}]
 		}
 		{
-			title: "Botania automation 1"
+			title: "植物魔法自动化1"
 			x: 6.5d
 			y: 0.0d
-			description: ["Automate mana production by kekimurus, using items in Vanilla and Botania only."]
+			description: ["只用原版和植物魔法里的物品实现用贪食花自动产魔力。"]
 			dependencies: ["322DBCF32BBC8BE0"]
 			id: "1035E4BD25740EFB"
 			tasks: [{
 				id: "56D5E8E38D6E6344"
 				type: "checkmark"
-				title: "Botania quests"
+				title: "植物魔法任务"
 				icon: {
 					id: "botania:lexicon"
 					Count: 1b
@@ -116,7 +116,7 @@
 			tasks: [{
 				id: "48AFB0C5555745EE"
 				type: "advancement"
-				title: "Open 100 Loot Chests"
+				title: "打开100个战利品箱"
 				icon: "lootr:trophy"
 				advancement: "lootr:100loot"
 				criterion: ""
@@ -138,21 +138,21 @@
 			icon: "minecraft:water_bucket"
 			x: 0.0d
 			y: 5.0d
-			description: ["Fully fill a supreme black hole tank with water!"]
+			description: ["用水装满至尊黑洞储液罐！"]
 			dependencies: ["3F50FF64E74C9A48"]
 			id: "644819F3603F04B9"
 			tasks: [{
 				id: "3E22547FFC3F9ECC"
 				type: "checkmark"
-				title: "Water!"
+				title: "水！"
 			}]
 		}
 		{
 			x: -2.5d
 			y: 0.0d
 			description: [
-				"It is disastrous in vanilla minecraft... But is it easy in this pack?"
-				"To be honest, I always consider this challege is the real end of vanilla minecraft, instead of ender dragon nor wither."
+				"在原版Minecraft，这几乎是不可能的…但它在这个包里就简单吗？"
+				"老实说，我一直认为这些挑战才是原版Minecraft的真正终点，而不是打败末影龙。"
 			]
 			dependencies: ["00B156CA1AE50699"]
 			id: "1489B9BE4B4A4EE1"
@@ -171,7 +171,7 @@
 		{
 			x: -2.5d
 			y: 5.0d
-			description: ["Visit all 5 villager types"]
+			description: ["参观所有的5种村庄"]
 			dependencies: ["00B156CA1AE50699"]
 			id: "529D0E5B3EA6A923"
 			tasks: [{
@@ -200,7 +200,7 @@
 			tasks: [{
 				id: "67D02145D20DA2E0"
 				type: "stat"
-				title: "Pet 100 time tiny potatoes"
+				title: "爱抚100次小土豆"
 				icon: "botania:tiny_potato"
 				stat: "botania:tiny_potatoes_petted"
 				value: 100
@@ -231,7 +231,7 @@
 			tasks: [{
 				id: "6E1E1DA7446B1ECC"
 				type: "stat"
-				title: "Dealt 100000 damage"
+				title: "造成100000点伤害"
 				icon: {
 					id: "allthemodium:alloy_sword"
 					Count: 1b
@@ -252,7 +252,7 @@
 		{
 			x: 0.0d
 			y: 7.5d
-			description: ["Get a compressed cobble stone 9x!"]
+			description: ["得到一个9重压缩原石。"]
 			dependencies: ["3F50FF64E74C9A48"]
 			id: "21291FB9B2EDF6DA"
 			tasks: [{
@@ -270,40 +270,40 @@
 			icon: "biggerreactors:reactor_glass"
 			x: 2.5d
 			y: 0.0d
-			description: ["Try to build the biggest possible size of \"Bigger Reactor\""]
+			description: ["尝试建造出最大尺寸的“大型反应堆（Bigger_Reactor）”"]
 			dependencies: ["6DB08F160FA75EBA"]
 			id: "797101934A66BDBC"
 			tasks: [{
 				id: "0CA7D37C15F342BA"
 				type: "checkmark"
-				title: "Build a 32x48x32 bigger reactor!"
+				title: "建造一个32x48x32大小的大型反应堆！"
 			}]
 		}
 		{
-			title: "Xnet automation 1"
+			title: "Xnet自动化1"
 			x: 5.0d
 			y: 0.0d
-			description: ["Automate Powah energizing recipes using Xnet"]
+			description: ["用Xnet实现Powah的充能合成自动化。"]
 			dependencies: ["322DBCF32BBC8BE0"]
 			id: "51E808002350241B"
 			tasks: [{
 				id: "135E47FA82BC86BE"
 				type: "checkmark"
-				title: "Automate Powah"
+				title: "自动化Powah"
 				icon: "powah:energizing_rod_starter"
 			}]
 		}
 		{
-			title: "Xnet automation 2"
+			title: "Xnet自动化2"
 			x: 5.0d
 			y: 2.5d
-			description: ["Automate seed crafting in Mystical Agriculture using Xnet"]
+			description: ["用XNet实现自动制作神秘农业（Mystical_Agriculture）种子。"]
 			dependencies: ["322DBCF32BBC8BE0"]
 			id: "400289E3AE392562"
 			tasks: [{
 				id: "12EF282B20F26237"
 				type: "checkmark"
-				title: "Automate mystical agriculture"
+				title: "自动神秘农业"
 				icon: "mysticalagriculture:infusion_pedestal"
 			}]
 		}
@@ -314,7 +314,7 @@
 			tasks: [{
 				id: "4D3BD5C4D5ABBD20"
 				type: "checkmark"
-				title: "Statistics"
+				title: "统计"
 			}]
 		}
 		{
@@ -324,7 +324,7 @@
 			tasks: [{
 				id: "5C8F2055B1203D04"
 				type: "checkmark"
-				title: "Advancements"
+				title: "成就"
 			}]
 		}
 		{
@@ -334,7 +334,7 @@
 			tasks: [{
 				id: "291B00158FE643D3"
 				type: "checkmark"
-				title: "Resource Gathering"
+				title: "资源收集"
 			}]
 		}
 		{
@@ -344,30 +344,30 @@
 			tasks: [{
 				id: "2AB632D8F8B6933F"
 				type: "checkmark"
-				title: "Construction"
+				title: "建设"
 			}]
 		}
 		{
-			title: "Automation Challenges"
+			title: "自动化挑战"
 			x: 5.0d
 			y: -2.0d
 			id: "322DBCF32BBC8BE0"
 			tasks: [{
 				id: "172E1EA15F800700"
 				type: "checkmark"
-				title: "Automation"
+				title: "自动化"
 			}]
 		}
 		{
 			x: 2.5d
 			y: 2.5d
-			description: ["Construct a 48x48 crops farm using Plant sower in Industrial Foregoing (4x plant sower, each with range +12 addon)"]
+			description: ["使用工业先锋（Industrial_Foregoing）的播种机建设一个48x48的作物农场（4个播种机，每个使用+12范围升级插件）"]
 			dependencies: ["6DB08F160FA75EBA"]
 			id: "75CE449E1E2D1871"
 			tasks: [{
 				id: "4E343C9856C48DEB"
 				type: "checkmark"
-				title: "Farm"
+				title: "农场"
 				icon: {
 					id: "minecraft:golden_hoe"
 					Count: 1b
@@ -378,29 +378,29 @@
 			}]
 		}
 		{
-			title: "Explosion!"
+			title: "爆炸！"
 			x: 2.5d
 			y: 5.0d
-			description: ["Build a draconic core and allow it to explode!"]
+			description: ["建造一个神龙反应堆并让它爆炸！"]
 			dependencies: ["6DB08F160FA75EBA"]
 			id: "1FD4A6189C72E847"
 			tasks: [{
 				id: "00EC372ABCE1B659"
 				type: "checkmark"
-				title: "Energy!"
+				title: "能量！"
 				icon: "draconicevolution:reactor_core"
 			}]
 		}
 		{
 			x: 5.0d
 			y: 5.0d
-			description: ["Use Xnet to automate production of latex, plastics, essence, pink slime fluid. And connect them together using router!"]
+			description: ["使用Xnet自动化生产乳胶、塑料、精华、粉色史莱姆流体。并使用路由器将它们连接在一起！"]
 			dependencies: ["322DBCF32BBC8BE0"]
 			id: "20299DD844FD85C1"
 			tasks: [{
 				id: "0047C794A548FA99"
 				type: "checkmark"
-				title: "Xnet automation 3"
+				title: "Xnet自动化3"
 				icon: "industrialforegoing:plastic"
 			}]
 		}
@@ -446,37 +446,37 @@
 			}]
 		}
 		{
-			title: "Botania automation 2"
+			title: "植物魔法自动化2"
 			icon: "minecraft:oak_sapling"
 			x: 6.5d
 			y: 2.5d
-			description: ["Build a tree farm, using Vanilla and Botania items only."]
+			description: ["只用原版和植物魔法的物品造一个树场。"]
 			dependencies: ["322DBCF32BBC8BE0"]
 			id: "1F7EFAAC267994BF"
 			tasks: [{
 				id: "0E2B7101E78AF929"
 				type: "checkmark"
-				title: "Tree farm"
+				title: "树场"
 			}]
 		}
 		{
-			title: "Astral Sorcery automation 1"
+			title: "星辉魔法自动化1"
 			x: 8.0d
 			y: 0.0d
-			description: ["Automate tree farm using tree beacon, with help of Modular Routers."]
+			description: ["借助模块化路由器，使用烽火树自动化树场。"]
 			dependencies: ["322DBCF32BBC8BE0"]
 			id: "37A7C1BC8E6B14E9"
 			tasks: [{
 				id: "6D9A356B463DF6D0"
 				type: "checkmark"
-				title: "Astral tree farm"
+				title: "星辉树场"
 				icon: "minecraft:oak_log"
 			}]
 		}
 		{
 			x: -5.0d
 			y: 10.0d
-			description: ["Jump 10000 times!"]
+			description: ["跳10000次！"]
 			dependencies: ["2B2E87C6D506B7CD"]
 			id: "5482F26618CFD27F"
 			tasks: [{

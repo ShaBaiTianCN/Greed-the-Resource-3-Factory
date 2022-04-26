@@ -3,19 +3,19 @@
 	group: ""
 	order_index: 0
 	filename: "overview"
-	title: "Overview"
+	title: "概览"
 	icon: "minecraft:dragon_head"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Welcome!"
+			title: "欢迎！"
 			x: -3.5d
 			y: -0.5d
 			description: [
-				"Here is a overview for this modpack. It states the important events across this modpack."
-				"You can go the the \"Tips\" chapter to take a look of it first."
-				"Then, start your trip from \"Chapter 1\"!"
+				"这是个整合包概览。它包括了这个整合包游玩过程中的所有重要事件。"
+				"你可以先前往“提示”章节看看。"
+				"然后，从“第一章”开始游戏！"
 			]
 			id: "09C0777BF18C9294"
 			tasks: [{
@@ -39,7 +39,7 @@
 			x: -5.0d
 			y: 3.0d
 			shape: "gear"
-			description: ["Finishing this task means that you have finished this modpack. Thank you for playing and hope you could recommend the modpack to your friends"]
+			description: ["完成这个任务意味着你已经完结了这个整合包。感谢您的游玩，希望你可以把这个整合包推荐给你的朋友们"]
 			size: 3.0d
 			id: "105C25321E4162FD"
 			tasks: [{
@@ -50,7 +50,7 @@
 					Count: 1b
 					tag: {
 						display: {
-							Name: "{\"text\":\"Certificate of Completion\"}"
+							Name: "{\"text\":\"结业证书\"}"
 						}
 					}
 				}
@@ -77,8 +77,8 @@
 			x: -9.0d
 			y: 3.0d
 			description: [
-				"Here is the time to start getting singularities. Get this machine and input items into it."
-				"Craft every type of singularity and combine them together in order to get the ULTIMATE SINGULARITY."
+				"是时候开始获取奇点了，获取这个机器并且向内输入物品。"
+				"制作每种奇点并将它们合成到一起来获取终极奇点。"
 				"{image:kubejs:textures/quests/overview/overview_ultimate_singularity.png width:178 height:100 align:1}"
 			]
 			dependencies: ["4BE2792A86D7E16B"]
@@ -110,7 +110,7 @@
 		{
 			x: -1.0d
 			y: 3.0d
-			description: ["Obtain eye of ender by starlight infusion from Astral Sorcery. Prepare yourself, and defeat the buffed ender dragon."]
+			description: ["使用星辉魔法进行星能注入来获取末影之眼。做击杀加强末影龙的准备。"]
 			dependencies: ["09C0777BF18C9294"]
 			id: "614E57BE75D3358C"
 			tasks: [
@@ -142,8 +142,8 @@
 			x: -6.5d
 			y: -0.5d
 			description: [
-				"Exhausted?"
-				"No, not yet"
+				"这就累了？"
+				"不，还没完"
 			]
 			dependencies: ["4178EDE08B16E672"]
 			id: "409C4C7E39BB3400"
@@ -190,9 +190,9 @@
 			x: -3.5d
 			y: 6.5d
 			description: [
-				"Travel to different dimensions to get all this three types of ores, which is the most rare ores."
-				"Do not smelt them in furnace :)"
-				"You may desire a 5x ore process first before you smelting them."
+				"前往不同的维度获取这三种最稀有的矿石。"
+				"不要在熔炉里烧炼它们：）"
+				"在烧炼之前你可能想先来一个五倍矿物处理。"
 				"{image:kubejs:textures/quests/overview/overview_allthemodium.png width:178 height:100 align:1}"
 			]
 			dependencies: ["614E57BE75D3358C"]
@@ -235,10 +235,10 @@
 			]
 		}
 		{
-			title: "Fly"
+			title: "飞行"
 			x: -6.5d
 			y: 6.5d
-			description: ["Get the angel ring that brings convenience in building and constructing"]
+			description: ["获取一个天使指环，让你可以更方便地建设。"]
 			dependencies: ["15CDD6BEBC1903BC"]
 			id: "4BE2792A86D7E16B"
 			tasks: [

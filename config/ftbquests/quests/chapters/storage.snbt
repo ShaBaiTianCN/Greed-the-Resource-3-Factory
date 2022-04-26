@@ -3,24 +3,24 @@
 	group: "1E2DE02B87CFF91D"
 	order_index: 0
 	filename: "storage"
-	title: "Storages"
+	title: "存储"
 	icon: "minecraft:chest"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Storage chest!"
+			title: "储物柜！"
 			x: -2.5d
 			y: -1.0d
 			description: [
-				"Here are lists of different types of chest."
-				"Of course there are different types of chest made from different types of wood or log."
+				"这里是各种箱子的清单。"
+				"当然，不同类型的箱子有各种木头的材质。"
 			]
 			id: "120C311673DE69FC"
 			tasks: [{
 				id: "66298C6FA285BF27"
 				type: "item"
-				title: "Any #forge:chests/wooden"
+				title: "任何 #forge:chests/wooden"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -247,16 +247,16 @@
 			}]
 		}
 		{
-			title: "Drawers"
+			title: "抽屉"
 			icon: "storagedrawers:oak_full_drawers_1"
 			x: 3.0d
 			y: -1.0d
-			description: ["Drawers allow you to storage a large amount of items in just one block!"]
+			description: ["抽屉让你可以在一个方块里存储大量物品！"]
 			id: "5CDF2982F57BC5D5"
 			tasks: [{
 				id: "51F0EF904DD0475D"
 				type: "item"
-				title: "Any #storagedrawers:drawers"
+				title: "任何#storagedrawers:drawers"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -280,7 +280,7 @@
 		{
 			x: 3.0d
 			y: 1.0d
-			description: ["Storage controller allows you to access all the items in the drawer by placer the it next to the drawers."]
+			description: ["抽屉管理器允许您将它放置在抽屉旁边来访问抽屉中的所有物品。"]
 			dependencies: ["5CDF2982F57BC5D5"]
 			id: "0FAE8144069351CC"
 			tasks: [{
@@ -304,7 +304,7 @@
 		{
 			x: 5.0d
 			y: 1.0d
-			description: ["Here are examples of useful upgrades forr drawers."]
+			description: ["下面的任务是一些抽屉升级的例子。"]
 			dependencies: ["5CDF2982F57BC5D5"]
 			id: "1736A97BBF619DEE"
 			tasks: [{
@@ -328,8 +328,8 @@
 			x: 5.0d
 			y: -1.0d
 			description: [
-				"Compact drawers allows you to access different forms of items at the same time, without crafting or placing them into crafting table."
-				"e.g., you can access both iron nuggets, iron ingots, iron blocks after you have stored 9 iron ingots."
+				"压缩抽屉可以让你同时存取不同形式的物品，而不用手动合成"
+				"例如：在你储存了9个铁锭后，您可以同时取出铁粒、铁锭或铁块"
 			]
 			dependencies: ["5CDF2982F57BC5D5"]
 			id: "06227C2078F6F5D3"
@@ -354,7 +354,7 @@
 		{
 			x: 3.0d
 			y: 3.0d
-			description: ["Your 2nd controller. This block cannot be used as the normal controller. It can only exist when there is already one controller in your drawer network."]
+			description: ["你的第二控制器。这个方块不能用作普通的抽屉管理器。只有当您的抽屉网络中已经有一个抽屉管理器时，它才能被使用。"]
 			dependencies: ["0FAE8144069351CC"]
 			id: "6C32A0B8C8C7D800"
 			tasks: [{
@@ -537,7 +537,7 @@
 			}]
 		}
 		{
-			title: "Advance management items"
+			title: "高级管理物品"
 			x: -5.0d
 			y: 12.5d
 			dependencies: ["72886A8E609A4E38"]
@@ -584,12 +584,12 @@
 		{
 			x: 2.0d
 			y: 9.5d
-			description: ["There are so many quests on refined storage in other packs. Therefore, quests will be simplified but remaining a good guidance on this mod."]
+			description: ["在其他整合包中有很多关于精致存储的任务，所以我简化了任务，但其是仍然是一个很好的模组指导。"]
 			id: "480030C87B77AFE9"
 			tasks: [{
 				id: "4E31ABEC99355D30"
 				type: "checkmark"
-				title: "Refined Storage"
+				title: "精致存储"
 			}]
 			rewards: [{
 				id: "1B5C78DC3D01E833"
@@ -598,10 +598,10 @@
 			}]
 		}
 		{
-			title: "Basic materials"
+			title: "基本材料"
 			x: 1.0d
 			y: 12.0d
-			description: ["Firstly, you have to collect these basic materials. It is not recommended that you start this mod at the beginning because the equipments are pretty expensive."]
+			description: ["首先你得先收集这些基本材料，我不建议你在游戏初期就使用精致存储，因为精致存储的设备都十分的昂贵。"]
 			dependencies: ["480030C87B77AFE9"]
 			id: "5EC93ABC97108CC5"
 			tasks: [
@@ -632,10 +632,10 @@
 			}]
 		}
 		{
-			title: "Some processors"
+			title: "处理器"
 			x: 3.0d
 			y: 12.0d
-			description: ["Processors are essential in crafting. You will need a bunch of them."]
+			description: ["处理器在制作过程中是必不可少的。你需要大量的处理器"]
 			dependencies: ["480030C87B77AFE9"]
 			id: "67A76CF6E547225F"
 			tasks: [
@@ -679,13 +679,13 @@
 			}]
 		}
 		{
-			title: "Setting up storage"
+			title: "设置存储网络"
 			icon: "refinedstorage:crafting_grid"
 			x: 2.0d
 			y: 14.5d
 			description: [
-				"It's time to start setting up the storage network. You will need storage disk to store items."
-				"Place the related blocks next to each other. The network will start when there is energy. You can also connect the network using cables."
+				"是时候开始设置你自己的存储网络了。但是在那之前你需要放入存储磁盘来存储物品。"
+				"将相关的装置放置在一起，且存储网络要有能量才能启动。你也可以使用线缆来连接你的存储网络（装置和控制器）。"
 			]
 			dependencies: [
 				"5EC93ABC97108CC5"
@@ -723,7 +723,7 @@
 			}]
 		}
 		{
-			title: "Wireless network"
+			title: "无线网络"
 			icon: "refinedstorage:network_card"
 			x: 6.5d
 			y: 12.5d
@@ -760,7 +760,7 @@
 			}]
 		}
 		{
-			title: "Portable network"
+			title: "便携式网络"
 			icon: "refinedstorage:wireless_transmitter"
 			x: 6.5d
 			y: 14.5d
@@ -792,10 +792,10 @@
 			}]
 		}
 		{
-			title: "Automation and Management"
+			title: "自动化和管理"
 			x: -2.5d
 			y: 12.5d
-			description: ["Refined storage provides a convenient items and ways for automation and management."]
+			description: ["精致存储提供了一些方便的物品和方法来帮助自动化和管理"]
 			dependencies: ["03322CD78E4A86F3"]
 			id: "72886A8E609A4E38"
 			tasks: [
@@ -851,7 +851,7 @@
 		{
 			x: -2.5d
 			y: 14.0d
-			description: ["Here are lists of some of the common upgrades available in refined storage."]
+			description: ["以下是精制存储里常见的升级。"]
 			dependencies: ["03322CD78E4A86F3"]
 			id: "07DE06909BD87AE4"
 			tasks: [
@@ -909,7 +909,7 @@
 		{
 			x: -2.5d
 			y: 17.0d
-			description: ["Pattern stores recipes for auto crafting."]
+			description: ["你可以用样板保存配方来实现自动化"]
 			dependencies: ["03322CD78E4A86F3"]
 			id: "4ED23967EBABC13D"
 			tasks: [{
@@ -931,7 +931,7 @@
 			}]
 		}
 		{
-			title: "Largest type of storage"
+			title: "最大号的存储"
 			x: 3.5d
 			y: 17.0d
 			dependencies: ["03322CD78E4A86F3"]
@@ -983,10 +983,10 @@
 			}]
 		}
 		{
-			title: "Core of auto-crafting"
+			title: "自动合成的关键
 			x: 1.0d
 			y: 17.0d
-			description: ["Store a crafting recipe using a pattern in pattern terminal. Then put that pattern into the crafter and connect the craft to your network."]
+			description: ["在样板终端中用样板保存合成配方，然后把该样板放入合成仓中，并把合成仓连接到网络里"]
 			dependencies: ["03322CD78E4A86F3"]
 			id: "779587ECB6E30E5B"
 			tasks: [

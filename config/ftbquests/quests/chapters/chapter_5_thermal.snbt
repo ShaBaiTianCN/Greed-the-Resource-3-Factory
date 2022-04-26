@@ -3,18 +3,18 @@
 	group: "52335F892C9B07FA"
 	order_index: 4
 	filename: "chapter_5_thermal"
-	title: "Chapter 5: Thermal"
+	title: "第五章：热力"
 	icon: { id: "thermal:upgrade_augment_3", Count: 64b }
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Thermal series"
+			title: "热力系列"
 			x: -1.0d
 			y: -1.0d
 			description: [
-				"To this stage, you are capable of progressing the mod fast."
-				"If you are the first time to craft thermal alloys, you need fire charge and craft them through crafting table."
+				"到了这个阶段，你将拥有快速发展MOD的能力。"
+				"如果这是你第一次制作热力的合金，你需要使用火焰弹在工作台中进行制作。"
 			]
 			dependencies: ["418F83A0A03DE815"]
 			id: "1E29C13F42A32221"
@@ -32,7 +32,7 @@
 		{
 			x: -1.0d
 			y: 1.0d
-			description: ["Craft alloys and turn it into gears"]
+			description: ["制作合金并用其合成齿轮"]
 			dependencies: ["1E29C13F42A32221"]
 			id: "647259AAA932690B"
 			tasks: [
@@ -56,7 +56,7 @@
 		{
 			x: -1.0d
 			y: 3.0d
-			description: ["Get the induction smelter which allows you to craft the alloys using electricity, instead of fire charges!"]
+			description: ["获得感应炉，它可以帮助你使用电力制作合金，而不是使用火焰弹合成"]
 			dependencies: ["647259AAA932690B"]
 			id: "07448AFB113C9942"
 			tasks: [{
@@ -85,8 +85,8 @@
 			x: -3.0d
 			y: 3.0d
 			description: [
-				"Prepare for your digital miner."
-				"Enderium ingot is an alloy crafted from induction smetler."
+				"为你的数字型采矿机做准备吧。"
+				"末影锭是一种在感应炉制作的合金。"
 			]
 			dependencies: ["07448AFB113C9942"]
 			id: "450D1762411931B6"
@@ -105,7 +105,7 @@
 		{
 			x: -5.0d
 			y: 3.0d
-			description: ["You are finally here, a great and fast way to obtain resources!"]
+			description: ["你终于来了，这是一个可以快速获取大量资源的方法！"]
 			dependencies: [
 				"450D1762411931B6"
 				"6A0565222D32DFAC"
@@ -132,7 +132,7 @@
 		{
 			x: 1.0d
 			y: 1.0d
-			description: ["Auto-crafter from thermal, with higher processing speed"]
+			description: ["热力的序列专配台，具有更高的处理速度"]
 			dependencies: ["1E29C13F42A32221"]
 			id: "6054076304BD001E"
 			tasks: [{
@@ -150,7 +150,7 @@
 			x: 3.0d
 			y: 1.0d
 			description: [
-				"Find vibranium in nether"
+				"在下界找到振金矿石"
 				"{image:kubejs:textures/quests/chapter5/chapter5_vibranium.png width:178 height:100 align:1}"
 			]
 			dependencies: ["1E29C13F42A32221"]
@@ -169,8 +169,8 @@
 		{
 			x: 1.0d
 			y: 3.0d
-			description: ["Get this workbench to help you to craft the quarry parts"]
-			dependencies: [
+			description: ["获得增强型采石场制作器，来制作采石场的零件"]
+			dependencies: 
 				"6054076304BD001E"
 				"10ED71B3E1D1E1BA"
 			]
@@ -189,7 +189,7 @@
 		{
 			x: 1.0d
 			y: 5.0d
-			description: ["use the quarry to help you find the UNOBTAINIUM ORES!"]
+			description: ["利用采石场来帮助你寻找难得素矿石"]
 			dependencies: ["262C78D825E4ACCF"]
 			id: "706FA5BCB763FCB2"
 			tasks: [
@@ -215,7 +215,7 @@
 			x: 1.0d
 			y: 7.0d
 			description: [
-				"Get your first unobtainium ore by quarry!"
+				"利用采石场获得你的一块难得素矿石"
 				"{image:kubejs:textures/quests/chapter5/chapter5_unobtanium.png width:178 height:100 align:1}"
 			]
 			dependencies: ["706FA5BCB763FCB2"]
@@ -235,7 +235,7 @@
 			x: -5.0d
 			y: -1.0d
 			description: [
-				"Find allthemodium ores in ocean biomes to craft the digital miner. However, it is pretty rare that might cost you time if you don't have a correect tool. You can proceed to the \"Mining\" chapter to find out useful mining tools."
+				"在海洋生物群戏中获得ATM矿石来制作数字型采矿机。但是，如果你没有合适的工具，这将会浪费你很多的时间。你可以浏览“挖矿”章节来找到合适的工具"
 				"{image:kubejs:textures/quests/chapter5/chapter5_allthemodium.png width:178 height:100 align:1}"
 			]
 			dependencies: ["1E29C13F42A32221"]
@@ -254,7 +254,7 @@
 		{
 			x: -7.5d
 			y: -1.0d
-			description: ["Allthemodium ores is common in the mining dimension"]
+			description: ["在挖矿维度中，ATM矿石是非常常见的"]
 			dependencies: ["6A0565222D32DFAC"]
 			id: "7D3BB12176E8458D"
 			tasks: [{
@@ -293,7 +293,7 @@
 		{
 			x: 3.0d
 			y: 5.0d
-			description: ["Get the enchantment mover, to move enchantments from diamond pickaxes to the quarry to increase efficiency."]
+			description: ["获得附魔转移器，将钻石镐的附魔转移到采石场上来提高它的运行速度。"]
 			dependencies: ["262C78D825E4ACCF"]
 			id: "5274B89462EB2B23"
 			tasks: [{
@@ -319,7 +319,7 @@
 		{
 			x: -1.0d
 			y: 9.5d
-			description: ["You need this to craft the centrifuge."]
+			description: ["你需要这些来制作手摇型离心机。"]
 			dependencies: ["07448AFB113C9942"]
 			id: "072DC588C93ADE87"
 			tasks: [
@@ -344,7 +344,7 @@
 		{
 			x: -3.0d
 			y: 9.5d
-			description: ["You need this to craft the centrifuge."]
+			description: ["你需要这些来制作手摇型离心机。"]
 			dependencies: ["072DC588C93ADE87"]
 			id: "2E94EA087A61B6F4"
 			tasks: [
@@ -370,8 +370,8 @@
 			x: -5.0d
 			y: 9.5d
 			description: [
-				"Get the centrifuge, and start your beeskeeper life."
-				"This quest opens the next chapter."
+				"获得手摇型离心机，开始你的养蜂人生活。"
+				"这个任务将开启下一章节。"
 			]
 			dependencies: ["2E94EA087A61B6F4"]
 			id: "5C71DC385C61ECA0"
@@ -387,10 +387,10 @@
 			}]
 		}
 		{
-			title: "All sort of tools!"
+			title: "ATM合金工具！"
 			x: -3.0d
 			y: 7.0d
-			description: ["A very strong tool sets"]
+			description: ["一套非常强大的工具"]
 			dependencies: ["19D7185DACE5B596"]
 			id: "48DD7AE9E5DD5C6E"
 			tasks: [
@@ -476,10 +476,10 @@
 			]
 		}
 		{
-			title: "Allthemodium alloy"
+			title: "ATM元素合金"
 			x: -3.0d
 			y: 5.0d
-			description: ["With induction smelter, you can produce alloy from allthemodium series, which can use it to craft very strong tools and sword"]
+			description: ["使用感应炉，你可以利用ATM元素的矿物制作合金，并使用合金制作更加坚固的工具与武器。"]
 			dependencies: ["07448AFB113C9942"]
 			id: "19D7185DACE5B596"
 			tasks: [
@@ -509,8 +509,8 @@
 			x: -5.0d
 			y: 5.0d
 			description: [
-				"You can also craft the time in a bottle with induction smelter. Check JEI for recipe"
-				"After crafting time in a bottle, the bottle will start counting the time and store the time in the bottle. Right click any machine with the time stored, it will allow you to accelerate the machines."
+				"你可以使用感应炉来制作时间之瓶。看看JEI"
+				"在制作时间之瓶后，时间之瓶将开始计算并储存时间。使用时间之瓶右键机器，将消耗时间之瓶内所储存的时间为机器加速。"
 			]
 			dependencies: ["07448AFB113C9942"]
 			id: "633A2A061951115D"
@@ -537,7 +537,7 @@
 		{
 			x: -5.0d
 			y: 7.0d
-			description: ["Spawner is now craftable for the ease of making mob farms !!!"]
+			description: ["刷怪笼有合成表了！更容易做怪物农场了！"]
 			dependencies: ["07448AFB113C9942"]
 			id: "62D4E816818A151D"
 			tasks: [{

@@ -3,18 +3,18 @@
 	group: "52335F892C9B07FA"
 	order_index: 2
 	filename: "chapter_3"
-	title: "Chapter 3: Supreme tech"
+	title: "第三章：最高科技"
 	icon: "industrialforegoing:plastic"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Power Generator"
+			title: "发电机"
 			x: 0.0d
 			y: 0.5d
 			description: [
-				"You enter the industrial and technology age now. More and more power is needed. Craft these two coal generator to provide a stable energy source for your machines."
-				"For more types of energy generation, you can check \"Energy\" chapter."
+				"现在进入工业和技术的时代。你需要越来越多的能量。制作这两种燃煤发电机，为机器提供稳定的能源吧。"
+				"更多的生产能量方法请看“能源”章节。"
 			]
 			dependencies: ["27CF0C7CBDCAE57C"]
 			id: "6D2F8EAC1957B4C4"
@@ -41,7 +41,7 @@
 			x: 0.0d
 			y: 3.5d
 			description: [
-				"Get the fluid extractor and place a log in front of it. It will extract latex from trees slowly. Powering it will increase the speed."
+				"在树液提取器前面放置一个原木。它会慢慢地从原木上提取乳胶。通电后会提高提取的速度。"
 				"{image:kubejs:textures/quests/chapter3/chapter3_fluid_extractor.png width:178 height:100 align:1}"
 			]
 			dependencies: ["6D2F8EAC1957B4C4"]
@@ -61,8 +61,8 @@
 			x: 1.0d
 			y: 2.5d
 			description: [
-				"Pipe the liquid latex and water into the processing unit. Power it with your generator."
-				"The latex will be transformed into tiny dry rubber. Combine 9 of it to get dry rubber and smelt it into furnace. You will get plastic eventually."
+				"把胶乳、水和电提供给胶乳加工机。"
+				"胶乳会变成小块干橡胶。把9个小块干橡胶合成的干橡胶放熔炉里烧，你将得到塑料片。"
 			]
 			dependencies: ["48132AE94E2B30F0"]
 			id: "4B0F7DD40325595F"
@@ -88,7 +88,7 @@
 		{
 			x: 2.0d
 			y: 1.5d
-			description: ["You need this to craft different machine frames. I recommend you craft 3 of these at late game, because there are 3 different types of liquid in the recipes."]
+			description: ["你需要用这个机器来制作不同的机器框架。我建议你在游戏后期做3个这个，因为合成配方中会用到3种不同的液体。"]
 			dependencies: ["4B0F7DD40325595F"]
 			id: "68A706ED3FC01DB5"
 			tasks: [{
@@ -105,7 +105,7 @@
 		{
 			x: 3.0d
 			y: 0.5d
-			description: ["Grab a bucket of latex and craft the simple machine frame. Many mekanism machines require this to craft."]
+			description: ["使用一桶胶乳，制作中级机器框架。很多通用机械的机器需要用这个来制作。"]
 			dependencies: ["68A706ED3FC01DB5"]
 			id: "23B97F70C74878A4"
 			tasks: [{
@@ -123,7 +123,7 @@
 		{
 			x: 5.5d
 			y: 0.5d
-			description: ["Craft the enrichment chamber, which is an essential machine in Mekanism. It produces enriched items and that is more cost-effective in recipes in mekanism machines."]
+			description: ["制作富集仓，这是通用机械中必不可少的机器。在通用机械的配方里，它生产的富集物是更划算的。"]
 			dependencies: ["23B97F70C74878A4"]
 			id: "667E54C7D5B2E4A3"
 			tasks: [{
@@ -141,7 +141,7 @@
 		{
 			x: 2.0d
 			y: -0.5d
-			description: ["Craft the mob slaughter factory that kills mobs to produce pink slime. Non-hostile mobs produces more pink slime that hostile mobs."]
+			description: ["制作屠宰场，杀死生物以生产粉红粘液。非敌对生物比敌对生物会产生更多的粉红黏液。"]
 			dependencies: ["23B97F70C74878A4"]
 			id: "12653C26FE0E79BD"
 			tasks: [{
@@ -159,8 +159,8 @@
 			x: 1.0d
 			y: -1.5d
 			description: [
-				"Now, back to the nether and get some netherite scraps first. Also grab your pink slimes to get the advanced machine frame."
-				"This quest open Chapter 4"
+				"现在，回到下界搞些下界合金碎片。 同时生产粉红粘液来制作高级机器框架。"
+				"此任务将开启第四章"
 			]
 			dependencies: ["12653C26FE0E79BD"]
 			id: "088B299D9888652D"
@@ -180,8 +180,8 @@
 			title: "Preparing the ether gas"
 			x: 0.0d
 			y: -2.5d
-			subtitle: "Hi wither"
-			description: ["You will find that you need ether gas to craft the next tier machine frame, the supreme machine frame. To obtain ether gas, you need to summon a wither first."]
+			subtitle: "你好啊，凋灵"
+			description: ["可以看到你需要以太气体来制作下一层阶的机器框架，即超级机器框架。想要以太气体？去找凋零吧。"]
 			dependencies: ["088B299D9888652D"]
 			id: "1A0BD54284C8E514"
 			tasks: [
@@ -223,7 +223,7 @@
 		{
 			x: -1.0d
 			y: -1.5d
-			description: ["You need these three machines to obtain ether gas from wither."]
+			description: ["用这三台机器能从凋灵那里获取以太气体。"]
 			dependencies: ["1A0BD54284C8E514"]
 			id: "3F58F41CD1815DFA"
 			tasks: [
@@ -260,7 +260,7 @@
 		{
 			x: -2.0d
 			y: -0.5d
-			description: ["Direct summoning wither is not safe, not safe for your own and your base. Craft a stasis chamber that can limit movement of wither."]
+			description: ["直接召唤凋灵并不安全，对你和你的基地都不安全。制作一个可以限制凋灵移动的房间。"]
 			dependencies: ["3F58F41CD1815DFA"]
 			id: "597F51B54F9B0577"
 			tasks: [{
@@ -286,7 +286,7 @@
 			x: -3.0d
 			y: 0.5d
 			description: [
-				"Set up the machines similar to below. If you are first time, put some protection walls around wither e.g. wither proof blocks. The laser drill will gradually collect the ether gas."
+				"设置类似下图的机器。 如果你第一次打凋灵，可以在凋灵周围放置一些保护墙，例如防凋零方块。 镭射钻会逐渐收集以太气体。"
 				"{image:kubejs:textures/quests/chapter3/chapter3_ether_gas.png width:178 height:100 align:1}"
 			]
 			dependencies: ["597F51B54F9B0577"]
@@ -306,9 +306,9 @@
 			x: -2.0d
 			y: 1.5d
 			description: [
-				"With your ether bucket, craft the supreme machine frame."
-				"Now, you are able to craft most of the Mekanism machines!"
-				"For automation of machines, you can check the \"Logistic and Transport\" chapter."
+				"用你的以太气体，做超级机器框架。"
+				"现在，您可以制作大部分通用机械机器！"
+				"自动化请看“物流和运输”章节."
 			]
 			dependencies: ["505C550480FB01C5"]
 			id: "44C57058CA97F63C"
@@ -326,10 +326,10 @@
 		{
 			x: 3.5d
 			y: -0.5d
-			subtitle: "Click to submit the Rotten Flesh"
+			subtitle: "点击提交腐肉"
 			description: [
-				"You can actually start your mob farm at this stage to get more resources."
-				"Check the \"Mob Farm\" chapter to get more tips."
+				"实际上你可以在此阶段开始建造怪物农场以获得更多资源。"
+				"查看“怪物农场”章节以获得更多提示."
 			]
 			dependencies: ["12653C26FE0E79BD"]
 			id: "4E6C8B14B2B83E4B"
@@ -350,7 +350,7 @@
 		{
 			x: -1.0d
 			y: 2.5d
-			description: ["Get the ore laser drill to get ores, it is a good way to you to get ingot or gem resources before you get the digital miner from Mekanism, because there is still a few more steps to go."]
+			description: ["制作镭射钻系统来获取矿物，这是在获取通用机械的数字型采矿机前一种不错的矿物来源，获取数字型采矿机前仍有不少步骤。"]
 			dependencies: ["44C57058CA97F63C"]
 			id: "0F93B1EAE224F057"
 			tasks: [{
@@ -367,7 +367,7 @@
 		{
 			x: 7.0d
 			y: 0.5d
-			description: ["Use configurator to configure your machines in Mekanism."]
+			description: ["使用配置器来配置通用机械的机器。"]
 			dependencies: ["667E54C7D5B2E4A3"]
 			id: "4FDFCA0237C7F5E5"
 			tasks: [{
@@ -395,7 +395,7 @@
 		{
 			x: 2.5d
 			y: 7.0d
-			description: ["Are you lacking of animal resource? Don't panic. Craft this machine and this allows you to grab resources like wool, milk from animals!"]
+			description: ["你缺乏动物资源吗？不要恐慌。制作这台机器，这可以让你从动物身上获取羊毛、牛奶等资源！"]
 			dependencies: ["4B0F7DD40325595F"]
 			id: "3CABC84AA25E63AF"
 			tasks: [{
@@ -412,7 +412,7 @@
 		{
 			x: 4.0d
 			y: 4.0d
-			description: ["Place the sewer under the animals. It will collect the sewage produced by animals automatically when provided with energy."]
+			description: ["将动物排污器放在动物下面。提供能量后，它会自动收集动物产生的污水。"]
 			dependencies: ["26894F256A06D96E"]
 			id: "5ACDABFDD15C2EA9"
 			tasks: [{
@@ -429,7 +429,7 @@
 		{
 			x: 5.5d
 			y: 4.0d
-			description: ["The sewage composer allows you to convert the sewage into fertilizers which can be used in accelerating crops growth."]
+			description: ["污水堆肥机会将污水转化为可用于加速农作物生长的肥料。"]
 			dependencies: ["5ACDABFDD15C2EA9"]
 			id: "78623FED80CD23DE"
 			tasks: [{
@@ -447,7 +447,7 @@
 		{
 			x: 2.5d
 			y: 4.0d
-			description: ["Do you want a stable food source from animals? Use the combination of these two machines. The separator will separate baby animals once the baby is born from breeding the animals by breeder. (You can also set to only separate the adult animals out)."]
+			description: ["你想从动物身上获得稳定的食物来源吗？使用这两种机器的组合。幼仔出生后，幼仔分管机会将动物幼仔与饲育机饲养的动物分开。（您也可以设置只将成年动物分开）。"]
 			dependencies: ["4B0F7DD40325595F"]
 			id: "26894F256A06D96E"
 			tasks: [
@@ -470,10 +470,10 @@
 			}]
 		}
 		{
-			title: "BIG BIG farm"
+			title: "大农场"
 			x: 2.5d
 			y: 2.5d
-			description: ["The combination of plant gatherer and plant sower allows you to set up a huge tree farm or crop farm. Place the sower in the middle of you farm and input seeds or saplings. It will plant them automatically when supplied with energy. Place the plant gatherer at the edge of your farm and it will harvest crops or trees automatically."]
+			description: ["播种机和收割机的组合使让可以建立一个巨大的林场或农作物农场。将播种机放在您的农场中间并输入种子或树苗。提供能量时，它会自动种植。将收割机放在农场边缘，它会自动收作物稼或树木。"]
 			dependencies: ["4B0F7DD40325595F"]
 			id: "62ECE32749325389"
 			tasks: [
@@ -524,7 +524,7 @@
 		{
 			x: 4.0d
 			y: 2.5d
-			description: ["Sludge will be produced in each harvesting process. You need to refined the sludge to protect the environment :). Refining the sludge will produce some useful materials such as clay, sand, etc."]
+			description: ["每次收获过程都会产生污泥。您需要精炼污泥以保护环境:)精炼污泥会产生一些有用的材料，如粘土、沙子等。"]
 			dependencies: ["62ECE32749325389"]
 			id: "597FAB9E2ECB704B"
 			tasks: [{
@@ -542,8 +542,8 @@
 			x: 5.5d
 			y: 1.5d
 			description: [
-				"Plant fertilizer uses fertilizers to accelerate plant growth."
-				"It is good when used together with plant gatherer and plant sower"
+				"施肥机使用肥料来加速植物生长。"
+				"与收割机和播种机一起使用效果更好"
 			]
 			dependencies: ["23B97F70C74878A4"]
 			id: "2FB585A29A59DC6F"
@@ -562,7 +562,7 @@
 		{
 			x: 2.5d
 			y: 5.5d
-			description: ["Water condensor is also a good machine to produce water with water source. The best thing is that this machine is power optional, which means it will produce water faster when provided with power. However, it is already fast enough even though it does not have any power!!!"]
+			description: ["蓄水器是一种通过放置在水中生产无限水的机器。最棒的是，这台机器可以不用电！这意味着它在有电源的情况下会更快地产生水。当然即使没有任何能量也可以工作，已经足够快了！！！"]
 			dependencies: ["4B0F7DD40325595F"]
 			id: "1F988317E2BCDF9E"
 			tasks: [{
@@ -580,7 +580,7 @@
 		{
 			x: 4.0d
 			y: 5.5d
-			description: ["Spores recreator allows you to duplicate mushrooms with water!!! This machine is a MUST for you to get the mushroom singularity."]
+			description: ["蘑菇孢子繁殖器可以用水复制蘑菇！！！这台机器是你获得蘑菇奇点的必备品。"]
 			dependencies: ["1F988317E2BCDF9E"]
 			id: "5EA6B841726FD8D4"
 			tasks: [{
@@ -605,8 +605,8 @@
 			x: 0.0d
 			y: 5.0d
 			description: [
-				"Block breaker and block placer is a set of block that has opposite function.... which is exactly function as what it is in its name."
-				"You can use to block placer with fluid extractor, which allows you to place the log automatically once the log is broken."
+				"方块破坏器和方块放置器是一组具有相反功能的机器......它的功能与它的名字一样."
+				"你可以把树液提取器和方块放置器组合使用。当原木被破坏，它会自动放置原木。"
 			]
 			dependencies: ["48132AE94E2B30F0"]
 			id: "316530723E434D92"
@@ -639,9 +639,9 @@
 			x: 5.5d
 			y: 2.5d
 			description: [
-				"Marine fisher allows you to get resources from sea, such as enchantment books, fish, etc by placing on top of a 3x3 water block."
-				"This machine is useful if you wish to use enchantment generator, which needs enchantment books to generate power."
-				"Note that this quest is optional as this machien does not help much in progressing."
+				"把钓鱼机放置3x3的水源顶部来获取资源，例如附魔书、鱼等。"
+				"如果你想使用菌丝网络附魔书发电机发电，那么这台机器会很有用。"
+				"注：此任务是可选的，因为这台机器对进度没有太大帮助。"
 			]
 			dependencies: ["23B97F70C74878A4"]
 			optional: true
@@ -675,8 +675,8 @@
 			x: 2.5d
 			y: -1.5d
 			description: [
-				"These sets of machine allow you to \"play\" with enchantments LMAO."
-				"It requires liquid essence to function, which is produced in mob crusher."
+				"这一套机器可以让你让你“玩弄”附魔了233。"
+				"自动型铁砧需要精华液才能运行，你可以在屠宰机获得。"
 			]
 			dependencies: ["088B299D9888652D"]
 			id: "431727C1D42CA87B"
@@ -745,7 +745,7 @@
 		{
 			x: -4.0d
 			y: 2.0d
-			description: ["Supreme black hole tank allows you to store almost unlimited amount of liquid."]
+			description: ["至尊黑洞储液罐可以让你存储几乎无限量的液体。"]
 			dependencies: ["44C57058CA97F63C"]
 			id: "78F9EAC429C161C7"
 			tasks: [{
@@ -769,7 +769,7 @@
 		{
 			x: -2.5d
 			y: 3.5d
-			description: ["Supreme block hole unit allows you to store almost unlimited amount of items "]
+			description: ["至尊黑洞存储单元可以让你存储几乎无限数量的物品。"]
 			dependencies: ["44C57058CA97F63C"]
 			id: "2636B37CF714AC31"
 			tasks: [{
@@ -793,7 +793,7 @@
 		{
 			x: -4.5d
 			y: 4.0d
-			description: ["Black hole controller allows you to store up to 16 black hole unit or black hole tank in one block space."]
+			description: ["黑洞存储控制器允许您在一个方块的空间中存储16个至尊黑洞存储单元或至尊黑洞储液罐。"]
 			dependencies: [
 				"78F9EAC429C161C7"
 				"2636B37CF714AC31"
@@ -821,9 +821,9 @@
 			x: 4.0d
 			y: -1.5d
 			description: [
-				"Quark Tome is now craftable! However, there is a limit to your enchantment book. You cannot used the enchantment book obtained from anvil to craft the tome, because it contains an extra \"tag\" named \"Repair Cost\". (This tag is only shown in anvil)"
+				"夸克的古卷现在可以制作了！ 但是，附魔书是有限制的。 您不能使用从铁砧获得的附魔书来制作这本书，因为它包含一个名为“维修花费”的额外“nbt”。（此标签仅在铁砧中显示）"
 				"{image:kubejs:textures/quests/chapter3/chapter3_enchantment_book.png width:200 height:100 align:1}"
-				"To fix this, just apply your enchantment book onto random items by \"Enchantment Applicator\" and extract again using \"Enchantment Extractor\". The tag will disappear and it will be allowed to be used again in energizing recipe of Quark Tome :)"
+				"要解决这个问题，只需通过“自动型铁砧”将你的附魔书附魔到随机物品上，然后使用“附魔提取机”再次提取。 标签将消失，并被允许再次用于夸克的古卷的充能配方上：）"
 			]
 			dependencies: ["431727C1D42CA87B"]
 			id: "194962DBA361BDC4"
@@ -844,7 +844,7 @@
 			rewards: [{
 				id: "155761F946E14B3D"
 				type: "item"
-				title: "Small present to you because I am unable to solve this issue :p"
+				title: "这个小礼物给你，因为我无法解决这个问题:p"
 				item: {
 					id: "minecraft:enchanted_book"
 					Count: 1b
