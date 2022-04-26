@@ -424,12 +424,12 @@
 			}]
 		}
 		{
-			title: "农家乐事"
+			title: "农夫乐事"
 			icon: "minecraft:carrot"
 			x: -2.5d
 			y: -0.5d
 			description: [
-				"“农家乐事”及其插件包含在本包中。你可以用JEI查看食物的合成表。"
+				"“农夫乐事（Farmer's_Delight）”及其插件包含在本包中。你可以用JEI查看食物的合成表。"
 				"吃不重复的食物可以增加你的血量并给你一些神奇的效果。更多信息请查看“食物手册”。由于存在未知bug，禁止使用此模组的午餐盒。"
 				"{image:kubejs:textures/quests/tips/tips_kitchen.png width:178 height:100 align:1}"
 			]
