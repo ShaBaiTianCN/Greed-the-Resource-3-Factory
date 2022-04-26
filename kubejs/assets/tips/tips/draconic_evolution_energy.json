@@ -1,10 +1,10 @@
 {
     "title": {
-        "text": "Draconic Evolution",
+        "text": "龙之进化",
         "bold": true,
         "colour": "gold"
     },
     "tip": {
-        "text": "Tier 8 energy core allows you to store infinity amount of energy!"
+        "text": "8级能量核心可以供你储存无限的能量！"
     }
 }

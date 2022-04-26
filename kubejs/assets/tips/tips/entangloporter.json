@@ -1,10 +1,10 @@
 {
     "title": {
-        "text": "Entangloporter",
+        "text": "传送装置",
         "bold": true,
         "colour": "darkPurple"
     },
     "tip": {
-        "text": "Both entangloporter from Entangled and Mekanism helps you a lot in transfering things acorss distance and dimension!"
+        "text": "通用机械和纠缠方块的传送装置都能帮助你跨空间和维度传送物品！"
     }
 }

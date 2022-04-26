@@ -1,10 +1,10 @@
 {
     "title": {
-        "text": "Draconic Evolution",
+        "text": "龙之进化",
         "bold": true,
         "colour": "gold"
     },
     "tip": {
-        "text": "Be careful in constructing the reactor!"
+        "text": "建造反应堆时要小心！"
     }
 }

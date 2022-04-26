@@ -1,10 +1,10 @@
 {
     "title": {
-        "text": "Industrial Foregoing",
+        "text": "工业先锋",
         "bold": true,
         "colour": "gray"
     },
     "tip": {
-        "text": "Try the 5x ore processing using ether gas as catalyst!"
+        "text": "尝试使用以太气体作为催化剂的5倍矿石处理吧！"
     }
 }

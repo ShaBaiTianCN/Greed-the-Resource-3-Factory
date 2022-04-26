@@ -1,10 +1,10 @@
 {
     "title": {
-        "text": "Notch Golden Apple",
+        "text": "附魔金苹果",
         "bold": true,
         "colour": "gold"
     },
     "tip": {
-        "text": "Notch golden apple is craftable again!"
+        "text": "附魔金苹果又可以被合成了！"
     }
 }

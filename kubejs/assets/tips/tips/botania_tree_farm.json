@@ -1,10 +1,10 @@
 {
     "title": {
-        "text": "Botania",
+        "text": "植物魔法",
         "bold": true,
         "colour": "green"
     },
     "tip": {
-        "text": "Setting up a tree farm for Botania provides tons of Mana. Leaves are for Munchdew and logs are for Endoflame!"
+        "text": "建造一个用于发展植物魔法的树场可以提供巨量的魔力。树叶可以提供给咀叶花，而原木可以提供给火红莲！"
     }
 }

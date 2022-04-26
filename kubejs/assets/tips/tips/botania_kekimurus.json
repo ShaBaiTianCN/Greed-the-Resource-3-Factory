@@ -1,10 +1,10 @@
 {
     "title": {
-        "text": "Botania",
+        "text": "植物魔法",
         "bold": true,
         "colour": "green"
     },
     "tip": {
-        "text": "Kekimurus is easy to automate and generate tons of Mana!"
+        "text": "贪食花能够产生大量魔力并且很容易被自动化！"
     }
 }

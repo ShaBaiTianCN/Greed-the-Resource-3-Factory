@@ -1,10 +1,10 @@
 {
     "title": {
-        "text": "Botania",
+        "text": "植物魔法",
         "bold": true,
         "colour": "green"
     },
     "tip": {
-        "text": "DO start collecting mystical flowers at a very early game!"
+        "text": "一定在游戏早期时就开始收集神秘花！"
     }
 }

@@ -1,10 +1,10 @@
 {
     "title": {
-        "text": "Astral Sorcery",
+        "text": "星辉魔法",
         "bold": true,
         "colour": "white"
     },
     "tip": {
-        "text": "Use the tree beacon in Astral Sorcery to set up automatic tree farm!"
+        "text": "使用星辉魔法中的烽火树建造自动树场！"
     }
 }
