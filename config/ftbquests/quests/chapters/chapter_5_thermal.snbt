@@ -56,7 +56,7 @@
 		{
 			x: -1.0d
 			y: 3.0d
-			description: ["获得感应炉，它可以帮助你使用电力制作合金，而不是使用火焰弹合成"]
+			description: ["获得感应炉，它可以帮助你使用电力制作合金，而不是使用火焰弹合成！"]
 			dependencies: ["647259AAA932690B"]
 			id: "07448AFB113C9942"
 			tasks: [{
@@ -170,7 +170,7 @@
 			x: 1.0d
 			y: 3.0d
 			description: ["获得增强型采石场制作器，来制作采石场的零件"]
-			dependencies: 
+			dependencies: [
 				"6054076304BD001E"
 				"10ED71B3E1D1E1BA"
 			]
@@ -215,7 +215,7 @@
 			x: 1.0d
 			y: 7.0d
 			description: [
-				"利用采石场获得你的一块难得素矿石"
+				"利用采石场获得你的一块难得素矿石！"
 				"{image:kubejs:textures/quests/chapter5/chapter5_unobtanium.png width:178 height:100 align:1}"
 			]
 			dependencies: ["706FA5BCB763FCB2"]
@@ -235,7 +235,7 @@
 			x: -5.0d
 			y: -1.0d
 			description: [
-				"在海洋生物群戏中获得ATM矿石来制作数字型采矿机。但是，如果你没有合适的工具，这将会浪费你很多的时间。你可以浏览“挖矿”章节来找到合适的工具"
+				"在海洋生物群戏中获得ATM矿石来制作数字型采矿机。但是，如果你没有合适的工具，这将会浪费你很多的时间。你可以浏览“挖矿”章节来找到合适的工具。"
 				"{image:kubejs:textures/quests/chapter5/chapter5_allthemodium.png width:178 height:100 align:1}"
 			]
 			dependencies: ["1E29C13F42A32221"]
