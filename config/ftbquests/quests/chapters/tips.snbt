@@ -103,7 +103,7 @@
 			x: -9.5d
 			y: 4.5d
 			description: [
-				"“工具和盔甲”章节推荐了一些工具帮助你完成这个整合包。"
+				"“工具”章节推荐了一些工具帮助你完成这个整合包。"
 				"{image:kubejs:textures/quests/tips/tips_tool.png width:178 height:100 align:1}"
 			]
 			dependencies: ["33027F6CA5EE9E6F"]
@@ -164,7 +164,7 @@
 			x: -6.5d
 			y: 4.5d
 			description: [
-				"“能量”章节将教你产生和使用能量"
+				"“能源”章节将教你产生和使用能源"
 				"{image:kubejs:textures/quests/tips/tips_energy.png width:178 height:100 align:1}"
 			]
 			dependencies: ["33027F6CA5EE9E6F"]
@@ -172,7 +172,7 @@
 			tasks: [{
 				id: "63067279ABD07E67"
 				type: "checkmark"
-				title: "“能量”"
+				title: "“能源”"
 				icon: "mekanism:basic_energy_cube"
 			}]
 			rewards: [{
@@ -191,7 +191,7 @@
 			x: -5.0d
 			y: 4.5d
 			description: [
-				"“最终阶段”章节列出了你想要完结这个整合包需要做的事。同时也列出了些创造物品等你来做。"
+				"“最终篇”章节列出了你想要完结这个整合包需要做的事。同时也列出了些创造物品等你来做。"
 				"{image:kubejs:textures/quests/tips/tips_end_game.png width:178 height:100 align:1}"
 			]
 			dependencies: ["33027F6CA5EE9E6F"]
@@ -199,7 +199,7 @@
 			tasks: [{
 				id: "18E842FDBBD6E7BA"
 				type: "checkmark"
-				title: "“最终阶段”"
+				title: "“最终篇”"
 				icon: "extendedcrafting:ultimate_singularity"
 			}]
 			rewards: [{
@@ -244,7 +244,7 @@
 			}]
 		}
 		{
-			title: "“合成指南”"
+			title: "“过程指引”"
 			x: -11.0d
 			y: 4.5d
 			description: [
@@ -256,7 +256,7 @@
 			tasks: [{
 				id: "4B19EA3FAE39E57C"
 				type: "checkmark"
-				title: "“起源”"
+				title: "“概览”"
 				icon: "minecraft:dragon_head"
 			}]
 			rewards: [{
