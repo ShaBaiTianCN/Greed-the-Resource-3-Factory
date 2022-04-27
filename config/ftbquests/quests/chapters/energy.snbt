@@ -13,7 +13,7 @@
 			icon: "powah:uraninite"
 			x: 1.0d
 			y: -4.0d
-			description: ["Uraninite is the fundamental materials of this mod!"]
+			description: ["这个模组的基本材料是铀！"]
 			id: "7564B6F6725C5685"
 			tasks: [{
 				id: "47B521DCFE3B8A1B"
@@ -32,8 +32,8 @@
 			x: -1.5d
 			y: 2.0d
 			description: [
-				"You need this together with energizing rod to craft the following items. You can set up multiple energizing rod to speed up the process."
-				"You can use modular routers or Xnet to automate the crafting process."
+				"你需要这个和充能棒一起制作后面的物品，你可以放置多根充能棒来提高加工速度。"
+				"您可以使用模块化路由器或XNet来自动化制作过程。"
 			]
 			dependencies: ["372977A288A9D166"]
 			id: "17C95C1468678E4C"
@@ -56,11 +56,11 @@
 			}]
 		}
 		{
-			title: "Have some paste first"
+			title: "先做些绝缘覆层"
 			icon: { id: "powah:dielectric_paste", Count: 64b }
 			x: 1.0d
 			y: 0.0d
-			description: ["Another fundamental materials in this mod!"]
+			description: ["这是这个模组另一个基本的材料！"]
 			dependencies: ["7564B6F6725C5685"]
 			id: "372977A288A9D166"
 			tasks: [{
@@ -79,7 +79,7 @@
 		{
 			x: 2.5d
 			y: -1.5d
-			description: ["The wrench helps you configurate the energy cables"]
+			description: ["扳手用来配置能源线缆！"]
 			dependencies: ["372977A288A9D166"]
 			id: "3ED99F8251C51338"
 			tasks: [{
@@ -176,15 +176,15 @@
 			x: 1.5d
 			y: 2.0d
 			description: [
-				"The following list provide items for energy production"
-				"Note that there are tier lowering than the nitro tier. Take the nitro tiers as your ultiimate target."
+				"下面列出了这个模组的发电装置"
+				"注意：有比下界等级低的装置，下界将是你的最终目标。"
 			]
 			dependencies: ["372977A288A9D166"]
 			id: "585029B79F5972D2"
 			tasks: [{
 				id: "7412139E0F5813D3"
 				type: "checkmark"
-				title: "Generators"
+				title: "发电机"
 			}]
 			rewards: [{
 				id: "0DE4F2DD52968790"
@@ -201,13 +201,13 @@
 		{
 			x: 4.0d
 			y: 0.0d
-			description: ["Note that there are tiers lower than the nitro tier. Take the tier as your ultimate target!"]
+			description: ["注意：有比下界等级低的装置，下界将是你的最终目标。"]
 			dependencies: ["372977A288A9D166"]
 			id: "1CE6EABD3893CEE9"
 			tasks: [{
 				id: "3C406D90E61B97F7"
 				type: "checkmark"
-				title: "Useful items"
+				title: "有用的东西"
 			}]
 			rewards: [{
 				id: "74E03A7A249FA277"
@@ -224,7 +224,7 @@
 		{
 			x: -0.5d
 			y: 4.0d
-			description: ["Magamtor generates tons of energy from lava."]
+			description: ["岩浆发电机能够利用熔岩产生大量的能量。"]
 			dependencies: ["585029B79F5972D2"]
 			id: "23B3967554538214"
 			tasks: [{
@@ -247,7 +247,7 @@
 		{
 			x: 3.5d
 			y: 4.0d
-			description: ["Furnator generates energy from fuels"]
+			description: ["熔炉发电机利用燃料产生能量。"]
 			dependencies: ["585029B79F5972D2"]
 			id: "3074742A057B7C33"
 			tasks: [{
@@ -270,7 +270,7 @@
 		{
 			x: 0.5d
 			y: 4.0d
-			description: ["Solar panel generates a lot of energy from sunlight"]
+			description: ["太阳能板利用太阳产生大量的能量。"]
 			dependencies: ["585029B79F5972D2"]
 			id: "6F593E296D3F7EB0"
 			tasks: [{
@@ -294,8 +294,8 @@
 			x: 2.5d
 			y: 4.0d
 			description: [
-				"Thermo generator generates little energy from differences in temperature."
-				"Place it on top of lava or magma block, and pump water into it."
+				"热力发电机产生的能量很少！"
+				"请把他放在熔岩或者岩浆块的顶部，然后抽水进去。"
 			]
 			dependencies: ["585029B79F5972D2"]
 			id: "67F78F137B5A7E4A"
@@ -317,10 +317,10 @@
 			}]
 		}
 		{
-			title: "Reactor!"
+			title: "反应堆！"
 			x: 1.5d
 			y: 4.0d
-			description: ["Largest energy provider in Powah. Craft 36 of this and place it on the ground. The multiblock structure will automatically form."]
+			description: ["这是Powah中发电量最大的，你需要至少制作36个，然后放在地上，多方块结构会自动形成。"]
 			dependencies: [
 				"585029B79F5972D2"
 				"5C4FCCA392F4422B"
@@ -345,10 +345,10 @@
 			}]
 		}
 		{
-			title: "Chest for power"
+			title: "能量箱子"
 			x: 3.0d
 			y: 1.5d
-			description: ["It stores a large amount of energy"]
+			description: ["它储存了大量的能量！"]
 			dependencies: ["1CE6EABD3893CEE9"]
 			id: "711C0E6C0281C400"
 			tasks: [{
@@ -369,10 +369,10 @@
 			}]
 		}
 		{
-			title: "Ender chest, but for power"
+			title: "末影箱子，但是储存能量"
 			x: 4.0d
 			y: 2.5d
-			description: ["Copious amount of energy can be stored and access across dimensions, neglecting distance!"]
+			description: ["可以储存大量的能量并且跨越维度和距离访问！"]
 			dependencies: ["1CE6EABD3893CEE9"]
 			id: "54C14F0300AFCDF6"
 			tasks: [{
@@ -393,7 +393,7 @@
 			}]
 		}
 		{
-			title: "Energy cable"
+			title: "能量线缆"
 			x: 5.5d
 			y: 2.5d
 			dependencies: ["1CE6EABD3893CEE9"]
@@ -417,10 +417,10 @@
 			}]
 		}
 		{
-			title: "Charging without distance!"
+			title: "无线充电！"
 			x: 6.5d
 			y: 1.5d
-			description: ["It charges items in the player's inventory. You need the binding card to get this function."]
+			description: ["他会给你包裹中的道具进行充能，但是你需要一个绑定卡来激活这个功能。"]
 			dependencies: ["1CE6EABD3893CEE9"]
 			id: "5D857DD4F53263F0"
 			tasks: [{
@@ -445,7 +445,7 @@
 			}]
 		}
 		{
-			title: "Charging intraworld"
+			title: "世界内的充电"
 			x: 8.0d
 			y: 1.0d
 			dependencies: ["5D857DD4F53263F0"]
@@ -468,7 +468,7 @@
 			}]
 		}
 		{
-			title: "Charging interworld"
+			title: "世界内的充电"
 			x: 8.0d
 			y: 2.0d
 			dependencies: ["5D857DD4F53263F0"]
@@ -493,7 +493,7 @@
 		{
 			x: 6.5d
 			y: 0.0d
-			description: ["Charge items in chest directly at high speed"]
+			description: ["向前面的物品高速充能。"]
 			dependencies: ["1CE6EABD3893CEE9"]
 			id: "44682D85E857FB5A"
 			tasks: [{
@@ -516,7 +516,7 @@
 		{
 			x: 6.5d
 			y: -1.5d
-			description: ["It removes energy from items!"]
+			description: ["他会从物品中移除能量。"]
 			dependencies: ["1CE6EABD3893CEE9"]
 			id: "696527D5E9872D09"
 			tasks: [{
@@ -537,10 +537,10 @@
 			}]
 		}
 		{
-			title: "Portable energy cell"
+			title: "便携式能量电池"
 			x: 5.5d
 			y: -2.5d
-			description: ["You can equip this to the curios inventory."]
+			description: ["你可以将这个装备到你的饰品栏里。"]
 			dependencies: ["1CE6EABD3893CEE9"]
 			id: "5B637E0F1D7F6AB9"
 			tasks: [{
@@ -565,10 +565,10 @@
 			}]
 		}
 		{
-			title: "Fun item!"
+			title: "有趣的东西"
 			x: -3.0d
 			y: 3.5d
-			description: ["This gives a thunder strike when you throw it out."]
+			description: ["当你把它扔出去的时候，你会大吃一惊。"]
 			dependencies: ["17C95C1468678E4C"]
 			id: "10037E34831F4058"
 			tasks: [{
@@ -578,10 +578,10 @@
 			}]
 		}
 		{
-			title: "Powerful coolant for your reactor"
+			title: "为反应堆提供冷却剂"
 			x: 1.5d
 			y: 6.0d
-			description: ["Dry ice spawns naturally underground. Get some dryice when you exploring the caves."]
+			description: ["干冰在地下自然生成，当你探索洞穴时，你可以收集一些干冰。"]
 			id: "5C4FCCA392F4422B"
 			tasks: [{
 				id: "61E1B5359A6BC570"
@@ -604,7 +604,7 @@
 		{
 			x: -2.0d
 			y: 11.5d
-			description: ["Input cyanite and water. It will wash the cyanite to produce blutonium."]
+			description: ["输入蓝晶和水，他会洗涤蓝晶并产生蓝钚。"]
 			dependencies: ["724CC76F727ACC29"]
 			id: "0546B61B932B7D5A"
 			tasks: [{
@@ -625,11 +625,11 @@
 			}]
 		}
 		{
-			title: "Bigger reactor"
+			title: "更大的反应堆"
 			x: -2.0d
 			y: 8.5d
 			description: [
-				"Bigger reactor is one of the most classical mod in Minecraft. Smelt coal in furnace to get graphite ingots, the fundamental material in Bigger Reactors."
+				"更大的反应堆（Bigger_Reactors）是Minecraft中最经典的模组之一，在熔炉中熔炼煤来生成石墨锭，这是“更大的反应堆”的基本材料。"
 				"{image:kubejs:textures/quests/energy/energy_bigger_reactor.png width:178 height:100 align:1}"
 			]
 			id: "2D4FBEA12138BE22"
@@ -660,13 +660,13 @@
 			]
 		}
 		{
-			title: "Bigger reactor"
+			title: "更大的反应堆"
 			x: -2.0d
 			y: 10.0d
 			description: [
-				"Time to have the BIGGER REACTOR. The smallest and largest size available are 3x3x3 and 32x48x32 respectively."
-				"The reactor uses uranium as fuel and produces copious amount of energy."
-				"Remember to include coolant for your reactor to maximize energy produced."
+				"是时候建造“更大的反应堆”了。最小和最大的尺寸分别是3x3x3和32x48x32。"
+				"该反应堆使用铀作为燃料，并产生大量的能量。"
+				"记住向你的反应堆添加冷却剂，来最大限度的产生能量。"
 			]
 			dependencies: ["2D4FBEA12138BE22"]
 			id: "724CC76F727ACC29"
@@ -688,10 +688,10 @@
 			}]
 		}
 		{
-			title: "Bigger turbine"
+			title: "更大的涡轮"
 			x: 0.0d
 			y: 10.0d
-			description: ["If you refuses to put coolant into the reactor, you can use water as the coolant. The steam produced can also produce power in the steam turbine"]
+			description: ["如果你不想使用冷却剂，那你可以用水当作冷却剂，产生的蒸汽也可以在涡轮机中产生动力。"]
 			dependencies: ["2D4FBEA12138BE22"]
 			id: "43902BFDDD1DE300"
 			tasks: [{
@@ -714,7 +714,7 @@
 		{
 			x: 0.0d
 			y: 11.5d
-			description: ["Cyanite ingot is actually the nuclear waste of Bigger Reactor. Input uranium ingot into the reactor and wait a while. Then you will get a cyanite ingot in the output port of the reactor."]
+			description: ["蓝晶锭是反应堆的核废料，把铀锭输入反应堆，稍等片刻，然后你就可以在反应堆的输出端口得到一个蓝晶锭。"]
 			dependencies: ["724CC76F727ACC29"]
 			id: "3EC6D82FE0BDA841"
 			tasks: [{
@@ -761,13 +761,13 @@
 			}]
 		}
 		{
-			title: "Flux Network"
+			title: "通量网络"
 			x: 2.5d
 			y: 8.5d
-			subtitle: "Basic unit"
+			subtitle: "基本单元"
 			description: [
-				"This mod is a very convenient mod in energy transmission across long distance and dimensions."
-				"Flux dust is obtained by throwing redstone dust under an obdisian block then left click the block."
+				"这是一个能长距离无限能量传输的模组，而且非常方便。"
+				"通量粉尘是通过将红石粉放在黑曜石块下（基岩或者能量块上），然后左击黑曜石获得。"
 			]
 			id: "79EB746554C0DF82"
 			tasks: [{
@@ -784,10 +784,10 @@
 			}]
 		}
 		{
-			title: "Other materials"
+			title: "其他材料"
 			x: 2.5d
 			y: 10.0d
-			description: ["Other materials that you need"]
+			description: ["你需要的其他材料。"]
 			dependencies: ["79EB746554C0DF82"]
 			id: "71F56F4187C165DE"
 			tasks: [
@@ -812,7 +812,7 @@
 		{
 			x: 2.5d
 			y: 13.0d
-			description: ["You can access the configuration of channels through this block."]
+			description: ["你可以通过这个工具来访问网络配置"]
 			dependencies: ["71F56F4187C165DE"]
 			id: "4103DDC80C8D9142"
 			tasks: [{
@@ -848,7 +848,7 @@
 		{
 			x: 4.5d
 			y: 10.0d
-			description: ["An energy storage for flux network."]
+			description: ["一种用于通量网络的能量存储装置。"]
 			dependencies: ["71F56F4187C165DE"]
 			id: "6730FC20812C4709"
 			tasks: [{
@@ -882,10 +882,10 @@
 			]
 		}
 		{
-			title: "Energy transfer"
+			title: "能量传输"
 			x: 4.5d
 			y: 13.0d
-			description: ["Flux plug import energy into the flux network, and the flux point extract energy from the network to power machines."]
+			description: ["能量网络接入点将能量输入到通量网络中，能量网络接出点将能量传给机器。"]
 			dependencies: ["71F56F4187C165DE"]
 			id: "3C573BC2E248BD1B"
 			tasks: [
@@ -928,7 +928,7 @@
 		{
 			x: 4.5d
 			y: 11.5d
-			description: ["You can copy and paste the configuration with this wrench"]
+			description: ["你可以用这个扳手复制和粘贴配置。"]
 			dependencies: ["71F56F4187C165DE"]
 			id: "0A4889260A3D5B45"
 			tasks: [{
@@ -965,8 +965,8 @@
 			x: 7.5d
 			y: 7.5d
 			description: [
-				"Generator from Industrial Foregoing is the successor of generators from Extra Utilities 2 from 1.12.2. They work at the same way."
-				"There are 18 types of generator, and one myelial reactor. Once all the 18 types of generator is working in loaded chunks, the mycelial reaction will produce 25,000,000FE/t. Even stronger than the rainbow generator from EU2!!!"
+				"工业先锋的发电机是继承于1.12.2的更多实用设备2这个模组。他们的工作方式是一样的。"
+				"一共有十八种发电机，一种菌丝网络产能反应堆，一旦十八种类型的发电机全部工作，菌丝网络产能反应堆将会产生25,000,000FE/t，甚至比EU2的彩虹发电机还要强。"
 			]
 			id: "51EB5D8B1CAAC803"
 			tasks: [{
@@ -1616,12 +1616,12 @@
 			]
 		}
 		{
-			title: "Draconic Energy Storage"
+			title: "能量核心！"
 			x: -6.5d
 			y: 4.5d
 			description: [
-				"Draconic Evolution has a energy storage with different tiers which sotres different amount of energy."
-				"This is what a tier 8 energy core looks like! Place the energy core down and then right click. Click the \"Build Guide\" option in the GUI and construct the energy cell according to its guide."
+				"龙之研究有不同等级的能量储存，储存不同数量的能量。"
+				"这就是8级能量核心的样子！向下放置能量核心，然后右击，单机GUI中的“构建指南”选项，并更具其指南构建能量电池。"
 				"{image:kubejs:textures/quests/energy/energy_draconic_storage.png width:178 height:100 align:1}"
 			]
 			id: "61BC8C2A0524FC1B"
@@ -1647,7 +1647,7 @@
 			x: -6.5d
 			y: 6.5d
 			description: [
-				"Here is a list of materials on constructing tier 8 energy core."
+				"下面是建造一个8级能量核心的清单。"
 				"{image:kubejs:textures/quests/energy/energy_reactor.png width:230 height:100 align:1 fit:true}"
 			]
 			dependencies: ["61BC8C2A0524FC1B"]
@@ -1655,7 +1655,7 @@
 			tasks: [{
 				id: "20482121EBC5E1EF"
 				type: "checkmark"
-				title: "Tier 8"
+				title: "8级"
 			}]
 			rewards: [{
 				id: "450269CF126F435E"
@@ -1670,12 +1670,12 @@
 			}]
 		}
 		{
-			title: "Draconic reactor"
+			title: "神龙反应堆！"
 			x: -4.5d
 			y: 4.5d
 			description: [
-				"Reactors from Draconic Evolution is similar to 1.12.2... EXTREMELY DANGEROUS."
-				"I recommend you to build the reactor in the void dimension, and take a look at the tutorial on YT first."
+				"龙之研究的反应堆和1.12.2一样。。。极其危险！"
+				"我建议你在虚空维度中建立反应堆，并先看一下教程。"
 			]
 			dependencies: ["61BC8C2A0524FC1B"]
 			id: "0D57A8A2CEC435D8"
@@ -1701,12 +1701,12 @@
 		{
 			x: -5.5d
 			y: 8.5d
-			description: ["Try the dynamos from Thermal Series"]
+			description: ["试试热力系列的发电机"]
 			id: "75E98E90A6D25108"
 			tasks: [{
 				id: "591F5273E82A02CC"
 				type: "checkmark"
-				title: "Dynamos"
+				title: "发电机"
 			}]
 		}
 		{
@@ -1866,7 +1866,7 @@
 		{
 			x: -4.5d
 			y: 6.5d
-			description: ["Here is the portal for void dimension. Do not move instantly when you just enter the dimension XD because you may fall off!"]
+			description: ["这是虚空维度的入口。当你刚刚进入虚空维度时，不要立即移动，因为你可能会掉下去！XD"]
 			dependencies: ["0D57A8A2CEC435D8"]
 			id: "5D80A4A7A1B2C433"
 			tasks: [{
@@ -1888,13 +1888,13 @@
 			}]
 		}
 		{
-			title: "Notes on soul lava"
+			title: "灵魂熔岩的说明"
 			x: 0.0d
 			y: 8.5d
 			description: [
-				"Due to the property of soul lava, you can't place anything in the flowing soul lava. To place the soul lava adjacently, you may use the following two ways."
-				"1) Place the soul lava quickly next to each other before they start to flow."
-				"2) Use Fluid Placer from Industrial Foregoing which can forcely place soul lava."
+				"由于灵魂熔岩的属性，你不能在流动的灵魂熔岩上放置任何东西。要把灵魂熔岩放在相邻的地方，你可以使用以下两种方法。"
+				"1）在灵魂熔岩开始流动之前，把它们快速地放在一起。"
+				"2）使用工业先锋的流体放置器，它可以强制放置灵魂熔岩。"
 			]
 			dependencies: ["2D4FBEA12138BE22"]
 			id: "4BBBE0166BB7C2D8"
