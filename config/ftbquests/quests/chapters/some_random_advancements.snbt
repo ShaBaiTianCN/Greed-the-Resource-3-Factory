@@ -270,13 +270,13 @@
 			icon: "biggerreactors:reactor_glass"
 			x: 2.5d
 			y: 0.0d
-			description: ["尝试建造出最大尺寸的“大型反应堆（Bigger_Reactor）”"]
+			description: ["尝试建造出最大尺寸的“更大的反应堆（Bigger_Reactor）”"]
 			dependencies: ["6DB08F160FA75EBA"]
 			id: "797101934A66BDBC"
 			tasks: [{
 				id: "0CA7D37C15F342BA"
 				type: "checkmark"
-				title: "建造一个32x48x32大小的大型反应堆！"
+				title: "建造一个32x48x32大小的反应堆！"
 			}]
 		}
 		{
