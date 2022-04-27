@@ -524,10 +524,10 @@
 			}]
 		}
 		{
-			title: "Stronger ingot!"
+			title: "更强大的锭！"
 			x: 0.0d
 			y: 7.5d
-			description: ["Creativerite会赋予你创造力!"]
+			description: ["创造下界合金赋予你创造力！"]
 			dependencies: ["6BCD7D23BC9E1117"]
 			id: "732AE78CC837B7D6"
 			tasks: [{
@@ -698,7 +698,7 @@
 			}]
 		}
 		{
-			title: "Creativerite 盔甲套装"
+			title: "创造下界合金盔甲套装"
 			x: 0.0d
 			y: 9.5d
 			description: ["无尽护甲V.2！！！"]
@@ -748,7 +748,7 @@
 			]
 		}
 		{
-			title: "Creativerite 武器套装"
+			title: "创造下界合金武器套装"
 			x: 1.5d
 			y: 9.5d
 			description: ["寰宇支配之剑"]
@@ -798,7 +798,7 @@
 			]
 		}
 		{
-			title: "Creativerite工具组"
+			title: "创造下界合金工具套装"
 			x: -1.5d
 			y: 9.5d
 			description: ["世界崩解之镐，星球吞噬之铲，自然荒芜之斧"]

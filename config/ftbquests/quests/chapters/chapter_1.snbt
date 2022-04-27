@@ -345,7 +345,7 @@
 			x: 0.5d
 			y: 1.5d
 			subtitle: "我的基地真漂亮"
-			description: ["这里有一些模组可以帮助你装饰你的基地。“凿子”模组就是很经典的一个。包括“Absent by Design”、“MyCrayFish”系列、“工程师的装饰”、“Macaw”系列也都有精美的方块可以帮助你装饰基地。"]
+			description: ["这里有一些模组可以帮助你装饰你的基地。“凿子（Chisel）”模组就是很经典的一个。还有“Absent_by_Design”、“MyCrayFish”系列、“工程师的装饰（Engineer's_deco）”、“Macaw”系列也都有精美的方块可以帮助你装饰基地。"]
 			dependencies: ["0D83FCA738F72E36"]
 			id: "40D22C391D807AE3"
 			tasks: [{

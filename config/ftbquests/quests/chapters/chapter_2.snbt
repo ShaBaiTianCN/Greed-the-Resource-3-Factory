@@ -291,7 +291,7 @@
 			subtitle: "还没到科技物品"
 			description: [
 				"在你获取机器之前，你必须前往地狱并在地狱堡垒中获取下界疣。"
-				"PS 你也可以在地狱挖矿。"
+				"PS，你也可以在地狱挖矿。"
 				"{image:kubejs:textures/quests/chapter2/chapter2_nether_ore.png width:178 height:100 align:1}"
 			]
 			dependencies: ["77EEC0477DB18091"]

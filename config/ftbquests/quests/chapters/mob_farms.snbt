@@ -413,7 +413,7 @@
 			tasks: [{
 				id: "5B448095136FE8EE"
 				type: "checkmark"
-				title: "Mob Grinding Utils"
+				title: "刷怪塔实用设备"
 			}]
 			rewards: [{
 				id: "3BA0F47F88210974"
@@ -438,7 +438,7 @@
 			tasks: [{
 				id: "268E4A625D6E995A"
 				type: "checkmark"
-				title: "Industrial Foregoing"
+				title: "工业先锋"
 			}]
 			rewards: [{
 				id: "0599BE48B0F7DF31"
@@ -755,7 +755,7 @@
 			tasks: [{
 				id: "5B7F0AECBC55A7E7"
 				type: "checkmark"
-				title: "Draconic Evolution"
+				title: "龙之进化"
 			}]
 			rewards: [{
 				id: "2A83742B2B856D7B"

@@ -12,7 +12,7 @@
 			x: -5.0d
 			y: 0.5d
 			description: [
-				"一根来自Astral Sorcery的魔杖，它能帮你替换方块，类似于更替小帮手。Shift右键可以设置范围。"
+				"一根来自星辉魔法（Astral_Sorcery）的魔杖，它能帮你替换方块，类似于更替小帮手。Shift右键可以设置范围。"
 				"{image:kubejs:textures/quests/construction/construction_conversion_wand.png width:178 height:100 align:1}"
 			]
 			dependencies: ["2A58C5E08522716D"]
@@ -45,7 +45,7 @@
 			x: -5.0d
 			y: 2.5d
 			description: [
-				"一根来自Astral Sorcery的魔杖，可以帮助你建筑，类似与建筑小帮手。Shift右键切换模式。"
+				"一根来自星辉魔法（Astral_Sorcery）的魔杖，可以帮助你建筑，类似于建筑小帮手。Shift右键切换模式。"
 				"{image:kubejs:textures/quests/construction/construction_formation_wand.png width:178 height:100 align:1}"
 			]
 			dependencies: ["2A58C5E08522716D"]
@@ -445,7 +445,7 @@
 			}]
 		}
 		{
-			title: "Construting tools"
+			title: "建筑工具"
 			x: -6.0d
 			y: -2.0d
 			description: ["这个章节为您提供一个帮助您建筑的工具列表。"]

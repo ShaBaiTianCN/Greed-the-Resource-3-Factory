@@ -222,7 +222,7 @@
 				"这个整合包是给用一般电脑的玩家设计的。"
 				"整合包拥有许多优化FPS的模组。由于一些方块存在渲染问题，请不要安装Optifine。"
 				"你可以尝试降低渲染距离或减少块加载区域的数量来优化FPS。试着让你的基地分散一些，这样你就不必在小范围内装载那么多东西。"
-				"只有一个小方法能帮你减少RAM的使用。即禁用或删除装饰相关的模组。例如absent\ by\ design、Macaw's\ series等。由于可能有潜在的配方错误问题，不建议你这样做。"
+				"只有一个小方法能帮你减少RAM的使用。即禁用或删除装饰相关的模组。例如Absent_by_Design、Macaw的桥梁（Macaw's_series）等。由于可能有潜在的配方错误问题，不建议你这样做。"
 			]
 			dependencies: ["070D530BC1F3CE76"]
 			id: "57F359AC2F8BE537"
@@ -370,7 +370,7 @@
 			x: -5.0d
 			y: -3.0d
 			description: [
-				"您可以通过快捷键：“shift+Q”打开任务。 将光标放在箭头左侧， 可以扩展任务的章节。 在右上角，您可以点击图标，一次性领取所有您未领取的奖励。"
+				"您可以通过快捷键：“shift+Q”打开任务。将光标放在箭头左侧，可以扩展任务的章节。在右上角，您可以点击图标，一次性领取所有您未领取的奖励。"
 				"{image:kubejs:textures/quests/tips/tips_quest.png width:178 height:100 align:1}"
 			]
 			dependencies: ["070D530BC1F3CE76"]
@@ -402,7 +402,7 @@
 			x: -11.0d
 			y: 2.0d
 			description: [
-				"你有没有出现过想把东西放在地上的奇怪想法？“世界内物品放置” 是一个可以让你把任何东西放到地上的模组！ 只要按 “P” 像这样做。"
+				"你有没有出现过想把东西放在地上的奇怪想法？“世界内物品放置”是一个可以让你把任何东西放到地上的模组！只要按“P”像这样做。"
 				"{image:kubejs:textures/quests/tips/tips_plonk.png width:178 height:100 align:1}"
 			]
 			dependencies: ["070D530BC1F3CE76"]
@@ -481,7 +481,7 @@
 			x: 0.0d
 			y: -0.5d
 			description: [
-				"这个整合包包含大量装饰性模组，例如MyCrayfish\ Furniture、Absent\ By\ Design、Macaw's\ series等等。你可以随时随地打造你精致美丽的基地。"
+				"这个整合包包含大量装饰性模组，例如MyCrayfish_Furniture、Absent_By_Design、Macaw's_series等等。你可以随时随地打造你精致美丽的基地。"
 				"{image:kubejs:textures/quests/tips/tips_decoration.png width:178 height:100 align:1}"
 			]
 			id: "2453988B8F3B8C79"
