@@ -507,7 +507,7 @@
 		{
 			x: 2.0d
 			y: -5.5d
-			description: ["Unfortunately, you can't use the runic altar with mana from botania. Get an endoflame to generate mana."]
+			description: ["不幸的是，如果没有植物魔法的魔力，你不能使用符文祭坛。所以制作一朵火红莲来生产魔力吧！"]
 			dependencies: ["7F50644065FD5BC2"]
 			id: "70E94C2B637D5B74"
 			tasks: [{
