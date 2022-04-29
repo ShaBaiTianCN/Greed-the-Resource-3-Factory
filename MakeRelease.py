@@ -53,7 +53,7 @@ def main():
     release_info = requests.get(RESOURCES_PACK_URL).json()['assets'][0]
     resourcepack_dir = os.path.join(RELEASE_DIR, 'resourcepacks')
     resourcepack_path = os.path.join(resourcepack_dir, release_info['name'])
-    os.makedirs(resourcepack_dir)
+    touch_dir(resourcepack_dir)
     with open(resourcepack_path, 'wb') as f:
         f.write(requests.get(release_info['browser_download_url']).content)
 
