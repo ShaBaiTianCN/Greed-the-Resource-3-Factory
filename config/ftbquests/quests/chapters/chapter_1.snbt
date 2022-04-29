@@ -453,7 +453,7 @@
 		{
 			x: -3.5d
 			y: -2.5d
-			description: ["你可以查看“Tetra”章节来学习如何制作实用且强大的工具。"]
+			description: ["你可以查看“基础工艺”章节来学习如何制作实用且强大的工具。"]
 			dependencies: ["5E5A234981263D61"]
 			id: "6EA046C47D5C0A2A"
 			tasks: [{

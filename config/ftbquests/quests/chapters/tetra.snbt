@@ -3,7 +3,7 @@
 	group: "37B8334BBCBD0DFD"
 	order_index: 0
 	filename: "tetra"
-	title: "Tetra"
+	title: "基础工艺"
 	icon: {
 		id: "tetra:modular_double"
 		Count: 1b
@@ -24,9 +24,9 @@
 		{
 			x: 0.0d
 			y: -1.0d
-			subtitle: "Tetra!"
+			subtitle: "基础工艺！"
 			description: [
-				"Tetra是一个允许你定制你的工具部件的模组，不需要熔炼金属或者融合合金，只需要简单的材料。Tetra还有一个工具平衡系统。随着工具的使用可以让你打磨你的工具，使其拥有特殊的能力和附魔。"
+				"基础工艺（Tetra）是一个允许你定制你的工具部件的模组，不需要熔炼金属或者融合合金，只需要简单的材料。基础工艺还有一个工具平衡系统。随着工具的使用可以让你打磨你的工具，使其拥有特殊的能力和附魔。"
 				"那第一步就是制作一个你自己的木锤。"
 			]
 			id: "5B2BADCD72CAA912"
