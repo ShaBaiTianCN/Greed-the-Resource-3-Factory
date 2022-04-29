@@ -45,6 +45,8 @@ def main():
         for filename in filenames:
             if dirpath == '.' and filename in ['.gitignore', 'MakeRelease.py']:
                 continue
+            elif filename == 'en_us.json':
+                continue
             else:
                 file_path = os.path.join(dirpath, filename)
                 copy(file_path)
