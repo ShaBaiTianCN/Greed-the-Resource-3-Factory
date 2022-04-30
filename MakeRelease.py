@@ -7,7 +7,7 @@ import requests
 PROJECT_NAME = 'Greed-the-Resource-3-Factory'
 PACK_VERSION = 'V5.2hf'
 VERSION = input('Version: ')
-RELEASE_NAME = '-'.join([VERSION, 'CN', PROJECT_NAME, PACK_VERSION])
+RELEASE_NAME = '-'.join([VERSION, '汉化补丁', PROJECT_NAME, PACK_VERSION])
 RELEASE_DIR = os.path.join('temp', RELEASE_NAME)
 
 RESOURCES_PACK_URL = 'https://gitee.com/api/v5/repos/ShaBaiTianCN/Minecraft-Mod-Language-Package-Not-Included-Language-Package/releases/latest'
