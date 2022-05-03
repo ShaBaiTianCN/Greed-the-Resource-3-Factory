@@ -235,7 +235,7 @@
 			x: -5.0d
 			y: -1.0d
 			description: [
-				"在海洋生物群戏中获得ATM矿石来制作数字型采矿机。但是，如果你没有合适的工具，这将会浪费你很多的时间。你可以浏览“挖矿”章节来找到合适的工具。"
+				"在海洋生物群群系中获得ATM矿石来制作数字型采矿机。但是，如果你没有合适的工具，这将会浪费你很多的时间。你可以浏览“挖矿”章节来找到合适的工具。"
 				"{image:kubejs:textures/quests/chapter5/chapter5_allthemodium.png width:178 height:100 align:1}"
 			]
 			dependencies: ["1E29C13F42A32221"]
