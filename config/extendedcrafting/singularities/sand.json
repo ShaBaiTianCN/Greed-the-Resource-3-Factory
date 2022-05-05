@@ -1,0 +1,11 @@
+{
+    "name": "Sand",
+    "colors": [
+      "ffedba",
+      "e6ce8c"
+    ],
+    "ingredient": {
+      "tag": "forge:sand"
+    },
+    "materialCount": 256000
+  }

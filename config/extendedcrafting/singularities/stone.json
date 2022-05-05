@@ -1,0 +1,11 @@
+{
+    "name": "Stone",
+    "colors": [
+      "5c5a55",
+      "5c5a55"
+    ],
+    "ingredient": {
+      "tag": "forge:stone"
+    },
+    "materialCount": 256000
+  }

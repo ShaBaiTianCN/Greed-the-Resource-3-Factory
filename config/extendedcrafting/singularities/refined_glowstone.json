@@ -1,0 +1,11 @@
+{
+    "name": "Refined Glowstone",
+    "colors": [
+      "d4ab28",
+      "625612"
+    ],
+    "ingredient": {
+      "tag": "forge:storage_blocks/refined_glowstone"
+    },
+    "materialCount": 2000
+  }

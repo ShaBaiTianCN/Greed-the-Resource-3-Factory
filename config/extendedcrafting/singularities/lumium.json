@@ -1,0 +1,11 @@
+{
+    "name": "Lumium",
+    "colors": [
+      "e8e3b9",
+      "553f1b"
+    ],
+    "ingredient": {
+      "tag": "forge:storage_blocks/lumium"
+    },
+    "materialCount": 2000
+  }

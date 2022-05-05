@@ -1,0 +1,11 @@
+{
+    "name": "Compressed Iron",
+    "colors": [
+      "898989",
+      "3c3c3c"
+    ],
+    "ingredient": {
+      "tag": "forge:storage_blocks/compressed_iron"
+    },
+    "materialCount": 2000
+  }

@@ -1,0 +1,11 @@
+{
+    "name": "Manasteel",
+    "colors": [
+      "449bdf",
+      "1c3a52"
+    ],
+    "ingredient": {
+      "tag": "forge:storage_blocks/manasteel"
+    },
+    "materialCount": 2000
+  }

@@ -1,0 +1,11 @@
+{
+  "name": "Electrum",
+  "colors": [
+    "a79135",
+    "a79135"
+  ],
+  "ingredient": {
+    "tag": "forge:storage_blocks/electrum"
+  },
+  "materialCount": 2000
+}

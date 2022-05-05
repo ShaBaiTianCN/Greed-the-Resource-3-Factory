@@ -1,0 +1,11 @@
+{
+    "name": "Gravel",
+    "colors": [
+      "55535c",
+      "28272b"
+    ],
+    "ingredient": {
+      "tag": "forge:gravel"
+    },
+    "materialCount": 256000
+  }

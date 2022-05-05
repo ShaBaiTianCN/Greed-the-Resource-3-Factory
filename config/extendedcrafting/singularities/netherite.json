@@ -1,0 +1,10 @@
+{
+    "name": "Netherite",
+    "colors": [
+      "413e41",
+      "302e30"
+    ],
+    "ingredient": {
+      "tag": "forge:storage_blocks/netherite"
+    }
+  }

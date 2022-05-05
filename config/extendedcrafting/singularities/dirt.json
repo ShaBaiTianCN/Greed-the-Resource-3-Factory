@@ -1,0 +1,11 @@
+{
+    "name": "Dirt",
+    "colors": [
+      "805a0f",
+      "805a0f"
+    ],
+    "ingredient": {
+      "tag": "forge:dirt"
+    },
+    "materialCount": 256000
+  }

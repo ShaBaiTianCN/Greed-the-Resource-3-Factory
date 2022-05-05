@@ -1,0 +1,11 @@
+{
+    "name": "Refined Obsidian",
+    "colors": [
+      "493f60",
+      "1e1a29"
+    ],
+    "ingredient": {
+      "tag": "forge:storage_blocks/refined_obsidian"
+    },
+    "materialCount": 2000
+  }

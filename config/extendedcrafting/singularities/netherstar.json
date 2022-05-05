@@ -1,0 +1,11 @@
+{
+    "name": "Nether Star",
+    "colors": [
+      "c9e8e3",
+      "7fae99"
+    ],
+    "ingredient": {
+      "tag": "forge:storage_blocks/nether_star"
+    },
+    "materialCount": 2000
+  }

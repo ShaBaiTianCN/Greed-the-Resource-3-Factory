@@ -1,0 +1,11 @@
+{
+  "name": "Wood",
+  "colors": [
+    "964b00",
+    "644624"
+  ],
+  "ingredient": {
+    "tag": "minecraft:logs"
+  },
+  "materialCount": 256000
+}

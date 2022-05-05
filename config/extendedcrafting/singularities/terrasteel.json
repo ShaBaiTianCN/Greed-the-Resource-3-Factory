@@ -1,0 +1,11 @@
+{
+    "name": "Terrasteel",
+    "colors": [
+      "46ba20",
+      "19450a"
+    ],
+    "ingredient": {
+      "tag": "forge:storage_blocks/terrasteel"
+    },
+    "materialCount": 2000
+  }

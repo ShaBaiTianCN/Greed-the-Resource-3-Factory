@@ -1,0 +1,11 @@
+{
+  "name": "Mushroom",
+  "colors": [
+    "e85165",
+    "ad4b58"
+  ],
+  "ingredient": {
+    "tag": "forge:mushrooms"
+  },
+  "materialCount": 51200
+}

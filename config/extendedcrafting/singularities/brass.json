@@ -1,0 +1,11 @@
+{
+  "name": "Brass",
+  "colors": [
+    "ac8340",
+    "443418"
+  ],
+  "ingredient": {
+    "tag": "forge:storage_blocks/brass"
+  },
+  "materialCount": 2000
+}

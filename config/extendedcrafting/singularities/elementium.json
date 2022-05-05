@@ -1,0 +1,11 @@
+{
+    "name": "Elementium",
+    "colors": [
+      "c852e1",
+      "592b63"
+    ],
+    "ingredient": {
+      "tag": "forge:storage_blocks/elementium"
+    },
+    "materialCount": 2000
+  }

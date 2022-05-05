@@ -1,0 +1,11 @@
+{
+    "name": "Enderium",
+    "colors": [
+      "072748",
+      "091e29"
+    ],
+    "ingredient": {
+      "tag": "forge:storage_blocks/enderium"
+    },
+    "materialCount": 2000
+  }
