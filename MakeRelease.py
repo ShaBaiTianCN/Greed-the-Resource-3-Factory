@@ -5,7 +5,7 @@ import zipfile
 import requests
 
 PROJECT_NAME = 'Greed-the-Resource-3-Factory'
-PACK_VERSION = 'V5.2hf'
+PACK_VERSION = 'V5.3'
 VERSION = input('Version: ')
 RELEASE_NAME = '-'.join([VERSION, '汉化补丁', PROJECT_NAME, PACK_VERSION])
 RELEASE_DIR = os.path.join('temp', RELEASE_NAME)

@@ -408,23 +408,6 @@
 			x: -2.5d
 			y: 7.5d
 			dependencies: ["00B156CA1AE50699"]
-			id: "3623BF65FD94BA4C"
-			tasks: [{
-				id: "62C7C785846BFACE"
-				type: "advancement"
-				advancement: "crockpot:wither_skeleton_skull"
-				criterion: ""
-			}]
-			rewards: [{
-				id: "29C778B30020F5EB"
-				type: "item"
-				item: "minecraft:netherite_block"
-			}]
-		}
-		{
-			x: -2.5d
-			y: 10.0d
-			dependencies: ["00B156CA1AE50699"]
 			id: "44A0605BE85D5A79"
 			tasks: [{
 				id: "264B9B7AF46DA189"
