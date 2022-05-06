@@ -11,10 +11,10 @@ onEvent('recipes', e => {
         tag: {
           'patchouli:book': 'industrialforegoing:industrial_foregoing',
           'akashictome:displayName': {
-            text: "IndustrialForegoing'sManual"
+            text: "工业先锋手册"
           },
           display: {
-            Name: '{"translate":"akashictome.sudo_name","with":[{"color":"green","text":"IndustrialForegoing"}]}'
+            Name: '{"translate":"akashictome.sudo_name","with":[{"color":"green","text":"工业先锋"}]}'
           }
         }
       },
@@ -23,12 +23,12 @@ onEvent('recipes', e => {
         Count: 1,
         tag: {
           'akashictome:displayName': {
-            text: 'FiftyShadesofBees'
+            text: '五十度蜂'
           },
           'patchouli:book': 'resourcefulbees:fifty_shades_of_bees',
           'akashictome:is_morphing': 1,
           display: {
-            Name: '{"translate":"akashictome.sudo_name","with":[{"color":"green","text":"FiftyShadesofBees"}]}'
+            Name: '{"translate":"akashictome.sudo_name","with":[{"color":"green","text":"五十度蜂"}]}'
           }
         }
       },
@@ -37,12 +37,12 @@ onEvent('recipes', e => {
         Count:1,
         tag:{
           'akashictome:displayName': {
-            text: 'BecomingAnItamae'
+            text: '成为寿司大师'
           },
           "patchouli:book":"sushigocrafting:sushigocrafting",
           'akashictome:is_morphing': 1,
           display: {
-            Name: '{"translate":"akashictome.sudo_name","with":[{"color":"green","text":"BecomingAnItamae"}]}'
+            Name: '{"translate":"akashictome.sudo_name","with":[{"color":"green","text":"成为寿司大师"}]}'
           }
         }
       },
@@ -51,7 +51,7 @@ onEvent('recipes', e => {
         Count: 1,
         tag: {
           'akashictome:displayName': {
-            text: 'AstralTome'
+            text: '星芒宝典'
           }
         }
       },
@@ -60,7 +60,7 @@ onEvent('recipes', e => {
         Count: 1,
         tag: {
           'akashictome:displayName': {
-            text: 'ProbeSettings'
+            text: 'The One probe阅读指南'
           },
           'akashictome:is_morphing': 1
         }
@@ -70,7 +70,7 @@ onEvent('recipes', e => {
         Count: 1,
         tag: {
           'akashictome:displayName': {
-            text: 'QuestBook'
+            text: '任务书'
           }
         }
       },
@@ -79,10 +79,10 @@ onEvent('recipes', e => {
         Count: 1,
         tag: {
           'akashictome:displayName': {
-            text: 'LexicaBotania'
+            text: '植物魔法辞典'
           },
           display: {
-            Name: '{"translate":"akashictome.sudo_name","with":[{"color":"green","text":"LexicaBotania"}]}'
+            Name: '{"translate":"akashictome.sudo_name","with":[{"color":"green","text":"植物魔法辞典"}]}'
           },
           'akashictome:is_morphing': 1
         }
@@ -93,7 +93,7 @@ onEvent('recipes', e => {
         tag: {
           'patchouli:book': 'naturesaura:book',
           'akashictome:displayName': {
-            text: 'BookOfNaturalAura'
+            text: '自然灵气之书'
           }
         }
       },
@@ -103,7 +103,7 @@ onEvent('recipes', e => {
         tag: {
           'patchouli:book': 'thermal:guidebook',
           'akashictome:displayName': {
-            text: 'Thermalpedia'
+            text: '热力百科'
           }
         }
       },
@@ -112,11 +112,11 @@ onEvent('recipes', e => {
         Count: 1,
         tag: {
           'akashictome:displayName': {
-            text: 'TechnologyGuide'
+            text: 'RF工具指导手册'
           },
           'akashictome:is_morphing': 1,
           display: {
-            Name: '{"translate":"akashictome.sudo_name","with":[{"color":"green","text":"TechnologyGuide"}]}'
+            Name: '{"translate":"akashictome.sudo_name","with":[{"color":"green","text":"RF工具指导手册"}]}'
           }
         }
       },
@@ -125,11 +125,11 @@ onEvent('recipes', e => {
         Count: 1,
         tag: {
           'akashictome:displayName': {
-            text: 'Manual(Powah!)'
+            text: 'Powah! 手册'
           },
           'akashictome:is_morphing': 1,
           display: {
-            Name: '{"translate":"akashictome.sudo_name","with":[{"color":"green","text":"Manual(Powah!)"}]}'
+            Name: '{"translate":"akashictome.sudo_name","with":[{"color":"green","text":"Powah! 手册"}]}'
           }
         }
       },
@@ -139,7 +139,7 @@ onEvent('recipes', e => {
         tag: {
           'patchouli:book': 'pneumaticcraft:book',
           'akashictome:displayName': {
-            text: 'PNC:RManual'
+            text: 'PNC:R 手册'
           }
         }
       },
@@ -148,12 +148,12 @@ onEvent('recipes', e => {
         Count:1,
         tag:{
           'akashictome:displayName': {
-            text: 'ModularRouters'
+            text: '模块化路由器'
           },
           "patchouli:book":"modularrouters:book",
           'akashictome:is_morphing': 1,
           display: {
-            Name: '{"translate":"akashictome.sudo_name","with":[{"color":"green","text":"ModularRouters"}]}'
+            Name: '{"translate":"akashictome.sudo_name","with":[{"color":"green","text":"模块化路由器"}]}'
           }
         }
       }, 
@@ -162,11 +162,11 @@ onEvent('recipes', e => {
         Count:1,
         tag:{
           'akashictome:displayName': {
-            text: 'SpiceOfLife:Potato'
+            text: '食物清单'
           },
           'akashictome:is_morphing': 1,
           display: {
-            Name: '{"translate":"akashictome.sudo_name","with":[{"color":"green","text":"FoodBook"}]}'
+            Name: '{"translate":"akashictome.sudo_name","with":[{"color":"green","text":"美食之书"}]}'
           }
         }
       },
@@ -175,12 +175,12 @@ onEvent('recipes', e => {
         Count: 1,
         tag: {
           'akashictome:displayName': {
-            text: 'SanguineScientiem'
+            text: '血染知书'
           },
           'patchouli:book': 'bloodmagic:guide',
           'akashictome:is_morphing': 1,
           display: {
-            Name: '{"translate":"akashictome.sudo_name","with":[{"color":"green","text":"SanguineScientiem"}]}'
+            Name: '{"translate":"akashictome.sudo_name","with":[{"color":"green","text":"血染知书"}]}'
           }
         }
       },
@@ -189,12 +189,12 @@ onEvent('recipes', e => {
         Count: 1,
         tag: {
           'akashictome:displayName': {
-            text: 'MysticalAgriculture'
+            text: '神秘农业'
           },
           'patchouli:book': 'mysticalagriculture:guide',
           'akashictome:is_morphing': 1,
           display: {
-            Name: '{"translate":"akashictome.sudo_name","with":[{"color":"green","text":"MysticalAgriculture"}]}'
+            Name: '{"translate":"akashictome.sudo_name","with":[{"color":"green","text":"神秘农业"}]}'
           }
         }
       },
@@ -204,7 +204,7 @@ onEvent('recipes', e => {
         tag: {
           'patchouli:book': 'engineersdecor:engineersdecor_manual',
           'akashictome:displayName': {
-            text: "Engineer'sDecor"
+            text: "工程师的装饰"
           }
         }
       },
@@ -213,12 +213,12 @@ onEvent('recipes', e => {
         Count:1,
         tag:{
           'akashictome:displayName': {
-            text: 'Memorizable_Gensokyo'
+            text: '记忆中的幻想乡'
           },
             "patchouli:book":"touhou_little_maid:memorizable_gensokyo",
             'akashictome:is_morphing': 1,
             display: {
-              Name: '{"translate":"akashictome.sudo_name","with":[{"color":"green","text":"Memorizable_Gensokyo"}]}'
+              Name: '{"translate":"akashictome.sudo_name","with":[{"color":"green","text":"记忆中的幻想乡"}]}'
           }
         }
       }
