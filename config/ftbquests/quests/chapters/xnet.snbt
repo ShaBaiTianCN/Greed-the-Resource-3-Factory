@@ -1091,5 +1091,16 @@
 				count: 64
 			}]
 		}
+		{
+			x: 11.0d
+			y: 7.0d
+			description: ["Botany pots! Like the bonsai pot from SkyFactory4. Use them to automate your farms!"]
+			id: "6C002677A4B8EDF3"
+			tasks: [{
+				id: "15FA2EA9E369AFBE"
+				type: "item"
+				item: "botanypotstiers:creative_hopper_botany_pot"
+			}]
+		}
 	]
 }
