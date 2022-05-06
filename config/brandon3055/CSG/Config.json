@@ -1,0 +1,11 @@
+{
+  "inventory": {
+    "1:0": "{id:\"minecraft:leather_boots\",Count:1b,tag:{Damage:0,AS_Amulet_Holder:[I;-375519035,-1975500603,-1903724788,1345288620]}}",
+    "0:0": "{id:\"minecraft:stick\",Count:1b,tag:{RepairCost:0,display:{Name:'{\"text\":\"Put me onto crafting grid\"}'}}}",
+    "0:1": "{id:\"minecraft:wooden_axe\",Count:1b,tag:{Damage:49}}",
+    "0:2": "{id:\"minecraft:apple\",Count:10b}",
+    "0:3": "",
+    "0:4": ""
+  },
+  "wipeBlacklist": []
+}
