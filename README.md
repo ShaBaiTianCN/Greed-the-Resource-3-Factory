@@ -1,7 +1,7 @@
 <!-- markdownlint-disable MD033 -->
 # Greed-the-Resource-3-Factory
 
-[![License](https://img.shields.io/badge/license-CC%20BY--NC--ND%204.0-blue)](https://gitee.com/ShaBaiTianCN/Greed-the-Resource-3-Factory/blob/master/LICENSE)
+[![License](https://img.shields.io/badge/license-CC%20BY--NC--ND%204.0-blue)](https://github.com/ShaBaiTianCN/Greed-the-Resource-3-Factory/blob/master/LICENSE)
 
 ## 仓库说明
 
