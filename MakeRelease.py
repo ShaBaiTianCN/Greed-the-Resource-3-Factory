@@ -1,5 +1,5 @@
-import json
 import os
+import json
 import shutil
 import zipfile
 
@@ -54,7 +54,7 @@ def main():
     # Download resource pack
     release_info = requests.get(RESOURCES_PACK_URL).json()['assets'][0]
     resourcepack_dir = os.path.join(RELEASE_DIR, 'resourcepacks')
-    resourcepack_path = os.path.join(resourcepack_dir, '汉化资源补充包.zip')
+    resourcepack_path = os.path.join(resourcepack_dir, '汉化补充资源包.zip')
     touch_dir(resourcepack_dir)
     with open(resourcepack_path, 'wb') as f:
         f.write(requests.get(release_info['browser_download_url']).content)

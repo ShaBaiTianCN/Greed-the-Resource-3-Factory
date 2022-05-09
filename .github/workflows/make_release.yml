@@ -6,6 +6,11 @@ on:
         description: 'Release Version'
         required: true
         type: string
+      pre_release:
+        description: 'This is a pre-release'
+        required: true
+        type: boolean
+        default: false
 
 jobs:
   make_release:
@@ -41,7 +46,7 @@ jobs:
           tag_name: ${{ github.event.inputs.version }}
           release_name: ${{ steps.make_release.outputs.release_name }}
           draft: false
-          prerelease: false
+          prerelease: ${{ github.event.inputs.pre_release }}
 
       - name: Upload Release Asset
         uses: actions/upload-release-asset@v1
