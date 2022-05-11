@@ -189,6 +189,7 @@ onEvent('item.tooltip', e => {
   aquaTooltip('framedblocks:framed_blueprint', 'Shift right click to save formatted framed blocks.')
   grayTooltip('mob_grinding_utils:tinted_glass', 'Connected wither-proof glass!')
   darkRedTooltip('toolleveling:tool_leveling_table', 'Currently only support vanilla materials for item values!!!')
+  darkRedTooltip('sophisticatedbackpacks:crafting_upgrade', 'Disabled due to bug!')
   //===== pipez =====//
     e.add('pipez:item_pipe', [
       [Text.of('Default:'), ' ', Text.of('4'), ' ', Text.of('items/20t')],

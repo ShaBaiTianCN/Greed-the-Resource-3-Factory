@@ -226,7 +226,6 @@ onEvent('recipes', e => {
   }), 'minecraft:stick').id(`kubejs:akashik_tome`)
   removeRecipeByOutput(e, [
     'astralsorcery:tome',
-    'ob_core:mysterious_box',
     Item.of('patchouli:guide_book', '{"patchouli:book":"bloodmagic:guide"}'),
     'botania:lexicon',
     Item.of('patchouli:guide_book', '{"patchouli:book":"engineersdecor:engineersdecor_manual"}'),
@@ -241,7 +240,8 @@ onEvent('recipes', e => {
     'rftoolsbase:manual', 'solpotato:food_book',
     Item.of('patchouli:guide_book', '{"patchouli:book":"sushigocrafting:sushigocrafting"}'),
     Item.of('patchouli:guide_book', '{"patchouli:book":"thermal:guidebook"}'),
-    Item.of('patchouli:guide_book', '{"patchouli:book":"touhou_little_maid:memorizable_gensokyo"}')
+    Item.of('patchouli:guide_book', '{"patchouli:book":"touhou_little_maid:memorizable_gensokyo"}'),
+    'ob_core:runic_manual'
   ])
 })
 
