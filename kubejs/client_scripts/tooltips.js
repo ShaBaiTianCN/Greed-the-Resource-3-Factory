@@ -192,12 +192,12 @@ onEvent('item.tooltip', e => {
   darkRedTooltip('sophisticatedbackpacks:crafting_upgrade', '因为有bug所以已禁用！')
   //===== pipez =====//
     e.add('pipez:item_pipe', [
-      [Text.of('无升级：'), ' ', Text.of('4'), ' ', Text.of('个物品/20t')],
-      [Text.of('基础升级：'), ' ', Text.of('8'), ' ', Text.of('个物品/15t')],
-      [Text.of('进阶升级：').gold(), ' ', Text.of('16').yellow(), ' ', Text.of('个物品/10t').gold()],
-      [Text.of('高级升级：').darkAqua(), ' ', Text.of('32').aqua(), ' ', Text.of('个物品/5t').darkAqua()],
-      [Text.of('终极升级：').darkGray(), ' ', Text.of('64').gray(), ' ', Text.of('个物品/t').darkGray()],
-      [Text.of('无限升级：').darkPurple(), ' ', Text.of('2,147,483,647').lightPurple(), ' ', Text.of('个物品/t').darkPurple()],
+      [Text.of('无升级：'), ' ', Text.of('4'), ' ', Text.of('个/20t')],
+      [Text.of('基础升级：'), ' ', Text.of('8'), ' ', Text.of('个/15t')],
+      [Text.of('进阶升级：').gold(), ' ', Text.of('16').yellow(), ' ', Text.of('个/10t').gold()],
+      [Text.of('高级升级：').darkAqua(), ' ', Text.of('32').aqua(), ' ', Text.of('个/5t').darkAqua()],
+      [Text.of('终极升级：').darkGray(), ' ', Text.of('64').gray(), ' ', Text.of('个/t').darkGray()],
+      [Text.of('无限升级：').darkPurple(), ' ', Text.of('2,147,483,647').lightPurple(), ' ', Text.of('个/t').darkPurple()],
     ])
     e.add('pipez:fluid_pipe', [
       [Text.of('无升级：'), ' ', Text.of('50'), ' ', Text.of('mB/t')],
