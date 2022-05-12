@@ -173,10 +173,10 @@
   "item.resourcefulbees.blazing_bee_spawn_egg": "烈焰蜜蜂刷怪蛋",
   "entity.resourcefulbees.blazing_bee": "烈焰蜜蜂",
 
-  "block.resourcefulbees.dragonic_honeycomb_block": "龙蜜脾块",
-  "item.resourcefulbees.dragonic_honeycomb": "龙蜜脾",
-  "item.resourcefulbees.dragonic_bee_spawn_egg": "龙蜜蜂刷怪蛋",
-  "entity.resourcefulbees.dragonic_bee": "龙蜜蜂",
+  "block.resourcefulbees.dragonic_honeycomb_block": "龙蛋蜜脾块",
+  "item.resourcefulbees.dragonic_honeycomb": "龙蛋蜜脾",
+  "item.resourcefulbees.dragonic_bee_spawn_egg": "龙蛋蜜蜂刷怪蛋",
+  "entity.resourcefulbees.dragonic_bee": "龙蛋蜜蜂",
 
   "block.resourcefulbees.ghastly_honeycomb_block": "恶魂蜜脾块",
   "item.resourcefulbees.ghastly_honeycomb": "恶魂蜜脾",
@@ -195,18 +195,18 @@
 
   "block.resourcefulbees.beeper_honeycomb_block": "蜂力怕蜜脾块",
   "item.resourcefulbees.beeper_honeycomb": "蜂力怕蜜脾",
-  "item.resourcefulbees.beeper_bee_spawn_egg": "蜂力怕刷怪蛋",
-  "entity.resourcefulbees.beeper_bee": "蜂力怕",
+ "item.resourcefulbees.beeper_bee_spawn_egg": "蜂力怕蜜蜂刷怪蛋",
+  "entity.resourcefulbees.beeper_bee": "蜂力怕蜜蜂",
 
   "block.resourcefulbees.ender_honeycomb_block": "末影蜜脾块",
   "item.resourcefulbees.ender_honeycomb": "末影蜜脾",
   "item.resourcefulbees.ender_bee_spawn_egg": "末影蜜蜂刷怪蛋",
   "entity.resourcefulbees.ender_bee": "末影蜜蜂",
 
-  "block.resourcefulbees.guardian_honeycomb_block": "守护者蜜脾块",
-  "item.resourcefulbees.guardian_honeycomb": "守护者蜜脾",
-  "item.resourcefulbees.guardian_bee_spawn_egg": "守护者蜜蜂刷怪蛋",
-  "entity.resourcefulbees.guardian_bee": "守护者蜜蜂",
+  "block.resourcefulbees.guardian_honeycomb_block": "守卫者蜜脾块",
+  "item.resourcefulbees.guardian_honeycomb": "守卫者蜜脾",
+  "item.resourcefulbees.guardian_bee_spawn_egg": "守卫者蜜蜂刷怪蛋",
+  "entity.resourcefulbees.guardian_bee": "守卫者蜜蜂",
 
   "block.resourcefulbees.magma_honeycomb_block": "熔岩蜜脾块",
   "item.resourcefulbees.magma_honeycomb": "熔岩蜜脾",
@@ -392,10 +392,10 @@
   "item.resourcefulbees.beediddy_bee_spawn_egg": "袖珍蜜蜂刷怪蛋",
   "entity.resourcefulbees.beediddy_bee": "袖珍蜜蜂",
 
-  "block.resourcefulbees.draconium_honeycomb_block": "龙矿蜜脾块",
-  "item.resourcefulbees.draconium_honeycomb": "龙矿蜜脾",
-  "item.resourcefulbees.draconium_bee_spawn_egg": "龙矿蜜蜂刷怪蛋",
-  "entity.resourcefulbees.draconium_bee": "龙矿蜜蜂",
+  "block.resourcefulbees.draconium_honeycomb_block": "龙蜜脾块",
+  "item.resourcefulbees.draconium_honeycomb": "龙蜜脾",
+  "item.resourcefulbees.draconium_bee_spawn_egg": "龙蜜蜂刷怪蛋",
+  "entity.resourcefulbees.draconium_bee": "龙蜜蜂",
 
   "block.resourcefulbees.awakened_honeycomb_block": "觉醒蜜脾块",
   "item.resourcefulbees.awakened_honeycomb": "觉醒蜜脾",
