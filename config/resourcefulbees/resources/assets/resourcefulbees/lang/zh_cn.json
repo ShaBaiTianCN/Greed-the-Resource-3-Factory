@@ -188,10 +188,10 @@
   "item.resourcefulbees.wither_bee_spawn_egg": "凋灵蜜蜂刷怪蛋",
   "entity.resourcefulbees.wither_bee": "凋灵蜜蜂",
 
-  "block.resourcefulbees.withered_honeycomb_block": "凋零蜜脾块",
-  "item.resourcefulbees.withered_honeycomb": "凋零蜜脾",
-  "item.resourcefulbees.withered_bee_spawn_egg": "凋零蜜蜂刷怪蛋",
-  "entity.resourcefulbees.withered_bee": "凋零蜜蜂",
+  "block.resourcefulbees.withered_honeycomb_block": "凋灵蜜脾块",
+  "item.resourcefulbees.withered_honeycomb": "凋灵蜜脾",
+  "item.resourcefulbees.withered_bee_spawn_egg": "凋灵蜜蜂刷怪蛋",
+  "entity.resourcefulbees.withered_bee": "凋灵蜜蜂",
 
   "block.resourcefulbees.beeper_honeycomb_block": "蜂力怕蜜脾块",
   "item.resourcefulbees.beeper_honeycomb": "蜂力怕蜜脾",
