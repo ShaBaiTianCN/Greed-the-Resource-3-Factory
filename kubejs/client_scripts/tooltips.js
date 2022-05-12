@@ -81,38 +81,38 @@ onEvent('item.tooltip', e => {
   darkRedTooltip('bloodmagic:bow_velocity_anointment', '提升弓和弩所发射的箭矢的速度')
   //rune
   darkRedTooltip('bloodmagic:speedrune', '使合成速度提升')
-  darkRedTooltip('bloodmagic:sacrificerune', '增加献祭生物获得的源质量')
-  darkRedTooltip('bloodmagic:selfsacrificerune', '增加牺牲自身获得的源质量')
-  darkRedTooltip('bloodmagic:dislocationrune', '提升源质输入/输出的速度')
-  darkRedTooltip('bloodmagic:altarcapacityrune', '每个符文可以使祭坛的源质容量增加20%')
-  darkRedTooltip('bloodmagic:bettercapacityrune', '每个符文可以使祭坛的源质容量变为原来的107.5%')
-  darkRedTooltip('bloodmagic:orbcapacityrune', '每个符文可以使祭坛内宝珠的源质容量增加2%')
+  darkRedTooltip('bloodmagic:sacrificerune', '增加献祭生物获得的LP量')
+  darkRedTooltip('bloodmagic:selfsacrificerune', '增加牺牲自身获得的LP量')
+  darkRedTooltip('bloodmagic:dislocationrune', '提升LP输入/输出的速度')
+  darkRedTooltip('bloodmagic:altarcapacityrune', '每个符文可以使祭坛的LP容量增加20%')
+  darkRedTooltip('bloodmagic:bettercapacityrune', '每个符文可以使祭坛的LP容量变为原来的107.5%')
+  darkRedTooltip('bloodmagic:orbcapacityrune', '每个符文可以使祭坛内宝珠的LP容量增加2%')
   darkRedTooltip('bloodmagic:accelerationrune', '提升转位符文与充能符文的工作速度。使用19个符文即可使速度达到最大值。')
-  darkRedTooltip('bloodmagic:chargingrune', '在祭坛不处于工作状态时提前准备源质，合成时优先立即使用。')
+  darkRedTooltip('bloodmagic:chargingrune', '在祭坛不处于工作状态时提前准备LP，合成时优先立即使用。')
   //sigil
-  darkRedTooltip('bloodmagic:divinationsigil', '对祭坛右击以显示当前源质存量')
-  darkRedTooltip('bloodmagic:watersigil', '消耗100源质放置一格水源')
-  darkRedTooltip('bloodmagic:lavasigil', '消耗1000源质放置一格岩浆')
-  darkRedTooltip('bloodmagic:airsigil', '消耗50源质向所朝方向弹射一段距离')
+  darkRedTooltip('bloodmagic:divinationsigil', '对祭坛右击以显示当前LP存量')
+  darkRedTooltip('bloodmagic:watersigil', '消耗100LP放置一格水源')
+  darkRedTooltip('bloodmagic:lavasigil', '消耗1000LP放置一格岩浆')
+  darkRedTooltip('bloodmagic:airsigil', '消耗50LP向所朝方向弹射一段距离')
   darkRedTooltip('bloodmagic:voidsigil', '使液体消失')
   darkRedTooltip('bloodmagic:growhtsigil', '额外的骨粉')
   darkRedTooltip('bloodmagic:seersigil', '对祭坛右击以显示更多信息')
-  darkRedTooltip('bloodmagic:miningsigil', '消耗150源质获得5秒急迫效果')
-  darkRedTooltip('bloodmagic:bloodlightsigil', '消耗10源质发射一个光源')
+  darkRedTooltip('bloodmagic:miningsigil', '消耗150LP获得5s急迫效果')
+  darkRedTooltip('bloodmagic:bloodlightsigil', '消耗10LP发射一个光源')
   darkRedTooltip('bloodmagic:sigilofholding', '可以储存印记。按“H”打开存储面板，然后使用shift+滚轮以进行选择。')
-  darkRedTooltip('bloodmagic:sigilofmagnetism', '激活时每5秒消耗50源质将附近的掉落物吸向自身')
+  darkRedTooltip('bloodmagic:sigilofmagnetism', '激活时每5s消耗50LP将附近的掉落物吸向自身')
   //misc
   darkRedTooltip('bloodmagic:livingplate', '穿得越久，能力越强')
   //===== construction wand tooltip =====//
   darkBlueTooltip('constructionwand:stone_wand', `建筑之杖重出江湖！使用shift+滚轮以切换模式。`)
   darkBlueTooltip('constructionwand:iron_wand', `建筑之杖重出江湖！使用shift+滚轮以切换模式。`)
   darkBlueTooltip('constructionwand:diamond_wand', `建筑之杖重出江湖！使用shift+滚轮以切换模式。`)
-  darkBlueTooltip('constructionwand:infinity_wand', 建筑之杖重出江湖！使用shift+滚轮以切换模式。`)
+  darkBlueTooltip('constructionwand:infinity_wand', `建筑之杖重出江湖！使用shift+滚轮以切换模式。`)
   //===== extended crafting tooltip =====//
-  aquaTooltip('extendedcrafting:basic_table', '3x3的合成台')
-  aquaTooltip('extendedcrafting:advanced_table', '5x5的合成台')
-  aquaTooltip('extendedcrafting:elite_table', '7x7的合成台')
-  aquaTooltip('extendedcrafting:ultimate_table', '9x9的合成台')
+  aquaTooltip('extendedcrafting:basic_table', '3x3的合成台。')
+  aquaTooltip('extendedcrafting:advanced_table', '5x5的合成台。')
+  aquaTooltip('extendedcrafting:elite_table', '7x7的合成台。')
+  aquaTooltip('extendedcrafting:ultimate_table', '9x9的合成台。')
   aquaTooltip('extendedcrafting:basic_auto_table', '3x3的自动合成台！')
   aquaTooltip('extendedcrafting:advanced_auto_table', '5x5的自动合成台！')
   aquaTooltip('extendedcrafting:elite_auto_table', '7x7的自动合成台！')
@@ -131,10 +131,10 @@ onEvent('item.tooltip', e => {
         whiteTooltip('astralsorcery:illumination_powder', '这个物品可以产生一个永久的光源。')
         whiteTooltip('astralsorcery:nocturnal_powder', '这个物品可以生成一个黑暗的区域，其中会生成怪物。')
         whiteTooltip('astralsorcery:constellation_paper', '这个物品可以被存储在星芒宝典里！')
-        whiteTooltip('astralsorcery:tome', '使用shift+右击可以打开储存星图的地方。')
-  whiteTooltip('astralsorcery:exchange_wand', '使用shift+右击可以切换模式。')
-  whiteTooltip('astralsorcery:formation_wand', '使用shift+右击可以切换模式。')
-  whiteTooltip('astralsorcery:traversal_wand', '使用shift+右击可以切换模式。')
+        whiteTooltip('astralsorcery:tome', 'Shift+右击可以打开储存星图的地方。')
+  whiteTooltip('astralsorcery:exchange_wand', 'Shift+右击可以切换模式。')
+  whiteTooltip('astralsorcery:formation_wand', 'Shift+右击可以切换模式。')
+  whiteTooltip('astralsorcery:traversal_wand', 'Shift+右击可以切换模式。')
   whiteTooltip('astralsorcery:altar_discovery', '这些物品是通过在星辉合成台中注入星能获得的。查看星芒宝典以获得更多信息')
   utils.listOf([
     'astralsorcery:crystal_axe',
@@ -148,10 +148,10 @@ onEvent('item.tooltip', e => {
   ]).forEach(astraltools => grayTooltip(astraltools, '使用更高质量的水晶石可以做出更好的工具'))
   //===== botania tooltip =====//
   darkGreenTooltip('botania:pestle_and_mortar', '这个物品可以将花瓣制成染料。')
-        darkGreenTooltip('botania:mana_pylon', 'This is equivalent to 9 bookshelves.')
-        darkGreenTooltip('botania:natura_pylon', 'This is equivalent to 15 bookshelves.')
-        darkGreenTooltip('botania:gaia_pylon', 'This is equivalent to 15 bookshelves.')
-  darkGreenTooltip('mythicbotany:alfsteel_pylon', 'This is equivalent to 15 bookshelves.')
+        darkGreenTooltip('botania:mana_pylon', '这相当于9个书架。')
+        darkGreenTooltip('botania:natura_pylon', '这相当于15个书架。')
+        darkGreenTooltip('botania:gaia_pylon', '这相当于15个书架。')
+  darkGreenTooltip('mythicbotany:alfsteel_pylon', '这相当于15个书架。')
   darkGreenTooltip('botania:flower_bag', '我可以存储神秘花了！')
   darkRedTooltip('botania:fel_pumpkin', '生气的南瓜')
   greenTooltip('botania:podzol_seeds', '使产能花/功能花处于更低优先级。')
@@ -163,7 +163,7 @@ onEvent('item.tooltip', e => {
   goldTooltip('quarryplus:flex_marker', '右击以设置当前区域。')
   goldTooltip('quarryplus:y_setter', '对采石场右击以设置其挖掘的Y轴高度。')
   goldTooltip('quarryplus:miningwellplus', '直冲基岩层挖掘！')
-  goldTooltip('quarryplus:placer_plus', '通入红石信号后可以放置方块。')
+  goldTooltip('quarryplus:placer_plus', '有红石信号时放置方块。')
   //===== allthecompressed tooltip =====//
   darkPurpleTooltip('/allthecompressed:.+_1x/', '相当于9个方块。')
   darkPurpleTooltip('/allthecompressed:.+_2x/', '相当于81个方块。')
@@ -179,7 +179,7 @@ onEvent('item.tooltip', e => {
   lightPurpleTooltip('upgradednetherite_creative:creative_upgraded_netherite_sword', '寰宇支配之剑')
   lightPurpleTooltip('upgradednetherite_creative:creative_upgraded_netherite_pickaxe', '世界崩解之镐')
   lightPurpleTooltip('upgradednetherite_creative:creative_upgraded_netherite_shovel', '星球吞噬之铲')
-  lightPurpleTooltip('upgradednetherite_creative:creative_upgraded_netherite_axe', `自然荒芜之斧`)
+  lightPurpleTooltip('upgradednetherite_creative:creative_upgraded_netherite_axe', '自然荒芜之斧')
   lightPurpleTooltip('upgradednetherite_creative:creative_upgraded_netherite_bow', '天堂陨落之弓')
   //===== special tooltip =====//
   darkPurpleTooltip('mekanism:creative_energy_cube', '未充能时将销毁能量！查看JEI标签以了解更多相关信息')
@@ -189,13 +189,13 @@ onEvent('item.tooltip', e => {
   aquaTooltip('framedblocks:framed_blueprint', '使用shift+右击可以保存框架方块的状态。')
   grayTooltip('mob_grinding_utils:tinted_glass', '可防止被凋灵破坏的玻璃！')
   darkRedTooltip('toolleveling:tool_leveling_table', '目前只支持使用原版物品兑换附魔价值！！！')
-  darkRedTooltip('sophisticatedbackpacks:crafting_upgrade', '因为有bug所以无法使用！')
+  darkRedTooltip('sophisticatedbackpacks:crafting_upgrade', '因为有bug所以已禁用！')
   //===== pipez =====//
     e.add('pipez:item_pipe', [
-      [Text.of('无升级：'), ' ', Text.of('4'), ' ', Text.of('个物品/20ticks')],
-      [Text.of('基础升级：'), ' ', Text.of('8'), ' ', Text.of('个物品/15ticks')],
-      [Text.of('进阶升级：').gold(), ' ', Text.of('16').yellow(), ' ', Text.of('个物品/10ticks').gold()],
-      [Text.of('高级升级：').darkAqua(), ' ', Text.of('32').aqua(), ' ', Text.of('个物品/5ticks').darkAqua()],
+      [Text.of('无升级：'), ' ', Text.of('4'), ' ', Text.of('个物品/20t')],
+      [Text.of('基础升级：'), ' ', Text.of('8'), ' ', Text.of('个物品/15t')],
+      [Text.of('进阶升级：').gold(), ' ', Text.of('16').yellow(), ' ', Text.of('个物品/10t').gold()],
+      [Text.of('高级升级：').darkAqua(), ' ', Text.of('32').aqua(), ' ', Text.of('个物品/5t').darkAqua()],
       [Text.of('终极升级：').darkGray(), ' ', Text.of('64').gray(), ' ', Text.of('个物品/t').darkGray()],
       [Text.of('无限升级：').darkPurple(), ' ', Text.of('2,147,483,647').lightPurple(), ' ', Text.of('个物品/t').darkPurple()],
     ])
@@ -292,18 +292,18 @@ onEvent('item.tooltip', e => {
     ['瞬间熔炼！']
   ])
   e.add('ironfurnaces:million_furnace', [
-    [Text.of('每1秒').white(), ' ', Text.of('烧炼64个物品').gray()],
-    [Text.of('我').red(), ' ', Text.of('就').gold(), Text.of('是').yellow(), ' ', Text.of('速').green(), Text.of('度').darkGreen(), Text.of('的').aqua(), Text.of('化').blue(), Text.of('身').lightPurple(), Text.of('！').gray()]
+    [Text.of('每20tick').white(), ' ', Text.of('烧炼64个物品').gray()],
+    [Text.of('我').red(), ' ', Text.of('就').gold(), Text.of('是').yellow(), ' ', Text.of('速').green(), Text.of('度').darkGreen(), Text.of('的').aqua(), Text.of('化').blue(), Text.of('身').lightPurple(), Text.of('。').gray()]
   ])
   //===== iron chests =====//
-    whiteTooltip('ironchest:iron_chest', '拥有63格的容量')
-    goldTooltip('ironchest:gold_chest', '拥有81格的容量')
-    blueTooltip('ironchest:diamond_chest', '拥有108格的容量')
-    yellowTooltip('ironchest:copper_chest', '拥有45格的容量')
-    whiteTooltip('ironchest:silver_chest', '拥72格的容量')
-    aquaTooltip('ironchest:crystal_chest', '拥有108格的容量')
-    darkGrayTooltip('ironchest:obsidian_chest', '拥有108格的容量')
-    grayTooltip('ironchest:dirt_chest', '9000格至尊泥箱')
+    whiteTooltip('ironchest:iron_chest', '63格')
+    goldTooltip('ironchest:gold_chest', '81格')
+    blueTooltip('ironchest:diamond_chest', '108格')
+    yellowTooltip('ironchest:copper_chest', '45格')
+    whiteTooltip('ironchest:silver_chest', '72格')
+    aquaTooltip('ironchest:crystal_chest', '108格')
+    darkGrayTooltip('ironchest:obsidian_chest', '108格')
+    grayTooltip('ironchest:dirt_chest', '9000格！')
   //===== botany pots =====//
   greenTooltip(`botanypotstiers:elite_botany_pot`, '3倍的效率和输出')
   darkGreenTooltip(`botanypotstiers:elite_hopper_botany_pot`, '3倍的效率和输出')
