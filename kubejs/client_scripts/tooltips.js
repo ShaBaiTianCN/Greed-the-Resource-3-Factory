@@ -60,7 +60,7 @@ onEvent('item.tooltip', e => {
     'extradisks:infinite_storage_part',
     'extradisks:infinite_storage_disk'
   ]
-  creativeOnly.forEach(item => grayTooltip(item, '生存模式无法获得'))
+  creativeOnly.forEach(item => grayTooltip(item, '无法获得'))
 
   //===== tooltip for colored items =====//
   let colors = ['white', 'light_gray', 'gray', 'black', 'red', 'orange', 'yellow', 'lime', 'green', 'light_blue', 'cyan', 'blue', 'purple', 'magenta', 'pink', 'brown']
@@ -104,10 +104,10 @@ onEvent('item.tooltip', e => {
   //misc
   darkRedTooltip('bloodmagic:livingplate', '穿得越久，能力越强')
   //===== construction wand tooltip =====//
-  darkBlueTooltip('constructionwand:stone_wand', `建筑之杖重出江湖！使用shift+滚轮以切换模式。`)
-  darkBlueTooltip('constructionwand:iron_wand', `建筑之杖重出江湖！使用shift+滚轮以切换模式。`)
-  darkBlueTooltip('constructionwand:diamond_wand', `建筑之杖重出江湖！使用shift+滚轮以切换模式。`)
-  darkBlueTooltip('constructionwand:infinity_wand', `建筑之杖重出江湖！使用shift+滚轮以切换模式。`)
+  darkBlueTooltip('constructionwand:stone_wand', `建筑之杖重出江湖！Shift+滚轮以切换模式。`)
+  darkBlueTooltip('constructionwand:iron_wand', `建筑之杖重出江湖！Shift+滚轮以切换模式。`)
+  darkBlueTooltip('constructionwand:diamond_wand', `建筑之杖重出江湖！Shift+滚轮以切换模式。`)
+  darkBlueTooltip('constructionwand:infinity_wand', `建筑之杖重出江湖！Shift+滚轮以切换模式。`)
   //===== extended crafting tooltip =====//
   aquaTooltip('extendedcrafting:basic_table', '3x3的合成台。')
   aquaTooltip('extendedcrafting:advanced_table', '5x5的合成台。')
@@ -185,19 +185,19 @@ onEvent('item.tooltip', e => {
   darkPurpleTooltip('mekanism:creative_energy_cube', '未充能时将销毁能量！查看JEI标签以了解更多相关信息')
   grayTooltip('craftingstation:crafting_station', '更高效的合成站')
   grayTooltip('mob_grinding_utils:mob_swab_used', '与小麦种子和一桶液态经验可以合成GM鸡饲料。')
-  grayTooltip(['draconicevolution:basic_crafting_injector', 'draconicevolution:wyvern_crafting_injector', 'draconicevolution:awakened_crafting_injector', 'draconicevolution:chaotic_crafting_injector'], '使用shift+右击可以切换模式。')
-  aquaTooltip('framedblocks:framed_blueprint', '使用shift+右击可以保存框架方块的状态。')
+  grayTooltip(['draconicevolution:basic_crafting_injector', 'draconicevolution:wyvern_crafting_injector', 'draconicevolution:awakened_crafting_injector', 'draconicevolution:chaotic_crafting_injector'], '使用Shift+右击可以切换模式。')
+  aquaTooltip('framedblocks:framed_blueprint', '使用Shift+右击可以保存框架方块的状态。')
   grayTooltip('mob_grinding_utils:tinted_glass', '可防止被凋灵破坏的玻璃！')
   darkRedTooltip('toolleveling:tool_leveling_table', '目前只支持使用原版物品兑换附魔价值！！！')
   darkRedTooltip('sophisticatedbackpacks:crafting_upgrade', '因为有bug所以已禁用！')
   //===== pipez =====//
     e.add('pipez:item_pipe', [
-      [Text.of('无升级：'), ' ', Text.of('4'), ' ', Text.of('个/20t')],
-      [Text.of('基础升级：'), ' ', Text.of('8'), ' ', Text.of('个/15t')],
-      [Text.of('进阶升级：').gold(), ' ', Text.of('16').yellow(), ' ', Text.of('个/10t').gold()],
-      [Text.of('高级升级：').darkAqua(), ' ', Text.of('32').aqua(), ' ', Text.of('个/5t').darkAqua()],
-      [Text.of('终极升级：').darkGray(), ' ', Text.of('64').gray(), ' ', Text.of('个/t').darkGray()],
-      [Text.of('无限升级：').darkPurple(), ' ', Text.of('2,147,483,647').lightPurple(), ' ', Text.of('个/t').darkPurple()],
+      [Text.of('无升级：'), ' ', Text.of('4'), ' ', Text.of('物品/20t')],
+      [Text.of('基础升级：'), ' ', Text.of('8'), ' ', Text.of('物品/15t')],
+      [Text.of('进阶升级：').gold(), ' ', Text.of('16').yellow(), ' ', Text.of('物品/10t').gold()],
+      [Text.of('高级升级：').darkAqua(), ' ', Text.of('32').aqua(), ' ', Text.of('物品/5t').darkAqua()],
+      [Text.of('终极升级：').darkGray(), ' ', Text.of('64').gray(), ' ', Text.of('物品/t').darkGray()],
+      [Text.of('无限升级：').darkPurple(), ' ', Text.of('2,147,483,647').lightPurple(), ' ', Text.of('物品/t').darkPurple()],
     ])
     e.add('pipez:fluid_pipe', [
       [Text.of('无升级：'), ' ', Text.of('50'), ' ', Text.of('mB/t')],
@@ -224,31 +224,31 @@ onEvent('item.tooltip', e => {
       [Text.of('无限升级：').darkPurple(), ' ', Text.of('2,147,483,647').lightPurple(), ' ', Text.of('FE/t').darkPurple()],
     ])
     e.add('pipez:basic_upgrade', [
-      [Text.of('物品传输：'), ' ', Text.of('8'), ' ', Text.of('个/t')],
+      [Text.of('物品传输：'), ' ', Text.of('8'), ' ', Text.of('物品/t')],
       [Text.of('流体传输：'), ' ', Text.of('100'), ' ', Text.of('mB/t')],
       [Text.of('气体传输：'), ' ', Text.of('400'), ' ', Text.of('mB/t')],
       [Text.of('能量传输：'), ' ', Text.of('1,024'), ' ', Text.of('FE/t')],
     ])
     e.add('pipez:improved_upgrade', [
-      [Text.of('物品传输：').gold(), ' ', Text.of('16').yellow(), ' ', Text.of('个/t').gold()],
+      [Text.of('物品传输：').gold(), ' ', Text.of('16').yellow(), ' ', Text.of('物品/t').gold()],
       [Text.of('流体传输：').gold(), ' ', Text.of('500').yellow(), ' ', Text.of('mB/t').gold()],
       [Text.of('气体传输：').gold(), ' ', Text.of('2,000').yellow(), ' ', Text.of('mB/t').gold()],
       [Text.of('能量传输：').gold(), ' ', Text.of('8,192').yellow(), ' ', Text.of('FE/t').gold()],
     ])
     e.add('pipez:advanced_upgrade', [
-      [Text.of('物品传输：').darkAqua(), ' ', Text.of('32').aqua(), ' ', Text.of('个/t').darkAqua()],
+      [Text.of('物品传输：').darkAqua(), ' ', Text.of('32').aqua(), ' ', Text.of('物品/t').darkAqua()],
       [Text.of('流体传输：').darkAqua(), ' ', Text.of('2,000').aqua(), ' ', Text.of('mB/t').darkAqua()],
       [Text.of('气体传输：').darkAqua(), ' ', Text.of('8,000').aqua(), ' ', Text.of('mB/t').darkAqua()],
       [Text.of('能量传输：').darkAqua(), ' ', Text.of('32,768').aqua(), ' ', Text.of('FE/t').darkAqua()],
     ])
     e.add('pipez:ultimate_upgrade', [
-      [Text.of('物品传输：').darkGray(), ' ', Text.of('64').gray(), ' ', Text.of('个/t').darkGray()],
+      [Text.of('物品传输：').darkGray(), ' ', Text.of('64').gray(), ' ', Text.of('物品/t').darkGray()],
       [Text.of('流体传输：').darkGray(), ' ', Text.of('10,000').gray(), ' ', Text.of('mB/t').darkGray()],
       [Text.of('气体传输：').darkGray(), ' ', Text.of('40,000').gray(), ' ', Text.of('mB/t').darkGray()],
       [Text.of('能量传输：').darkGray(), ' ', Text.of('131,072').gray(), ' ', Text.of('FE/t').darkGray()],
     ])
     e.add('pipez:infinity_upgrade', [
-      [Text.of('物品传输：').darkPurple(), ' ', Text.of('2,147,483,647').lightPurple(), ' ', Text.of('个/t').darkPurple()],
+      [Text.of('物品传输：').darkPurple(), ' ', Text.of('2,147,483,647').lightPurple(), ' ', Text.of('物品/t').darkPurple()],
       [Text.of('流体传输：').darkPurple(), ' ', Text.of('2,147,483,647').lightPurple(), ' ', Text.of('mB/t').darkPurple()],
       [Text.of('气体传输：').darkPurple(), ' ', Text.of('2,147,483,647').lightPurple(), ' ', Text.of('mB/t').darkPurple()],
       [Text.of('能量传输：').darkPurple(), ' ', Text.of('2,147,483,647').lightPurple(), ' ', Text.of('FE/t').darkPurple()],
@@ -305,22 +305,22 @@ onEvent('item.tooltip', e => {
     darkGrayTooltip('ironchest:obsidian_chest', '108格')
     grayTooltip('ironchest:dirt_chest', '9000格！')
   //===== botany pots =====//
-  greenTooltip(`botanypotstiers:elite_botany_pot`, '3倍的效率和输出')
-  darkGreenTooltip(`botanypotstiers:elite_hopper_botany_pot`, '3倍的效率和输出')
-  greenTooltip(`botanypotstiers:ultra_botany_pot`, '6倍的效率和输出')
-  darkGreenTooltip(`botanypotstiers:ultra_hopper_botany_pot`, '6倍的效率和输出')
-  greenTooltip(`botanypotstiers:creative_botany_pot`, '10倍的效率和输出')
-  darkGreenTooltip(`botanypotstiers:creative_hopper_botany_pot`, '10倍的效率和输出')
+  greenTooltip(`botanypotstiers:elite_botany_pot`, '3倍速度和产出')
+  darkGreenTooltip(`botanypotstiers:elite_hopper_botany_pot`, '3倍速度和产出')
+  greenTooltip(`botanypotstiers:ultra_botany_pot`, '6倍速度和产出')
+  darkGreenTooltip(`botanypotstiers:ultra_hopper_botany_pot`, '6倍速度和产出')
+  greenTooltip(`botanypotstiers:creative_botany_pot`, '10倍速度和产出')
+  darkGreenTooltip(`botanypotstiers:creative_hopper_botany_pot`, '10倍速度和产出')
   
   colors.forEach( color => {
-    greenTooltip(`botanypotstiers:elite_${color}_botany_pot`, '3倍的效率和输出')
-    darkGreenTooltip(`botanypotstiers:elite_hopper_${color}_botany_pot`, '3倍的效率和输出')
+    greenTooltip(`botanypotstiers:elite_${color}_botany_pot`, '3倍速度和产出')
+    darkGreenTooltip(`botanypotstiers:elite_hopper_${color}_botany_pot`, '3倍速度和产出')
     
-    greenTooltip(`botanypotstiers:ultra_${color}_botany_pot`, '6倍的效率和输出')
-    darkGreenTooltip(`botanypotstiers:ultra_hopper_${color}_botany_pot`, '6倍的效率和输出')
+    greenTooltip(`botanypotstiers:ultra_${color}_botany_pot`, '6倍速度和产出')
+    darkGreenTooltip(`botanypotstiers:ultra_hopper_${color}_botany_pot`, '6倍速度和产出')
 
-    greenTooltip(`botanypotstiers:creative_${color}_botany_pot`, '10倍的效率和输出')
-    darkGreenTooltip(`botanypotstiers:creative_hopper_${color}_botany_pot`, '10倍的效率和输出')
+    greenTooltip(`botanypotstiers:creative_${color}_botany_pot`, '10倍速度和产出')
+    darkGreenTooltip(`botanypotstiers:creative_hopper_${color}_botany_pot`, '10倍速度和产出')
   })
 
 })
