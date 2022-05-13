@@ -296,14 +296,14 @@ onEvent('item.tooltip', e => {
     [Text.of('我').red(), ' ', Text.of('就').gold(), Text.of('是').yellow(), ' ', Text.of('速').green(), Text.of('度').darkGreen(), Text.of('的').aqua(), Text.of('化').blue(), Text.of('身').lightPurple(), Text.of('。').gray()]
   ])
   //===== iron chests =====//
-    whiteTooltip('ironchest:iron_chest', '63格')
-    goldTooltip('ironchest:gold_chest', '81格')
-    blueTooltip('ironchest:diamond_chest', '108格')
-    yellowTooltip('ironchest:copper_chest', '45格')
-    whiteTooltip('ironchest:silver_chest', '72格')
-    aquaTooltip('ironchest:crystal_chest', '108格')
-    darkGrayTooltip('ironchest:obsidian_chest', '108格')
-    grayTooltip('ironchest:dirt_chest', '9000格！')
+    whiteTooltip('ironchest:iron_chest', '63槽位')
+    goldTooltip('ironchest:gold_chest', '81槽位')
+    blueTooltip('ironchest:diamond_chest', '108槽位')
+    yellowTooltip('ironchest:copper_chest', '45槽位')
+    whiteTooltip('ironchest:silver_chest', '72槽位')
+    aquaTooltip('ironchest:crystal_chest', '108槽位')
+    darkGrayTooltip('ironchest:obsidian_chest', '108槽位')
+    grayTooltip('ironchest:dirt_chest', '9000槽位！')
   //===== botany pots =====//
   greenTooltip(`botanypotstiers:elite_botany_pot`, '3倍速度和产出')
   darkGreenTooltip(`botanypotstiers:elite_hopper_botany_pot`, '3倍速度和产出')
